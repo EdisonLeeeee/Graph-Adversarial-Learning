@@ -41,14 +41,7 @@
 |Arxiv<br>2018|<a class="toc" id ="16"></a>[[16]](https://arxiv.org/abs/1810.12881)<br>[🔙](#toc)|Opt-attack|Gradient based on DeepWalk, LINE|Link Prediction|DeepWalk<br>LINE<br>Node2vec<br>SC<br>GAE|RA<br>PageRank<br>Degree sum<br>Shortest path|Similarity score change(+)<br>AP(-)|Facebook<br>Cora<BR>Citeseer|-|
 |Arxiv<br>2018|<a class="toc" id ="17"></a>[[17]](https://arxiv.org/abs/1809.08368)<br>[🔙](#toc)|Approx-Local|Similarity methods|Link Prediction|Local&Global similarity metrics|RandomDel<br>GreedyBase|Katz similarity<br>ACT distance<br>Similarity score|scale-free<br>Facebook|-|
 |CCS<br>2017|<a class="toc" id ="18"></a>[[18]](https://arxiv.org/abs/1708.09056)<br>[🔙](#toc)|Targeted noise injection<br>Small community attack|Noise injection|Graph Clustering<br>Community Detection|SVD<br>node2vec<br>Community Detection Algs|-|ASR(+)FPR(+)|Reverse Engineered DGA Domains<br>NXDOMAIN|-|
+
 **\* (+) means higher is better, (-) means the opposite.**
-
-
-
-
-
-
-+ White box attack: The attacker has access to the model’s parameters
-+ Black box attack: The attacker has no access to these parameters, i.e., it uses a different model or no model at all to generate adversarial network with the hope that these will transfer to the target model
 
 
