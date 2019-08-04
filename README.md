@@ -19,7 +19,23 @@
     + [16] [Data Poisoning Attack against Unsupervised Node Embedding Methods](#16)
     + [17] [Attacking Similarity-Based Link Prediction in Social Networks](#17)
     + [18] [Practical Attacks Against Graph-based Clustering](#18)
-<a class="toc" id ="attack"></a>
+
+- [Defense](#defense)
+    - [1] [Certifiable Robustness and Robust Training for Graph Convolutional Networks](#101)
+    - [2] [Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective](#102)
+    - [3] [Power up! Robust Graph Convolutional Network against Evasion Attacks based on Graph Powering](#103)
+    - [4] [Adversarial Examples on Graph Data: Deep Insights into Attack and Defense](#104)
+    - [5] [Adversarial Defense Framework for Graph Neural Network](#105)
+    - [6] [Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications](#106)
+    - [7] [Robust Graph Convolutional Networks Against Adversarial Attacks](#107)
+    - [8] [Can Adversarial Network Attack be Defended?](#108)
+    - [9] [Virtual Adversarial Training on Graph Convolutional Networks in Node Classification](#109)
+    - [10] [Comparing and Detecting Adversarial Attacks for Graph Deep Learning](#110)
+    - [11] [Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure](#111)
+    - [12] [Characterizing Malicious Edges targeting on Graph Neural Networks](#112)
+    - [13] [Batch Virtual Adversarial Training for Graph Convolutional Networks](#113)
+    
+
 # Attack
 |Venue|Title|Model|Algorithm|Attack Type|Target Task|Target Model|Baseline|Metric\*|Dataset|Code|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -44,3 +60,20 @@
 
 **\* (+) means higher is better, (-) means the opposite.**
 
+# Defense
+
+| Venue| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset | Code | 
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| KDD 2019 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1906.12269) [🔙](#toc) |  ||| Node Classification | GCN |||||
+| IJCAI 2019 | <a class="toc" id ="102"></a> [[2]](https://arxiv.org/abs/1906.04214) [🔙](#toc) |  ||| Node Classification | GCN |||||
+| Arxiv 2019 | <a class="toc" id ="103"></a> [[3]](https://arxiv.org/abs/1905.10029) [🔙](#toc) |  ||| Node Classification | GCN |||||
+| IJCAI 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1903.01610) [🔙](#toc) | - | remove links between dissimilar nodes | pre-processing | Node Classification | GCN | without defense | Classfication Margin, Accuracy | CORA-ML, Citeseer, Polblogs | [Link](https://github.com/stellargraph/stellargraph/) |
+| Arxiv 2019 | <a class="toc" id ="105"></a> [[5]](https://arxiv.org/abs/1905.03679) [🔙](#toc) |  ||| Node Classification | GCN, GraphSAGE |||||
+| Arxiv 2019 | <a class="toc" id ="106"></a> [[6]](https://arxiv.org/abs/1905.00563) [🔙](#toc) |  ||| Link Prediction | Knowledge Graph Embedding |||||
+| KDD 2019 | <a class="toc" id ="107"></a> [[7]](http://pengcui.thumedialab.com/papers/RGCN.pdf) [🔙](#toc) |  ||| Node Classification | GCN |||||
+| Arxiv 2019 | <a class="toc" id ="108"></a> [[8]](https://arxiv.org/abs/1903.05994) [🔙](#toc) | Global-AT, Target-AT, SD, SCEL | Adversarial Training, Smooth Defense | Gradient Based | Node Classification | GCN | AT | ADR, ACD | PoLBlogs, Cora, Citeseer | - |
+| Arxiv 2019 | <a class="toc" id ="109"></a> [[9]](https://arxiv.org/abs/1902.11045) [🔙](#toc) |  ||| Node Classification | GCN |||||
+| RLGM@ICLR 2019 | <a class="toc" id ="110"></a> [[10]](https://rlgm.github.io/papers/57.pdf) [🔙](#toc) |  ||| Node Classification | GCN, GAT, Nettack |||||
+| Arxiv 2019 | <a class="toc" id ="111"></a> [[11]](https://arxiv.org/abs/1902.08226) [🔙](#toc) |  ||| Node Classification | GCN |||||
+| ICLR 2019 | <a class="toc" id ="112"></a> [[12]](https://openreview.net/forum?id=HJxdAoCcYX) [🔙](#toc) |  ||| Detected Added Edges | GNN, GCN |||||
+| ICML 2019 | <a class="toc" id ="113"></a> [[13]](https://arxiv.org/abs/1902.09192) [🔙](#toc) |  ||| Node Classification | GCN |||||
