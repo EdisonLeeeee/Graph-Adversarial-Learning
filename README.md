@@ -35,7 +35,7 @@
     - [12] [Characterizing Malicious Edges targeting on Graph Neural Networks](#112)
     - [13] [Batch Virtual Adversarial Training for Graph Convolutional Networks](#113)
     
-
+- [Baselines](#Baselines)
 
 # Attack
 |Venue|Title|Model|Algorithm|Attack Type|Target Task|Target Model|Baseline|Metric\*|Dataset|Code|
@@ -78,3 +78,45 @@
 | Arxiv 2019 | <a class="toc" id ="111"></a> [[11]](https://arxiv.org/abs/1902.08226) [🔙](#toc) | GCN-GATV | Graph Adversarial Training, Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | LP, DeepWalk, SemiEmb, Planetoid, GCN, GraphSGAN | Accuracy | Citeseer, Cora, NELL | - |
 | OpenReview 2018 | <a class="toc" id ="112"></a> [[12]](https://openreview.net/forum?id=HJxdAoCcYX) [🔙](#toc) | SL, OD, GGD, LP+GGD, ENS | Link Prediction, Subsampling, Neighbour Analysis| Hybrid | Link Prediction | GNN, GCN | LP | AUC | Cora, Citeseer | - |
 | ICML 2019 | <a class="toc" id ="113"></a> [[13]](https://arxiv.org/abs/1902.09192) [🔙](#toc) | S-BVAT, O-BVAT | Batch Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, Planetoid, Monet, GAT, GPNN, GCN, VAT | Accuracy | Cora, Citeseer, Pubmed, Nell | [Link](https://github.com/thudzj/BVAT) |
+
+# Baselines
+| Baseline | Venue | Paper | Code |
+|:-:|:-:|:-:|:-:|
+| DICE | Nature Human Behaviour 2018 | [Hiding individuals and communities in a social network](https://arxiv.org/abs/1608.00375) | [Link](https://github.com/JHL-HUST/HiCode) |
+| Nettack | KDD 2018 | [Adversarial Attacks on Neural Networks for Graph Data](https://arxiv.org/abs/1805.07984) | [Link](https://github.com/danielzuegner/nettack) |
+| First-order | ICML 2017 | [Model-agnostic meta-learning for fast adaptation of deep networks](https://dl.acm.org/citation.cfm?id=3305498) | [Link](https://github.com/cbfinn/maml) |
+| RL-S2V |  | [Link]() | [Link]() |
+| RA |  | [Link]() | [Link]() |
+| RA-S |  | [Link]() | [Link]() |
+| RLS |  | [Link]() | [Link]() |
+| DBA |  | [Link]() | [Link]() |
+| CDA |  | [Link]() | [Link]() |
+| RAN |  | [Link]() | [Link]() |
+| GA |  | [Link]() | [Link]() |
+| Random Sampling |  | [Link]() | [Link]() |
+| Rnd |  | [Link]() | [Link]() |
+| FGSM |  | [Link]() | [Link]() |
+| PageRank |  | [Link]() | [Link]() |
+| Degree sum |  | [Link]() | [Link]() |
+| Shortest path |  | [Link]() | [Link]() |
+| RandomDel |  | [Link]() | [Link]() |
+| GreedyBase |  | [Link]() | [Link]() |
+| GNN |  | [Link]() | [Link]() |
+| GCN | ICLR 2017 | [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) | [Link](https://github.com/tkipf/gcn) |
+| ManiReg |  | [Link]() | [Link]() |
+| SemiEmb |  | [Link]() | [Link]() |
+| LP |  | [Link]() | [Link]() |
+| Deepwalk | KDD 2014 | [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652) | [Link](https://github.com/phanein/deepwalk) |
+| ICA |  | [Link]() | [Link]() |
+| Planetoid |  | [Link]() | [Link]() |
+| Vanilla GCN |  | [Link]() | [Link]() |
+| GraphSage | NIPS 2017 | [Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) | [Link]() |
+| DistMult |  | [Link]() | [Link]() |
+| ConvE |  | [Link]() | [Link]() |
+| GAT |  | [Link]() | [Link]() |
+| AT | ICLR 2015 | [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) | [Link](https://github.com/tensorflow/cleverhans) |
+| BGCN |  | [Link]() | [Link]() |
+| GraphSGAN |  | [Link]() | [Link]() |
+| Monet |  | [Link]() | [Link]() |
+| GPNN |  | [Link]() | [Link]() |
+| VAT |  | [Link]() | [Link]() |
