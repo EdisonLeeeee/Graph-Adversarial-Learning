@@ -85,9 +85,11 @@
 | DICE | Nature Human Behaviour 2018 | [Hiding individuals and communities in a social network](https://arxiv.org/abs/1608.00375) | [Link](https://github.com/JHL-HUST/HiCode) |
 | Nettack | KDD 2018 | [Adversarial Attacks on Neural Networks for Graph Data](https://arxiv.org/abs/1805.07984) | [Link](https://github.com/danielzuegner/nettack) |
 | First-order | ICML 2017 | [Model-agnostic meta-learning for fast adaptation of deep networks](https://dl.acm.org/citation.cfm?id=3305498) | [Link](https://github.com/cbfinn/maml) |
-| RL-S2V |  | [Link]() | [Link]() |
+| RL-S2V | ICML 2018 | [Adversarial Attack on Graph Structured Data](https://arxiv.org/abs/1806.02371) | [Link](https://github.com/Hanjun-Dai/graph_adversarial_attack) |
 | RA |  | [Link]() | [Link]() |
 | RA-S |  | [Link]() | [Link]() |
+| Meta-Self | ICLR 2019 | [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://arxiv.org/abs/1902.08412) | [Link](https://github.com/danielzuegner/gnn-meta-attack) |
+| Greedy | ICLR 2019 | [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://arxiv.org/abs/1902.08412) | [Link](https://github.com/danielzuegner/gnn-meta-attack) |
 | RLS |  | [Link]() | [Link]() |
 | DBA |  | [Link]() | [Link]() |
 | CDA |  | [Link]() | [Link]() |
