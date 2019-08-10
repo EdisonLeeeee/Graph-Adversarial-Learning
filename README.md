@@ -37,7 +37,7 @@
     
 - [Baselines](#Baselines)
 
-+ [Metric](#Metric)
+- [Metric](#Metric)
 
 # Attack
 |Venue|Title|Model|Algorithm|Attack Type|Target Task|Target Model|Baseline|Metric\*|Dataset|Code|
@@ -127,5 +127,5 @@
 
 
 # Metric
-![Metric](/imgs/Metric.png)
+![Metric](imgs/Metric.png)
 
