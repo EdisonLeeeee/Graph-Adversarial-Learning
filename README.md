@@ -83,46 +83,35 @@
 # Baselines
 | Baseline | Venue | Paper | Code |
 |:-:|:-:|:-:|:-:|
-| DICE | Nature Human Behaviour 2018 | [Hiding individuals and communities in a social network](https://arxiv.org/abs/1608.00375) | [Link](https://github.com/JHL-HUST/HiCode) |
+| DICE | Nature Human Behaviour 2018 | [Hiding Individuals and Communities in a Social Network](https://arxiv.org/abs/1608.00375) | [Link](https://github.com/JHL-HUST/HiCode) |
 | Nettack | KDD 2018 | [Adversarial Attacks on Neural Networks for Graph Data](https://arxiv.org/abs/1805.07984) | [Link](https://github.com/danielzuegner/nettack) |
-| First-order | ICML 2017 | [Model-agnostic meta-learning for fast adaptation of deep networks](https://dl.acm.org/citation.cfm?id=3305498) | [Link](https://github.com/cbfinn/maml) |
+| First-order | ICML 2017 | [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400) | [Link](https://github.com/cbfinn/maml) |
 | RL-S2V | ICML 2018 | [Adversarial Attack on Graph Structured Data](https://arxiv.org/abs/1806.02371) | [Link](https://github.com/Hanjun-Dai/graph_adversarial_attack) |
-| RA |  | [Link]() | [Link]() |
-| RA-S |  | [Link]() | [Link]() |
 | Meta-Self | ICLR 2019 | [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://arxiv.org/abs/1902.08412) | [Link](https://github.com/danielzuegner/gnn-meta-attack) |
 | Greedy | ICLR 2019 | [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://arxiv.org/abs/1902.08412) | [Link](https://github.com/danielzuegner/gnn-meta-attack) |
-| RLS |  | [Link]() | [Link]() |
-| DBA |  | [Link]() | [Link]() |
-| CDA |  | [Link]() | [Link]() |
-| RAN |  | [Link]() | [Link]() |
-| GA |  | [Link]() | [Link]() |
-| Random Sampling |  | [Link]() | [Link]() |
-| Rnd |  | [Link]() | [Link]() |
-| FGSM |  | [Link]() | [Link]() |
-| PageRank |  | [Link]() | [Link]() |
-| Degree sum |  | [Link]() | [Link]() |
-| Shortest path |  | [Link]() | [Link]() |
-| RandomDel |  | [Link]() | [Link]() |
-| GreedyBase |  | [Link]() | [Link]() |
-| GNN |  | [Link]() | [Link]() |
+| DBA | IEEE Transactions 2019 | [GA Based Q-Attack on Community Detection](https://arxiv.org/abs/1811.00430) | - |
+| CDA | IEEE Transactions 2019 | [GA Based Q-Attack on Community Detection](https://arxiv.org/abs/1811.00430) | - |
+| GA (Gradient based)| Arxiv 2019 | [Link Prediction Adversarial Attack](https://arxiv.org/abs/1810.01110) | - |
+| FGSM | ICLR 2015 | [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) | [Link](https://github.com/tensorflow/cleverhans) |
+| PageRank | VLDB 2010 | [Fast Incremental and Personalized PageRank](https://dl.acm.org/citation.cfm?id=1929864) | [Link](https://github.com/alexander-stannat/Incremental-Pagerank) |
+| GNN | IEEE Transactions 2009 | [The Graph Neural Network Model](https://dl.acm.org/citation.cfm?id=1657482) | [Link](https://github.com/SeongokRyu/Graph-neural-networks) |
 | GCN | ICLR 2017 | [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) | [Link](https://github.com/tkipf/gcn) |
-| ManiReg |  | [Link]() | [Link]() |
-| SemiEmb |  | [Link]() | [Link]() |
-| LP |  | [Link]() | [Link]() |
+| ManiReg | JMLR 2006 | [Manifold Regularization: A Geometric Framework for Learning from Labeled and Unlabeled Examples](http://www.jmlr.org/papers/v7/belkin06a.html) | [Link](https://github.com/snehchav/Semi-Supervised-Image-Classification) |
+| SemiEmb | ICML 2008 | [Deep Learning via Semi-supervised Embedding](https://link.springer.com/chapter/10.1007/978-3-642-35289-8_34) | [Link](https://github.com/yangminz/Semi-supervised_Embedding) |
+| LP | ICML 2003 | [Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions](https://www.semanticscholar.org/paper/Semi-Supervised-Learning-Using-Gaussian-Fields-and-Zhu-Ghahramani/02485a373142312c354b79552b3d326913eaf86d) | - |
 | Deepwalk | KDD 2014 | [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652) | [Link](https://github.com/phanein/deepwalk) |
-| ICA |  | [Link]() | [Link]() |
-| Planetoid |  | [Link]() | [Link]() |
-| Vanilla GCN |  | [Link]() | [Link]() |
-| GraphSage | NIPS 2017 | [Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) | [Link]() |
-| DistMult |  | [Link]() | [Link]() |
-| ConvE |  | [Link]() | [Link]() |
-| GAT |  | [Link]() | [Link]() |
+| ICA | ICML 2003 | [Link-based classification](https://link.springer.com/chapter/10.1007/1-84628-284-5_7) | [Link](https://github.com/tkipf/ica) |
+| Planetoid | ICML 2016 | [Revisiting Semi-Supervised Learning with Graph Embeddings](https://arxiv.org/abs/1603.08861) | [Link](https://github.com/kimiyoung/planetoid) |
+| GraphSage | NIPS 2017 | [Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) | [Link](https://github.com/williamleif/GraphSAGE) |
+| DistMult | ICLR 2015 | [Embedding Entities and Relations for Learning and Inference in Knowledge Bases](https://arxiv.org/abs/1412.6575) | [Link](https://github.com/mana-ysh/knowledge-graph-embeddings) |
+| ConvE | AAAI 2018 | [Convolutional 2D Knowledge Graph Embeddings](https://arxiv.org/abs/1707.01476) | [Link](https://github.com/TimDettmers/ConvE) |
+| GAT | ICLR 2018 | [Graph Attention Networks](https://arxiv.org/abs/1710.10903) | [Link](https://github.com/PetarV-/GAT) |
 | AT | ICLR 2015 | [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) | [Link](https://github.com/tensorflow/cleverhans) |
-| BGCN |  | [Link]() | [Link]() |
-| GraphSGAN |  | [Link]() | [Link]() |
-| Monet |  | [Link]() | [Link]() |
-| GPNN |  | [Link]() | [Link]() |
-| VAT |  | [Link]() | [Link]() |
+| BGCN | AAAI 2019 | [Bayesian graph convolutional neural networks for semi-supervised classification](https://arxiv.org/abs/1811.11103) | - |
+| GraphSGAN | ACM 2018 | [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://arxiv.org/abs/1809.00130) | [Link](https://github.com/THUDM/GraphSGAN) |
+| Monet | CVPR 2017 | [Geometric deep learning on graphs and manifolds using mixture model CNNs](https://arxiv.org/abs/1611.08402) | [Link](https://github.com/pierrebaque/GeometricConvolutionsBench) |
+| GPNN | CVPR 2018 | [Graph Partition Neural Networks for Semi-Supervised Classification](https://arxiv.org/abs/1803.06272) | [Link](https://github.com/microsoft/graph-partition-neural-network-samples) |
+| VAT | IEEE Transactions 2018 | [Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning](https://arxiv.org/abs/1704.03976) | [Link](https://github.com/takerum/vat_tf) |
 
 
 # Metric
