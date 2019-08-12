@@ -43,7 +43,7 @@
 |Venue|Title|Model|Algorithm|Attack Type|Target Task|Target Model|Baseline|Metric\*|Dataset|Code|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |ICLR<br>2019|<a class="toc" id ="1"></a>[[1]](https://arxiv.org/abs/1902.08412)<br>[🔙](#toc)|Meta-Self<br>Meta-Train|Meta Gradient based on GCN|placeholder|Node Classification|GCN<br>CLN<br>DeepWalk|DICE<br>NETTACK<br>First-order|Misclassification Rate |Cora<br>CiteSeer<br>PolBlogs|[Link](https://www.kdd.in.tum.de/research/gnn-meta-attack/)|
-|ICML<br>2019|<a class="toc" id ="2"></a>[[2]](https://arxiv.org/abs/1809.01093)<br>[🔙](#toc)|$\mathcal{A}_{DW2}$<br>$\mathcal{A}_{DW3}$|Gradient based on random walk|placeholder|Node Classification<br>Link Prediction|DeepWalk|$\mathcal{B}_{rnd}$<br>$\mathcal{B}_{eig}$<br>$\mathcal{B}_{deg}$|F1 Score <br>Classification Margin<br>|Cora<br>Citeseer<br>PolBlogs|[Link](https://www.kdd.in.tum.de/research/node_embedding_attack/)
+|ICML<br>2019|<a class="toc" id ="2"></a>[[2]](https://arxiv.org/abs/1809.01093)<br>[🔙](#toc)|<img src="http://latex.codecogs.com/gif.latex?\mathcal{A}_{DW2}"><br><img src="http://latex.codecogs.com/gif.latex?\mathcal{A}_{DW3}">|Gradient based on random walk|placeholder|Node Classification<br>Link Prediction|DeepWalk|<img src="http://latex.codecogs.com/gif.latex?\mathcal{B}_{rnd}"><br><img src="http://latex.codecogs.com/gif.latex?\mathcal{B}_{eig}"><br><img src="http://latex.codecogs.com/gif.latex?\mathcal{B}_{deg}">|F1 Score <br>Classification Margin<br>|Cora<br>Citeseer<br>PolBlogs|[Link](https://www.kdd.in.tum.de/research/node_embedding_attack/)
 |Arxiv<br>2019|<a class="toc" id ="3"></a>[[3]](https://arxiv.org/abs/1906.03750)<br>[🔙](#toc)|ReWatt|Reinforcement learning based on GCN|placeholder|Graph Classification|GCN|RL-S2V<br>RA<br>RA-S|ASR |REDDIT-MULTI-12K<br>REDDIT-MULTI-5K<br>IMDB-MULTI|-|
 |IJCAI<br>2019|<a class="toc" id ="4"></a>[[4]](https://arxiv.org/abs/1906.04214)<br>[🔙](#toc)|PGD<br>Min-Max|Gradient based|Poision<br>Topology<br>W & B -box|Node Classification|GCN|DICE<br>Meta-Self<br>Greedy|Misclassification Rate |Cora<br>Citeseer|[Link](https://github.com/KaidiXu/GCN_ADV_Train)|
 |Arxiv<br>2019|<a class="toc" id ="5"></a>[[5]](https://arxiv.org/abs/1905.11015)<br>[🔙](#toc)|EDA|Genetic algorithm based on DeepWalk|placeholder|Node Classification<br>Community Detection|HOPE<br>LPA<br>EM<br>DeepWalk|RA<br>DICE<br>RLS<br>DBA|NMI<br>Micro-F1<br>Macro-F1|Karate<br>Game<br>Dolphin|-|
@@ -51,7 +51,7 @@
 |Arxiv<br>2019|<a class="toc" id ="7"></a>[[7]](https://arxiv.org/abs/1904.12052)<br>[🔙](#toc)|-|Knowledge embedding|placeholder|Fact Plausibility Prediction|TransE<br>TransR<br>RESCAL|RA|MRR<br>HR@10|FB15k<br>WN18|-|
 |Arxiv<br>2019|<a class="toc" id ="8"></a>[[8]](https://arxiv.org/abs/1903.00553)<br>[🔙](#toc)|-|Based on LinLBP|placeholder|Node Classification<br>Detection Evade|LinLBP<br>JWP<br>LBP<br>RW<br>LINE<br>DeepWalk<br>Node2vec<br>GCN|RA<br>NETTACK|FNR <br>FPR |Facebook<br>Enron<br>Epinions<br>Twitter<br>Google+|-|
 |TCSS<br>2019|<a class="toc" id ="9"></a>[[9]](https://arxiv.org/abs/1811.00430)<br>[🔙](#toc)|Q-Attack|Genetic algorithm|placeholder|Community Detection|FN<br>Lou<br>SOA<br>LPA<br>INF<br>Node2vec+KM|RA<br>CDA<br>DBA|Modularity Q<br>NMI|Karate<br>Dolphins<br>Football<br>Polbooks|-|
-|Arxiv<br>2018|<a class="toc" id ="10"></a>[[10]](https://arxiv.org/abs/1810.10751)<br>[🔙](#toc)|Greedy<br>Greedy GAN|Gradient based on GCN, GAN|placeholder|Node Classification|GCN|RA|Accuracy<br>F1 score<br>ASR |Cora<br>CiteSeer|-
+|Arxiv<br>2018|<a class="toc" id ="10"></a>[[10]](https://arxiv.org/abs/1810.10751)<br>[🔙](#toc)|Greedy<br>Greedy GAN|Gradient based on GCN, GAN|placeholder|Node Classification|GCN|RA|Accuracy<br>F1 Score<br>ASR |Cora<br>CiteSeer|-
 |Arxiv<br>2018|<a class="toc" id ="11"></a>[[11]](https://arxiv.org/abs/1809.00152)<br>[🔙](#toc)|CTR<br>OTC|Neighbour score based on graph structure|placeholder|Link Prediction|Traditional Link Prediction Algs|-|AUC<br>AP|WTC 9/11<br>ScaleFree<br>Facebook<br>Randomly-generated|-|
 |Arxiv<br>2018|<a class="toc" id ="12"></a>[[12]](https://arxiv.org/abs/1810.01110)<br>[🔙](#toc)|IGA|Gradient based on GAE|Evasion<br>Topology<br>W & B -box|Link Prediction|GAE<br>DeepWalk<br>Node2vec<br>CN<br>RA<br>Katz<br>LRW|RAN<br>DICE<br>GA|ASR <br>AML|NS<br>Yeast<br>FaceBook|-|
 |ICML<br>2018|<a class="toc" id ="13"></a>[[13]](https://arxiv.org/abs/1806.02371)<br>[🔙](#toc)|RL-S2V|Reinforcement Learning|placeholder|Node/Graph Classification|GCN<br>GNN|Random Sampling|Accuracy|Citeseer<br>Cora<br>Pubmed<br>Finance|[Link](https://github.com/Hanjun-Dai/graph_adversarial_attack)
@@ -59,7 +59,7 @@
 |Arxiv<br>2018|<a class="toc" id ="15"></a>[[15]](https://arxiv.org/abs/1809.02797)<br>[🔙](#toc)|FGA|Gradient based on GCN|placeholder|Node Classification<br>Community Detection|GCN<br>GraRep<br>DeepWalk<br>Node2vec<br>LINE<br>GraphGAN|RA<br>DICE<br>NETTACK|ASR <br>AML|Cora<br>CiteSeer<br>PolBlogs|-|
 |Arxiv<br>2018|<a class="toc" id ="16"></a>[[16]](https://arxiv.org/abs/1810.12881)<br>[🔙](#toc)|Opt-attack|Gradient based on DeepWalk, LINE|placeholder|Link Prediction|DeepWalk<br>LINE<br>Node2vec<br>SC<br>GAE|RA<br>PageRank<br>Degree sum<br>Shortest path|Similarity Score <br>AP|Facebook<br>Cora<BR>Citeseer|-|
 |Arxiv<br>2018|<a class="toc" id ="17"></a>[[17]](https://arxiv.org/abs/1809.08368)<br>[🔙](#toc)|Approx-Local|Similarity methods|placeholder|Link Prediction|Local&Global similarity metrics|RandomDel<br>GreedyBase|Katz Similarity<br>ACT Distance<br>Similarity Score|scale-free<br>Facebook|-|
-|CCS<br>2017|<a class="toc" id ="18"></a>[[18]](https://arxiv.org/abs/1708.09056)<br>[🔙](#toc)|Targeted noise injection<br>--<br>Small community attack|Noise injection|placeholder|Graph Clustering<br>Community Detection|SVD<br>node2vec<br>Community Detection Algs|-|ASR FPR |Reverse Engineered DGA Domains<br>NXDOMAIN|-|
+|CCS<br>2017|<a class="toc" id ="18"></a>[[18]](https://arxiv.org/abs/1708.09056)<br>[🔙](#toc)|Targeted noise injection<br>--<br>Small community attack|Noise injection|placeholder|Graph Clustering<br>Community Detection|SVD<br>Node2vec<br>Community Detection Algs|-|ASR FPR |Reverse Engineered DGA Domains<br>NXDOMAIN|-|
 
 
 # Defense
@@ -117,26 +117,25 @@
 # Metric
 ![Metric](imgs/Metric.png)
 
-| Metric | Formula | Description | Venue |
+| Metric | Formulation | Description | Venue |
 |:-:|:-:|:-:|:-:|
 |ACD|||
-|Accuracy|||
+|Accuracy|<img src="http://latex.codecogs.com/gif.latex?\text { Accuracy }=\frac{\text { Number of correct predictions }}{\text { Total number of predictions }}">||
 |ADR|||
-|Attack Success Rate (ASR)|||
-|Averagy Modified Links (AML)|||
-|Average Pprecision (AP)|||
-|AUC|||
-|Classification Margin|||
-|F1 Score|||
-|False Positive Rate (FPR)|||
-|False Negative Rate (FNR)|||
-|Modularity Q|||
-|MPR|||
-|Normalized Mutual Information (NMI)|||
-|ROC|||
-|Similarity Score|||
+|Attack Success Rate (ASR)|<img src="http://latex.codecogs.com/gif.latex?\text { ASR }=\frac{\text { Number of successful attacks }}{\text { Total number of attacks }}">||
+|Averagy Modified Links (AML)|<img src="http://latex.codecogs.com/gif.latex?\text { ASR }=\frac{\text { Number of modified links }}{\text { Total number of attacks }}">||
+|Average Precision (AP)|||
 |Averaged worst-case Margin|||
-|Misclassiﬁcation Rate|||
-|Hit Rate(HR)|||
-
-**\* (+) means higher is better, (-) means the opposite.**
+|Area Under Curve (AUC)|<img src="http://latex.codecogs.com/gif.latex?A U C=\frac{\sum_{i n s_{i} \in \text {positiveclass}} \operatorname{rank}_{i n s_{i}}-\frac{M \times(M+1)}{2}}{M \times N})">||
+|Classification Margin|||
+|F1 Score|<img src="http://latex.codecogs.com/gif.latex?{F\ Score}=\left(1+\beta^{2}\right) \cdot \frac{\text {Precision} \cdot \text {Recall}}{\beta^{2} \cdot \text {Precision}+\text {Recall}}">||
+|False Positive Rate (FPR)|<img src="http://latex.codecogs.com/gif.latex?F P R=\frac{F P}{F P+T P}">||
+|False Negative Rate (FNR)|<img src="http://latex.codecogs.com/gif.latex?F N R=\frac{F P}{F P+T N}">||
+|Hit Rate (HR)|<img src="http://latex.codecogs.com/gif.latex?H R @ K=\frac{\text {NumberofHits} @ K}{\|G T\|}">||
+|Misclassiﬁcation Rate|<img src="http://latex.codecogs.com/gif.latex?\text { MR }=\frac{\text { Number of incorrect predictions }}{\text { Total number of predictions }}">||
+|Modularity Q|||
+|MPR|<img src="http://latex.codecogs.com/gif.latex?\mathrm{MRR}=\frac{1}{\|Q\|} \sum_{i=1}^{\|Q\|} \frac{1}{\operatorname{rank}_{i}}">||
+|Precision|<img src="http://latex.codecogs.com/gif.latex?\text { Precision }=\frac{T P}{T P+F P}">|
+|Normalized Mutual Information (NMI)|||
+|Recall|<img src="http://latex.codecogs.com/gif.latex?\text { Recall }=\frac{T P}{T P+F N}">|
+|Similarity Score|||
