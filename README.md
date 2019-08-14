@@ -119,23 +119,23 @@
 
 | Metric | Formulation | Description | Venue |
 |:-:|:-:|:-:|:-:|
-|ACD|||
-|Accuracy|<img src="http://latex.codecogs.com/gif.latex?\text { Accuracy }=\frac{\text { Number of correct predictions }}{\text { Total number of predictions }}">||
-|ADR|||
-|Attack Success Rate (ASR)|<img src="http://latex.codecogs.com/gif.latex?\text { ASR }=\frac{\text { Number of successful attacks }}{\text { Total number of attacks }}">||
-|Averagy Modified Links (AML)|<img src="http://latex.codecogs.com/gif.latex?\text { ASR }=\frac{\text { Number of modified links }}{\text { Total number of attacks }}">||
-|Average Precision (AP)|||
-|Averaged worst-case Margin|||
-|Area Under Curve (AUC)|<img src="http://latex.codecogs.com/gif.latex?{A U C}=\frac{\sum_{i n s_{i} \in \text {positiveclass}} \operatorname{rank}_{i n s_{i}}-\frac{M \times(M+1)}{2}}{M \times N}">||
-|Classification Margin|||
-|F1 Score|<img src="http://latex.codecogs.com/gif.latex?{F- Score}=\left(1+\beta^{2}\right) \cdot \frac{\text {Precision} \cdot \text {Recall}}{\beta^{2} \cdot \text {Precision}+\text {Recall}}">||
-|False Positive Rate (FPR)|<img src="http://latex.codecogs.com/gif.latex?F P R=\frac{F P}{F P+T P}">||
-|False Negative Rate (FNR)|<img src="http://latex.codecogs.com/gif.latex?F N R=\frac{F P}{F P+T N}">||
-|Hit Rate (HR)|<img src="http://latex.codecogs.com/gif.latex?H R @ K=\frac{\text {NumberofHits} @ K}{\|G T\|}">||
-|Misclassiﬁcation Rate|<img src="http://latex.codecogs.com/gif.latex?\text { MR }=\frac{\text { Number of incorrect predictions }}{\text { Total number of predictions }}">||
-|Modularity Q|||
-|MPR|<img src="http://latex.codecogs.com/gif.latex?\mathrm{MRR}=\frac{1}{\|Q\|} \sum_{i=1}^{\|Q\|} \frac{1}{\operatorname{rank}_{i}}">||
-|Precision|<img src="http://latex.codecogs.com/gif.latex?\text { Precision }=\frac{T P}{T P+F P}">|
+|ACD||||
+|Accuracy|<img src="http://latex.codecogs.com/gif.latex?\text { Accuracy }=\frac{\text { Number of correct predictions }}{\text { Total number of predictions }}">|||
+|ADR||||
+|Attack Success Rate (ASR)|<img src="http://latex.codecogs.com/gif.latex?\text { ASR }=\frac{\text { Number of successful attacks }}{\text { Total number of attacks }}">|||
+|Averagy Modified Links (AML)|<img src="http://latex.codecogs.com/gif.latex?\text { ASR }=\frac{\text { Number of modified links }}{\text { Total number of attacks }}">|||
+|Average Precision (AP)||||
+|Averaged worst-case Margin||||
+|Area Under Curve (AUC)|<img src="http://latex.codecogs.com/gif.latex?{A U C}=\frac{\sum_{i n s_{i} \in \text {positiveclass}} \operatorname{rank}_{i n s_{i}}-\frac{M \times(M+1)}{2}}{M \times N}">|||
+|Classification Margin||||
+|F1 Score|<img src="http://latex.codecogs.com/gif.latex?{F- Score}=\left(1+\beta^{2}\right) \cdot \frac{\text {Precision} \cdot \text {Recall}}{\beta^{2} \cdot \text {Precision}+\text {Recall}}">|||
+|False Positive Rate (FPR)|<img src="http://latex.codecogs.com/gif.latex?F P R=\frac{F P}{F P+T P}">|||
+|False Negative Rate (FNR)|<img src="http://latex.codecogs.com/gif.latex?F N R=\frac{F P}{F P+T N}">|||
+|Hit Rate (HR)|<img src="http://latex.codecogs.com/gif.latex?H R @ K=\frac{\text {NumberofHits} @ K}{\|G T\|}">|||
+|Misclassiﬁcation Rate|<img src="http://latex.codecogs.com/gif.latex?\text { MR }=\frac{\text { Number of incorrect predictions }}{\text { Total number of predictions }}">|||
+|Modularity Q||||
+|MPR|<img src="http://latex.codecogs.com/gif.latex?\mathrm{MRR}=\frac{1}{\|Q\|} \sum_{i=1}^{\|Q\|} \frac{1}{\operatorname{rank}_{i}}">|||
+|Precision|<img src="http://latex.codecogs.com/gif.latex?\text { Precision }=\frac{T P}{T P+F P}">|||
 |Normalized Mutual Information (NMI)|||
-|Recall|<img src="http://latex.codecogs.com/gif.latex?\text { Recall }=\frac{T P}{T P+F N}">|
-|Similarity Score|||
+|Recall|<img src="http://latex.codecogs.com/gif.latex?\text { Recall }=\frac{T P}{T P+F N}">|||
+|Similarity Score||||
