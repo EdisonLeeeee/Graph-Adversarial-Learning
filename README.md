@@ -131,7 +131,7 @@
 |F1 Score|<img src="http://latex.codecogs.com/gif.latex?{F- Score}=\left(1+\beta^{2}\right) \cdot \frac{\text {Precision} \cdot \text {Recall}}{\beta^{2} \cdot \text {Precision}+\text {Recall}}">|||
 |False Positive Rate (FPR)|<img src="http://latex.codecogs.com/gif.latex?F P R=\frac{F P}{F P+T P}">|||
 |False Negative Rate (FNR)|<img src="http://latex.codecogs.com/gif.latex?F N R=\frac{F P}{F P+T N}">|||
-|Hit Rate (HR)|<img src="http://latex.codecogs.com/gif.latex?H R @ K=\frac{\text {NumberofHits} @ K}{\|G T\|}">|||
+|Hit Rate (HR)|<img src="http://latex.codecogs.com/gif.latex?H R @ K=\frac{\text {Number &nbsp; of &nbsp; Hits} @ K}{\|G T\|}">|||
 |Misclassiﬁcation Rate|<img src="http://latex.codecogs.com/gif.latex?\text { MR }=\frac{\text { Number &nbsp; of &nbsp; incorrect &nbsp; predictions }}{\text { Total &nbsp; number &nbsp; of &nbsp; predictions }}">|||
 |Modularity Q||||
 |MPR|<img src="http://latex.codecogs.com/gif.latex?\mathrm{MRR}=\frac{1}{\|Q\|} \sum_{i=1}^{\|Q\|} \frac{1}{\operatorname{rank}_{i}}">|||
