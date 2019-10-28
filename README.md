@@ -63,7 +63,7 @@
 
 # Type
 |Method|Targeted|Non-targeted|Black-box|White-box|Poisoning|Evasion|Topology|Feature|
-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[1] [Adversarial Attacks On Graph Neural Networks Via Meta Learning](#1)|❌|⭕|⭕|⭕|⭕|❌|⭕|❌|
 |[2] [Adversarial Attacks On Node Embeddings Via Graph Poisoning](#2)|⭕|⭕|⭕|⭕|⭕|❌|⭕|❌|
 |[3] [Attacking Graph Convolutional Networks Via Rewiring](#3)|❌|⭕|⭕|⭕|❌|⭕|⭕|❌|
