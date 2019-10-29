@@ -74,7 +74,7 @@
 |[8] [Attacking Graph-Based Classification Via Manipulating The Graph Structure](#8)|⭕|❌|⭕|⭕|⭕|❌|⭕|❌|
 |[9] [Ga Based Q-Attack On Community Detection](#9)|
 |[10] [Attack Graph Convolutional Networks By Adding Fake Nodes](#10)|⭕|⭕|❌|⭕|⭕|❌|⭕|⭕|
-|[11] [Attack Tolerance Of Link Prediction Algorithms: How To Hide Your Relations In Social Network](#11)|
+|[11] [Attack Tolerance Of Link Prediction Algorithms: How To Hide Your Relations In Social Network](#11)|⭕|❌|⭕|❌|❌|⭕|⭕|❌|
 |[12] [Link Prediction Adversarial Attack](#12)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
 |[13] [Adversarial Attack On Graph Structured Data](#13)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
 |[14] [Adversarial Attacks On Neural Networks For Graph Data](#14)|⭕|❌|⭕|⭕|⭕|❌|⭕|⭕|
