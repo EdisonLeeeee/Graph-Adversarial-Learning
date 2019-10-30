@@ -78,8 +78,8 @@
 |[12] [Link Prediction Adversarial Attack](#12)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
 |[13] [Adversarial Attack On Graph Structured Data](#13)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
 |[14] [Adversarial Attacks On Neural Networks For Graph Data](#14)|⭕|❌|⭕|⭕|⭕|❌|⭕|⭕|
-|[15] [Fast Gradient Attack On Network Embedding](#15)|
-|[16] [Data Poisoning Attack Against Unsupervised Node Embedding Methods](#16)|
+|[15] [Fast Gradient Attack On Network Embedding](#15)|⭕|❌|⭕|⭕|⭕|❌|⭕|❌|
+|[16] [Data Poisoning Attack Against Unsupervised Node Embedding Methods](#16)|⭕|⭕|⭕|⭕|⭕|❌|⭕|❌|
 |[17] [Attacking Similarity-Based Link Prediction In Social Networks](#17)|
 |[18] [Practical Attacks Against Graph-Based Clustering](#18)|
 
@@ -93,7 +93,7 @@
 | IJCAI 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1903.01610) [🔙](#toc) | - | Drop Edges | Pre-processing | Node Classification | GCN | GCN | Classfication Margin, Accuracy | Cora-ML, Citeseer, Polblogs | [Link](https://github.com/stellargraph/stellargraph/) |
 | Arxiv 2019 | <a class="toc" id ="105"></a> [[5]](https://arxiv.org/abs/1905.03679) [🔙](#toc) | DefNet | GAN,<br>GER,<br>ACL | Structure Based | Node Classification | GCN, GraphSAGE | GCN, GraphSage | Classfication Margin | Cora, Citeseer, Polblogs | - |
 | Arxiv 2019 | <a class="toc" id ="106"></a> [[6]](https://arxiv.org/abs/1905.00563) [🔙](#toc) | CRIAGE | Adversarial Modification | Robustness Evaluation | Link Prediction | Knowledge Graph Embedding | DistMult, ConvE | Hits@K, MRR | Nations, Kinship, WN18, YAGO3-10 | - |
-| KDD 2019 | <a class="toc" id ="107"></a> [[7]](http://pengcui.thumedialab.com/papers/RGCN.pdf) [🔙](#toc) | RGCN | Gaussian-based Graph Convolution | Structure Based | Node Classification | GCN | GCN, GAT | Accuracy | Cora, Citeseer, Pubmed | https://github.com/thumanlab/nrlweb/blob/master/static/assets/download/RGCN.zip |
+| KDD 2019 | <a class="toc" id ="107"></a> [[7]](http://pengcui.thumedialab.com/papers/RGCN.pdf) [🔙](#toc) | RGCN | Gaussian-based Graph Convolution | Structure Based | Node Classification | GCN | GCN, GAT | Accuracy | Cora, Citeseer, Pubmed | [Link](https://github.com/thumanlab/nrlweb/blob/master/static/assets/download/RGCN.zip) |
 | Arxiv 2019 | <a class="toc" id ="108"></a> [[8]](https://arxiv.org/abs/1903.05994) [🔙](#toc) | Global-AT, Target-AT, SD, SCEL | Adversarial Training, Smooth Defense | Hybrid | Node Classification | GCN, DeepWalk, node2vec, Louvain | AT | ADR, ACD | PoLBlogs, Cora, Citeseer | - |
 | Arxiv 2019 | <a class="toc" id ="109"></a> [[9]](https://arxiv.org/abs/1902.11045) [🔙](#toc) | SVAT, DVAT | Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | GCN | Accuracy | Cora, Citeseer, Pubmed | - |
 | RLGM@ICLR 2019 | <a class="toc" id ="110"></a> [[10]](https://rlgm.github.io/papers/57.pdf) [🔙](#toc) | - | KL Divergence | Structure Based | Node Classification | GCN, GAT, Nettack | GCN, BGCN, GAT | Classfication Margin, Accuracy,<br>ROC, AUC | Cora, Citeseer, Polblogs | - |
