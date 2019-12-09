@@ -42,7 +42,8 @@
     - [13] [Batch Virtual Adversarial Training For Graph Convolutional Networks](#113)
     - [14] [Robust Graph Neural Network Against Poisoning Atacks via Transfer Learning](#114)
     - [15] [GraphDefense: Towards Robust Graph Convolutional Networks](#115)
-    - [16] [Adversarial Attack On Graph Structured Data](#116)
+    - [16] [Adversarial Personalized Ranking for Recommendation](#116)
+    - [17] [αcyber: Enhancing Robustness of Android Malware Detection System against Adversarial Attacks on Heterogeneous Graph based Model](#117)
     
 - [Baselines](#Baselines)
 
@@ -111,7 +112,8 @@
 | ICML 2019 | <a class="toc" id ="113"></a> [[13]](https://arxiv.org/abs/1902.09192) [🔙](#toc2) | S-BVAT, O-BVAT | Batch Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, Planetoid, Monet, GAT, GPNN, GCN, VAT | Accuracy | Cora, Citeseer, Pubmed, Nell | [Link](https://github.com/thudzj/BVAT) |
 | Arxiv 2019 | <a class="toc" id ="114"></a> [[14]](https://arxiv.org/abs/1908.07558) [🔙](#toc2) | PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node Classification | GNN | GCN, GAT, PreProcess, RGCN, VPN | Accuracy | Pubmed, Reddit, Yelp-Small, Yelp-Large | - |
 | Arxiv 2019 | <a class="toc" id ="115"></a> [[15]](https://arxiv.org/abs/1911.04429) [🔙](#toc2) | GraphDefense | Adversarial Training | Adversarial Training | Node Classification | GCN | Drop Edges, Discrete Adversarial Training | Accuracy | Cora, Citeseer, Reddit | - |
-<!-- | ICML 2018 | <a class="toc" id ="116"></a> [[16]](https://arxiv.org/abs/1806.02371) [🔙](#toc2) | - | Drop Edges | | Node/Graph Classification | GCN,<br>GNN | Random Sampling | Accuracy | Citeseer, Cora, Pubmed, Finance | [Link](https://github.com/Hanjun-Dai/graph_adversarial_attack) | -->
+| SIGIR 2018 | <a class="toc" id ="116"></a> [[16]](https://dl.acm.org/citation.cfm?id=3209981) [🔙](#toc2) | APR, AMF | Adversarial Training based on MF-BPR | Adversarial Training | Recommendation | MF-BPR | ItemPop, MF-BPR, CDAE, NeuMF, IRGAN | HR, NDCG | Yelp, Pinterest, Gowalla | [Link](https://github.com/hexiangnan/adversarial_personalized_ranking) |
+| CIKM 2019 | <a class="toc" id ="117"></a> [[17]](https://dl.acm.org/citation.cfm?id=3209981) [🔙](#toc2) | Rad-HGC | HG-Defense | Detection Based | Android\\Malware\\Detection | Malware\\Detection\\System | FakeBank,\\CryptoMiner,\\AppCracked,\\MalFlayer,\\GameTrojan.\\BlackBaby,\\SDKSmartPush,\\... | Detection Rate | Tencent Security Lab Dataset | [Link](https://github.com/hexiangnan/adversarial_personalized_ranking) |
 
 # Baselines
 | Baseline | Venue | Paper | Code |
