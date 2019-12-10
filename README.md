@@ -103,6 +103,7 @@
 |[20] [Attacking Similarity-Based Link Prediction In Social Networks](#20)|
 |[21] [Practical Attacks Against Graph-Based Clustering](#21)|
 
+![Metric](imgs/Attack.png)
 
 ![Metric](imgs/Attack.png)
 
