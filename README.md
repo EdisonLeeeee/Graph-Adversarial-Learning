@@ -126,7 +126,7 @@
 | Arxiv 2019 | <a class="toc" id ="114"></a> [[14]](https://arxiv.org/abs/1908.07558) [🔙](#toc2) | PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node Classification | GNN | GCN, GAT, PreProcess, RGCN, VPN | Accuracy | Pubmed, Reddit, Yelp-Small, Yelp-Large | - |
 | Arxiv 2019 | <a class="toc" id ="115"></a> [[15]](https://arxiv.org/abs/1911.04429) [🔙](#toc2) | GraphDefense | Adversarial Training | Adversarial Training | Node Classification | GCN | Drop Edges, Discrete Adversarial Training | Accuracy | Cora, Citeseer, Reddit | - |
 | SIGIR 2018 | <a class="toc" id ="116"></a> [[16]](https://dl.acm.org/citation.cfm?id=3209981) [🔙](#toc2) | APR, AMF | Adversarial Training based on MF-BPR | Adversarial Training | Recommendation | MF-BPR | ItemPop, MF-BPR, CDAE, NeuMF, IRGAN | HR, NDCG | Yelp, Pinterest, Gowalla | [Link](https://github.com/hexiangnan/adversarial_personalized_ranking) |
-| CIKM 2019 | <a class="toc" id ="117"></a> [[17]](https://dl.acm.org/citation.cfm?id=3209981) [🔙](#toc2) | Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, ... | Detection Rate | Tencent Security Lab Dataset | - |
+| CIKM 2019 | <a class="toc" id ="117"></a> [[17]](https://dl.acm.org/citation.cfm?id=3357875) [🔙](#toc2) | Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, ... | Detection Rate | Tencent Security Lab Dataset | - |
 
 # Baselines
 | Baseline | Venue | Paper | Code |
