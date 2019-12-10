@@ -14,15 +14,16 @@
     + [9] [Ga Based Q-Attack On Community Detection](#9)
     + [10] [$\alpha$cyber: Enhancing robustness of android malware detection system against adversarial attacks on heterogeneous graph based model](#10)
     + [11] [Data Poisoning Attacks on Neighborhood-based Recommender Systems](#11)
-    + [12] [Attack Graph Convolutional Networks By Adding Fake Nodes](#12)
-    + [13] [Attack Tolerance Of Link Prediction Algorithms: How To Hide Your Relations In A Social Network](#13)
-    + [14] [Link Prediction Adversarial Attack](#14)
-    + [15] [Adversarial Attack On Graph Structured Data](#15)
-    + [16] [Adversarial Attacks On Neural Networks For Graph Data](#16)
-    + [17] [Fast Gradient Attack On Network Embedding](#17)
-    + [18] [Data Poisoning Attack Against Unsupervised Node Embedding Methods](#18)
-    + [19] [Attacking Similarity-Based Link Prediction In Social Networks](#19)
-    + [20] [Practical Attacks Against Graph-Based Clustering](#20)
+    + [12] [Adversarial Recommendation: Attack of the Learned Fake Users](#12)
+    + [13] [Attack Graph Convolutional Networks By Adding Fake Nodes](#13)
+    + [14] [Attack Tolerance Of Link Prediction Algorithms: How To Hide Your Relations In A Social Network](#14)
+    + [15] [Link Prediction Adversarial Attack](#15)
+    + [16] [Adversarial Attack On Graph Structured Data](#16)
+    + [17] [Adversarial Attacks On Neural Networks For Graph Data](#17)
+    + [18] [Fast Gradient Attack On Network Embedding](#18)
+    + [19] [Data Poisoning Attack Against Unsupervised Node Embedding Methods](#19)
+    + [20] [Attacking Similarity-Based Link Prediction In Social Networks](#20)
+    + [21] [Practical Attacks Against Graph-Based Clustering](#21)
 
 + [Attack Type](#Type)
 
@@ -64,18 +65,19 @@
 |Arxiv<br>2019|<a class="toc" id ="8"></a>[[8]](https://arxiv.org/abs/1903.00553)<br>[🔙](#toc1)|-|Based on LinLBP|Node Classification,<br>Evasion|LinLBP, JWP,<br>LBP, RW, LINE,<br>DeepWalk,<br>Node2vec,<br>GCN|RA,<br>NETTACK|FNR ,<br>FPR |Facebook,<br>Enron,<br>Epinions,<br>Twitter,<br>Google+|-|
 |TCSS<br>2019|<a class="toc" id ="9"></a>[[9]](https://arxiv.org/abs/1811.00430)<br>[🔙](#toc1)|Q-Attack|Genetic algorithm|Community Detection|FN, Lou, SOA,<br>LPA, INF,<br>Node2vec+KM|RA,<br>CDA,<br>DBA|Modularity Q,<br>NMI|Karate,<br>Dolphins,<br>Football,<br>Polbooks|-|
 |CIKM<br>2019|<a class="toc" id ="10"></a>[[10]](https://dl_acm.xilesou.top/citation.cfm?id=3357875)<br>[🔙](#toc1)|HG-Attack|Label propagation algorithm<br>Adding fake nodes|Malware Detection|Orig-HGC|AN-Attack|TP, TN, FP, FN, F1, <br>Precision, Recall, Accuracy|Tencent Security Lab Dataset|-|
-|Arxiv<br>2019|<a class="toc" id ="11"></a>[[11]](https://arxiv.org/abs/1912.04109)<br>[🔙](#toc1)|UNAttack|Gradient-based similarity method<br>Adding fake nodes|Recommendation|Memory-based CF,<br>BPRMF, NCF|Random, Average, Popular, Co-visitation|Hit@K|Filmtrust,<br>Movielens,<br>Amazon|-|
-|Arxiv<br>2018|<a class="toc" id ="12"></a>[[12]](https://arxiv.org/abs/1810.10751)<br>[🔙](#toc1)|Greedy<br>Greedy GAN|Gradient-based GCN, GAN|Node Classification|GCN|RA|Accuracy, <br>F1 Score, ASR |Cora, <br>Citeseer|-
-|Arxiv<br>2018|<a class="toc" id ="13"></a>[[13]](https://arxiv.org/abs/1809.00152)<br>[🔙](#toc1)|CTR<br>OTC|Neighbour score based on graph structure|Link Prediction|Traditional Link Prediction Algs|-|AUC, AP|WTC 9/11,<br>ScaleFree,<br>Facebook,<br>Random network|-|
-|Arxiv<br>2018|<a class="toc" id ="14"></a>[[14]](https://arxiv.org/abs/1810.01110)<br>[🔙](#toc1)|IGA|Gradient-based  GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|-|
-|ICML<br>2018|<a class="toc" id ="15"></a>[[15]](https://arxiv.org/abs/1806.02371)<br>[🔙](#toc1)|RL-S2V|Reinforcement learning|Node/Graph Classification|GCN,<br>GNN|Random Sampling|Accuracy|Citeseer, <br>Cora, <br>Pubmed, <br>Finance|[Link](https://github.com/Hanjun-Dai/graph_adversarial_attack)
-|KDD<br>2018|<a class="toc" id ="16"></a>[[16]](https://arxiv.org/abs/1805.07984)<br>[🔙](#toc1)|Nettack|Fast computation <br>based on GCN|Node Classification|GCN,<br>CLN,<br>DeepWalk|Rnd,<br>FGSM|Classification Margin,<br>Accuracy|Cora-ML,<br>Citeseer,<br>PolBlogs|[Link](https://github.com/danielzuegner/nettack)|
-|Arxiv<br>2018|<a class="toc" id ="17"></a>[[17]](https://arxiv.org/abs/1809.02797)<br>[🔙](#toc1)|FGA|Gradient-based GCN|Node Classification,<br>Community Detection|GCN,<br>GraRep,<br>DeepWalk,<br>Node2vec,<br>LINE,<br>GraphGAN|RA,<br>DICE,<br>NETTACK|ASR, AML|Cora,<br>Citeseer,<br>PolBlogs|-|
-|Arxiv<br>2018|<a class="toc" id ="18"></a>[[18]](https://arxiv.org/abs/1810.12881)<br>[🔙](#toc1)|Opt-attack|Gradient based on DeepWalk, LINE|Link Prediction|DeepWalk<br>LINE<br>Node2vec<br>SC<br>GAE|RA<br>PageRank<br>Degree sum<br>Shortest path|Similarity Score <br>AP|Facebook<br>Cora<BR>Citeseer|-|
-|Arxiv<br>2018|<a class="toc" id ="19"></a>[[19]](https://arxiv.org/abs/1809.08368)<br>[🔙](#toc1)|Approx-Local|Similarity methods|Link Prediction|Local&Global similarity metrics|RandomDel,<br>GreedyBase|Katz Similarity,<br>ACT Distance,<br>Similarity Score|Random network,<br>Facebook|-|
-|CCS<br>2017|<a class="toc" id ="20"></a>[[20]](https://arxiv.org/abs/1708.09056)<br>[🔙](#toc1)|Targeted noise injection,<br>Small community attack|Noise injection|Graph Clustering,<br>Community Detection|SVD,<br>Node2vec,<br>Community Detection Algs|-|ASR FPR |Reverse Engineered DGA Domains,<br>NXDOMAIN|-|
+|Arxiv<br>2019|<a class="toc" id ="11"></a>[[11]](https://arxiv.org/abs/1912.04109)<br>[🔙](#toc1)|UNAttack|Gradient-based similarity method<br>Adding fake nodes|Recommendation|Memory-based CF,<br>BPRMF, NCF|-|Hit@K|Filmtrust,<br>Movielens,<br>Amazon|-|
+|Arxiv<br>2018|<a class="toc" id ="12"></a>[[12]](https://arxiv.org/abs/1809.08336)<br>[🔙](#toc1)|-|Gradient-based GAN, MF<br>Adding fake nodes|Recommendation|MF|Random, Average, Popular, Co-visitation|Attack Difference,<br>TVD, JS, Est., <br>Rank Loss @K,<br>Adversarial loss|Movielens 100K,<br>Movielens 1M|-|
+|Arxiv<br>2018|<a class="toc" id ="13"></a>[[13]](https://arxiv.org/abs/1810.10751)<br>[🔙](#toc1)|Greedy<br>Greedy GAN|Gradient-based GCN, GAN|Node Classification|GCN|RA|Accuracy, <br>F1 Score, ASR |Cora, <br>Citeseer|-
+|Arxiv<br>2018|<a class="toc" id ="14"></a>[[14]](https://arxiv.org/abs/1809.00152)<br>[🔙](#toc1)|CTR<br>OTC|Neighbour score based on graph structure|Link Prediction|Traditional Link Prediction Algs|-|AUC, AP|WTC 9/11,<br>ScaleFree,<br>Facebook,<br>Random network|-|
+|Arxiv<br>2018|<a class="toc" id ="15"></a>[[15]](https://arxiv.org/abs/1810.01110)<br>[🔙](#toc1)|IGA|Gradient-based  GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|-|
+|ICML<br>2018|<a class="toc" id ="16"></a>[[16]](https://arxiv.org/abs/1806.02371)<br>[🔙](#toc1)|RL-S2V|Reinforcement learning|Node/Graph Classification|GCN,<br>GNN|Random Sampling|Accuracy|Citeseer, <br>Cora, <br>Pubmed, <br>Finance|[Link](https://github.com/Hanjun-Dai/graph_adversarial_attack)
+|KDD<br>2018|<a class="toc" id ="17"></a>[[17]](https://arxiv.org/abs/1805.07984)<br>[🔙](#toc1)|Nettack|Fast computation <br>based on GCN|Node Classification|GCN,<br>CLN,<br>DeepWalk|Rnd,<br>FGSM|Classification Margin,<br>Accuracy|Cora-ML,<br>Citeseer,<br>PolBlogs|[Link](https://github.com/danielzuegner/nettack)|
+|Arxiv<br>2018|<a class="toc" id ="18"></a>[[18]](https://arxiv.org/abs/1809.02797)<br>[🔙](#toc1)|FGA|Gradient-based GCN|Node Classification,<br>Community Detection|GCN,<br>GraRep,<br>DeepWalk,<br>Node2vec,<br>LINE,<br>GraphGAN|RA,<br>DICE,<br>NETTACK|ASR, AML|Cora,<br>Citeseer,<br>PolBlogs|-|
+|Arxiv<br>2018|<a class="toc" id ="19"></a>[[19]](https://arxiv.org/abs/1810.12881)<br>[🔙](#toc1)|Opt-attack|Gradient based on DeepWalk, LINE|Link Prediction|DeepWalk<br>LINE<br>Node2vec<br>SC<br>GAE|RA<br>PageRank<br>Degree sum<br>Shortest path|Similarity Score <br>AP|Facebook<br>Cora<BR>Citeseer|-|
+|Arxiv<br>2018|<a class="toc" id ="20"></a>[[20]](https://arxiv.org/abs/1809.08368)<br>[🔙](#toc1)|Approx-Local|Similarity methods|Link Prediction|Local&Global similarity metrics|RandomDel,<br>GreedyBase|Katz Similarity,<br>ACT Distance,<br>Similarity Score|Random network,<br>Facebook|-|
+|CCS<br>2017|<a class="toc" id ="21"></a>[[21]](https://arxiv.org/abs/1708.09056)<br>[🔙](#toc1)|Targeted noise injection,<br>Small community attack|Noise injection|Graph Clustering,<br>Community Detection|SVD,<br>Node2vec,<br>Community Detection Algs|-|ASR FPR |Reverse Engineered DGA Domains,<br>NXDOMAIN|-|
 
-|<a class="toc" id ="Type"></a>
+<a class="toc" id ="Type"></a>
 # Attack Type
 |Method|Targeted|Non-targeted|Black-box|White-box|Poisoning|Evasion|Topology|Feature|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -90,15 +92,16 @@
 |[9] [Ga Based Q-Attack On Community Detection](#9)|
 |[10] [$\alpha$cyber: Enhancing robustness of android malware detection system against adversarial attacks on heterogeneous graph based model](#10)|
 |[11] [Data Poisoning Attacks on Neighborhood-based Recommender Systems](#11)|
-|[12] [Attack Graph Convolutional Networks By Adding Fake Nodes](#12)|⭕|⭕|❌|⭕|⭕|❌|⭕|⭕|
-|[13] [Attack Tolerance Of Link Prediction Algorithms: How To Hide Your Relations In Social Network](#13)|⭕|❌|⭕|❌|❌|⭕|⭕|❌|
-|[14] [Link Prediction Adversarial Attack](#14)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
-|[15] [Adversarial Attack On Graph Structured Data](#15)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
-|[16] [Adversarial Attacks On Neural Networks For Graph Data](#16)|⭕|❌|⭕|⭕|⭕|❌|⭕|⭕|
-|[17] [Fast Gradient Attack On Network Embedding](#17)|⭕|❌|⭕|⭕|⭕|❌|⭕|❌|
-|[18] [Data Poisoning Attack Against Unsupervised Node Embedding Methods](#18)|⭕|⭕|⭕|⭕|⭕|❌|⭕|❌|
-|[19] [Attacking Similarity-Based Link Prediction In Social Networks](#19)|
-|[20] [Practical Attacks Against Graph-Based Clustering](#20)|
+|[12] [Adversarial Recommendation: Attack of the Learned Fake Users](#12)|
+|[13] [Attack Graph Convolutional Networks By Adding Fake Nodes](#13)|⭕|⭕|❌|⭕|⭕|❌|⭕|⭕|
+|[14] [Attack Tolerance Of Link Prediction Algorithms: How To Hide Your Relations In Social Network](#14)|⭕|❌|⭕|❌|❌|⭕|⭕|❌|
+|[15] [Link Prediction Adversarial Attack](#15)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
+|[16] [Adversarial Attack On Graph Structured Data](#16)|⭕|❌|⭕|⭕|❌|⭕|⭕|❌|
+|[17] [Adversarial Attacks On Neural Networks For Graph Data](#17)|⭕|❌|⭕|⭕|⭕|❌|⭕|⭕|
+|[18] [Fast Gradient Attack On Network Embedding](#18)|⭕|❌|⭕|⭕|⭕|❌|⭕|❌|
+|[19] [Data Poisoning Attack Against Unsupervised Node Embedding Methods](#19)|⭕|⭕|⭕|⭕|⭕|❌|⭕|❌|
+|[20] [Attacking Similarity-Based Link Prediction In Social Networks](#20)|
+|[21] [Practical Attacks Against Graph-Based Clustering](#21)|
 
 
 ![Metric](imgs/Attack.png)
