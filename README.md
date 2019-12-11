@@ -132,11 +132,11 @@
 | Arxiv 2019 | <a class="toc" id ="115"></a> [[15]](https://arxiv.org/abs/1911.04429) [🔙](#toc2) | GraphDefense | Adversarial Training | Adversarial Training | Node Classification | GCN | Drop Edges, Discrete Adversarial Training | Accuracy | Cora, Citeseer, Reddit | - |
 | SIGIR 2018 | <a class="toc" id ="116"></a> [[16]](https://dl.acm.org/citation.cfm?id=3209981) [🔙](#toc2) | APR, AMF | Adversarial Training based on MF-BPR | Adversarial Training | Recommendation | MF-BPR | ItemPop, MF-BPR, CDAE, NeuMF, IRGAN | HR, NDCG | Yelp, Pinterest, Gowalla | [Link](https://github.com/hexiangnan/adversarial_personalized_ranking) |
 | CIKM 2019 | <a class="toc" id ="117"></a> [[17]](https://dl.acm.org/citation.cfm?id=3357875) [🔙](#toc2) | Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, ... | Detection Rate | Tencent Security Lab Dataset | - |
-| Arxiv 2019 | <a class="toc" id ="118"></a> [[18]](https://arxiv.org/abs/1910.09590) [🔙](#toc2) |  |  |  |  |  |  |  |  | - |
-| Arxiv 2019 | <a class="toc" id ="119"></a> [[19]](https://arxiv.org/abs/1910.09589) [🔙](#toc2) |  |  |  |  |  |  |  |  | - |
-| NIPS 2019 | <a class="toc" id ="120"></a> [[20]](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations) [🔙](#toc2) |  |  |  |  |  |  |  |  | - |
-| ICDM 2019 | <a class="toc" id ="121"></a> [[21]](https://arxiv.org/abs/1909.01432) [🔙](#toc2) |  |  |  |  |  |  |  |  | - |
-| KDD Workshop 2019 | <a class="toc" id ="122"></a> [[22]](http://eliassi.org/papers/benmiller-mlg2019.pdf) [🔙](#toc2) |  |  |  |  |  |  |  |  | - |
+| Arxiv 2019 | <a class="toc" id ="118"></a> [[18]](https://arxiv.org/abs/1910.09590) [🔙](#toc2) | AGCN | Adaptive GCN with Edge Dithering | Structure Based  | Node Classification | GCN | GCN | Accuracy | Citeseer, PolBlogs, Cora, Pubmed | - |
+| Arxiv 2019 | <a class="toc" id ="119"></a> [[19]](https://arxiv.org/abs/1910.09589) [🔙](#toc2) | GraphSVC | Random Sampling, Consensus | Detection Based | Anomaly Detection | Anomaly Model | GAE, Amen, Radar, Degree, Cut ratio, Flake, Conductance | AUC | Citeseer, PolBlogs, Cora, Pubmed | - |
+| NIPS 2019 | <a class="toc" id ="120"></a> [[20]](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations) [🔙](#toc2) |  | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy | Cora-ML, Citeseer, Pubmed | - |
+| ICDM 2019 | <a class="toc" id ="121"></a> [[21]](https://arxiv.org/abs/1909.01432) [🔙](#toc2) | IDOpt, IDRank |  |  | Link Prediction | Similarity-based Link Prediction Models | PPN | DPR | PA, PLD, TVShow, Gov | - |
+| KDD Workshop 2019 | <a class="toc" id ="122"></a> [[22]](http://eliassi.org/papers/benmiller-mlg2019.pdf) [🔙](#toc2) |  |  |  | Node Classification | GCN | GCN | Classification Marigin | Cora, Citeseer | - |
 
 # Baselines
 | Baseline | Venue | Paper | Code |
