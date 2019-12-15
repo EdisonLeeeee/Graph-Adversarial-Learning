@@ -54,7 +54,7 @@
     - [19] [GraphSAC: Detecting Anomalies in Large-scale Graphs](#119)
     - [20] [Certifiable Robustness to Graph Perturbations](#120)
     - [21] [Adversarial Robustness of Similarity-Based Link Prediction](#121)
-    - [22] [Improving Robustness to Attacks Against Vertex Classification](@122)
+    - [22] [Improving Robustness to Attacks Against Vertex Classification](#122)
     
 - [Baselines](#Baselines)
 
@@ -124,7 +124,7 @@
 
 | Venue| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset | Code | 
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| KDD 2019 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1906.12269) [🔙](#toc2) | GNN (trained with RH-U) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN, GCN | GNN (trained with CE, RCE, RH) | Accuracy, Averaged worst-case Margin | Citeseer, Cora-ML, Pubmed | [Link](https://www.kdd.in.tum.de/research/robust-gcn/) |
+| KDD 2019 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1906.12269) [🔙](#toc2) | GNN (trained with RH-U) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN, GCN | GNN (trained with CE, RCE, RH) | Accuracy, Averaged Worst-case Margin | Citeseer, Cora-ML, Pubmed | [Link](https://www.kdd.in.tum.de/research/robust-gcn/) |
 | IJCAI 2019 | <a class="toc" id ="102"></a> [[2]](https://arxiv.org/abs/1906.04214) [🔙](#toc2) | - | Adversarial Learning | Adversarial Learning | Node Classification | GCN | GCN | Misclassification Rate <br>Accuracy | Citeseer, Cora | [Link](https://github.com/KaidiXu/GCN_ADV_Train) |
 | ICLR 2020 OpenReview | <a class="toc" id ="103"></a> [[3]](https://arxiv.org/abs/1905.10029) [🔙](#toc2) | r-GCN, VPN | Graph Powering | Objective Based | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, ICA, Planetoid, Vanilla GCN | Accuracy, Robustness Merit,<br>Attack Deterioration | Citeseer, Cora, Pubmed | - |
 | IJCAI 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1903.01610) [🔙](#toc2) | - | Drop Edges | Preprocessing | Node Classification | GCN | GCN | Classfication Margin, Accuracy | Cora-ML, Citeseer, PolBlogs | [Link](https://github.com/stellargraph/stellargraph/) |
@@ -143,9 +143,9 @@
 | CIKM 2019 | <a class="toc" id ="117"></a> [[17]](https://dl.acm.org/citation.cfm?id=3357875) [🔙](#toc2) | Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, ... | Detection Rate | Tencent Security Lab Dataset | - |
 | Arxiv 2019 | <a class="toc" id ="118"></a> [[18]](https://arxiv.org/abs/1910.09590) [🔙](#toc2) | AGCN | Adaptive GCN with Edge Dithering | Structure Based  | Node Classification | GCN | GCN | Accuracy | Citeseer, PolBlogs, Cora, Pubmed | - |
 | Arxiv 2019 | <a class="toc" id ="119"></a> [[19]](https://arxiv.org/abs/1910.09589) [🔙](#toc2) | GraphSVC | Random Sampling, Consensus | Detection Based | Anomaly Detection | Anomaly Model | GAE, Amen, Radar, Degree, Cut ratio, Flake, Conductance | AUC | Citeseer, PolBlogs, Cora, Pubmed | - |
-| NIPS 2019 | <a class="toc" id ="120"></a> [[20]](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations) [🔙](#toc2) |  | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy | Cora-ML, Citeseer, Pubmed | - |
-| ICDM 2019 | <a class="toc" id ="121"></a> [[21]](https://arxiv.org/abs/1909.01432) [🔙](#toc2) | IDOpt, IDRank |  |  | Link Prediction | Similarity-based Link Prediction Models | PPN | DPR | PA, PLD, TVShow, Gov | - |
-| KDD Workshop 2019 | <a class="toc" id ="122"></a> [[22]](http://eliassi.org/papers/benmiller-mlg2019.pdf) [🔙](#toc2) |  |  |  | Node Classification | GCN | GCN | Classification Marigin | Cora, Citeseer | - |
+| NIPS 2019 | <a class="toc" id ="120"></a> [[20]](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations) [🔙](#toc2) | GNN (train with $L_{RCE}$, $L_{CEM}$ ) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy, Worst-case Margin | Cora-ML, Citeseer, Pubmed | - |
+| ICDM 2019 | <a class="toc" id ="121"></a> [[21]](https://arxiv.org/abs/1909.01432) [🔙](#toc2) | IDOpt, IDRank | Bayesian Stackelberg Game | Heuristic Algorithm | Link Prediction | Similarity-based Link Prediction Models | PPN | DPR | PA, PLD, TVShow, Gov | - |
+| MLG@KDD 2019 | <a class="toc" id ="122"></a> [[22]](http://eliassi.org/papers/benmiller-mlg2019.pdf) [🔙](#toc2) | SVM with a radial basis function kernel | Alternative Training | Alternative Training | Node Classification | GCN | GCN | Classification Marigin | Cora, Citeseer | - |
 
 # Baselines
 | Baseline | Venue | Paper | Code |
