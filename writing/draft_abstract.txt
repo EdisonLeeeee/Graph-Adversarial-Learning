@@ -1,6 +1,0 @@
-ABSTRACT
-Deep learning models(DLMs) has attracted an increasing amount of reasearches, with losts of refreshing implementations in different fields. However, it has been proven to be unstable and unreliable againsts adversarial examples. Regarding this situation, a lot of related researches have emerged,  despite the booming works, there is a lack of a systematic definition and summary. Therefore, in this paper, we aim to summarize the previous work and give some unified definitions to help more researchers have a global understanding of this field. Finally, we compare 
-
-
-现有图上的深度学习的模型取得了很大的进展和成就。但是，它面对对抗攻击时，体现出了不稳定性和不可靠性。面对这种现象，针对攻击和防御，都涌现了很多研究。在这篇论文中，我们主要总结了前人的工作。Specifically, 我们suvey了已经提出了的serveral攻击和防御方法，并且借鉴了xx领域，拓展、总结了related metrics。最后，我们探讨了各个方法的优缺点，并指出了我们的工作可以作为相关研究人员的参考，从而为他们的研究提供帮助。
-
