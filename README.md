@@ -29,33 +29,33 @@
     + [24] [Attacking Similarity-Based Link Prediction in Social Networks](#24)
     + [25] [Practical Attacks Against Graph-Based Clustering](#25)
 
-+ [Attack Type](#Type)
++ [Attack Type](#Type)(incoming)
 
 <a class="toc" id ="toc2"></a>
 
 - [Defense](#defense)
-    - [1] [Certifiable Robustness and Robust Training for Graph Convolutional Networks](#101)
-    - [2] [Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective](#102)
-    - [3] [Power Up! Robust Graph Convolutional Network Against Evasion Attacks Based on Graph Powering](#103)
-    - [4] [Adversarial Examples on Graph Data: Deep Insights Into Attack and Defense](#104)
-    - [5] [Adversarial Defense Framework for Graph Neural Network](#105)
-    - [6] [Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications](#106)
-    - [7] [Robust Graph Convolutional Networks Against Adversarial Attacks](#107)
-    - [8] [Can Adversarial Network Attack Be Defended?](#108)
-    - [9] [Virtual Adversarial Training on Graph Convolutional Networks in Node Classification](#109)
-    - [10] [Comparing and Detecting Adversarial Attacks for Graph Deep Learning](#110)
-    - [11] [Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure](#111)
-    - [12] [Characterizing Malicious Edges Targeting on Graph Neural Networks](#112)
-    - [13] [Batch Virtual Adversarial Training for Graph Convolutional Networks](#113)
-    - [14] [Transferring Robustness for Graph Neural Network Against Poisoning Attacks](#114)
+    - [1] [Transferring Robustness for Graph Neural Network Against Poisoning Attacks](#101)
+    - [2] [Power Up! Robust Graph Convolutional Network Against Evasion Attacks Based on Graph Powering](#102)
+    - [3] [Certifiable Robustness and Robust Training for Graph Convolutional Networks](#103)
+    - [4] [Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective](#104)
+    - [5] [Adversarial Examples on Graph Data: Deep Insights Into Attack and Defense](#105)
+    - [6] [Adversarial Defense Framework for Graph Neural Network](#106)
+    - [7] [Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications](#107)
+    - [8] [Robust Graph Convolutional Networks Against Adversarial Attacks](#108)
+    - [9] [Can Adversarial Network Attack Be Defended?](#109)
+    - [10] [Virtual Adversarial Training on Graph Convolutional Networks in Node Classification](#110)
+    - [11] [Comparing and Detecting Adversarial Attacks for Graph Deep Learning](#111)
+    - [12] [Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure](#112)
+    - [13] [Characterizing Malicious Edges Targeting on Graph Neural Networks](#113)
+    - [14] [Batch Virtual Adversarial Training for Graph Convolutional Networks](#114)
     - [15] [GraphDefense: Towards Robust Graph Convolutional Networks](#115)
-    - [16] [Adversarial Personalized Ranking for Recommendation](#116)
-    - [17] [αcyber: Enhancing Robustness of Android Malware Detection System against Adversarial Attacks on Heterogeneous Graph based Model](#117)
-    - [18] [Edge Dithering for Robust Adaptive Graph Convolutional Networks](#118)
-    - [19] [GraphSAC: Detecting Anomalies in Large-scale Graphs](#119)
-    - [20] [Certifiable Robustness to Graph Perturbations](#120)
-    - [21] [Adversarial Robustness of Similarity-Based Link Prediction](#121)
-    - [22] [Improving Robustness to Attacks Against Vertex Classification](#122)
+    - [16] [αcyber: Enhancing Robustness of Android Malware Detection System against Adversarial Attacks on Heterogeneous Graph based Model](#116)
+    - [17] [Edge Dithering for Robust Adaptive Graph Convolutional Networks](#117)
+    - [18] [GraphSAC: Detecting Anomalies in Large-scale Graphs](#118)
+    - [19] [Certifiable Robustness to Graph Perturbations](#110)
+    - [20] [Adversarial Robustness of Similarity-Based Link Prediction](#120)
+    - [21] [Improving Robustness to Attacks Against Vertex Classification](#121)
+    - [22] [Adversarial Personalized Ranking for Recommendation](#122)
     
 - [Baselines](#baseline)
 
@@ -127,28 +127,28 @@
 
 | Venue| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset | Code | 
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| KDD 2019 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1906.12269) [🔙](#toc2) | GNN (trained with RH-U) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN, GCN | GNN (trained with CE, RCE, RH) | Accuracy, Averaged Worst-case Margin | Citeseer, Cora-ML, Pubmed | [Link](https://www.kdd.in.tum.de/research/robust-gcn/) |
-| IJCAI 2019 | <a class="toc" id ="102"></a> [[2]](https://arxiv.org/abs/1906.04214) [🔙](#toc2) | - | Adversarial Training | Adversarial Training | Node Classification | GCN | GCN | Misclassification Rate <br>Accuracy | Citeseer, Cora | [Link](https://github.com/KaidiXu/GCN_ADV_Train) |
-| ICLR 2020 OpenReview | <a class="toc" id ="103"></a> [[3]](https://arxiv.org/abs/1905.10029) [🔙](#toc2) | r-GCN, VPN | Graph Powering | Objective Based | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, ICA, Planetoid, Vanilla GCN | Accuracy, Robustness Merit,<br>Attack Deterioration | Citeseer, Cora, Pubmed | - |
-| IJCAI 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1903.01610) [🔙](#toc2) | - | Drop Edges | Preprocessing | Node Classification | GCN | GCN | Classfication Margin, Accuracy | Cora-ML, Citeseer, PolBlogs | [Link](https://github.com/stellargraph/stellargraph/) |
-| Arxiv 2019 | <a class="toc" id ="105"></a> [[5]](https://arxiv.org/abs/1905.03679) [🔙](#toc2) | DefNet | GAN,<br>GER,<br>ACL | Hybrid | Node Classification | GCN, GraphSAGE | GCN, GraphSage | Classfication Margin | Cora, Citeseer, PolBlogs | - |
-| NAACL 2019 | <a class="toc" id ="106"></a> [[6]](https://arxiv.org/abs/1905.00563) [🔙](#toc2) | CRIAGE | Adversarial Modification | Robustness Evaluation | Link Prediction | Knowledge Graph Embedding | - | Hits@K, MRR | Nations, Kinship, WN18, YAGO3-10 | - |
-| KDD 2019 | <a class="toc" id ="107"></a> [[7]](http://pengcui.thumedialab.com/papers/RGCN.pdf) [🔙](#toc2) | RGCN | Gaussian-based Graph Convolution | Structure Based | Node Classification | GCN | GCN, GAT | Accuracy | Cora, Citeseer, Pubmed | [Link](https://github.com/thumanlab/nrlweb/blob/master/static/assets/download/RGCN.zip) |
-| Arxiv 2019 | <a class="toc" id ="108"></a> [[8]](https://arxiv.org/abs/1903.05994) [🔙](#toc2) | Global-AT, Target-AT, SD, SCEL | Adversarial Training, Smooth Defense | Hybrid | Node Classification | GNN | AT | ADR, ACD | PolBlogs, Cora, Citeseer | - |
-| PRCV 2019 | <a class="toc" id ="109"></a> [[9]](https://arxiv.org/abs/1902.11045) [🔙](#toc2) | SVAT, DVAT | Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | GCN | Accuracy | Cora, Citeseer, Pubmed | - |
-| RLGM@ICLR 2019 | <a class="toc" id ="110"></a> [[10]](https://rlgm.github.io/papers/57.pdf) [🔙](#toc2) | - | KL Divergence | Detection Based | Node Classification | GCN, GAT | - | Classfication Margin, Accuracy,<br>ROC, AUC | Cora, Citeseer, PolBlogs | - |
-| Arxiv 2019 | <a class="toc" id ="111"></a> [[11]](https://arxiv.org/abs/1902.08226) [🔙](#toc2) | GCN-GATV | Graph Adversarial Training, Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | LP, DeepWalk, SemiEmb, Planetoid, GCN, GraphSGAN | Accuracy | Citeseer, Cora, NELL | - |
-| ICLR 2019 OpenReview | <a class="toc" id ="112"></a> [[12]](https://openreview.net/forum?id=HJxdAoCcYX) [🔙](#toc2) | SL, OD, GGD, LP+GGD, ENS | Link Prediction, Subsampling, Neighbour Analysis| Hybrid | Node Classification | GNN, GCN | LP | AUC | Cora, Citeseer | - |
-| ICML 2019 | <a class="toc" id ="113"></a> [[13]](https://arxiv.org/abs/1902.09192) [🔙](#toc2) | S-BVAT, O-BVAT | Batch Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, Planetoid, Monet, GAT, GPNN, GCN, VAT | Accuracy | Cora, Citeseer, Pubmed, Nell | [Link](https://github.com/thudzj/BVAT) |
-| WSDM 2020 | <a class="toc" id ="114"></a> [[14]](https://arxiv.org/abs/1908.07558) [🔙](#toc2) | PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node Classification | GNN | GCN, GAT, PreProcess, RGCN, VPN | Accuracy | Pubmed, Reddit, Yelp-Small, Yelp-Large | - |
+| WSDM 2020 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1908.07558) [🔙](#toc2) | PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node Classification | GNN | GCN, GAT, PreProcess, RGCN, VPN | Accuracy | Pubmed, Reddit, Yelp-Small, Yelp-Large | - |
+| ICLR 2020 OpenReview | <a class="toc" id ="102"></a> [[2]](https://arxiv.org/abs/1905.10029) [🔙](#toc2) | r-GCN, VPN | Graph Powering | Objective Based | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, ICA, Planetoid, Vanilla GCN | Accuracy, Robustness Merit,<br>Attack Deterioration | Citeseer, Cora, Pubmed | - |
+| KDD 2019 | <a class="toc" id ="103"></a> [[3]](https://arxiv.org/abs/1906.12269) [🔙](#toc2) | GNN (trained with RH-U) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN, GCN | GNN (trained with CE, RCE, RH) | Accuracy, Averaged Worst-case Margin | Citeseer, Cora-ML, Pubmed | [Link](https://www.kdd.in.tum.de/research/robust-gcn/) |
+| IJCAI 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1906.04214) [🔙](#toc2) | - | Adversarial Training | Adversarial Training | Node Classification | GCN | GCN | Misclassification Rate <br>Accuracy | Citeseer, Cora | [Link](https://github.com/KaidiXu/GCN_ADV_Train) |
+| IJCAI 2019 | <a class="toc" id ="105"></a> [[5]](https://arxiv.org/abs/1903.01610) [🔙](#toc2) | - | Drop Edges | Preprocessing | Node Classification | GCN | GCN | Classfication Margin, Accuracy | Cora-ML, Citeseer, PolBlogs | [Link](https://github.com/stellargraph/stellargraph/) |
+| Arxiv 2019 | <a class="toc" id ="106"></a> [[6]](https://arxiv.org/abs/1905.03679) [🔙](#toc2) | DefNet | GAN,<br>GER,<br>ACL | Hybrid | Node Classification | GCN, GraphSAGE | GCN, GraphSage | Classfication Margin | Cora, Citeseer, PolBlogs | - |
+| NAACL 2019 | <a class="toc" id ="107"></a> [[7]](https://arxiv.org/abs/1905.00563) [🔙](#toc2) | CRIAGE | Adversarial Modification | Robustness Evaluation | Link Prediction | Knowledge Graph Embedding | - | Hits@K, MRR | Nations, Kinship, WN18, YAGO3-10 | - |
+| KDD 2019 | <a class="toc" id ="108"></a> [[8]](http://pengcui.thumedialab.com/papers/RGCN.pdf) [🔙](#toc2) | RGCN | Gaussian-based Graph Convolution | Structure Based | Node Classification | GCN | GCN, GAT | Accuracy | Cora, Citeseer, Pubmed | [Link](https://github.com/thumanlab/nrlweb/blob/master/static/assets/download/RGCN.zip) |
+| Arxiv 2019 | <a class="toc" id ="109"></a> [[9]](https://arxiv.org/abs/1903.05994) [🔙](#toc2) | Global-AT, Target-AT, SD, SCEL | Adversarial Training, Smooth Defense | Hybrid | Node Classification | GNN | AT | ADR, ACD | PolBlogs, Cora, Citeseer | - |
+| PRCV 2019 | <a class="toc" id ="110"></a> [[10]](https://arxiv.org/abs/1902.11045) [🔙](#toc2) | SVAT, DVAT | Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | GCN | Accuracy | Cora, Citeseer, Pubmed | - |
+| RLGM@ICLR 2019 | <a class="toc" id ="111"></a> [[11]](https://rlgm.github.io/papers/57.pdf) [🔙](#toc2) | - | KL Divergence | Detection Based | Node Classification | GCN, GAT | - | Classfication Margin, Accuracy,<br>ROC, AUC | Cora, Citeseer, PolBlogs | - |
+| Arxiv 2019 | <a class="toc" id ="112"></a> [[12]](https://arxiv.org/abs/1902.08226) [🔙](#toc2) | GCN-GATV | Graph Adversarial Training, Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | LP, DeepWalk, SemiEmb, Planetoid, GCN, GraphSGAN | Accuracy | Citeseer, Cora, NELL | - |
+| ICLR 2019 OpenReview | <a class="toc" id ="113"></a> [[13]](https://openreview.net/forum?id=HJxdAoCcYX) [🔙](#toc2) | SL, OD, GGD, LP+GGD, ENS | Link Prediction, Subsampling, Neighbour Analysis| Hybrid | Node Classification | GNN, GCN | LP | AUC | Cora, Citeseer | - |
+| ICML 2019 | <a class="toc" id ="114"></a> [[14]](https://arxiv.org/abs/1902.09192) [🔙](#toc2) | S-BVAT, O-BVAT | Batch Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, Planetoid, Monet, GAT, GPNN, GCN, VAT | Accuracy | Cora, Citeseer, Pubmed, Nell | [Link](https://github.com/thudzj/BVAT) |
 | Arxiv 2019 | <a class="toc" id ="115"></a> [[15]](https://arxiv.org/abs/1911.04429) [🔙](#toc2) | GraphDefense | Adversarial Training | Adversarial Training | Node Classification | GCN | Drop Edges, Discrete Adversarial Training | Accuracy | Cora, Citeseer, Reddit | - |
-| SIGIR 2018 | <a class="toc" id ="116"></a> [[16]](https://dl.acm.org/citation.cfm?id=3209981) [🔙](#toc2) | APR, AMF | Adversarial Training based on MF-BPR | Adversarial Training | Recommendation | MF-BPR | ItemPop, MF-BPR, CDAE, NeuMF, IRGAN | HR, NDCG | Yelp, Pinterest, Gowalla | [Link](https://github.com/hexiangnan/adversarial_personalized_ranking) |
-| CIKM 2019 | <a class="toc" id ="117"></a> [[17]](https://dl.acm.org/citation.cfm?id=3357875) [🔙](#toc2) | Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, ... | Detection Rate | Tencent Security Lab Dataset | - |
-| Arxiv 2019 | <a class="toc" id ="118"></a> [[18]](https://arxiv.org/abs/1910.09590) [🔙](#toc2) | AGCN | Adaptive GCN with Edge Dithering | Structure Based  | Node Classification | GCN | GCN | Accuracy | Citeseer, PolBlogs, Cora, Pubmed | - |
-| Arxiv 2019 | <a class="toc" id ="119"></a> [[19]](https://arxiv.org/abs/1910.09589) [🔙](#toc2) | GraphSVC | Random Sampling, Consensus | Detection Based | Anomaly Detection | Anomaly Model | GAE, Amen, Radar, Degree, Cut ratio, Flake, Conductance | AUC | Citeseer, PolBlogs, Cora, Pubmed | - |
-| NIPS 2019 | <a class="toc" id ="120"></a> [[20]](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations) [🔙](#toc2) | GNN (train with <img src="http://latex.codecogs.com/gif.latex?L_{RCE}">, <img src="http://latex.codecogs.com/gif.latex?L_{CEM}"> ) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy, Worst-case Margin | Cora-ML, Citeseer, Pubmed | [link](https://github.com/abojchevski/graph_cert) |
-| ICDM 2019 | <a class="toc" id ="121"></a> [[21]](https://arxiv.org/abs/1909.01432) [🔙](#toc2) | IDOpt, IDRank | Integer Program, Edge Ranking | Heuristic Algorithm | Link Prediction | Similarity-based Link Prediction Models | PPN | DPR | PA, PLD, TVShow, Gov | - |
-| MLG@KDD 2019 | <a class="toc" id ="122"></a> [[22]](http://eliassi.org/papers/benmiller-mlg2019.pdf) [🔙](#toc2) | SVM with a radial basis function kernel | Augmented Feature, Edge Selecting | Hybrid | Node Classification | SVM | GCN | Classification Marigin | Cora, Citeseer | - |
+| CIKM 2019 | <a class="toc" id ="116"></a> [[16]](https://dl.acm.org/citation.cfm?id=3357875) [🔙](#toc2) | Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, ... | Detection Rate | Tencent Security Lab Dataset | - |
+| Arxiv 2019 | <a class="toc" id ="117"></a> [[17]](https://arxiv.org/abs/1910.09590) [🔙](#toc2) | AGCN | Adaptive GCN with Edge Dithering | Structure Based  | Node Classification | GCN | GCN | Accuracy | Citeseer, PolBlogs, Cora, Pubmed | - |
+| Arxiv 2019 | <a class="toc" id ="118"></a> [[18]](https://arxiv.org/abs/1910.09589) [🔙](#toc2) | GraphSVC | Random Sampling, Consensus | Detection Based | Anomaly Detection | Anomaly Model | GAE, Amen, Radar, Degree, Cut ratio, Flake, Conductance | AUC | Citeseer, PolBlogs, Cora, Pubmed | - |
+| NIPS 2019 | <a class="toc" id ="119"></a> [[19]](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations) [🔙](#toc2) | GNN (train with <img src="http://latex.codecogs.com/gif.latex?L_{RCE}">, <img src="http://latex.codecogs.com/gif.latex?L_{CEM}"> ) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy, Worst-case Margin | Cora-ML, Citeseer, Pubmed | [link](https://github.com/abojchevski/graph_cert) |
+| ICDM 2019 | <a class="toc" id ="120"></a> [[20]](https://arxiv.org/abs/1909.01432) [🔙](#toc2) | IDOpt, IDRank | Integer Program, Edge Ranking | Heuristic Algorithm | Link Prediction | Similarity-based Link Prediction Models | PPN | DPR | PA, PLD, TVShow, Gov | - |
+| MLG@KDD 2019 | <a class="toc" id ="121"></a> [[21]](http://eliassi.org/papers/benmiller-mlg2019.pdf) [🔙](#toc2) | SVM with a radial basis function kernel | Augmented Feature, Edge Selecting | Hybrid | Node Classification | SVM | GCN | Classification Marigin | Cora, Citeseer | - |
+| SIGIR 2018 | <a class="toc" id ="122"></a> [[22]](https://dl.acm.org/citation.cfm?id=3209981) [🔙](#toc2) | APR, AMF | Adversarial Training based on MF-BPR | Adversarial Training | Recommendation | MF-BPR | ItemPop, MF-BPR, CDAE, NeuMF, IRGAN | HR, NDCG | Yelp, Pinterest, Gowalla | [Link](https://github.com/hexiangnan/adversarial_personalized_ranking) |
 
 <a class="toc" id ="baseline"></a>
 # Baselines
