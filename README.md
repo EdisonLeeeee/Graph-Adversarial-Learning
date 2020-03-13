@@ -19,7 +19,7 @@
     + [14] [Adversarial Attacks on Node Embeddings via Graph Poisoning](#14)
     + [15] [Time-aware Gradient Attack on Dynamic Network Link Prediction](#15)
     + [16] [Attacking Graph Convolutional Networks via Rewiring](#16)
-    + [17] [Topology Attack and Defense for Graph Neural Networks:8An Optimization Perspective](#17)
+    + [17] [Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective](#17)
     + [18] [Unsupervised Euclidean Distance Attack on Network Embedding](#18)
     + [19] [Generalizable Adversarial Attacks Using Generative Models](#19)
     + [20] [Data Poisoning Attack Against Knowledge Graph Embedding](#20)
@@ -38,7 +38,7 @@
     + [33] [Attacking Similarity-Based Link Prediction in Social Networks](#33)
     + [34] [Practical Attacks Against Graph-Based Clustering](#34)
 
-+ [Attack Type](#Type) (incoming)
++ [Attack Type](#Type) (Incoming)
 
 <a class="toc" id ="toc2"></a>
 
