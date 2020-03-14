@@ -73,7 +73,9 @@
 
 + [Metric](#metric)
 
-+ [Cite](#cite)
++ [Survey](#survey)
+
++ [Citation](#citation)
  
 
 # Attack
@@ -83,7 +85,7 @@
 |Arxiv<br>2020|<a class="toc" id ="2"></a>[[2]](https://arxiv.org/abs/2002.01249)<br>[🔙](#toc1)|RLR, DALR, DILR|Random, <br>Degree-based|Network Structure|Physical Criteria|-| △M (AML),<br> △L, △C ,△D|Generated simplex networks|-|
 |Arxiv<br>2020|<a class="toc" id ="3"></a>[[3]](https://arxiv.org/abs/2002.04784)<br>[🔙](#toc1)|GUA|Anchors identified (based on GCN)|Node Classification|GCN, DeepWalk, <br> Node2Vec, GAT|Random, VCA, FGA|AML, ASR|Cora, Citeseer, Polblogs,|-|
 |WWW<br>2020|<a class="toc" id ="4"></a>[[4]](https://arxiv.org/abs/2001.07933)<br>[🔙](#toc1)|CD-ATTACK|Graph generation based on GCN|Community Detection|GCN,<br>Node2vec + K-means,<br>ComE|DICE, MBA, RTA|Hiding performance measure M1 & M2|DBLP,<br>Finance|[Link](https://github.com/halimiqi/CD-ATTACK)|
-|AAMAS<br>2020|<a class="toc" id ="5"></a>[[5]](https://arxiv.org/abs/1910.11529)<br>[🔙](#toc1)|FPTA||Node Similarity|Node Similarity Measures|Random, Greedy,<br> High Jaccard Similarity (HJ)||Barabasi-Albert (BA),<br>Erdos-Renyi (ER)|
+|AAMAS<br>2020|<a class="toc" id ="5"></a>[[5]](https://arxiv.org/abs/1910.11529)<br>[🔙](#toc1)|FPTA|-|Node Similarity|Node Similarity Measures|Random, Greedy,<br> High Jaccard Similarity (HJ)||Barabasi-Albert (BA),<br>Erdos-Renyi (ER)|
 |Arxiv<br>2019|<a class="toc" id ="6"></a>[[6]](https://arxiv.org/abs/1909.06543)<br>[🔙](#toc1)|||Node Classification|GCN|-|
 |Arxiv<br>2019|<a class="toc" id ="7"></a>[[7]](https://arxiv.org/abs/1905.01776)<br>[🔙](#toc1)| ||Vertex Nomination|VN Scheme|-|
 |Arxiv<br>2019|<a class="toc" id ="8"></a>[[8]](https://deepai.org/publication/the-general-black-box-attack-method-for-graph-neural-networks)<br>[🔙](#toc1)| |||||||-|
@@ -145,6 +147,8 @@
 |[25] [Practical Attacks Against Graph-Based Clustering](#25)| -->
 
 ![Attack](imgs/Attack.png)
+![Targeted attack](imgs/attack_demo.png){:height="50%" width="50%"}
+![Poisoning attack and Evasion attack](imgs/p_and_e.png)
 
  
 
@@ -214,11 +218,22 @@
 
 
 <a class="toc" id ="metric"></a>
+
 # Metric
+[🔙](#toc1)
 ![Metric](imgs/Metric.png)
 
-# Cite
+<a class="toc" id ="Survey"></a>
+
+# Survey
+[🔙](#toc1)
 [A Survey of Adversarial Learning on Graphs](https://arxiv.org/abs/2003.05730)
+
+<a class="toc" id ="Citation"></a>
+
+# Citation
+[🔙](#toc1)
+If you find this repo useful, please cite:
 ```
 @misc{chen2020survey,
     title={A Survey of Adversarial Learning on Graphs},
