@@ -76,7 +76,7 @@
 
 + [Survey](#survey)
 
-+ [Citation](#citation)
++ [Cite](#cite)
  
 
 # Attack
@@ -91,7 +91,7 @@
 |NIPS<br>2019|<a class="toc" id ="7"></a>[[7]](https://arxiv.org/abs/1910.14147)<br>[🔙](#toc1)|G-SSL|Gradient based asymptotic linear algorithm|Classification,<br>Regression|Label propagation & regularization algs|Random, PageRank,<br>Degree|Error rate, RMSE|cadata, E2006,<br>mnist17, rcv1|[Link](https://github.com/xuanqing94/AdvSSL)|
 |AAAI<br>2020|<a class="toc" id ="8"></a>[[8]](https://arxiv.org/abs/1908.01297)<br>[🔙](#toc1)|GF-Attack|Graph signal processing|Node Classification|GCN, SGC,<br>DeepWalk,<br>LINE|Random,<br>Degree,<br>RL-S2V, <img src="http://latex.codecogs.com/gif.latex?A_{class}">|Accuracy|Cora,<br>CiteSeer,<br>Pubmed|[Link](https://github.com/SwiftieH/GFAttack)|
 |Arxiv<br>2019|<a class="toc" id ="9"></a>[[9]](https://arxiv.org/abs/1910.09741)<br>[🔙](#toc1)|IG-FGSM,<br>IG-JSMA|Gradient-based GCN|Node Classification|GCN|FGSM,<br> JSMA,<br> Nettack|Classification Margin,<br>Accuracy|Cora,<br>CiteSeer,<br>PolBlogs|-|
-|Arxiv<br>2019|<a class="toc" id ="10"></a>[[10]](https://arxiv.org/abs/1910.09741)<br>[🔙](#toc1)|EPA|Genetic algorithm based on|Community Detection|GRE, INF, LOU|<img src="http://latex.codecogs.com/gif.latex?A_Q, A_S">, <img src="http://latex.codecogs.com/gif.latex?A_B, A_D,"><br> <img src="http://latex.codecogs.com/gif.latex?D_S, D_W">|NMI, ARI|Synthetic networks,<br>Football,<br>Email,<br>Polblogs|-|
+|Arxiv<br>2019|<a class="toc" id ="10"></a>[[10]](https://arxiv.org/abs/1910.09741)<br>[🔙](#toc1)|EPA|Genetic algorithm|Community Detection|GRE, INF, LOU|<img src="http://latex.codecogs.com/gif.latex?A_Q, A_S">, <img src="http://latex.codecogs.com/gif.latex?A_B, A_D,"><br> <img src="http://latex.codecogs.com/gif.latex?D_S, D_W">|NMI, ARI|Synthetic networks,<br>Football,<br>Email,<br>Polblogs|-|
 |ICLR<br>2019|<a class="toc" id ="11"></a>[[11]](https://arxiv.org/abs/1902.08412)<br>[🔙](#toc1)|Meta-Self<br>Meta-Train|Gradient-based GCN|Node Classification|GCN,<br>CLN,<br>DeepWalk|DICE, <br>Nettack, <br>First-order|Misclassification Rate, <br>Accuracy |Cora,<br>CiteSeer,<br>PolBlogs,<br>PubMed|[Link](https://github.com/danielzuegner/gnn-meta-attack)|
 |ICML<br>2019|<a class="toc" id ="12"></a>[[12]](https://arxiv.org/abs/1809.01093)<br>[🔙](#toc1)|<img src="http://latex.codecogs.com/gif.latex?\mathcal{A}_{DW2}"><br><img src="http://latex.codecogs.com/gif.latex?\mathcal{A}_{DW3}">|Gradient- based random walk|Node Classification,<br>Link Prediction|DeepWalk|<img src="http://latex.codecogs.com/gif.latex?\mathcal{B}_{rnd}"><br><img src="http://latex.codecogs.com/gif.latex?\mathcal{B}_{eig}"><br><img src="http://latex.codecogs.com/gif.latex?\mathcal{B}_{deg}">|F1 Score,<br>Classification Margin<br>|Cora,<br>Citeseer,<br>PolBlogs|[Link](https://github.com/abojchevski/node_embedding_attack)
 |Arxiv<br>2019|<a class="toc" id ="13"></a>[[13]](http://arxiv.org/abs/1911.10561)<br>[🔙](#toc1)|TGA-Tra,<br>TGA-Gre|Gradient-based DDNE|Link Prediction|DDNE, ctRBM,<br>GTRBM,<br>dynAERNN|Random, DGA,<br>CNA|ASR, AML |RADOSLAW,<br>LKML,<br>FB-WOSN|-|
@@ -100,7 +100,7 @@
 |Arxiv<br>2019|<a class="toc" id ="16"></a>[[16]](https://arxiv.org/abs/1905.11015)<br>[🔙](#toc1)|EDA|Genetic algorithm based on DeepWalk|Node Classification,<br>Community Detection|HOPE,<br>LPA,<br>EM,<br>DeepWalk|Random,<br>DICE,<br>RLS,<br>DBA|NMI,<br>Micro-F1,<br>Macro-F1|Karate,<br>Game,<br>Dolphin|-|
 |Arxiv<br>2019|<a class="toc" id ="17"></a>[[17]](https://arxiv.org/abs/1905.10864)<br>[🔙](#toc1)|DAGAER|Generative model based on VGAE|Node Classification|GCN|Nettack|ASR |Cora<br>CiteSeer|-|
 |IJCAI<br>2019|<a class="toc" id ="18"></a>[[18]](https://arxiv.org/abs/1904.12052)<br>[🔙](#toc1)|-|Knowledge embedding|Fact Plausibility Prediction|TransE,<br>TransR,<br>RESCAL|RA|MRR,<br>HR@K|FB15k,<br>WN18|-|
-|CCS<br>2019|<a class="toc" id ="19"></a>[[19]](https://arxiv.org/abs/1903.00553)<br>[🔙](#toc1)|-|Based on LinLBP|Node Classification,<br>Evasion|LinLBP, JWP,<br>LBP, RW, LINE,<br>DeepWalk,<br>Node2vec,<br>GCN|Random,<br>Nettack|FNR ,<br>FPR |Facebook,<br>Enron,<br>Epinions,<br>Twitter,<br>Google+|-|
+|CCS<br>2019|<a class="toc" id ="19"></a>[[19]](https://arxiv.org/abs/1903.00553)<br>[🔙](#toc1)|-|Based on LinLBP|Node Classification,<br>Evasion|LinLBP, JWP,<br>LBP, RW, LINE,<br>DeepWalk,<br>Node2vec,<br>GCN|Random,<br>Nettack|FNR,<br>FPR |Facebook,<br>Enron,<br>Epinions,<br>Twitter,<br>Google+|-|
 |TCSS<br>2019|<a class="toc" id ="20"></a>[[20]](https://arxiv.org/abs/1811.00430)<br>[🔙](#toc1)|Q-Attack|Genetic algorithm|Community Detection|FN, Lou, SOA,<br>LPA, INF,<br>Node2vec+KM|Random,<br>CDA,<br>DBA|Modularity Q,<br>NMI|Karate,<br>Dolphins,<br>Football,<br>Polbooks|-|
 |CIKM<br>2019|<a class="toc" id ="21"></a>[[21]](https://dl_acm.xilesou.top/citation.cfm?id=3357875)<br>[🔙](#toc1)|HG-Attack|Label propagation algorithm<br>Nodes injection|Malware Detection|Orig-HGC|AN-Attack|TP, TN, FP, FN, F1, <br>Precision, Recall, Accuracy|Tencent Security Lab Dataset|-|
 |Arxiv<br>2019|<a class="toc" id ="22"></a>[[22]](https://arxiv.org/abs/1912.04109)<br>[🔙](#toc1)|UNAttack|Gradient-based similarity method,<br>Nodes injection|Recommendation|Memory-based CF,<br>BPRMF, NCF|-|Hit@K|Filmtrust,<br>Movielens,<br>Amazon|-|
@@ -231,9 +231,9 @@
 
 [A Survey of Adversarial Learning on Graphs](https://arxiv.org/abs/2003.05730)
 
-<a class="toc" id ="Citation"></a>
+<a class="toc" id ="Cite"></a>
 
-# Citation
+# Cite
 [🔙](#toc)
 
 If you find this repo useful, please cite:
