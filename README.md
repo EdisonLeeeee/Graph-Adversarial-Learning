@@ -87,7 +87,7 @@
 |Arxiv<br>2020|<a class="toc" id ="3"></a>[[3]](https://arxiv.org/abs/2002.04784)<br>[🔙](#toc1)|GUA|Anchors identified (based on GCN)|Node Classification|GCN, DeepWalk, <br> Node2Vec, GAT|Random, VCA, FGA|AML, ASR|Cora, Citeseer, Polblogs,|-|
 |WWW<br>2020|<a class="toc" id ="4"></a>[[4]](https://arxiv.org/abs/2001.07933)<br>[🔙](#toc1)|CD-ATTACK|Graph generation based on GCN|Community Detection|GCN,<br>Node2vec + K-means,<br>ComE|DICE, MBA, RTA|Hiding performance measure M1 & M2|DBLP,<br>Finance|[Link](https://github.com/halimiqi/CD-ATTACK)|
 |AAMAS<br>2020|<a class="toc" id ="5"></a>[[5]](https://arxiv.org/abs/1910.11529)<br>[🔙](#toc1)|FPTA|-|Node Similarity|Node Similarity Measures|Random, Greedy,<br> High Jaccard Similarity (HJ)|Time, AML|Barabasi-Albert (BA),<br>Erdos-Renyi (ER)|
-|Arxiv<br>2019|<a class="toc" id ="6"></a>[[6]](https://arxiv.org/abs/1909.06543)<br>[🔙](#toc1)|NIPA|Reinforcement learning,<br>Nodes injection|Node Classification|GCN|Random, Nettack,<br>RL-S2V, FGA,<br>Preferential attack|Accuracy|Cora, Citeseer,<br>Pubmed|-|
+|Arxiv<br>2019|<a class="toc" id ="6"></a>[[6]](https://arxiv.org/abs/1909.06543)<br>[🔙](#toc1)|NIPA|Reinforcement learning,<br>Nodes injection|Node Classification|GCN|Random, Nettack,<br>RL-S2V, FGA,<br>Preferential attack|Accuracy|Cora-ML, Citeseer,<br>Pubmed|-|
 |NIPS<br>2019|<a class="toc" id ="7"></a>[[7]](https://arxiv.org/abs/1910.14147)<br>[🔙](#toc1)|G-SSL|Gradient based asymptotic linear algorithm|Classification,<br>Regression|Label propagation & regularization algs|Random, PageRank,<br>Degree|Error rate, RMSE|cadata, E2006,<br>mnist17, rcv1|[Link](https://github.com/xuanqing94/AdvSSL)|
 |AAAI<br>2020|<a class="toc" id ="8"></a>[[8]](https://arxiv.org/abs/1908.01297)<br>[🔙](#toc1)|GF-Attack|Graph signal processing|Node Classification|GCN, SGC,<br>DeepWalk,<br>LINE|Random,<br>Degree,<br>RL-S2V, <img src="http://latex.codecogs.com/gif.latex?A_{class}">|Accuracy|Cora,<br>CiteSeer,<br>Pubmed|[Link](https://github.com/SwiftieH/GFAttack)|
 |Arxiv<br>2019|<a class="toc" id ="9"></a>[[9]](https://arxiv.org/abs/1910.09741)<br>[🔙](#toc1)|IG-FGSM,<br>IG-JSMA|Gradient-based GCN|Node Classification|GCN|FGSM,<br> JSMA,<br> Nettack|Classification Margin,<br>Accuracy|Cora,<br>CiteSeer,<br>PolBlogs|-|
@@ -103,7 +103,7 @@
 |CCS<br>2019|<a class="toc" id ="19"></a>[[19]](https://arxiv.org/abs/1903.00553)<br>[🔙](#toc1)|-|Based on LinLBP|Node Classification,<br>Evasion|LinLBP, JWP,<br>LBP, RW, LINE,<br>DeepWalk,<br>Node2vec,<br>GCN|Random<br>Nettack|FNR ,<br>FPR |Facebook,<br>Enron,<br>Epinions,<br>Twitter,<br>Google+|-|
 |TCSS<br>2019|<a class="toc" id ="20"></a>[[20]](https://arxiv.org/abs/1811.00430)<br>[🔙](#toc1)|Q-Attack|Genetic algorithm|Community Detection|FN, Lou, SOA,<br>LPA, INF,<br>Node2vec+KM|Random<br>CDA,<br>DBA|Modularity Q,<br>NMI|Karate,<br>Dolphins,<br>Football,<br>Polbooks|-|
 |CIKM<br>2019|<a class="toc" id ="21"></a>[[21]](https://dl_acm.xilesou.top/citation.cfm?id=3357875)<br>[🔙](#toc1)|HG-Attack|Label propagation algorithm<br>Nodes injection|Malware Detection|Orig-HGC|AN-Attack|TP, TN, FP, FN, F1, <br>Precision, Recall, Accuracy|Tencent Security Lab Dataset|-|
-|Arxiv<br>2019|<a class="toc" id ="22"></a>[[22]](https://arxiv.org/abs/1912.04109)<br>[🔙](#toc1)|UNAttack|Gradient-based similarity method<br>Nodes injection|Recommendation|Memory-based CF,<br>BPRMF, NCF|-|Hit@K|Filmtrust,<br>Movielens,<br>Amazon|-|
+|Arxiv<br>2019|<a class="toc" id ="22"></a>[[22]](https://arxiv.org/abs/1912.04109)<br>[🔙](#toc1)|UNAttack|Gradient-based similarity method,<br>Nodes injection|Recommendation|Memory-based CF,<br>BPRMF, NCF|-|Hit@K|Filmtrust,<br>Movielens,<br>Amazon|-|
 |Arxiv<br>2018|<a class="toc" id ="23"></a>[[23]](https://arxiv.org/abs/1809.08336)<br>[🔙](#toc1)|-|Gradient-based GAN, MF<br>Nodes injection|Recommendation|MF|Random, Average, Popular, Co-visitation|Attack Difference,<br>TVD, JS, Est., <br>Rank Loss @K,<br>Adversarial loss|Movielens 100K,<br>Movielens 1M|-|
 |Arxiv<br>2018|<a class="toc" id ="24"></a>[[24]](https://arxiv.org/abs/1810.10751)<br>[🔙](#toc1)|Greedy,<br>Greedy GAN|Gradient-based GCN, GAN|Node Classification|GCN|RA|Accuracy, <br>F1 Score, ASR |Cora, <br>Citeseer|-
 |Arxiv<br>2018|<a class="toc" id ="25"></a>[[25]](https://arxiv.org/abs/1809.00152)<br>[🔙](#toc1)|CTR<br>OTC|Neighbour score based on graph structure|Link Prediction|Traditional Link Prediction Algs|-|AUC, AP|WTC 9/11,<br>ScaleFree,<br>Facebook,<br>Random network|-|
@@ -146,16 +146,16 @@
 |[25] [Practical Attacks Against Graph-Based Clustering](#25)| -->
 
 ![Attack](imgs/Attack.png)
-![Targeted attack](imgs/attack_demo.png){:height="50%" width="50%"}
+![Targeted attack](imgs/attack_demo.png)
 ![Poisoning attack and Evasion attack](imgs/p_and_e.png)
 
- 
+
 
 # Defense
 
 | Venue| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset | Code |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| WSDM 2020 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1908.07558) [🔙](#toc2) | PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node Classification | GNN | GCN, GAT, PreProcess, RGCN, VPN | Accuracy | Pubmed, Reddit, Yelp-Small, Yelp-Large | - |
+| WSDM 2020 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1908.07558) [🔙](#toc2) | PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node Classification | GNN | GCN, GAT, PreProcess, RGCN, VPN | Accuracy | Pubmed, Reddit, Yelp| - |
 | WWW 2020 | <a class="toc" id ="102"></a> [[2]](https://arxiv.org/abs/2002.03421) [🔙](#toc2) ||| |||||||| - |
 | ICLR 2020 OpenReview | <a class="toc" id ="103"></a> [[3]](https://arxiv.org/abs/1905.10029) [🔙](#toc2) | r-GCN, VPN | Graph Powering | Objective Based | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, ICA, Planetoid, Vanilla GCN | Accuracy, Robustness Merit,<br>Attack Deterioration | Citeseer, Cora, Pubmed | - |
 | Arxiv 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1912.10206) [🔙](#toc2) ||| |||||||| - |
