@@ -146,10 +146,12 @@
 |[25] [Practical Attacks Against Graph-Based Clustering](#25)| -->
 
 ![Attack](imgs/Attack.png)
-![Targeted attack](imgs/attack_demo.png)
-![Poisoning attack and Evasion attack](imgs/p_and_e.png)
 
-
+<table align=center><tr><td><table align=”left”><tr><td>
+<img src="imgs/attack_demo.png" ></a></td></tr></table></td><td><table align=”left”
+><tr><td>
+<img src="imgs/p_and_e.png" ></a>
+</td></tr></table></td></tr></table>
 
 # Defense
 
