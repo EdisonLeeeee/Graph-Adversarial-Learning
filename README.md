@@ -153,9 +153,9 @@
 | Venue| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset | Code |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | WSDM 2020 | <a class="toc" id ="101"></a> [[1]](https://arxiv.org/abs/1908.07558) [🔙](#toc2) | PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node Classification | GNN | GCN, GAT, PreProcess, RGCN, VPN | Accuracy | Pubmed, Reddit, Yelp-Small, Yelp-Large | - |
-| WWW 2020 | <a class="toc" id ="102"></a> [[2]](https://arxiv.org/abs/2002.03421) [🔙](#toc2) ||| |||||||| - |
+| WWW 2020 | <a class="toc" id ="102"></a> [[2]](https://arxiv.org/abs/2002.03421) [🔙](#toc2) |-|Robustness Certification| Hybrid|Community detection|-|-|certified accuracy|Email,DBLP,Amazon||| - |
 | ICLR 2020 OpenReview | <a class="toc" id ="103"></a> [[3]](https://arxiv.org/abs/1905.10029) [🔙](#toc2) | r-GCN, VPN | Graph Powering | Objective Based | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, ICA, Planetoid, Vanilla GCN | Accuracy, Robustness Merit,<br>Attack Deterioration | Citeseer, Cora, Pubmed | - |
-| Arxiv 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1912.10206) [🔙](#toc2) ||| |||||||| - |
+| Arxiv 2019 | <a class="toc" id ="104"></a> [[4]](https://arxiv.org/abs/1912.10206) [🔙](#toc2) |-|Adversarial Training|Adversarial Training|Node Classification|GIN|GIN(without agumented data)|F1 score|||| - |
 | WSDM 2019 | <a class="toc" id ="105"></a> [[5]](https://dl.acm.org/doi/abs/10.1145/3336191.3371789) [🔙](#toc2) ||| |||||||| [Link](https://github.com/DSE-MSU/DeepRobust) |
 | KDD 2019 | <a class="toc" id ="106"></a> [[6]](https://arxiv.org/abs/1906.12269) [🔙](#toc2) | GNN (trained with RH-U) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN, GCN | GNN (trained with CE, RCE, RH) | Accuracy, Averaged Worst-case Margin | Citeseer, Cora-ML, Pubmed | [Link](https://www.kdd.in.tum.de/research/robust-gcn/) |
 | IJCAI 2019 | <a class="toc" id ="107"></a> [[7]](https://arxiv.org/abs/1906.04214) [🔙](#toc2) | - | Adversarial Training | Adversarial Training | Node Classification | GCN | GCN | Misclassification Rate <br>Accuracy | Citeseer, Cora | [Link](https://github.com/KaidiXu/GCN_ADV_Train) |
