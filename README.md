@@ -1,8 +1,28 @@
+<a class="toc" id="table-of-contents"></a>
+# Table of Contents
++ [Attack](#1)
+	+ [2020](#1-1)
+	+ [2019](#1-2)
+	+ [2018](#1-3)
+	+ [2017](#1-4)
++ [Attack types](#2)
++ [Defense](#3)
+	+ [2020](#3-1)
+	+ [2019](#3-2)
+	+ [2018](#3-3)
+	+ [2017](#3-4)
++ [Survey](#4)
++ [Resource](#5)
++ [Toolbox](#6)
++ [Cite](#7)
 
-We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to have a better view on the tables in this repo.
 
+
+<a class="toc" id ="1"></a>
 # Attack
+[🔙](#table-of-contents)
 
+<a class="toc" id ="1-1"></a>
 ## 2020
 
 |Ref.|Title|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
@@ -26,6 +46,7 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 |[Arxiv](https://arxiv.org/abs/2001.04051)|An Adversarial Approach for the Robust Classification of Pneumonia from Chest Radiographs|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[Arxiv](https://arxiv.org/abs/2006.05057)|Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 
+<a class="toc" id ="1-2"></a>
 ## 2019
 |Ref.|Title|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -48,6 +69,7 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 |[Arxiv](https://arxiv.org/abs/1905.01776)|Vertex Nomination, Consistent Estimation, and Adversarial Modification|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[Arxiv]|Title|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 
+<a class="toc" id ="1-3"></a>
 ## 2018
 
 |Ref.|Title|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
@@ -62,13 +84,16 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 |[Arxiv](https://arxiv.org/abs/1810.01110)|Link Prediction Adversarial Attack|IGA|Gradient|GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|
 |[Arxiv](https://arxiv.org/abs/1809.02797)|Fast Gradient Attack on Network Embedding|FGA|Gradient|GCN|Node Classification,<br>Community Detection|GCN,<br>GraRep,<br>DeepWalk,<br>Node2vec,<br>LINE,<br>GraphGAN|Random,<br>DICE,<br>Nettack|ASR, AML|Cora,<br>Citeseer,<br>PolBlogs|
 |[Arxiv](https://arxiv.org/abs/1810.12881)|Data Poisoning Attack against Unsupervised Node Embedding Methods|Opt-attack|Gradient|DeepWalk, LINE|Link Prediction|DeepWalk<br>LINE<br>Node2vec<br>SC<br>GAE|Random,<br>PageRank,<br>Degree sum,<br>Shortest path|Similarity Score <br>AP|Facebook,<br>Cora,<BR>Citeseer|
+<a class="toc" id ="1-4"></a>
 ## 2017
 |Ref.|Title|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[CCS](https://arxiv.org/abs/1708.09056)|Practical Attacks Against Graph-based Clustering|Targeted noise injection,<br>Small community attack|Noise injection|?|Graph Clustering,<br>Community Detection|SVD,<br>Node2vec,<br>Community Detection Algs|-|ASR, FPR |Reverse Engineered DGA Domains,<br>NXDOMAIN|
 |[UAI](https://arxiv.org/abs/1707.07596)|Adversarial Sets for Regularising Neural Link Predictors|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 
+<a class="toc" id ="2"></a>
 # Attack types
+[🔙](#table-of-contents)
 
 ![Attack](imgs/Attack.png)
 
@@ -79,8 +104,11 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 </td></tr></table></td></tr></table>
 
 
+<a class="toc" id ="3"></a>
 # Defense
+[🔙](#table-of-contents)
 
+<a class="toc" id ="3-1"></a>
 ## 2020
 | Ref.| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -109,6 +137,7 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 
 
 
+<a class="toc" id ="3-2"></a>
 ## 2019
 | Ref.| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -122,7 +151,7 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 | [ICLR OpenReview](https://openreview.net/forum?id=HJxdAoCcYX) |Characterizing Malicious Edges targeting on Graph Neural Networks| SL, OD, GGD, LP+GGD, ENS | Link Prediction, Subsampling, Neighbour Analysis| Hybrid | Node Classification | GNN, GCN | LP | AUC | Cora, Citeseer | - |
 |[LRGSD@ICML](https://graphreason.github.io/papers/35.pdf)|Latent Adversarial Training of Graph Convolution Networks| Model| Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 | [ICML](https://arxiv.org/abs/1902.09192)<br>[[Code]](https://github.com/thudzj/BVAT)|Batch Virtual Adversarial Training for Graph Convolutional Networks| S-BVAT, O-BVAT | Batch Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | ManiReg, SemiEmb, LP, DeepWalk, Planetoid, Monet, GAT, GPNN, GCN, VAT | Accuracy | Cora, Citeseer, Pubmed, Nell |
-|[CIKM](https://dl.acm.org/doi/10.1145/3357384.3357875)|αCyber: Enhancing Robustness of Android Malware Detection System against Adversarial Attacks on Heterogeneous Graph based Model| Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, ... | Detection Rate | Tencent Security Lab Dataset |
+|[CIKM](https://dl.acm.org/doi/10.1145/3357384.3357875)|αCyber: Enhancing Robustness of Android Malware Detection System against Adversarial Attacks on Heterogeneous Graph based Model| Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, AppCracked, MalFlayer, GameTrojan, BlackBaby, SDKSmartPush, .| Detection Rate | Tencent Security Lab Dataset |
 | [ICDM](https://arxiv.org/abs/1909.01432) |Adversarial Robustness of Similarity-Based Link Prediction| IDOpt, IDRank | Integer Program, Edge Ranking | Heuristic Algorithm | Link Prediction | Similarity-based Link Prediction Models | PPN | DPR | PA, PLD, TVShow, Gov |
 | [MLG@KDD](http://eliassi.org/papers/benmiller-mlg2019.pdf) |Improving Robustness to Attacks Against Vertex Classification| SVM with a radial basis function kernel | Augmented Feature, Edge Selecting | Hybrid | Node Classification | SVM | GCN | Classification Marigin | Cora, Citeseer |
 | [NIPS](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations)<br>[[Code]](https://github.com/abojchevski/graph_cert)|Certifiable Robustness to Graph Perturbations| GNN (train with <img src="http://latex.codecogs.com/gif.latex?L_{RCE}">, <img src="http://latex.codecogs.com/gif.latex?L_{CEM}"> ) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy, Worst-case Margin | Cora-ML, Citeseer, Pubmed |
@@ -137,35 +166,45 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 |[Arxiv](https://arxiv.org/abs/1912.01487)|Adversarial Embedding: A robust and elusive Steganography and Watermarking technique| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[Arxiv](https://arxiv.org/abs/1902.04416)|Examining Adversarial Learning against Graph-based IoT Malware Detection Systems| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
+<a class="toc" id ="3-3"></a>
 ## 2018
 | Ref.| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | [SIGIR](https://dl.acm.org/citation.cfm?id=3209981)<br>[[Code]](https://github.com/hexiangnan/adversarial_personalized_ranking) |Adversarial Personalized Ranking for Recommendation| APR, AMF | Adversarial Training based on MF-BPR | Adversarial Training | Recommendation | MF-BPR | ItemPop, MF-BPR, CDAE, NeuMF, IRGAN | HR, NDCG | Yelp, Pinterest, Gowalla | 
+<a class="toc" id ="3-4"></a>
 ## 2017
 | Ref.| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[UAI](https://arxiv.org/abs/1707.07596)|Adversarial Sets for Regularising Neural Link Predictors|Model| Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
+<a class="toc" id ="4"></a>
 # Survey
+[🔙](#table-of-contents)
 
-+ [A Survey of Adversarial Learning on Graphs](https://arxiv.org/abs/2003.05730). Arxiv 2020.
-+ [Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study](https://arxiv.org/abs/2003.00653). Arxiv, 2020.
-+ [Adversarial Attacks and Defenses in Images, Graphs and Text: A Review](https://arxiv.org/pdf/1909.08072.pdf). Arxiv, 2019.
-+ [Adversarial Attack and Defense on Graph Data: A Survey](https://arxiv.org/pdf/1812.10528.pdf). Arviv 2018.
++ [A Survey of Adversarial Learning on Graphs](https://arxiv.org/abs/2003.05730Arxiv 2020.
++ [Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study](https://arxiv.org/abs/2003.00653Arxiv, 2020.
++ [Adversarial Attacks and Defenses in Images, Graphs and Text: A Review](https://arxiv.org/pdf/1909.08072.pdfArxiv, 2019.
++ [Adversarial Attack and Defense on Graph Data: A Survey](https://arxiv.org/pdf/1812.10528.pdfArviv 2018.
 
+<a class="toc" id ="5"></a>
 # Resource
+[🔙](#table-of-contents)
 
 + [Awesome Graph Attack and Defense Papers](https://github.com/ChandlerBang/awesome-graph-attack-papers)
 + [Graph Adversarial Learning Literature](https://github.com/safe-graph/graph-adversarial-learning-literature)
 + [A Complete List of All (arXiv) Adversarial Example Papers](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
+<a class="toc" id ="6"></a>
 # Toolbox
+[🔙](#table-of-contents)
 
 + [DeepRobust](https://github.com/DSE-MSU/DeepRobust): A Pytorch adversarial library for attack and defense methods on images and graphs
 + GraphAdv (Incoming): A Tensorflow adversarial library for adversarial attacks and defense methods on graphs
 
+<a class="toc" id ="7"></a>
 # Cite
+[🔙](#table-of-contents)
 
 If you find this repo useful, please cite:
 ```
