@@ -17,6 +17,7 @@
 + [Cite](#7)
 
 
+We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to have a better view on the tables in this repo.
 
 <a class="toc" id ="1"></a>
 # Attack
@@ -31,7 +32,7 @@
 |[AAMAS](https://arxiv.org/abs/1910.11529)|Manipulating Node Similarity Measures in Networks|FPTA|-|-|Node Similarity|Node Similarity Measures|Random, Greedy,<br> High Jaccard Similarity (HJ)|Time, AML|Barabasi-Albert (BA),<br>Erdos-Renyi (ER)|
 |[AAAI](https://arxiv.org/abs/1908.01297)<br>[[Code]](https://github.com/SwiftieH/GFAttack)|A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models|GF-Attack|Graph signal processing|-|Node Classification|GCN, SGC,<br>DeepWalk,<br>LINE|Random,<br>Degree,<br>RL-S2V, <img src="http://latex.codecogs.com/gif.latex?A_{class}">|Accuracy|Cora,<br>CiteSeer,<br>Pubmed|
 |[BigData](https://arxiv.org/abs/2002.08012)|Indirect Adversarial Attacks via Poisoning Neighbors for Graph Convolutional Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[KDD]()|Robust Detection of Adaptive Spammers by Nash Reinforcement Learning|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[KDD]|Robust Detection of Adaptive Spammers by Nash Reinforcement Learning|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[WWW](http://faculty.ist.psu.edu/vhonavar/Papers/www20.pdf)|Non-target-specific Node Injection Attacks on Graph Neural Networks: A Hierarchical Reinforcement Learning Approach|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[TKDD](https://dl.acm.org/doi/10.1145/3394520)|Adversarial Attacks on Graph Neural Networks: Perturbations and their Patterns|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[Arxiv](https://arxiv.org/abs/2002.11320)|MGA: Momentum Gradient Attack on Network|MGA|Gradient|GCN|Node Classification,<br>Community Detection|GCN, DeepWalk, <br> Node2vec, GraphGAN,<br>LPA, Louvain|GradArgmax,<br>RL-S2V,<br>Nettack,<br>FGA|ASR, AML|Cora, Citeseer, Polblogs, <br>Dolphin, PloBook|
@@ -119,10 +120,10 @@
 |[DLGMA](https://arxiv.org/abs/1912.10206)|How Robust Are Graph Neural Networks to Structural Noise?|-|Adversarial Training|Adversarial Training|Node Classification|GIN|GIN(without agumented data)|F1 score|？|
 |[ICASSP](https://arxiv.org/abs/2002.10947)| Towards an Efficient and General Framework of Robust Training for Graph Neural Networks| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[AAAI](http://staff.ustc.edu.cn/~hexn/papers/aaai20-adversarial-embedding.pdf)| Improving the Robustness of Wasserstein Embedding by Adversarial PAC-Bayesian Learning| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
-|[KDD]()|Robust Detection of Adaptive Spammers by Nash Reinforcement | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[KDD]|Robust Detection of Adaptive Spammers by Nash Reinforcement | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[KDD](https://github.com/safe-graph/graph-adversarial-learning-literature/blob/master)<br>[[Code]](https://github.com/DSE-MSU/DeepRobust)|Graph Structure Learning for Robust Graph Neural Networks| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
-|[ICML]()| Efficient Robustness Certificates for Graph Neural Networks via Sparsity-Aware Randomized Smoothing| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
-|[ICML]()|Robust Graph Representation Learning via Neural Sparsification|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[ICML]| Efficient Robustness Certificates for Graph Neural Networks via Sparsity-Aware Randomized Smoothing| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[ICML]|Robust Graph Representation Learning via Neural Sparsification|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[ICASSP](https://ieeexplore.ieee.org/abstract/document/9054072)<br>[[Code]](https://github.com/henrykenlay/spgf)|On The Stability of Polynomial Spectral Graph Filters|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[WWW](https://www.cs.au.dk/~karras/robustIC.pdf)<br>[[Code]](https://github.com/allogn/robustness)|On the Robustness of Cascade Diffusion under Node Attacks|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[WWW](https://arxiv.org/abs/2004.04834)|Friend or Faux: Graph-Based Early Detection of Fake Accounts on Social Networks|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
