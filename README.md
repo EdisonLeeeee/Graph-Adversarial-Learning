@@ -1,5 +1,5 @@
 <a class="toc" id="table-of-contents"></a>
-# Table of Contents
+# Graph Adversarial Learning (Updating)
 + [Attack](#1)
 	+ [2020](#1-1)
 	+ [2019](#1-2)
@@ -183,10 +183,10 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 # Survey
 [🔙](#table-of-contents)
 
-+ [A Survey of Adversarial Learning on Graphs](https://arxiv.org/abs/2003.05730Arxiv 2020.
-+ [Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study](https://arxiv.org/abs/2003.00653Arxiv, 2020.
-+ [Adversarial Attacks and Defenses in Images, Graphs and Text: A Review](https://arxiv.org/pdf/1909.08072.pdfArxiv, 2019.
-+ [Adversarial Attack and Defense on Graph Data: A Survey](https://arxiv.org/pdf/1812.10528.pdfArviv 2018.
++ [A Survey of Adversarial Learning on Graphs](https://arxiv.org/abs/2003.05730), Arxiv 2020.
++ [Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study](https://arxiv.org/abs/2003.00653), Arxiv, 2020.
++ [Adversarial Attacks and Defenses in Images, Graphs and Text: A Review](https://arxiv.org/abs/1909.08072), Arxiv, 2019.
++ [Adversarial Attack and Defense on Graph Data: A Survey](https://arxiv.org/abs/1812.10528), Arviv 2018.
 
 <a class="toc" id ="5"></a>
 # Resource
@@ -196,12 +196,13 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 + [Graph Adversarial Learning Literature](https://github.com/safe-graph/graph-adversarial-learning-literature)
 + [A Complete List of All (arXiv) Adversarial Example Papers](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
+
 <a class="toc" id ="6"></a>
 # Toolbox
 [🔙](#table-of-contents)
 
-+ [DeepRobust](https://github.com/DSE-MSU/DeepRobust): A Pytorch adversarial library for attack and defense methods on images and graphs
-+ GraphAdv (Incoming): A Tensorflow adversarial library for adversarial attacks and defense methods on graphs
++ [DeepRobust](https://github.com/DSE-MSU/DeepRobust): A Pytorch adversarial library for attack and defense methods on images and graphs.
++ Graphadv (Incoming): Our Tensorflow-based library for adversarial attacks and defense methods on graphs.
 
 <a class="toc" id ="7"></a>
 # Cite
