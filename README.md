@@ -197,10 +197,10 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 # Survey
 [🔙](#table-of-contents)
 
-+ **A Survey of Adversarial Learning on Graphs**, *Arxiv2020*, [[📝Paper]](https://arxiv.org/abs/2003.05730)
-+ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv2020*, [[📝Paper]](https://arxiv.org/abs/2003.00653)
-+ **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv2019*, [[📝Paper]](https://arxiv.org/abs/1909.08072)
-+ **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv2018*, [[📝Paper]](https://arxiv.org/abs/1812.10528)
++ **A Survey of Adversarial Learning on Graphs**, *Arxiv2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
++ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv2020*, [📝Paper](https://arxiv.org/abs/2003.00653)
++ **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv2019*, [📝Paper](https://arxiv.org/abs/1909.08072)
++ **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv2018*, [📝Paper](https://arxiv.org/abs/1812.10528)
 
 <a class="toc" id ="5"></a>
 
@@ -208,10 +208,10 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 [🔙](#table-of-contents)
 
 
-+ Awesome Adversarial Learning on Recommender System [[:octocat:Link]](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
-+ Awesome Graph Attack and Defense Papers, [[:octocat:Link]](https://github.com/ChandlerBang/awesome-graph-attack-papers)
-+ Graph Adversarial Learning Literature, [[:octocat:Link]](https://github.com/safe-graph/graph-adversarial-learning-literature)
-+ A Complete List of All (arXiv) Adversarial Example Papers, [[🌐Link]](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
++ **Awesome Adversarial Learning on Recommender System** [:octocat:Link](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
++ **Awesome Graph Attack and Defense Papers** [:octocat:Link](https://github.com/ChandlerBang/awesome-graph-attack-papers)
++ **Graph Adversarial Learning Literature** [:octocat:Link](https://github.com/safe-graph/graph-adversarial-learning-literature)
++ **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
 
 <a class="toc" id ="6"></a>
@@ -219,8 +219,8 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 # Toolbox
 [🔙](#table-of-contents)
 
-+ DeepRobust [[:octocat:Link]](https://github.com/DSE-MSU/DeepRobust): A Pytorch adversarial library for attack and defense methods on images and graphs.
-+ Graphadv (Incoming): Our Tensorflow-based library for adversarial attacks and defense methods on graphs.
++ **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A Pytorch adversarial library for attack and defense methods on images and graphs.
++ **Graphadv** (Incoming): Our Tensorflow-based library for adversarial attacks and defense methods on graphs.
 
 <a class="toc" id ="7"></a>
 
