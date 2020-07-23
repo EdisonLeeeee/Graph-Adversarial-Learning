@@ -146,6 +146,7 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 |[📝Arxiv](https://arxiv.org/abs/2003.07010)|Adversarial Perturbations of Opinion Dynamics in Networks|Model| Algorithm | Others | Network Disruption | Opinion dynamics model | - | Polarization-disagreement index | - |
 |[📝Arxiv](https://arxiv.org/abs/2006.08900)<br>[:octocat:Code](https://github.com/zhangao520/defense-vgae)|DefenseVGAE: Defending against Adversarial Attacks on Graph Data via a Variational Graph Autoencoder| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2006.08149)|GNNGuard: Defending Graph Neural Networks against Adversarial Attacks| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝Arxiv](https://arxiv.org/abs/2007.09647)|Adversarial Immunization for Improving Certifiable Robustness on Graphs| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
 
@@ -197,10 +198,10 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 # Survey
 [🔙](#table-of-contents)
 
-+ **A Survey of Adversarial Learning on Graphs**, *Arxiv2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
-+ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv2020*, [📝Paper](https://arxiv.org/abs/2003.00653)
-+ **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv2019*, [📝Paper](https://arxiv.org/abs/1909.08072)
-+ **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv2018*, [📝Paper](https://arxiv.org/abs/1812.10528)
++ **A Survey of Adversarial Learning on Graphs**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
++ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.00653)
++ **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv'2019*, [📝Paper](https://arxiv.org/abs/1909.08072)
++ **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv'2018*, [📝Paper](https://arxiv.org/abs/1812.10528)
 
 <a class="toc" id ="5"></a>
 
@@ -219,7 +220,7 @@ We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]]
 # Toolbox
 [🔙](#table-of-contents)
 
-+ **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A Pytorch adversarial library for attack and defense methods on images and graphs.
++ **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
 + **Graphadv** (Incoming): Our Tensorflow-based library for adversarial attacks and defense methods on graphs.
 
 <a class="toc" id ="7"></a>
