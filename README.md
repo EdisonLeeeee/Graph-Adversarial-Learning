@@ -130,14 +130,14 @@ If you find this repo useful, please cite:
 # Taxonomies of Attack
 [🔙](#table-of-contents)
 
-![Attack](imgs/Attack.png)
+![Attack](https://github.com/gitgiter/Graph-Adversarial-Learning/blob/master/imgs/Attack.png)
 
 
 
-<table align=center><tr><td><table align="left"><tr><td>
-<img src="imgs/attack_demo.png" ></a></td></tr></table></td><td><table align="left"
+<table align="center"><tr><td><table align="left"><tr><td>
+<img  width = "600" height = "400" src="https://github.com/gitgiter/Graph-Adversarial-Learning/blob/master/imgs/attack_demo.png" ></a></td></tr></table></td><td><table align="left"
 ><tr><td>
-<img src="imgs/p_and_e.png" ></a>
+<img width = "600" height = "400" src="https://github.com/gitgiter/Graph-Adversarial-Learning/blob/master/imgs/p_and_e.png" ></a>
 </td></tr></table></td></tr></table>
 
 
