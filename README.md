@@ -50,7 +50,7 @@ If you find this repo useful, please cite:
 <a class="toc" id ="1"></a>
 
 # Attack
-[🔙](#table-of-contents)
+[💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="1-1"></a>
 ## 2020
@@ -128,23 +128,23 @@ If you find this repo useful, please cite:
 <a class="toc" id ="2"></a>
 
 # Taxonomies of Attack
-[🔙](#table-of-contents)
+[💨 Back to Top](#table-of-contents)
 
-![Attack](https://github.com/gitgiter/Graph-Adversarial-Learning/blob/master/imgs/Attack.png)
+![Attack](imgs/Attack.png)
 
 
 
 <table align="center"><tr><td><table align="left"><tr><td>
-<img  width = "600" height = "400" src="https://github.com/gitgiter/Graph-Adversarial-Learning/blob/master/imgs/attack_demo.png" ></a></td></tr></table></td><td><table align="left"
+<img  width = "600" height = "350" src="imgs/attack_demo.png" ></a></td></tr></table></td><td><table align="left"
 ><tr><td>
-<img width = "600" height = "400" src="https://github.com/gitgiter/Graph-Adversarial-Learning/blob/master/imgs/p_and_e.png" ></a>
+<img width = "600" height = "350" src="imgs/p_and_e.png" ></a>
 </td></tr></table></td></tr></table>
 
 
 <a class="toc" id ="3"></a>
 
 # Defense
-[🔙](#table-of-contents)
+[💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="3-1"></a>
 
@@ -228,7 +228,7 @@ If you find this repo useful, please cite:
 <a class="toc" id ="4"></a>
 
 # Survey
-[🔙](#table-of-contents)
+[💨 Back to Top](#table-of-contents)
 
 + **A Survey of Adversarial Learning on Graphs**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
 + **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.00653)
@@ -238,7 +238,7 @@ If you find this repo useful, please cite:
 <a class="toc" id ="5"></a>
 
 # Resource
-[🔙](#table-of-contents)
+[💨 Back to Top](#table-of-contents)
 
 
 + **Awesome Adversarial Learning on Recommender System** [:octocat:Link](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
@@ -250,7 +250,7 @@ If you find this repo useful, please cite:
 <a class="toc" id ="6"></a>
 
 # Toolbox
-[🔙](#table-of-contents)
+[💨 Back to Top](#table-of-contents)
 
 + **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
 + **GraphAdv** (Building)[:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): Tensorflow-based library for adversarial attacks and defense methods on graphs.
