@@ -33,7 +33,6 @@ This repo includes **49** attack papers and **52** defense papers, **4** Survey 
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
 <img src="https://img.shields.io/badge/-All 105 papers-black">
 </div>
-<br>
 
 If you find this repo useful, please cite:
 
@@ -133,8 +132,10 @@ If you find this repo useful, please cite:
 
 ![Attack](imgs/Attack.png)
 
-<table align=center><tr><td><table align=”left”><tr><td>
-<img src="imgs/attack_demo.png" ></a></td></tr></table></td><td><table align=”left”
+
+
+<table align=center><tr><td><table align="left"><tr><td>
+<img src="imgs/attack_demo.png" ></a></td></tr></table></td><td><table align="left"
 ><tr><td>
 <img src="imgs/p_and_e.png" ></a>
 </td></tr></table></td></tr></table>
