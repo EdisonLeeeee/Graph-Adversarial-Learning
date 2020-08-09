@@ -21,7 +21,6 @@
 + [Survey](#4)
 + [Resource](#5)
 + [Toolbox](#6)
-+ [Cite](#7)
 
 
 We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to have a better view on the tables in this repo.
@@ -35,6 +34,18 @@ This repo includes **49** attack papers and **52** defense papers, ranging from 
 </div>
 <br>
 
+If you find this repo useful, please cite:
+
+```bibtex
+@misc{chen2020survey,
+    title={A Survey of Adversarial Learning on Graphs},
+    author={Liang Chen and Jintang Li and Jiaying Peng and Tao Xie and Zengxu Cao and Kun Xu and Xiangnan He and Zibin Zheng},
+    year={2020},
+    eprint={2003.05730},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+```
 
 <a class="toc" id ="1"></a>
 
@@ -55,8 +66,7 @@ This repo includes **49** attack papers and **52** defense papers, ranging from 
 |[📝TKDD](https://dl.acm.org/doi/10.1145/3394520)|Adversarial Attacks on Graph Neural Networks: Perturbations and their Patterns|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝IJCAI Workshop](https://www.aisafetyw.org/programme)|An Efficient Adversarial Attack on Graph Structured Data|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝ICML Workshop](https://grlplus.github.io/papers/8.pdf)|	Practical Adversarial Attacks on Graph Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[IEEE Trans](https://ieeexplore.ieee.org/abstract/document/9141291)|Link Prediction Adversarial Attack Via Iterative Gradient Attack
-|IGA|Gradient|GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|
+|[IEEE Trans](https://ieeexplore.ieee.org/abstract/document/9141291)|Link Prediction Adversarial Attack Via Iterative Gradient Attack|IGA|Gradient|GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|
 |[📝Asia CCS](https://iqua.ece.toronto.edu/papers/wlin-asiaccs20.pdf)|Adversarial Attacks on Link Prediction Algorithms Based on Graph Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝Arxiv](https://arxiv.org/abs/2002.11320)|MGA: Momentum Gradient Attack on Network|MGA|Momentum gradient|GCN|Node Classification,<br>Community Detection|GCN, DeepWalk, <br> Node2vec, GraphGAN,<br>LPA, Louvain|GradArgmax,<br>RL-S2V,<br>Nettack,<br>FGA|ASR, AML|Cora, Citeseer, Polblogs, <br>Dolphin, PloBook|
 |[📝Arxiv](https://arxiv.org/abs/2002.01249)|Adversarial Attacks to Scale-Free Networks: Testing the Robustness of Physical Criteria|RLR, DALR, DILR|Random, <br>Degree|-|Network Structure|Physical Criteria|-| AML,<br> (diagonal) distance, <br>clustering coefficient|Generated simplex networks|
@@ -244,19 +254,3 @@ This repo includes **49** attack papers and **52** defense papers, ranging from 
 + **GraphAdv** (Building)[:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): Tensorflow-based library for adversarial attacks and defense methods on graphs.
 + **GraphGallery**[:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): Tensorflow-based library for geometric graph (adversarial) learning.
 
-<a class="toc" id ="7"></a>
-
-# Cite
-[🔙](#table-of-contents)
-
-If you find this repo useful, please cite:
-```
-@misc{chen2020survey,
-    title={A Survey of Adversarial Learning on Graphs},
-    author={Liang Chen and Jintang Li and Jiaying Peng and Tao Xie and Zengxu Cao and Kun Xu and Xiangnan He and Zibin Zheng},
-    year={2020},
-    eprint={2003.05730},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
-}
-```
