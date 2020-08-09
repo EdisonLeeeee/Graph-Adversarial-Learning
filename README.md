@@ -1,11 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
 # Awesome Graph Adversarial Learning (Updating)
-<div align="left">
-<img src="https://img.shields.io/badge/-Attack 49 papers-black">
-<img src="https://img.shields.io/badge/-Defense 52 papers-green">
-</div>
-<br>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -32,6 +27,14 @@
 We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to have a better view on the tables in this repo.
 
 This repo includes **49** attack papers and **52** defense papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we save that with placeholders.
+
+<div align="center">
+<img src="https://img.shields.io/badge/-Attack 49 papers-darkred">
+<img src="https://img.shields.io/badge/-Defense 52 papers-brightgreen">
+<img src="https://img.shields.io/badge/-All 101 papers-black">
+</div>
+<br>
+
 
 <a class="toc" id ="1"></a>
 
