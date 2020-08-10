@@ -4,7 +4,10 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![](https://img.shields.io/github/stars/gitgiter/Graph-Adversarial-Learning)
+![](https://img.shields.io/github/forks/gitgiter/Graph-Adversarial-Learning)
+![](https://img.shields.io/github/license/gitgiter/Graph-Adversarial-Learning)
+
 
 
 + [Attack](#1)
@@ -25,7 +28,7 @@
 
 We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to have a better view on the tables in this repo.
 
-This repo includes **49** attack papers and **52** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we save that with placeholders. You can download all papers from [Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases)
+This repo includes **49** attack papers and **52** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we save that with placeholders. You can download all papers from [Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases).
 
 <div align="center">
 <img src="https://img.shields.io/badge/-Attack 49 papers-darkred">
@@ -35,7 +38,7 @@ This repo includes **49** attack papers and **52** defense papers, **4** Survey 
 </div>
 
 If you find this repo useful, please cite:
-
+*A Survey of Adversarial Learning on Graphs, Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
 ```bibtex
 @article{chen2020survey,
     title={A Survey of Adversarial Learning on Graphs},
@@ -254,5 +257,5 @@ If you find this repo useful, please cite:
 
 + **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
 + **GraphAdv** (Building)[:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): Tensorflow-based library for adversarial attacks and defense methods on graphs.
-+ **GraphGallery**[:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): Tensorflow-based library for geometric graph (adversarial) learning.
++ **GraphGallery** [:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): Tensorflow-based library for geometric graph (adversarial) learning.
 
