@@ -38,10 +38,10 @@ This repo includes **49** attack papers and **52** defense papers, **4** Survey 
 </div>
 
 If you find this repo useful, please cite:
-*A Survey of Adversarial Learning on Graphs, Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
+*A Survey of Adversarial Learning on Graph, Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
 ```bibtex
 @article{chen2020survey,
-    title={A Survey of Adversarial Learning on Graphs},
+    title={A Survey of Adversarial Learning on Graph},
     author={Liang Chen and Jintang Li and Jiaying Peng and Tao Xie and Zengxu Cao and Kun Xu and Xiangnan He and Zibin Zheng},
     year={2020},
     eprint={2003.05730},
@@ -233,7 +233,7 @@ If you find this repo useful, please cite:
 # Survey
 [💨 Back to Top](#table-of-contents)
 
-+ **A Survey of Adversarial Learning on Graphs**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
++ **A Survey of Adversarial Learning on Graph**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
 + **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.00653)
 + **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv'2019*, [📝Paper](https://arxiv.org/abs/1909.08072)
 + **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv'2018*, [📝Paper](https://arxiv.org/abs/1812.10528)
