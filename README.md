@@ -41,12 +41,10 @@ If you find this repo useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
 ```bibtex
 @article{chen2020survey,
-    title={A Survey of Adversarial Learning on Graph},
-    author={Liang Chen and Jintang Li and Jiaying Peng and Tao Xie and Zengxu Cao and Kun Xu and Xiangnan He and Zibin Zheng},
-    year={2020},
-    eprint={2003.05730},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+  title={A Survey of Adversarial Learning on Graph},
+  author={Chen, Liang and Li, Jintang and Peng, Jiaying and Xie, Tao and Cao, Zengxu and Xu, Kun and He, Xiangnan and Zheng, Zibin},
+  journal={arXiv preprint arXiv:2003.05730},
+  year={2020}
 }
 ```
 
