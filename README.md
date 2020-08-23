@@ -28,11 +28,11 @@
 
 We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to have a better view on the tables in this repo.
 
-This repo includes **51** attack papers and **54** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we save that with placeholders. You can download all papers from [Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases).
+This repo includes **50** attack papers and **55** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we save that with placeholders. You can download all papers from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
-<img src="https://img.shields.io/badge/-Attack 51 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 54 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Attack 50 papers-darkred">
+<img src="https://img.shields.io/badge/-Defense 55 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
 <img src="https://img.shields.io/badge/-All 109 papers-black">
 </div>
@@ -66,7 +66,7 @@ If you find this repo useful, please cite:
 |[📝TKDD](https://dl.acm.org/doi/10.1145/3394520)|Adversarial Attacks on Graph Neural Networks: Perturbations and their Patterns|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝IJCAI Workshop](https://www.aisafetyw.org/programme)|An Efficient Adversarial Attack on Graph Structured Data|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝ICML Workshop](https://grlplus.github.io/papers/8.pdf)|	Practical Adversarial Attacks on Graph Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[IEEE Trans](https://ieeexplore.ieee.org/abstract/document/9141291)|Link Prediction Adversarial Attack Via Iterative Gradient Attack|IGA|Gradient|GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|
+|[📝IEEE Trans](https://ieeexplore.ieee.org/abstract/document/9141291)|Link Prediction Adversarial Attack Via Iterative Gradient Attack|IGA|Gradient|GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|
 |[📝Asia CCS](https://iqua.ece.toronto.edu/papers/wlin-asiaccs20.pdf)|Adversarial Attacks on Link Prediction Algorithms Based on Graph Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝AIP Chaos](https://aip.scitation.org/doi/10.1063/5.0003707)|Adversarial attack on BC classification for scale-free networks|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403194)|Attackability Characterization of Adversarial Evasion Attack on Discrete Data|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
