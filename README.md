@@ -26,9 +26,9 @@
 + [Toolbox](#6)
 
 
-We strongly recommend you to use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to have a better view on the tables in this repo.
+We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repo includes **50** attack papers and **55** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we save that with placeholders. You can download all papers from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **50** attack papers and **55** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
 <img src="https://img.shields.io/badge/-Attack 50 papers-darkred">
@@ -37,7 +37,7 @@ This repo includes **50** attack papers and **55** defense papers, **4** Survey 
 <img src="https://img.shields.io/badge/-All 109 papers-black">
 </div>
 
-If you find this repo useful, please cite:
+If you find this repository useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
 ```bibtex
 @article{chen2020survey,
@@ -260,6 +260,6 @@ If you find this repo useful, please cite:
 [💨 Back to Top](#table-of-contents)
 
 + **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
-+ **GraphAdv** (Building)[:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): Tensorflow-based library for adversarial attacks and defense methods on graphs.
++ **GraphAdv** [:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): Tensorflow-based library for adversarial attacks and defense methods on graphs.
 + **GraphGallery** [:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): Tensorflow-based library for geometric graph (adversarial) learning.
 
