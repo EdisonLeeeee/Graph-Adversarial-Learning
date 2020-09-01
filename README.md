@@ -28,13 +28,13 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **50** attack papers and **55** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **50** attack papers and **59** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
 <img src="https://img.shields.io/badge/-Attack 50 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 55 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Defense 59 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 109 papers-black">
+<img src="https://img.shields.io/badge/-All 113 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -126,7 +126,7 @@ If you find this repository useful, please cite:
 |Ref.|Title|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[📝CCS](https://arxiv.org/abs/1708.09056)|Practical Attacks Against Graph-based Clustering|Targeted noise injection,<br>Small community attack|Noise injection|?|Graph Clustering,<br>Community Detection|SVD,<br>Node2vec,<br>Community Detection Algs|-|ASR, FPR |Reverse Engineered DGA Domains,<br>NXDOMAIN|
-|[📝UAI](https://arxiv.org/abs/1707.07596)|Adversarial Sets for Regularising Neural Link Predictors|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝UAI](https://arxiv.org/abs/1707.07596)<br>[:octocat:Code](https://github.com/uclmr/inferbeddings)|Adversarial Sets for Regularising Neural Link Predictors|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 
 <a class="toc" id ="2"></a>
 
@@ -162,7 +162,7 @@ If you find this repository useful, please cite:
 |[📝AAAI](http://staff.ustc.edu.cn/~hexn/papers/aaai20-adversarial-embedding.pdf)| Improving the Robustness of Wasserstein Embedding by Adversarial PAC-Bayesian Learning| RAWEN | Adversarial PAC-Bayesian learning | Objective Based | Node embedding | Wasserstein embedding | GF,LINE,Node2vec,SDNE,GANE,DVNE | Presion, Recall, AUC, F1 | Wiki-Vote, Epinions, Google, Email,Wiki |
 |[📝KDD](https://arxiv.org/abs/2006.06069)<br>[:octocat:Code](https://github.com/YingtongDou/Nash-Detect)|Robust Detection of Adaptive Spammers by Nash Reinforcement Learning|Nash-Detect|A minimax game|Detection Based|Spam Detection|-|Spam Detector|Practical Effect, Accuracy|YelpChi, YelpNYC, YelpZip|
 |[📝KDD](https://arxiv.org/abs/2005.10203)<br>[:octocat:Code](https://github.com/DSE-MSU/DeepRobust)|Graph Structure Learning for Robust Graph Neural Networks| Pro-GNN | Learns the graph structure and the GNN parameters simultaneously| Hybrid | Node Classification | GCN | GAT, GCN-Jaccard, GCN-SVD | Accuracy | Cora, Citeseer, Polblogs, Pubmed |
-|[📝ICML](https://proceedings.icml.cc/book/2020/file/4f7b884f2445ef08da9bbc77b028722c-Paper.pdf)| Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More| - | Randomized Smoothing | Structure-based | Node Classification，Graph Classification  | GNN  | GAT,GCN,APPNP | certified ratio |  Cora-ML,PubMed |
+|[📝ICML](https://proceedings.icml.cc/book/2020/file/4f7b884f2445ef08da9bbc77b028722c-Paper.pdf)<br>[:octocat:Code](https://github.com/abojchevski/sparse_smoothing)| Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More| - | Randomized Smoothing | Structure-based | Node Classification，Graph Classification  | GNN  | GAT,GCN,APPNP | certified ratio |  Cora-ML,PubMed |
 |[📝ICML](https://proceedings.icml.cc/static/paper_files/icml/2020/2611-Paper.pdf)|Robust Graph Representation Learning via Neural Sparsification| NeuralSparse | Sampling subgraphs | Preprocessing-based | Node Classification | GCN,GraphSAGE,GAT,GIN | SS/RD,DropEdge,LDS | Micro-F1,AUC,Accuracy | Reddit,PPI,Transaction,Cora,Citeseer |
 |[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9054072)<br>[:octocat:Code](https://github.com/henrykenlay/spgf)|On The Stability of Polynomial Spectral Graph Filters|- | Polynomial  graph filters | Structure-based | Graph signal processing | GNN | - | Laplacian distance | Barabási-Albert,Sensor network |
 |[📝WWW](https://www.cs.au.dk/~karras/robustIC.pdf)<br>[:octocat:Code](https://github.com/allogn/robustness)|On the Robustness of Cascade Diffusion under Node Attacks|- | SEMR | - | Cascade Diffusion under Node Attacks | IC Model | NetShield | EMR,RNI,RIM | Power-law networks represented by the Barabási-Albert (BA) model, Homogeneous networks represented by the Gaussian Random Partition (GRP) and Watts Strogatz (WS) models, Blogs, Minnesota,VK,Advogato,DBLP,BrightKite,Gnutella,Stanford |
@@ -172,7 +172,9 @@ If you find this repository useful, please cite:
 |[📝IEEE Trans](https://ieeexplore.ieee.org/abstract/document/8605364)|Robust Graph Learning From Noisy Data|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝UTC.edu](https://www.cs.uic.edu/~zhangx/papers/JinZha20.pdf)|Robust Training of Graph Convolutional Networks via Latent Perturbation| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝CIKM](https://arxiv.org/abs/2008.08692)|Enhancing Graph Neural Network-based Fraud Detectors against Camouflaged Fraudsters| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
-|[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403217)|Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403217)<br>[:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)|Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝KDD](https://arxiv.org/abs/2008.10715)<br>[:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)|Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝ICDM]|Provably Robust Node Classification via Low-Pass Message Passing|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2004.08833)| Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Preprint](http://www.auai.org/uai2020/proceedings/119_main_paper.pdf)|Robust Collective Classification against Structural Attacks	| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2003.07729)|Tensor Graph Convolutional Networks for Multi-relational and Robust Learning|Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
@@ -182,6 +184,7 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2006.08900)<br>[:octocat:Code](https://github.com/zhangao520/defense-vgae)|DefenseVGAE: Defending against Adversarial Attacks on Graph Data via a Variational Graph Autoencoder| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2006.08149)|GNNGuard: Defending Graph Neural Networks against Adversarial Attacks| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2007.09647)|Adversarial Immunization for Improving Certifiable Robustness on Graphs| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝Arxiv](https://arxiv.org/abs/2008.13072)|Adversarial Privacy Preserving Graph Embedding against Inference Attack| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
 
@@ -205,6 +208,7 @@ If you find this repository useful, please cite:
 | [📝MLG@KDD](http://eliassi.org/papers/benmiller-mlg2019.pdf) |Improving Robustness to Attacks Against Vertex Classification| SVM with a radial basis function kernel | Augmented Feature, Edge Selecting | Hybrid | Node Classification | SVM | GCN | Classification Marigin | Cora, Citeseer |
 | [📝NIPS](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations)<br>[:octocat:Code](https://github.com/abojchevski/graph_cert)|Certifiable Robustness to Graph Perturbations| GNN (train with <img src="http://latex.codecogs.com/gif.latex?L_{RCE}">, <img src="http://latex.codecogs.com/gif.latex?L_{CEM}"> ) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy, Worst-case Margin | Cora-ML, Citeseer, Pubmed |
 | [📝TKDE](https://arxiv.org/abs/1902.08226)<br>[:octocat:Code](https://github.com/fulifeng/GraphAT) |Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure| GCN-GATV | Graph Adversarial Training, Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | LP, DeepWalk, SemiEmb, Planetoid, GCN, GraphSGAN | Accuracy | Citeseer, Cora, NELL |
+| [📝WWW](https://arxiv.org/abs/1908.11514)<br>[:octocat:Code](https://github.com/wonniu/AdvT4NE_WWW2019)|Adversarial Training Methods for Network Embedding| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 | [📝Arxiv](https://arxiv.org/abs/1911.04429) |GraphDefense: Towards Robust Graph Convolutional Networks| GraphDefense | Adversarial Training | Adversarial Training | Node Classification | GCN | Drop Edges, Discrete Adversarial Training | Accuracy | Cora, Citeseer, Reddit |
 | [📝Arxiv](https://arxiv.org/abs/1903.05994) |Can Adversarial Network Attack be Defended?| Global-AT, Target-AT, SD, SCEL | Adversarial Training, Smooth Defense | Hybrid | Node Classification | GNN | AT | ADR, ACD | PolBlogs, Cora, Citeseer |
 | [📝Arxiv](https://arxiv.org/abs/1910.09590) |Edge Dithering for Robust Adaptive Graph Convolutional Networks| AGCN | Adaptive GCN with Edge Dithering | Structure Based  | Node Classification | GCN | GCN | Accuracy | Citeseer, PolBlogs, Cora, Pubmed | - |
@@ -229,7 +233,7 @@ If you find this repository useful, please cite:
 ## 2017
 | Ref.| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|[📝UAI](https://arxiv.org/abs/1707.07596)|Adversarial Sets for Regularising Neural Link Predictors|Model| Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝UAI](https://arxiv.org/abs/1707.07596)<br>[:octocat:Code](https://github.com/uclmr/inferbeddings)|Adversarial Sets for Regularising Neural Link Predictors|Model| Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
 <a class="toc" id ="4"></a>
