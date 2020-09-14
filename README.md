@@ -80,7 +80,7 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2005.11560)|Adversarial Attack on Hierarchical Graph Pooling Neural Networks|Gradient-Based Pooling Attack|Gradient|1-Layer HGP|Graph Classification|HGP, SAG, HGP-SL|Random|Accuracy|DD, Mutagenicity, ER_MD, DHFR, AIDS, BZR|
 |[📝Arxiv](https://arxiv.org/abs/2001.04051)|An Adversarial Approach for the Robust Classification of Pneumonia from Chest Radiographs|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝Arxiv](https://arxiv.org/abs/2006.05057)|Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[📝Arxiv](https://arxiv.org/abs/2006.11890)|Graph Backdoor|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝Arxiv](https://arxiv.org/abs/2006.11890)|Graph Backdoor|GTA|Gradient|-|Node Classification, Graph Classification|GCN, GrapSAGE, GAT|-|ASR, AMC, BAD, ADD|Fingerprint, Malware, AIDS, Toxicant, Bitcoin, Facebook|
 |[📝Arxiv](https://arxiv.org/abs/2006.11165)|Backdoor Attacks to Graph Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝Arxiv](https://arxiv.org/abs/2009.03488)<br>[:octocat:Code](https://github.com/EdisonLeeeee/GraphAdv)|Adversarial Attack on Large Scale Graph|SGA|Gradient|SGC|Node Classification|GCN, SGC, GAT,<br> ClusterGCN, GraphSAGE|GradArgmax, Nettack|DAC, Accuracy, <br>Classification Margin|Cora, Citeseer, Pubmed, Reddit|
 |[📝Arxiv](https://arxiv.org/abs/2009.00203)|Efficient Evasion Attacks to Graph Neural Networks via Influence Function|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
