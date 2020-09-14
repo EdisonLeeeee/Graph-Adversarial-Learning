@@ -84,7 +84,7 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2006.11165)|Backdoor Attacks to Graph Neural Networks|Subgraph-based Backdoor Attacks|Subgraph Generation|-|Graph Classification|GIN|Clean|Clean Accuracy, Backdoor Accuracy, ASR|Bitcoin, Twitter, COLLAB|
 |[📝Arxiv](https://arxiv.org/abs/2009.03488)<br>[:octocat:Code](https://github.com/EdisonLeeeee/GraphAdv)|Adversarial Attack on Large Scale Graph|SGA|Gradient|SGC|Node Classification|GCN, SGC, GAT,<br> ClusterGCN, GraphSAGE|GradArgmax, Nettack|DAC, Accuracy, <br>Classification Margin|Cora, Citeseer, Pubmed, Reddit|
 |[📝Arxiv](https://arxiv.org/abs/2009.00203)|Efficient Evasion Attacks to Graph Neural Networks via Influence Function|Influence-based Attack|Influence Function|-|Node Classification|GCN, SGC|OTA-KL, OTA-UL, Iter-KL, Iter-UL|ASR, Running Time|Cora, Citeseer, Pubmed|
-|[📝Arxiv](https://arxiv.org/abs/2009.00163)|Reinforcement Learning-based Black-Box Evasion Attacks to Link Prediction in Dynamic Graphs|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝Arxiv](https://arxiv.org/abs/2009.00163)|Reinforcement Learning-based Black-Box Evasion Attacks to Link Prediction in Dynamic Graphs|RL-based Attack|Reinforcement Learning|-|Link Prediction|DyGCN|Random-whole, Random-partial|F1|Haggle, Hypertext, Trapping|
 
 <a class="toc" id ="1-2"></a>
 
