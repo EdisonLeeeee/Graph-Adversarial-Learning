@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# Awesome Graph Adversarial Learning (Updating)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -10,13 +10,13 @@
 
 
 
-+ [Attack](#1)
++ [⚔ Attack](#1)
 	+ [2020](#1-1)
 	+ [2019](#1-2)
 	+ [2018](#1-3)
 	+ [2017](#1-4)
 + [Taxonomies of Attack](#2)
-+ [Defense](#3)
++ [🛡 Defense](#3)
 	+ [2020](#3-1)
 	+ [2019](#3-2)
 	+ [2018](#3-3)
@@ -28,13 +28,13 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **53** attack papers and **59** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **53** attack papers and **60** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
 <img src="https://img.shields.io/badge/-Attack 53 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 59 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Defense 60 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 116 papers-black">
+<img src="https://img.shields.io/badge/-All 117 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -50,7 +50,7 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="1"></a>
 
-# Attack
+# ⚔ Attack
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="1-1"></a>
@@ -149,7 +149,7 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="3"></a>
 
-# Defense
+# 🛡 Defense
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="3-1"></a>
@@ -177,6 +177,7 @@ If you find this repository useful, please cite:
 |[📝CIKM](https://arxiv.org/abs/2008.08692)<br>[:octocat:Code](https://github.com/safe-graph/DGFraud)|Enhancing Graph Neural Network-based Fraud Detectors against Camouflaged Fraudsters| CARE-GNN | Reinforcement learning | Hybrid | Target Task | GCN,GAT,RGCN,GraphSAGE | GeniePath, Player2Vec, <br>SemiGNN,GraphConsis| AUC,Recall | Yelp, Amazon |
 |[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403217)<br>[:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)|Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation|Robust GCN | Branch-and-bound | Structure-based | Node Classification| GCN | GCN,ED，Atk,B&B | % Cert.Robust | Cora-ML,Citeseer,PubMed |
 |[📝ICDM]|Provably Robust Node Classification via Low-Pass Message Passing|Model | Algorithm | Defense Type | Node Classification | GNNs | Baseline | Metric | Dataset |
+|[📝GLOBECOM](https://arxiv.org/abs/2009.05872)|Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing|Model | Algorithm | Defense Type | Node Classification | GNNs | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2004.08833)| Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning| KDAD | Adversarial Meta-learning | Objective-based | Dialogue Generation | Qadpt | TAware,Qadpt | BLEU,PPL,DISTINCT,<br>KW/Genetric, Generated-KW | HGZHZ |
 |[📝Preprint](http://www.auai.org/uai2020/proceedings/119_main_paper.pdf)|Robust Collective Classification against Structural Attacks	| R-AMN | Bound Analysis | Objective-based | Node Classification | AMN | Struct-RSAD | Acc | Reuters, WebKB,<br>Cora and CiteSeer |
 |[📝Arxiv](https://arxiv.org/abs/2003.07729)|Tensor Graph Convolutional Networks for Multi-relational and Robust Learning|TGCN | Edge-dithering | Processing-based | Node Classification, <br>Predicting protein functions | GCN | GCN | Acc,Macro F1 | Cora,Citeseer, Pubmed,Polblogs,<br>Generic cells,Brain cells,<br>Circulation cells|
@@ -266,6 +267,6 @@ If you find this repository useful, please cite:
 [💨 Back to Top](#table-of-contents)
 
 + **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
-+ **GraphAdv** [:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): Tensorflow-based library for adversarial attacks and defense methods on graphs.
-+ **GraphGallery** [:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): Tensorflow-based library for geometric graph (adversarial) learning.
++ **GraphAdv** [:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): A TensorFlow-based library for adversarial attacks and defense methods on graph.
++ **GraphGallery** [:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning.
 
