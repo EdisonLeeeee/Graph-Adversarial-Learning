@@ -186,7 +186,7 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2003.07010)|Adversarial Perturbations of Opinion Dynamics in Networks|Model| Algorithm | Others | Network Disruption | Opinion dynamics model | - | Polarization-disagreement index | - |
 |[📝Arxiv](https://arxiv.org/abs/2006.08900)<br>[:octocat:Code](https://github.com/zhangao520/defense-vgae)|DefenseVGAE: Defending against Adversarial Attacks on Graph Data via a Variational Graph Autoencoder| DefenceVGAE | VGAE | Prepocessing-based | Node Classification | GCN | GCN-Jaccard,GCN-SVD,RGCN | Acc | Cora,Citeseer,PolBlogs |
 |[📝Arxiv](https://arxiv.org/abs/2006.08149)|GNNGuard: Defending Graph Neural Networks against Adversarial Attacks| GNNGuard | Network theory of homophily | Structure-based | Node Classification | GCN,GAT,GIN,<br>JK-Net,Graph SAINT | GNN-Jaccard,RobustGCN,GNN-SVD | Acc | Cora,Citeseer,ogbn-arxiv,DP |
-|[📝Arxiv](https://arxiv.org/abs/2007.09647)|Adversarial Immunization for Improving Certifiable Robustness on Graphs| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝Arxiv](https://arxiv.org/abs/2007.09647)|Adversarial Immunization for Improving Certifiable Robustness on Graphs| AddRem | Adversarial immunization | Adversarial-based | Node classification | GNN | Random,Attack Random,<br>Jaccard,Cosine,<br>Betweenness,Bridgeness | Ratio of robust node,<br>Average of worst-case margin| Citeseer, Cora-ML,Reddit|
 |[📝Arxiv](https://arxiv.org/abs/2008.13072)|Adversarial Privacy Preserving Graph Embedding against Inference Attack| Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
