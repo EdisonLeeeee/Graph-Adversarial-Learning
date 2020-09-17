@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# Awesome Graph Adversarial Learning (Updating)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -10,13 +10,13 @@
 
 
 
-+ [Attack](#1)
++ [⚔ Attack](#1)
 	+ [2020](#1-1)
 	+ [2019](#1-2)
 	+ [2018](#1-3)
 	+ [2017](#1-4)
 + [Taxonomies of Attack](#2)
-+ [Defense](#3)
++ [🛡 Defense](#3)
 	+ [2020](#3-1)
 	+ [2019](#3-2)
 	+ [2018](#3-3)
@@ -28,13 +28,13 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **53** attack papers and **59** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **53** attack papers and **60** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
 <img src="https://img.shields.io/badge/-Attack 53 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 59 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Defense 60 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 116 papers-black">
+<img src="https://img.shields.io/badge/-All 117 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -50,7 +50,7 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="1"></a>
 
-# Attack
+# ⚔ Attack
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="1-1"></a>
@@ -76,15 +76,15 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2003.07010)|Adversarial Perturbations of Opinion Dynamics in Networks|-|Graph Laplacian|Friedkin-Johnsen model|Network Disruption|-|Opinion dynamics model|-|-|
 |[📝Arxiv](https://arxiv.org/abs/2003.08377)<br>[:octocat:Code](https://github.com/mayee107/network-disruption)|Network disruption: maximizing disagreement and polarization in social networks|Greedy et al.|Greedy algorithm et al.|Friedkin-Johnsen model|Network Disruption|Friedkin-Johnsen model|-|Disagreement,<br> Polarization|Synthetic networks, Reddit, Twitter|
 |[📝Arxiv](https://arxiv.org/abs/2004.13825)|Scalable Attack on Graph Data by Injecting Vicious Nodes|AFGSM|Gradient|GCN|Node Classification|GCN, GAT, DeepWalk|Nettack, FGSM, Metattack|Accuracy|Citeseer, Cora, DBLP, <br>Pubmed, Reddit|
-|[📝Arxiv](https://arxiv.org/abs/2005.02131)|Stealing Links from Graph Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[📝Arxiv](https://arxiv.org/abs/2005.11560)|Adversarial Attack on Hierarchical Graph Pooling Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝Arxiv](https://arxiv.org/abs/2005.02131)|Stealing Links from Graph Neural Networks|Link Stealing Attacks|Supervised/Unsupervised Training|GCN|Link Prediction|GCN|Traditional Link Prediction|AUC|Citeseer, Cora, Pubmed, AIDS, COX2, DHFR, ENZYMES, PROTEINS_full|
+|[📝Arxiv](https://arxiv.org/abs/2005.11560)|Adversarial Attack on Hierarchical Graph Pooling Neural Networks|Gradient-Based Pooling Attack|Gradient|1-Layer HGP|Graph Classification|HGP, SAG, HGP-SL|Random|Accuracy|DD, Mutagenicity, ER_MD, DHFR, AIDS, BZR|
 |[📝Arxiv](https://arxiv.org/abs/2001.04051)|An Adversarial Approach for the Robust Classification of Pneumonia from Chest Radiographs|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝Arxiv](https://arxiv.org/abs/2006.05057)|Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[📝Arxiv](https://arxiv.org/abs/2006.11890)|Graph Backdoor|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[📝Arxiv](https://arxiv.org/abs/2006.11165)|Backdoor Attacks to Graph Neural Networks|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝Arxiv](https://arxiv.org/abs/2006.11890)|Graph Backdoor|GTA|Gradient|-|Node Classification, Graph Classification|GCN, GrapSAGE, GAT|-|ASR, AMC, BAD, ADD|Fingerprint, Malware, AIDS, Toxicant, Bitcoin, Facebook|
+|[📝Arxiv](https://arxiv.org/abs/2006.11165)|Backdoor Attacks to Graph Neural Networks|Subgraph-based Backdoor Attacks|Subgraph Generation|-|Graph Classification|GIN|Clean|Clean Accuracy, Backdoor Accuracy, ASR|Bitcoin, Twitter, COLLAB|
 |[📝Arxiv](https://arxiv.org/abs/2009.03488)<br>[:octocat:Code](https://github.com/EdisonLeeeee/GraphAdv)|Adversarial Attack on Large Scale Graph|SGA|Gradient|SGC|Node Classification|GCN, SGC, GAT,<br> ClusterGCN, GraphSAGE|GradArgmax, Nettack|DAC, Accuracy, <br>Classification Margin|Cora, Citeseer, Pubmed, Reddit|
-|[📝Arxiv](https://arxiv.org/abs/2009.00203)|Efficient Evasion Attacks to Graph Neural Networks via Influence Function|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
-|[📝Arxiv](https://arxiv.org/abs/2009.00163)|Reinforcement Learning-based Black-Box Evasion Attacks to Link Prediction in Dynamic Graphs|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝Arxiv](https://arxiv.org/abs/2009.00203)|Efficient Evasion Attacks to Graph Neural Networks via Influence Function|Influence-based Attack|Influence Function|-|Node Classification|GCN, SGC|OTA-KL, OTA-UL, Iter-KL, Iter-UL|ASR, Running Time|Cora, Citeseer, Pubmed|
+|[📝Arxiv](https://arxiv.org/abs/2009.00163)|Reinforcement Learning-based Black-Box Evasion Attacks to Link Prediction in Dynamic Graphs|RL-based Attack|Reinforcement Learning|-|Link Prediction|DyGCN|Random-whole, Random-partial|F1|Haggle, Hypertext, Trapping|
 
 <a class="toc" id ="1-2"></a>
 
@@ -149,7 +149,7 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="3"></a>
 
-# Defense
+# 🛡 Defense
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="3-1"></a>
@@ -177,6 +177,7 @@ If you find this repository useful, please cite:
 |[📝CIKM](https://arxiv.org/abs/2008.08692)<br>[:octocat:Code](https://github.com/safe-graph/DGFraud)|Enhancing Graph Neural Network-based Fraud Detectors against Camouflaged Fraudsters| CARE-GNN | Reinforcement learning | Hybrid | Target Task | GCN,GAT,RGCN,GraphSAGE | GeniePath, Player2Vec, <br>SemiGNN,GraphConsis| AUC,Recall | Yelp, Amazon |
 |[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403217)<br>[:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)|Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation|Robust GCN | Branch-and-bound | Structure-based | Node Classification| GCN | GCN,ED，Atk,B&B | % Cert.Robust | Cora-ML,Citeseer,PubMed |
 |[📝ICDM]|Provably Robust Node Classification via Low-Pass Message Passing|Model | Algorithm | Defense Type | Node Classification | GNNs | Baseline | Metric | Dataset |
+|[📝GLOBECOM](https://arxiv.org/abs/2009.05872)|Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing|Model | Algorithm | Defense Type | Node Classification | GNNs | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2004.08833)| Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning| KDAD | Adversarial Meta-learning | Objective-based | Dialogue Generation | Qadpt | TAware,Qadpt | BLEU,PPL,DISTINCT,<br>KW/Genetric, Generated-KW | HGZHZ |
 |[📝Preprint](http://www.auai.org/uai2020/proceedings/119_main_paper.pdf)|Robust Collective Classification against Structural Attacks	| R-AMN | Bound Analysis | Objective-based | Node Classification | AMN | Struct-RSAD | Acc | Reuters, WebKB,<br>Cora and CiteSeer |
 |[📝Arxiv](https://arxiv.org/abs/2003.07729)|Tensor Graph Convolutional Networks for Multi-relational and Robust Learning|TGCN | Edge-dithering | Processing-based | Node Classification, <br>Predicting protein functions | GCN | GCN | Acc,Macro F1 | Cora,Citeseer, Pubmed,Polblogs,<br>Generic cells,Brain cells,<br>Circulation cells|
@@ -266,6 +267,6 @@ If you find this repository useful, please cite:
 [💨 Back to Top](#table-of-contents)
 
 + **DeepRobust** [:octocat:Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
-+ **GraphAdv** [:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): Tensorflow-based library for adversarial attacks and defense methods on graphs.
-+ **GraphGallery** [:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): Tensorflow-based library for geometric graph (adversarial) learning.
++ **GraphAdv** [:octocat:Link](https://github.com/EdisonLeeeee/GraphAdv): A TensorFlow-based library for adversarial attacks and defense methods on graph.
++ **GraphGallery** [:octocat:Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning.
 
