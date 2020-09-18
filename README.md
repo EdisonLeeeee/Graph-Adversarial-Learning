@@ -28,13 +28,13 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **53** attack papers and **60** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **51** attack papers and **60** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
-<img src="https://img.shields.io/badge/-Attack 53 papers-darkred">
+<img src="https://img.shields.io/badge/-Attack 51 papers-darkred">
 <img src="https://img.shields.io/badge/-Defense 60 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 117 papers-black">
+<img src="https://img.shields.io/badge/-All 115 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -63,7 +63,7 @@ If you find this repository useful, please cite:
 |[📝AAAI](https://arxiv.org/abs/1908.01297)<br>[:octocat:Code](https://github.com/SwiftieH/GFAttack)|A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models|GF-Attack|Graph signal processing|-|Node Classification|GCN, SGC,<br>DeepWalk,<br>LINE|Random,<br>Degree,<br>RL-S2V, <img src="http://latex.codecogs.com/gif.latex?A_{class}">|Accuracy|Cora,<br>CiteSeer,<br>Pubmed|
 |[📝BigData](https://arxiv.org/abs/2002.08012)|Indirect Adversarial Attacks via Poisoning Neighbors for Graph Convolutional Networks|POISONPROBE|Binary search|GCN|Node Classification|GCN|Nettack|ASR, Recall|Citeseer, Cora-ML|
 |[📝WWW](http://faculty.ist.psu.edu/vhonavar/Papers/www20.pdf)|Non-target-specific Node Injection Attacks on Graph Neural Networks: A Hierarchical Reinforcement Learning Approach|NIPA|Reinforcement learning,<br>Nodes injection|GCN|Node Classification|GCN|Random, FGA,<br>Preferential attack|Accuracy|Cora-ML, Citeseer,<br>Pubmed|
-|[📝TKDD](https://dl.acm.org/doi/10.1145/3394520)|Adversarial Attacks on Graph Neural Networks: Perturbations and their Patterns|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝TKDD](https://dl.acm.org/doi/10.1145/3394520)|Adversarial Attacks on Graph Neural Networks: Perturbations and their Patterns|Fasttack|Perturbations Impact Ranking|GCN|Node Classification|GCN, CLN, DeepWalk|Rand, FGSM|Classification Margin, Accuracy|Cora-ML, Citeseer, Polblogs, Pubmed|
 |[📝IJCAI Workshop](https://www.aisafetyw.org/programme)|An Efficient Adversarial Attack on Graph Structured Data|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 |[📝ICML Workshop](https://grlplus.github.io/papers/8.pdf)|	Practical Adversarial Attacks on Graph Neural Networks|GC-RWCS|Greedy|-|Node Classification|GCN, JKNetConcat, JKNetMaxpool|Random, Degree, Betweenness, PageRank|Accuracy|Cora, Citeseer, Pubmed|
 |[📝IEEE Trans](https://ieeexplore.ieee.org/abstract/document/9141291)|Link Prediction Adversarial Attack Via Iterative Gradient Attack|IGA|Gradient|GAE|Link Prediction|GAE, LRW <br>DeepWalk, <br>Node2vec, <br>CN, RA, Katz|RAN, <br>DICE, <br>GA|ASR , <br>AML|NS, <br>Yeast, <br>FaceBook|
@@ -78,8 +78,6 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2004.13825)|Scalable Attack on Graph Data by Injecting Vicious Nodes|AFGSM|Gradient|GCN|Node Classification|GCN, GAT, DeepWalk|Nettack, FGSM, Metattack|Accuracy|Citeseer, Cora, DBLP, <br>Pubmed, Reddit|
 |[📝Arxiv](https://arxiv.org/abs/2005.02131)|Stealing Links from Graph Neural Networks|Link Stealing Attacks|Supervised/Unsupervised Training|GCN|Link Prediction|GCN|Traditional Link Prediction|AUC|Citeseer, Cora, Pubmed, AIDS, COX2, DHFR, ENZYMES, PROTEINS_full|
 |[📝Arxiv](https://arxiv.org/abs/2005.11560)|Adversarial Attack on Hierarchical Graph Pooling Neural Networks|Gradient-Based Pooling Attack|Gradient|1-Layer HGP|Graph Classification|HGP, SAG, HGP-SL|Random|Accuracy|DD, Mutagenicity, ER_MD, DHFR, AIDS, BZR|
-[//]: # (|[📝Arxiv](https://arxiv.org/abs/2001.04051)|An Adversarial Approach for the Robust Classification of Pneumonia from Chest Radiographs|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|)
-[//]: # (|[📝Arxiv](https://arxiv.org/abs/2006.05057)|Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|)
 |[📝Arxiv](https://arxiv.org/abs/2006.11890)|Graph Backdoor|GTA|Gradient|-|Node Classification, Graph Classification|GCN, GrapSAGE, GAT|-|ASR, AMC, BAD, ADD|Fingerprint, Malware, AIDS, Toxicant, Bitcoin, Facebook|
 |[📝Arxiv](https://arxiv.org/abs/2006.11165)|Backdoor Attacks to Graph Neural Networks|Subgraph-based Backdoor Attacks|Subgraph Generation|-|Graph Classification|GIN|Clean|Clean Accuracy, Backdoor Accuracy, ASR|Bitcoin, Twitter, COLLAB|
 |[📝Arxiv](https://arxiv.org/abs/2009.03488)<br>[:octocat:Code](https://github.com/EdisonLeeeee/GraphAdv)|Adversarial Attack on Large Scale Graph|SGA|Gradient|SGC|Node Classification|GCN, SGC, GAT,<br> ClusterGCN, GraphSAGE|GradArgmax, Nettack|DAC, Accuracy, <br>Classification Margin|Cora, Citeseer, Pubmed, Reddit|
