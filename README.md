@@ -28,13 +28,13 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **53** attack papers and **60** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **53** attack papers and **62** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
 <img src="https://img.shields.io/badge/-Attack 53 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 60 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Defense 62 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 117 papers-black">
+<img src="https://img.shields.io/badge/-All 119 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -188,6 +188,8 @@ If you find this repository useful, please cite:
 |[NIPS](https://arxiv.org/abs/2006.08149)|GNNGuard: Defending Graph Neural Networks against Adversarial Attacks| GNNGuard | Network theory of homophily | Structure-based | Node Classification | GCN,GAT,GIN,<br>JK-Net,Graph SAINT | GNN-Jaccard,RobustGCN,GNN-SVD | Acc | Cora,Citeseer,ogbn-arxiv,DP |
 |[📝Arxiv](https://arxiv.org/abs/2007.09647)|Adversarial Immunization for Improving Certifiable Robustness on Graphs| AddRem | Adversarial immunization | Adversarial-based | Node classification | GNN | Random,Attack Random,<br>Jaccard,Cosine,<br>Betweenness,Bridgeness | Ratio of robust node,<br>Average of worst-case margin| Citeseer, Cora-ML,Reddit|
 |[📝Arxiv](https://arxiv.org/abs/2008.13072)<br>[:octocat:Code](https://github.com/uJ62JHD/Privacy-Preserving-Social-Network-Embedding)|Adversarial Privacy Preserving Graph Embedding against Inference Attack| APDGE | Adversarial Privacy-Purged  | Structure-based | privacy protection | GAE|GAE RM,CDSPIA |  Macro F1 | Yale and Rochester |
+|[📝Arxiv](https://arxiv.org/abs/2009.13038)|RoGAT: a robust GNN combined revised GAT with adjusted graphs| RoGAT |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝Arxiv](https://arxiv.org/abs/2009.13504)<br>[:octocat:Code](https://github.com/liaopeiyuan/GAL)|Graph Adversarial Networks: Protecting Information against Adversarial Attacks| GAL |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
 
