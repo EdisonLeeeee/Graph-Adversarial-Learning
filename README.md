@@ -193,6 +193,7 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2009.14738)|ResGCN: Attention-based Deep Residual Modeling for Anomaly Detection on Attributed Networks| Model |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝SocialSec ](https://link.springer.com/chapter/10.1007/978-981-15-9031-3_26)|A Novel Defending Scheme for Graph-Based Classification Against Graph Structure Manipulating Attack| Model |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2009.10235)|Uncertainty-aware Attention Graph Neural Network for Defending Adversarial Attacks| Model |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝NIPS](https://arxiv.org/abs/2006.13009)<br>[:octocat:Code](https://github.com/hugochan/IDGL)|Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings| IDGL |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
 
