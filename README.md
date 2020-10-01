@@ -29,14 +29,14 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **58** Attack-related papers, **56** Defense-related papers, **10** Certification-related papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **55** Attack-related papers, **56** Defense-related papers, **10** Certification-related papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
-<img src="https://img.shields.io/badge/-Attack 58 papers-darkred">
+<img src="https://img.shields.io/badge/-Attack 55 papers-darkred">
 <img src="https://img.shields.io/badge/-Defense 56 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Certification 10 papers-orange">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 128 papers-black">
+<img src="https://img.shields.io/badge/-All 126 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -185,7 +185,7 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2006.05648)|Evaluating Graph Vulnerability and Robustness using TIGER|TIGER | - | Hybrid | Node <br>Classification | - | - | Average vertex <br>betweenness, Spectral scaling,<br>Effective resistance  | US power grid, <br>Water Distribution <br>Network |
 |[📝Arxiv](https://arxiv.org/abs/2003.07010)|Adversarial Perturbations of Opinion Dynamics in Networks|Model| Algorithm | Others | Network <br> Disruption | Opinion dynamics <br>model | - | Polarization-<br>disagreement <br>index | - |
 |[📝Arxiv](https://arxiv.org/abs/2006.08900)<br>[:octocat:Code](https://github.com/zhangao520/defense-vgae)|DefenseVGAE: Defending against Adversarial Attacks on Graph Data via a Variational Graph Autoencoder| DefenceVGAE | VGAE | Prepocessing-based | Node <br>Classification | GCN | GCN-Jaccard,<br>GCN-SVD, RGCN | Accuracy | Cora, <br> Citeseer, <br>PolBlogs |
-|[NIPS](https://arxiv.org/abs/2006.08149)|GNNGuard: Defending Graph Neural Networks against Adversarial Attacks| GNNGuard | Network theory of homophily | Structure-based | Node <br>Classification | GCN, GAT, GIN,<br>... | GNN-Jaccard,<br>RobustGCN, <br>GNN-SVD | Accuracy | Cora, <br> Citeseer, <br>ogbn-arxiv, DP |
+|[📝NIPS](https://arxiv.org/abs/2006.08149)|GNNGuard: Defending Graph Neural Networks against Adversarial Attacks| GNNGuard | Network theory of homophily | Structure-based | Node <br>Classification | GCN, GAT, GIN,<br>... | GNN-Jaccard,<br>RobustGCN, <br>GNN-SVD | Accuracy | Cora, <br> Citeseer, <br>ogbn-arxiv, DP |
 |[📝Arxiv](https://arxiv.org/abs/2008.13072)<br>[:octocat:Code](https://github.com/uJ62JHD/Privacy-Preserving-Social-Network-Embedding)|Adversarial Privacy Preserving Graph Embedding against Inference Attack| APDGE | Adversarial Privacy-Purged  | Structure-based | privacy <br> protection | GAE|GAE RM, <br>CDSPIA |  Macro F1 | Yale and <br> Rochester |
 |[📝Arxiv](https://arxiv.org/abs/2009.13038)|RoGAT: a robust GNN combined revised GAT with adjusted graphs| RoGAT |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2009.13504)<br>[:octocat:Code](https://github.com/liaopeiyuan/GAL)|Graph Adversarial Networks: Protecting Information against Adversarial Attacks| GAL |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
