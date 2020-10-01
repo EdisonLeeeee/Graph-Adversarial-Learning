@@ -29,13 +29,14 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **53** attack papers and **62** defense papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **55** Attack-related papers, **54** Defense-related papers, **9** Certification-related papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
-<img src="https://img.shields.io/badge/-Attack 53 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 62 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Attack 55 papers-darkred">
+<img src="https://img.shields.io/badge/-Defense 54 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Certification 9 papers-orange">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 119 papers-black">
+<img src="https://img.shields.io/badge/-All 122 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -248,6 +249,7 @@ If you find this repository useful, please cite:
 + **Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation**, *KDD'20*, [📝Paper](https://dl.acm.org/doi/10.1145/3394486.3403217), [:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)
 + **Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing**, *GLOBECOM'20*, [📝Paper](https://arxiv.org/abs/2009.05872)
 + **Adversarial Immunization for Improving Certifiable Robustness on Graphs**, *Arxiv'20*, [📝Paper](https://arxiv.org/abs/2007.09647)
++ **Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation**, *Arxiv'20*, [📝Paper](https://arxiv.org/abs/2008.10715)
 + **Certifiable Robustness and Robust Training for Graph Convolutional Networks**, *KDD'19*, [📝Paper](https://arxiv.org/abs/1906.12269), [:octocat:Code](https://www.kdd.in.tum.de/research/robust-gcn/)
 + **Certifiable Robustness to Graph Perturbations**, *NIPS'19*, [📝Paper](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations), [:octocat:Code](https://github.com/abojchevski/graph_cert)
 
