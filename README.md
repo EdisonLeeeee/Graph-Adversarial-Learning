@@ -29,14 +29,14 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **55** Attack-related papers, **54** Defense-related papers, **9** Certification-related papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **58** Attack-related papers, **56** Defense-related papers, **10** Certification-related papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
-<img src="https://img.shields.io/badge/-Attack 55 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 54 papers-brightgreen">
-<img src="https://img.shields.io/badge/-Certification 9 papers-orange">
+<img src="https://img.shields.io/badge/-Attack 58 papers-darkred">
+<img src="https://img.shields.io/badge/-Defense 56 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Certification 10 papers-orange">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 122 papers-black">
+<img src="https://img.shields.io/badge/-All 128 papers-black">
 </div>
 
 If you find this repository useful, please cite:
@@ -77,7 +77,7 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2002.04784)<br>[:octocat:Code](https://github.com/chisam0217/Graph-Universal-Attack)|Graph Universal Adversarial Attacks: A Few Bad Actors Ruin Graph Learning Models|GUA|Gradient|GCN|Node Classification|GCN, DeepWalk, <br> Node2Vec, GAT|Random, VCA, FGA|AML, ASR|Cora, Citeseer, Polblogs|
 |[📝Arxiv](https://arxiv.org/abs/2003.07010)|Adversarial Perturbations of Opinion Dynamics in Networks|-|Graph Laplacian|Friedkin-Johnsen model|Network Disruption|-|Opinion dynamics model|-|-|
 |[📝Arxiv](https://arxiv.org/abs/2003.08377)<br>[:octocat:Code](https://github.com/mayee107/network-disruption)|Network disruption: maximizing disagreement and polarization in social networks|Greedy et al.|Greedy algorithm et al.|Friedkin-Johnsen model|Network Disruption|Friedkin-Johnsen model|-|Disagreement,<br> Polarization|Synthetic networks, Reddit, Twitter|
-|[📝Arxiv](https://arxiv.org/abs/2004.13825)|Scalable Attack on Graph Data by Injecting Vicious Nodes|AFGSM|Gradient|GCN|Node Classification|GCN, GAT, DeepWalk|Nettack, FGSM, Metattack|Accuracy|Citeseer, Cora, DBLP, <br>Pubmed, Reddit|
+|[📝ECML-PKDD](https://arxiv.org/abs/2004.13825)|Scalable Attack on Graph Data by Injecting Vicious Nodes|AFGSM|Gradient|GCN|Node Classification|GCN, GAT, DeepWalk|Nettack, FGSM, Metattack|Accuracy|Citeseer, Cora, DBLP, <br>Pubmed, Reddit|
 |[📝Arxiv](https://arxiv.org/abs/2005.02131)|Stealing Links from Graph Neural Networks|Link Stealing Attacks|Supervised/Unsupervised Training|GCN|Link Prediction|GCN|Traditional Link Prediction|AUC|Citeseer, Cora, Pubmed, AIDS, COX2, DHFR, ENZYMES, PROTEINS_full|
 |[📝Arxiv](https://arxiv.org/abs/2005.11560)|Adversarial Attack on Hierarchical Graph Pooling Neural Networks|Gradient-Based Pooling Attack|Gradient|1-Layer HGP|Graph Classification|HGP, SAG, HGP-SL|Random|Accuracy|DD, Mutagenicity, ER_MD, DHFR, AIDS, BZR|
 |[📝Arxiv](https://arxiv.org/abs/2006.11890)|Graph Backdoor|GTA|Gradient|-|Node Classification, Graph Classification|GCN, GrapSAGE, GAT|-|ASR, AMC, BAD, ADD|Fingerprint, Malware, AIDS, Toxicant, Bitcoin, Facebook|
@@ -86,6 +86,9 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2009.00203)|Efficient Evasion Attacks to Graph Neural Networks via Influence Function|Influence-based Attack|Influence Function|-|Node Classification|GCN, SGC|OTA-KL, OTA-UL, Iter-KL, Iter-UL|ASR, Running Time|Cora, Citeseer, Pubmed|
 |[📝Arxiv](https://arxiv.org/abs/2009.00163)|Reinforcement Learning-based Black-Box Evasion Attacks to Link Prediction in Dynamic Graphs|RL-based Attack|Reinforcement Learning|-|Link Prediction|DyGCN|Random-whole, Random-partial|F1|Haggle, Hypertext, Trapping|
 |[📝Arxiv](https://arxiv.org/abs/2009.05602)|Semantic-preserving Reinforcement Learning Attack Against Graph Neural Networks for Malware Detection|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝SocialSec](https://link.springer.com/chapter/10.1007/978-981-15-9031-3_7)|Adaptive Adversarial Attack on Graph Embedding via GAN|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝Arxiv](https://arxiv.org/abs/2009.10233)|Scalable Adversarial Attack on Graph Neural Networks with Alternating Direction Method of Multipliers|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
+|[📝Arxiv](https://arxiv.org/abs/2009.05602)|	Semantic-preserving Reinforcement Learning Attack Against Graph Neural Networks for Malware Detection|Model|Algorithm|Surrogate|Target Task|Target Model|Baseline|Metric|Dataset|
 
 <a class="toc" id ="1-2"></a>
 
@@ -172,7 +175,7 @@ If you find this repository useful, please cite:
 |[📝WWW](https://arxiv.org/abs/2004.04834)|Friend or Faux: Graph-Based Early Detection of Fake Accounts on Social Networks|- | SybilEdge | Preprocessing-based | Fake <br> Detection | Graph-based <br>models | SybilRank,<br>SybilBelief,<br>SybilSCAR | AUC,<br>RejectRate,<br>SybilEdgeTR | Facebook network |
 |[📝ICASSP](https://arxiv.org/abs/2002.10947)|Towards an Efficient and General Framework of Robust Training for Graph Neural Networks|GTA,ZO-GTA | Greedy search,Zeroth-order | Adversarial-based | Node <br>Classification | GNN | DICE, <br>CE-PGD, <br>CW-PGD | Misclassification <br>rate | Cora, <br> Citeseer,<br>PubMed |
 |[📝IEEE Trans](https://ieeexplore.ieee.org/abstract/document/8605364)|Robust Graph Learning From Noisy Data| RGC | Graph regularization | Prepocessing-based | Clustering, <br> Semisupervised <br> Classification | RPCA | SC,RKKM,RSC,<br> SSR,CAN,TLSC | Accuracy, <br>NMI, Purity | YALE, JAFFE, ORL,<br>TR41 and TR45<br> ... |
-|[📝UTC.edu](https://www.cs.uic.edu/~zhangx/papers/JinZha20.pdf)|Robust Training of Graph Convolutional Networks via Latent Perturbation| LAT-GCN |  Perturbing latent representations | Structure-based | Node <br>Classification, <br> Link prediction, <br> Recommendation <br> systems | GCN | GCN, ADV-GCN,<br> MIN-MAX GCN<br>... | CPU time,<br> Accuracy, AUC,AP | Citeseer,Cora,<br>PubMed,<br>MovieLens 100k |
+|[📝ECML-PKDD](https://www.cs.uic.edu/~zhangx/papers/JinZha20.pdf)|Robust Training of Graph Convolutional Networks via Latent Perturbation| LAT-GCN |  Perturbing latent representations | Structure-based | Node <br>Classification, <br> Link prediction, <br> Recommendation <br> systems | GCN | GCN, ADV-GCN,<br> MIN-MAX GCN<br>... | CPU time,<br> Accuracy, AUC,AP | Citeseer,Cora,<br>PubMed,<br>MovieLens 100k |
 |[📝CIKM](https://arxiv.org/abs/2008.08692)<br>[:octocat:Code](https://github.com/safe-graph/DGFraud)|Enhancing Graph Neural Network-based Fraud Detectors against Camouflaged Fraudsters| CARE-GNN | Reinforcement learning | Hybrid | Target Task | GCN, GAT,<br>RGCN,<br>GraphSAGE | GeniePath, <br>Player2Vec, <br>SemiGNN, <br>GraphConsis| AUC, Recall | Yelp, Amazon |
 |[📝ICDM]|Provably Robust Node Classification via Low-Pass Message Passing|Model | Algorithm | Defense Type | Node <br>Classification | GNNs | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2004.08833)| Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning| KDAD | Adversarial <br>Meta-learning | Objective-based | Dialogue Generation | Qadpt | TAware, <br>Qadpt | BLEU, PPL, <br>DISTINCT,<br>... | HGZHZ |
@@ -186,8 +189,10 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2008.13072)<br>[:octocat:Code](https://github.com/uJ62JHD/Privacy-Preserving-Social-Network-Embedding)|Adversarial Privacy Preserving Graph Embedding against Inference Attack| APDGE | Adversarial Privacy-Purged  | Structure-based | privacy <br> protection | GAE|GAE RM, <br>CDSPIA |  Macro F1 | Yale and <br> Rochester |
 |[📝Arxiv](https://arxiv.org/abs/2009.13038)|RoGAT: a robust GNN combined revised GAT with adjusted graphs| RoGAT |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2009.13504)<br>[:octocat:Code](https://github.com/liaopeiyuan/GAL)|Graph Adversarial Networks: Protecting Information against Adversarial Attacks| GAL |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
-|[📝Arxiv](https://arxiv.org/abs/2009.14455)|Uncertainty-Matching Graph Neural Networks to Defend Against Poisoning Attacks| GAL |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
-|[📝Arxiv](https://arxiv.org/abs/2009.14738)|ResGCN: Attention-based Deep Residual Modeling for Anomaly Detection on Attributed Networks| GAL |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝Arxiv](https://arxiv.org/abs/2009.14455)|Uncertainty-Matching Graph Neural Networks to Defend Against Poisoning Attacks| Model |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝Arxiv](https://arxiv.org/abs/2009.14738)|ResGCN: Attention-based Deep Residual Modeling for Anomaly Detection on Attributed Networks| Model |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝SocialSec ](https://link.springer.com/chapter/10.1007/978-981-15-9031-3_26)|A Novel Defending Scheme for Graph-Based Classification Against Graph Structure Manipulating Attack| Model |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
+|[📝Arxiv](https://arxiv.org/abs/2009.10235)|Uncertainty-aware Attention Graph Neural Network for Defending Adversarial Attacks| Model |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 
 
 
@@ -243,6 +248,7 @@ If you find this repository useful, please cite:
 # 🔐 Certification
 [💨 Back to Top](#table-of-contents)
 
++ **Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks**, *NIPS'20*, [📝Paper]()
 + **Certified Robustness of Community Detection against Adversarial Structural Perturbation via Randomized Smoothing**, *WWW'20*, [📝Paper](https://arxiv.org/abs/2002.03421)
 + **Efficient Robustness Certificates for Discrete Data: Sparsity - Aware Randomized Smoothing for Graphs, Images and More**, *ICML'20*, [📝Paper](https://proceedings.icml.cc/book/2020/file/4f7b884f2445ef08da9bbc77b028722c-Paper.pdf), [:octocat:Code](https://github.com/abojchevski/sparse_smoothing)
 + **Abstract Interpretation based Robustness Certification for Graph Convolutional Networks**, *ECAI'20*, [📝Paper](http://ecai2020.eu/papers/31_paper.pdf),
