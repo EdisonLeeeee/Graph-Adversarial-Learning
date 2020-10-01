@@ -29,11 +29,11 @@
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
 
-This repository contains **55** Attack-related papers, **56** Defense-related papers, **10** Certification-related papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains **55** Attack-related papers, **57** Defense-related papers, **10** Certification-related papers, **4** Survey papers, ranging from 2017 to 2020. Some of the newly added papers need to be summarized and we leave that with placeholders. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 <div align="center">
 <img src="https://img.shields.io/badge/-Attack 55 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 56 papers-brightgreen">
+<img src="https://img.shields.io/badge/-Defense 57 papers-brightgreen">
 <img src="https://img.shields.io/badge/-Certification 10 papers-orange">
 <img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
 <img src="https://img.shields.io/badge/-All 126 papers-black">
@@ -280,7 +280,7 @@ If you find this repository useful, please cite:
 + **Awesome Graph Attack and Defense Papers** [:octocat:Link](https://github.com/ChandlerBang/awesome-graph-attack-papers)
 + **Graph Adversarial Learning Literature** [:octocat:Link](https://github.com/safe-graph/graph-adversarial-learning-literature)
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
-
++ **Adversarial Attacks and Defenses Frontiers, Advances and Practice**, KDD'20 tutorial, [🌐Link](https://sites.google.com/view/kdd-2020-attack-and-defense)
 
 <a class="toc" id ="7"></a>
 
