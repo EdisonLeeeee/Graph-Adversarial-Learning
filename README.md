@@ -21,9 +21,10 @@
 	+ [2019](#3-2)
 	+ [2018](#3-3)
 	+ [2017](#3-4)
-+ [Survey](#4)
-+ [Resource](#5)
-+ [Toolbox](#6)
++ [🔐 Certification](#4)
++ [Survey](#5)
++ [Resource](#6)
++ [Toolbox](#7)
 
 
 We strongly recommend that you use this Chrome extension [[Widescreen for GitHub]](https://chrome.google.com/webstore/detail/widescreen-for-github/elikdceclccjilahimjfceoalhdbndan?utm_source=chrome-ntp-icon) to get a better view of the tables in this repository.
@@ -158,26 +159,21 @@ If you find this repository useful, please cite:
 | Ref.| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[📝WSDM](https://arxiv.org/abs/1908.07558)<br>[:octocat:Code](https://github.com/tangxianfeng/PA-GNN)|Transferring Robustness for Graph Neural Network Against Poisoning Attacks| PA-GNN | Penalized Aggregation, Meta Learning | Structure Based | Node <br> Classification | GNN | GCN, GAT, <br>GCN-Jaccard, <br>RGCN, VPN | Accuracy | Pubmed, <br> Reddit, <br> Yelp|
-|[📝WWW](https://arxiv.org/abs/2002.03421)|Certified Robustness of Community Detection against Adversarial Structural Perturbation via Randomized Smoothing|-|Robustness <br>Certification| Hybrid|Community detection|Louvain’s <br>Method|Louvain’s <br>method|Certified accuracy|Email,<br>DBLP,<br>Amazon|
 | [📝ICLR OpenReview](https://arxiv.org/abs/1905.10029)<br>[:octocat:Code](https://www.dropbox.com/sh/p36pzx1ock2iamo/AABEr7FtM5nqwC4i9nICLIsta?dl=0)|Power up! Robust Graph Convolutional Network against Evasion Attacks based on Graph Powering| r-GCN, VPN | Graph Powering | Objective Based | Node <br>Classification | GCN | ManiReg, SemiEmb, <br>LP, DeepWalk, ICA, <br>Planetoid, <br>Vanilla GCN | Accuracy, <br>Robustness <br>Merit,<br>Attack <br>Deterioration | Citeseer, <br> Cora, <br>Pubmed |
 |[📝WSDM](https://dl.acm.org/doi/abs/10.1145/3336191.3371789)<br>[:octocat:Code](https://github.com/DSE-MSU/DeepRobust)|All You Need Is Low (Rank): Defending Against Adversarial Attacks on Graphs|GCN-SVD| SVD | Preprocessing | Node <br>Classification | GCN | GCN | Accuracy, <br>Classification Margin | Citeseer, <br>Cora-ML, <br>PolBlogs |
 |[📝DLGMA](https://arxiv.org/abs/1912.10206)|How Robust Are Graph Neural Networks to Structural Noise?|-|Adversarial Training|Adversarial Training|Node <br>Classification|GIN|GIN|F1 score|Constructed graph|
 |[📝AAAI](http://staff.ustc.edu.cn/~hexn/papers/aaai20-adversarial-embedding.pdf)| Improving the Robustness of Wasserstein Embedding by Adversarial PAC-Bayesian Learning| RAWEN | Adversarial PAC-Bayesian learning | Objective Based | Node <br>embedding | Wasserstein <br>embedding | GF, LINE, <br>Node2vec, SDNE<br>... | Presion, Recall, <br>AUC, F1 | Wiki-Vote, <br>Epinions, <br>Google, <br>Email,Wiki |
 |[📝KDD](https://arxiv.org/abs/2006.06069)<br>[:octocat:Code](https://github.com/YingtongDou/Nash-Detect)|Robust Detection of Adaptive Spammers by Nash Reinforcement Learning|Nash-Detect|A minimax game|Detection Based|Spam Detection|-|Spam Detector|Practical Effect, <br>Accuracy|YelpChi, <br>YelpNYC, <br>YelpZip|
 |[📝KDD](https://arxiv.org/abs/2005.10203)<br>[:octocat:Code](https://github.com/DSE-MSU/DeepRobust)|Graph Structure Learning for Robust Graph Neural Networks| Pro-GNN | Learns the graph structure and the GNN parameters simultaneously| Hybrid | Node <br>Classification | GCN | GAT, <br>GCN-Jaccard, <br>GCN-SVD | Accuracy | Cora, <br> Citeseer, <br>Polblogs, Pubmed |
-|[📝ICML](https://proceedings.icml.cc/book/2020/file/4f7b884f2445ef08da9bbc77b028722c-Paper.pdf)<br>[:octocat:Code](https://github.com/abojchevski/sparse_smoothing)| Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More| - | Randomized Smoothing | Structure-based | Node <br>Classification,<br> Graph <br> Classification  | GNN  | GAT, GCN,<br>APPNP | certified ratio |  Cora-ML,PubMed |
 |[📝ICML](https://proceedings.icml.cc/static/paper_files/icml/2020/2611-Paper.pdf)|Robust Graph Representation Learning via Neural Sparsification| NeuralSparse | Sampling subgraphs | Preprocessing-based | Node <br>Classification | GCN, GraphSAGE,<br>GAT, GIN | SS/RD, <br>DropEdge, <br>LDS | Micro-F1,AUC,<br> Accuracy | Reddit, PPI, <br>Transaction, <br>Cora,Citeseer |
 |[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9054072)<br>[:octocat:Code](https://github.com/henrykenlay/spgf)|On The Stability of Polynomial Spectral Graph Filters|- | Polynomial  graph filters | Structure-based | Graph signal processing | GNN | - | Laplacian distance | Barabási-Albert, <br>Sensor network |
 |[📝WWW](https://www.cs.au.dk/~karras/robustIC.pdf)<br>[:octocat:Code](https://github.com/allogn/robustness)|On the Robustness of Cascade Diffusion under Node Attacks|- | SEMR | - | Cascade <br> Diffusion| IC Model | NetShield | EMR,RNI,RIM | Blogs, Minnesota, <br>VK, Advogato, <br>DBLP, BrightKite<br>... |
 |[📝WWW](https://arxiv.org/abs/2004.04834)|Friend or Faux: Graph-Based Early Detection of Fake Accounts on Social Networks|- | SybilEdge | Preprocessing-based | Fake <br> Detection | Graph-based <br>models | SybilRank,<br>SybilBelief,<br>SybilSCAR | AUC,<br>RejectRate,<br>SybilEdgeTR | Facebook network |
 |[📝ICASSP](https://arxiv.org/abs/2002.10947)|Towards an Efficient and General Framework of Robust Training for Graph Neural Networks|GTA,ZO-GTA | Greedy search,Zeroth-order | Adversarial-based | Node <br>Classification | GNN | DICE, <br>CE-PGD, <br>CW-PGD | Misclassification <br>rate | Cora, <br> Citeseer,<br>PubMed |
-|[📝ECAI](http://ecai2020.eu/papers/31_paper.pdf)|Abstract Interpretation based Robustness Certification for Graph Convolutional Networks|- | Abstract Interpretation | Structure-based | Node <br>Classification | GCN | Robust-gcn | Accuracy, <br>Avg-max q, <br>Avg-time | Cora-ML, Citeseer,<br>PubMed |
 |[📝IEEE Trans](https://ieeexplore.ieee.org/abstract/document/8605364)|Robust Graph Learning From Noisy Data| RGC | Graph regularization | Prepocessing-based | Clustering, <br> Semisupervised <br> Classification | RPCA | SC,RKKM,RSC,<br> SSR,CAN,TLSC | Accuracy, <br>NMI, Purity | YALE, JAFFE, ORL,<br>TR41 and TR45<br> ... |
 |[📝UTC.edu](https://www.cs.uic.edu/~zhangx/papers/JinZha20.pdf)|Robust Training of Graph Convolutional Networks via Latent Perturbation| LAT-GCN |  Perturbing latent representations | Structure-based | Node <br>Classification, <br> Link prediction, <br> Recommendation <br> systems | GCN | GCN, ADV-GCN,<br> MIN-MAX GCN<br>... | CPU time,<br> Accuracy, AUC,AP | Citeseer,Cora,<br>PubMed,<br>MovieLens 100k |
 |[📝CIKM](https://arxiv.org/abs/2008.08692)<br>[:octocat:Code](https://github.com/safe-graph/DGFraud)|Enhancing Graph Neural Network-based Fraud Detectors against Camouflaged Fraudsters| CARE-GNN | Reinforcement learning | Hybrid | Target Task | GCN, GAT,<br>RGCN,<br>GraphSAGE | GeniePath, <br>Player2Vec, <br>SemiGNN, <br>GraphConsis| AUC, Recall | Yelp, Amazon |
-|[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403217)<br>[:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)|Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation|Robust GCN | Branch-and-bound | Structure-based | Node <br>Classification| GCN | GCN, ED, <br>Atk,B&B | Cert.Robust | Cora-ML,Citeseer,<br>PubMed |
 |[📝ICDM]|Provably Robust Node Classification via Low-Pass Message Passing|Model | Algorithm | Defense Type | Node <br>Classification | GNNs | Baseline | Metric | Dataset |
-|[📝GLOBECOM](https://arxiv.org/abs/2009.05872)|Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing|Model | Algorithm | Defense Type | Node <br>Classification | GNNs | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2004.08833)| Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning| KDAD | Adversarial <br>Meta-learning | Objective-based | Dialogue Generation | Qadpt | TAware, <br>Qadpt | BLEU, PPL, <br>DISTINCT,<br>... | HGZHZ |
 |[📝Preprint](http://www.auai.org/uai2020/proceedings/119_main_paper.pdf)|Robust Collective Classification against Structural Attacks	| R-AMN | Bound Analysis | Objective-based | Node <br>Classification | AMN | Struct-RSAD | Accuracy | Reuters, WebKB,<br>Cora and CiteSeer |
 |[📝Arxiv](https://arxiv.org/abs/2003.07729)|Tensor Graph Convolutional Networks for Multi-relational and Robust Learning|TGCN | Edge-dithering | Processing-based | Node <br>Classification, <br>protein prediction | GCN | GCN | Accuracy,Macro F1 | Cora, Citeseer, <br>Pubmed, Polblogs<br>...|
@@ -186,7 +182,6 @@ If you find this repository useful, please cite:
 |[📝Arxiv](https://arxiv.org/abs/2003.07010)|Adversarial Perturbations of Opinion Dynamics in Networks|Model| Algorithm | Others | Network <br> Disruption | Opinion dynamics <br>model | - | Polarization-<br>disagreement <br>index | - |
 |[📝Arxiv](https://arxiv.org/abs/2006.08900)<br>[:octocat:Code](https://github.com/zhangao520/defense-vgae)|DefenseVGAE: Defending against Adversarial Attacks on Graph Data via a Variational Graph Autoencoder| DefenceVGAE | VGAE | Prepocessing-based | Node <br>Classification | GCN | GCN-Jaccard,<br>GCN-SVD, RGCN | Accuracy | Cora, <br> Citeseer, <br>PolBlogs |
 |[NIPS](https://arxiv.org/abs/2006.08149)|GNNGuard: Defending Graph Neural Networks against Adversarial Attacks| GNNGuard | Network theory of homophily | Structure-based | Node <br>Classification | GCN, GAT, GIN,<br>... | GNN-Jaccard,<br>RobustGCN, <br>GNN-SVD | Accuracy | Cora, <br> Citeseer, <br>ogbn-arxiv, DP |
-|[📝Arxiv](https://arxiv.org/abs/2007.09647)|Adversarial Immunization for Improving Certifiable Robustness on Graphs| AddRem | Adversarial immunization | Adversarial-based | Node <br>Classification | GNN | Random,<br>Jaccard, <br>Cosine,<br>Betweenness, <br>Bridgeness | Ratio of <br>robust nodes,<br>Average <br>worst-case <br>margin| Citeseer, <br> Cora-ML, <br>Reddit|
 |[📝Arxiv](https://arxiv.org/abs/2008.13072)<br>[:octocat:Code](https://github.com/uJ62JHD/Privacy-Preserving-Social-Network-Embedding)|Adversarial Privacy Preserving Graph Embedding against Inference Attack| APDGE | Adversarial Privacy-Purged  | Structure-based | privacy <br> protection | GAE|GAE RM, <br>CDSPIA |  Macro F1 | Yale and <br> Rochester |
 |[📝Arxiv](https://arxiv.org/abs/2009.13038)|RoGAT: a robust GNN combined revised GAT with adjusted graphs| RoGAT |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |[📝Arxiv](https://arxiv.org/abs/2009.13504)<br>[:octocat:Code](https://github.com/liaopeiyuan/GAL)|Graph Adversarial Networks: Protecting Information against Adversarial Attacks| GAL |Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
@@ -201,7 +196,6 @@ If you find this repository useful, please cite:
 ## 2019
 | Ref.| Title | Model | Algorithm | Defense Type | Target Task | Target Model | Baseline | Metric | Dataset |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| [📝KDD](https://arxiv.org/abs/1906.12269)<br>[:octocat:Code](https://www.kdd.in.tum.de/research/robust-gcn/)|Certifiable Robustness and Robust Training for Graph Convolutional Networks| GNN | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN, GCN | GNNs | Accuracy, Averaged Worst-case Margin | Citeseer, Cora-ML, Pubmed |
 | [📝IJCAI](https://arxiv.org/abs/1906.04214)<br>[:octocat:Code](https://github.com/KaidiXu/GCN_ADV_Train)|Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective| - | Adversarial Training | Adversarial Training | Node Classification | GCN | GCN | Misclassification <br>Rate <br>Accuracy | Citeseer, Cora |
 | [📝IJCAI](https://arxiv.org/abs/1903.01610)<br>[:octocat:Code](https://github.com/DSE-MSU/DeepRobust) |Adversarial Examples on Graph Data: Deep Insights into Attack and Defense| GCN-Jaccard | Drop Edges | Preprocessing | Node Classification | GCN | GCN | Classification Margin, Accuracy | Cora-ML, Citeseer, PolBlogs |
 | [📝NAACL](https://arxiv.org/abs/1905.00563)<br>[:octocat:Code](https://github.com/pouyapez/criage)|Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications| CRIAGE | Adversarial Modification | Robustness Evaluation | Link Prediction | Knowledge Graph Embedding | - | Hits@K, MRR | Nations, Kinship, WN18, YAGO3-10 |
@@ -214,7 +208,6 @@ If you find this repository useful, please cite:
 |[📝CIKM](https://dl.acm.org/doi/10.1145/3357384.3357875)|αCyber: Enhancing Robustness of Android Malware Detection System against Adversarial Attacks on Heterogeneous Graph based Model| Rad-HGC | HG-Defense | Detection Based | Malware Detection | Malware Detection System | FakeBank, CryptoMiner, <br>AppCracked, MalFlayer, <br>GameTrojan, BlackBaby<br>...| Detection Rate | Tencent Security Lab Dataset |
 | [📝ICDM](https://arxiv.org/abs/1909.01432) |Adversarial Robustness of Similarity-Based Link Prediction| IDOpt, IDRank | Integer Program, Edge Ranking | Heuristic Algorithm | Link Prediction | Similarity-based Link Prediction Models | PPN | DPR | PA, PLD, TVShow, Gov |
 | [📝MLG@KDD](http://eliassi.org/papers/benmiller-mlg2019.pdf) |Improving Robustness to Attacks Against Vertex Classification| SVM with a radial basis function kernel | Augmented Feature, Edge Selecting | Hybrid | Node Classification | SVM | GCN | Classification Marigin | Cora, Citeseer |
-| [📝NIPS](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations)<br>[:octocat:Code](https://github.com/abojchevski/graph_cert)|Certifiable Robustness to Graph Perturbations| GNN (train with <img src="http://latex.codecogs.com/gif.latex?L_{RCE}">, <img src="http://latex.codecogs.com/gif.latex?L_{CEM}"> ) | Robustness Certification, Objective Based | Hybrid | Node Classification | GNN | GNN | Accuracy, Worst-case Margin | Cora-ML, Citeseer, Pubmed |
 | [📝TKDE](https://arxiv.org/abs/1902.08226)<br>[:octocat:Code](https://github.com/fulifeng/GraphAT) |Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure| GCN-GATV | Graph Adversarial Training, Virtual Adversarial Training | Adversarial Training | Node Classification | GCN | LP, DeepWalk, <br>SemiEmb, <br>Planetoid, GCN, <br>GraphSGAN | Accuracy | Citeseer, Cora, <br>NELL |
 | [📝WWW](https://arxiv.org/abs/1908.11514)<br>[:octocat:Code](https://github.com/wonniu/AdvT4NE_WWW2019)|Adversarial Training Methods for Network Embedding| AdvT4NE | AdvT | Adversarial-based | Network embedding | Deepwalk | GF,DeepWalk, <br>LINE,Node2vec<br>...| Accuracy | Cora,Citeseer,Wiki,<br>CA-GrQc,CA-HepTh |
 | [📝Arxiv](https://arxiv.org/abs/1911.04429) |GraphDefense: Towards Robust Graph Convolutional Networks| GraphDefense | Adversarial Training | Adversarial Training | Node Classification | GCN | Drop Edges, <br>Discrete Adversarial<br> Training | Accuracy | Cora, Citeseer, Reddit |
@@ -246,15 +239,29 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="4"></a>
 
+# 🔐 Certification
+[💨 Back to Top](#table-of-contents)
+
++ **Certified Robustness of Community Detection against Adversarial Structural Perturbation via Randomized Smoothing**, *WWW'20*, [📝Paper](https://arxiv.org/abs/2002.03421)
++ **Efficient Robustness Certificates for Discrete Data: Sparsity - Aware Randomized Smoothing for Graphs, Images and More**, *ICML'20*, [📝Paper](https://proceedings.icml.cc/book/2020/file/4f7b884f2445ef08da9bbc77b028722c-Paper.pdf), [:octocat:Code](https://github.com/abojchevski/sparse_smoothing)
++ **Abstract Interpretation based Robustness Certification for Graph Convolutional Networks**, *ECAI'20*, [📝Paper](http://ecai2020.eu/papers/31_paper.pdf),
++ **Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation**, *KDD'20*, [📝Paper](https://dl.acm.org/doi/10.1145/3394486.3403217), [:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)
++ **Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing**, *GLOBECOM'20*, [📝Paper](https://arxiv.org/abs/2009.05872)
++ **Adversarial Immunization for Improving Certifiable Robustness on Graphs**, *Arxiv'20*, [📝Paper](https://arxiv.org/abs/2007.09647)
++ **Certifiable Robustness and Robust Training for Graph Convolutional Networks**, *KDD'19*, [📝Paper](https://arxiv.org/abs/1906.12269), [:octocat:Code](https://www.kdd.in.tum.de/research/robust-gcn/)
++ **Certifiable Robustness to Graph Perturbations**, *NIPS'19*, [📝Paper](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations), [:octocat:Code](https://github.com/abojchevski/graph_cert)
+
+<a class="toc" id ="5"></a>
+
 # Survey
 [💨 Back to Top](#table-of-contents)
 
-+ **A Survey of Adversarial Learning on Graph**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.05730)
-+ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv'2020*, [📝Paper](https://arxiv.org/abs/2003.00653)
-+ **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv'2019*, [📝Paper](https://arxiv.org/abs/1909.08072)
-+ **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv'2018*, [📝Paper](https://arxiv.org/abs/1812.10528)
++ **A Survey of Adversarial Learning on Graph**, *Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.05730)
++ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.00653)
++ **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *Arxiv'19*, [📝Paper](https://arxiv.org/abs/1909.08072)
++ **Adversarial Attack and Defense on Graph Data: A Survey**, *Arxiv'18*, [📝Paper](https://arxiv.org/abs/1812.10528)
 
-<a class="toc" id ="5"></a>
+<a class="toc" id ="6"></a>
 
 # Resource
 [💨 Back to Top](#table-of-contents)
@@ -266,7 +273,7 @@ If you find this repository useful, please cite:
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
 
-<a class="toc" id ="6"></a>
+<a class="toc" id ="7"></a>
 
 # Toolbox
 [💨 Back to Top](#table-of-contents)
