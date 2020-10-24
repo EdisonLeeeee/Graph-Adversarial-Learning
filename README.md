@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝141 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝145 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -19,21 +19,13 @@
   - [2019](#3-2)
   - [2018](#3-3)
   - [2017](#3-4)
-- [🔐 Certification Robustness](#4)
-- [🚀 Data Augmentation](#5)
+- [🔐 Robustness Certification](#4)
+- [🚀 Others](#5)
 - [📃 Survey](#6)
 - [🔗 Resource](#7)
 - [⚙ Toolbox](#8)
 
-This repository contains **61** Attack-related papers, **63** Defense-related papers, **12** Certification Robustness papers, **1** Data Augmentation papers, **4** Surveys, ranging from 2017 to 2020. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
-
-<!-- <div align="center">
-<img src="https://img.shields.io/badge/-Attack 61 papers-darkred">
-<img src="https://img.shields.io/badge/-Defense 63 papers-brightgreen">
-<img src="https://img.shields.io/badge/-Certification 12 papers-orange">
-<img src="https://img.shields.io/badge/-Survey 4 papers-yellow">
-<img src="https://img.shields.io/badge/-All 140 papers-black">
-</div> -->
+This repository contains **61** Attack-related papers, **66** Defense-related papers, **12** Robustness Certification papers, **2** Other papers, **4** Surveys, ranging from 2017 to 2020. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 If you find this repository useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.05730)
@@ -49,13 +41,15 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="1"></a>
 
-# ⚔ Attack (📝61)
+# ⚔ Attack
+📝61 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="1-1"></a>
 
-## 2020 (📝34)
+## 2020
+📝34 papers in total
 
 <!-- ################################## -->
 <details>
@@ -437,7 +431,6 @@ If you find this repository useful, please cite:
     </tr>
 </table>
 </details>
-<a class="toc" id ="1-2"></a>
 
 <!-- ################################## -->
 <details>
@@ -1182,14 +1175,16 @@ If you find this repository useful, please cite:
 <details>
 <summary>
 <strong><font size=4>A Graph Matching Attack on Privacy-Preserving Record Linkage </font></strong>
- 📝CIKM 
+<a href="https://dl.acm.org/doi/abs/10.1145/3340531.3411931"> 📝CIKM </a>
 </summary>
 </details>
 
 
+
 <a class="toc" id ="1-2"></a>
 
-## 2019 (📝17)
+## 2019
+📝17 papers in total
 
 <!-- ################################## -->
 <details>
@@ -1809,7 +1804,13 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
-## 2018 (📝8)
+
+
+
+<a class="toc" id ="1-3"></a>
+
+## 2018
+📝8 papers in total
 
 <!-- ################################## -->
 <details>
@@ -2153,7 +2154,8 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="1-4"></a>
 
-## 2017 (📝2)
+## 2017
+📝2 papers in total
 
 <!-- ################################## -->
 <details>
@@ -2225,11 +2227,14 @@ If you find this repository useful, please cite:
 <a class="toc" id ="3"></a>
 
 # 🛡 Defense
+📝66 papers in total
+
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="3-1"></a>
 
-## 2020 (📝38)
+## 2020 
+📝41 papers in total
 
 <!-- ################################## -->
 <details>
@@ -3401,9 +3406,34 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong><font size=4>Provable Overlapping Community Detection in Weighted Graphs </font></strong>
+<a href="https://arxiv.org/abs/2004.07150"> 📝NeurIPS </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong><font size=4>Community detection in sparse time-evolving graphs with a dynamical Bethe-Hessian </font></strong>
+<a href="https://arxiv.org/abs/2006.04510"> 📝NeurIPS </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong><font size=4>Node Copying for Protection Against Graph Neural Network Topology Attacks </font></strong>
+<a href="https://arxiv.org/abs/2007.06704"> 📝Arxiv </a>
+</summary>
+</details>
+
 <a class="toc" id ="3-2"></a>
 
-## 2019 (📝23)
+## 2019
+📝23 papers in total
 
 <!-- ################################## -->
 <details>
@@ -4211,7 +4241,8 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="3-3"></a>
 
-## 2018 (📝1)
+## 2018
+📝1 papers in total
 
 <!-- ################################## -->
 <details>
@@ -4258,7 +4289,8 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="3-4"></a>
 
-## 2017 (📝1)
+## 2017
+📝1 papers in total
 
 <!-- ################################## -->
 <details>
@@ -4271,8 +4303,11 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="4"></a>
 
-# 🔐 Certification Robustness (📝12)
+# 🔐 Robustness Certification
+📝12 papers in total
+
 [💨 Back to Top](#table-of-contents)
+
 
 <!-- ################################## -->
 <details>
@@ -4377,7 +4412,11 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="5"></a>
 
-# 🚀 Data Augmentation (📝1)
+# 🚀 Others
+📝2 papers in total
+
+[💨 Back to Top](#table-of-contents)
+
 <!-- ################################## -->
 <details>
 <summary>
@@ -4387,9 +4426,19 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong><font size=4>Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning </font></strong>
+<a href="https://arxiv.org/abs/2004.08833"> 📝Arxiv'20 </a>
+</summary>
+</details>
+
 <a class="toc" id ="6"></a>
 
-# 📃 Survey (📝4)
+# 📃 Survey
+📝4 papers in total
+
 [💨 Back to Top](#table-of-contents)
 
 <!-- ################################## -->
