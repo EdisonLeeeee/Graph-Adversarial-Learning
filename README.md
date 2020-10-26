@@ -2227,9 +2227,9 @@ If you find this repository useful, please cite:
 
 
 <table align="center"><tr><td><table align="left"><tr><td>
-<img  width = "600" height = "350" src="imgs/attack_demo.png" ></a></td></tr></table></td><td><table align="left"
+<img  width = "420" src="imgs/attack_demo.png" ></a></td></tr></table></td><td><table align="left"
 ><tr><td>
-<img width = "600" height = "350" src="imgs/p_and_e.png" ></a>
+<img width = "420"  src="imgs/p_and_e.png" ></a>
 </td></tr></table></td></tr></table>
 
 
