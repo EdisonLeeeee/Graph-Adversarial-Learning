@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝145 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝147 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -25,7 +25,7 @@
 - [🔗 Resource](#7)
 - [⚙ Toolbox](#8)
 
-This repository contains **61** Attack-related papers, **66** Defense-related papers, **12** Robustness Certification papers, **2** Other papers, **4** Surveys, ranging from 2017 to 2020. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains <font color=black size=5>62</font> Attack-related papers, <font color=black size=5>66</font> Defense-related papers, <font color=black size=5>13</font> Robustness Certification papers, <font color=black size=5>2</font> Other papers, <font color=black size=5>4</font> Surveys, ranging from 2017 to 2020. Papers that have been updated (in a week) are marked as <font color=red size=5>red</font>. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 If you find this repository useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.05730)
@@ -33,7 +33,8 @@ If you find this repository useful, please cite:
 ```bibtex
 @article{chen2020survey,
   title={A Survey of Adversarial Learning on Graph},
-  author={Chen, Liang and Li, Jintang and Peng, Jiaying and Xie, Tao and Cao, Zengxu and Xu, Kun and He, Xiangnan and Zheng, Zibin},
+  author={Chen, Liang and Li, Jintang and Peng, Jiaying and Xie, 
+        Tao and Cao, Zengxu and Xu, Kun and He, Xiangnan and Zheng, Zibin},
   journal={arXiv preprint arXiv:2003.05730},
   year={2020}
 }
@@ -42,14 +43,14 @@ If you find this repository useful, please cite:
 <a class="toc" id ="1"></a>
 
 # ⚔ Attack
-📝61 papers in total
+📝62 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="1-1"></a>
 
 ## 2020
-📝34 papers in total
+📝35 papers in total
 
 <!-- ################################## -->
 <details>
@@ -1134,7 +1135,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>One Vertex Attack on Graph Neural Networks-based Spatiotemporal Forecasting</font></strong>
+<strong><font size=4 color=red>One Vertex Attack on Graph Neural Networks-based Spatiotemporal Forecasting</font></strong>
 <a href="https://openreview.net/forum?id=W0MKrbVOxtd"> 📝ICLR OpenReview </a>
 </summary>
 </details>
@@ -1142,7 +1143,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Single-Node Attack for Fooling Graph Neural Networks </font></strong>
+<strong><font size=4 color=red>Single-Node Attack for Fooling Graph Neural Networks </font></strong>
 <a href="https://openreview.net/forum?id=u4WfreuXxnk"> 📝ICLR OpenReview </a>
 </summary>
 </details>
@@ -1150,7 +1151,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Black-Box Adversarial Attacks on Graph Neural Networks as An Influence Maximization Problem </font></strong>
+<strong><font size=4 color=red>Black-Box Adversarial Attacks on Graph Neural Networks as An Influence Maximization Problem </font></strong>
 <a href="https://openreview.net/forum?id=sbyjwhxxT8K"> 📝ICLR OpenReview </a>
 </summary>
 </details>
@@ -1158,7 +1159,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Adversarial Attacks on Deep Graph Matching </font></strong>
+<strong><font size=4 color=red>Adversarial Attacks on Deep Graph Matching </font></strong>
 📝NeurIPS
 </summary>
 </details>
@@ -1166,7 +1167,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access </font></strong>
+<strong><font size=4 color=red>Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access </font></strong>
 <a href="https://arxiv.org/abs/2006.05057"> 📝NeurIPS </a>
 </summary>
 </details>
@@ -1174,8 +1175,16 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>A Graph Matching Attack on Privacy-Preserving Record Linkage </font></strong>
+<strong><font size=4 color=red>A Graph Matching Attack on Privacy-Preserving Record Linkage </font></strong>
 <a href="https://dl.acm.org/doi/abs/10.1145/3340531.3411931"> 📝CIKM </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong><font size=4 color=red>Cross Entropy Attack on Deep Graph Infomax </font></strong>
+<a href="https://ieeexplore.ieee.org/document/9180817"> 📝IEEE ISCAS </a>
 </summary>
 </details>
 
@@ -2410,48 +2419,6 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Improving the Robustness of Wasserstein Embedding by Adversarial PAC-Bayesian Learning </font></strong>
-<a href="http://staff.ustc.edu.cn/~hexn/papers/aaai20-adversarial-embedding.pdf"> 📝AAAI </a>
-</summary>
-<table>
-    <tr>
-        <!-- the name of model(s) proposed in this paper -->
-        <td><strong>Model</strong></td>
-        <td>RAWEN</td>
-        <!-- the core idea(s) of this paper -->
-        <td><strong>Algorithm</strong></td>
-        <td>Adversarial PAC-Bayesian learning</td>
-    </tr>
-    <tr>
-        <!-- the defense type of the proposed defense model -->
-        <td><strong>Defense Type</strong></td>
-        <td>Objective Based</td>
-        <!-- the target task(s) considered in this paper -->
-        <td><strong>Target Task</strong></td>
-        <td>Node Embedding</td>
-    </tr>
-    <tr>
-        <!-- the target model(s) to enhance its robustness in this paper -->
-        <td><strong>Target Model</strong></td>
-        <td>Wasserstein embedding</td>
-        <!-- the baseline model(s) compared in this paper -->
-        <td><strong>Baseline</strong></td>
-        <td>GF, LINE, Node2vec, SDNE ... </td>
-    </tr>
-    <tr>
-        <!-- the metric(s) used to evaluate the defense in this paper -->
-        <td><strong>Metric</strong></td>
-        <td>Presion, Recall, AUC, F1</td>
-        <!-- the dataset(s) used in this paper -->
-        <td><strong>Dataset</strong></td>
-        <td>Wiki-Vote, Epinions, Google, Email,Wiki</td>
-    </tr>
-</table>
-</details>
-
-<!-- ################################## -->
-<details>
-<summary>
 <strong><font size=4>Robust Detection of Adaptive Spammers by Nash Reinforcement Learning </font></strong>
 <a href="https://arxiv.org/abs/2006.06069"> 📝KDD </a>
 <a href="https://github.com/YingtongDou/Nash-Detect"> :octocat:Code </a>
@@ -3376,7 +3343,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Ricci-GNN: Defending Against Structural Attacks Through a Geometric Approach </font></strong>
+<strong><font size=4 color=red>Ricci-GNN: Defending Against Structural Attacks Through a Geometric Approach </font></strong>
 <a href="https://openreview.net/forum?id=_qoQkWNEhS"> 📝ICLR OpenReview </a>
 </summary>
 </details>
@@ -3384,7 +3351,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Reliable Graph Neural Networks via Robust Location Estimation </font></strong>
+<strong><font size=4 color=red>Reliable Graph Neural Networks via Robust Location Estimation </font></strong>
 📝NeurIPS
 </summary>
 </details>
@@ -3392,7 +3359,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Graph Random Neural Networks for Semi-Supervised Learning on Graphs </font></strong>
+<strong><font size=4 color=red>Graph Random Neural Networks for Semi-Supervised Learning on Graphs </font></strong>
 <a href="https://arxiv.org/abs/2005.11079"> 📝NeurIPS </a>
 <a href="https://github.com/Grand20/grand"> :octocat:Code </a>
 </summary>
@@ -3401,7 +3368,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Variational Inference for Graph Convolutional Networks in the Absence of Graph Data and Adversarial Settings </font></strong>
+<strong><font size=4 color=red>Variational Inference for Graph Convolutional Networks in the Absence of Graph Data and Adversarial Settings </font></strong>
 <a href="https://arxiv.org/abs/1906.01852"> 📝NeurIPS </a>
 </summary>
 </details>
@@ -3409,7 +3376,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Provable Overlapping Community Detection in Weighted Graphs </font></strong>
+<strong><font size=4 color=red>Provable Overlapping Community Detection in Weighted Graphs </font></strong>
 <a href="https://arxiv.org/abs/2004.07150"> 📝NeurIPS </a>
 </summary>
 </details>
@@ -3417,7 +3384,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Community detection in sparse time-evolving graphs with a dynamical Bethe-Hessian </font></strong>
+<strong><font size=4 color=red>Community detection in sparse time-evolving graphs with a dynamical Bethe-Hessian </font></strong>
 <a href="https://arxiv.org/abs/2006.04510"> 📝NeurIPS </a>
 </summary>
 </details>
@@ -3425,8 +3392,17 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Node Copying for Protection Against Graph Neural Network Topology Attacks </font></strong>
+<strong><font size=4 color=red>Node Copying for Protection Against Graph Neural Network Topology Attacks </font></strong>
 <a href="https://arxiv.org/abs/2007.06704"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong><font size=4 color=red>A Feature-Importance-Aware and Robust Aggregator for GCN </font></strong>
+<a href="https://dl.acm.org/doi/abs/10.1145/3340531.3411983"> 📝CIKM </a>
+<a href="https://github.com/LiZhang-github/LA-GCN"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -4304,10 +4280,51 @@ If you find this repository useful, please cite:
 <a class="toc" id ="4"></a>
 
 # 🔐 Robustness Certification
-📝12 papers in total
+📝13 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong><font size=4 color=red>Improving the Robustness of Wasserstein Embedding by Adversarial PAC-Bayesian Learning </font></strong>
+<a href="http://staff.ustc.edu.cn/~hexn/papers/aaai20-adversarial-embedding.pdf"> 📝AAAI‘20 </a>
+</summary>
+<table>
+    <tr>
+        <!-- the name of model(s) proposed in this paper -->
+        <td><strong>Model</strong></td>
+        <td>RAWEN</td>
+        <!-- the core idea(s) of this paper -->
+        <td><strong>Algorithm</strong></td>
+        <td>Adversarial PAC-Bayesian learning</td>
+    </tr>
+    <tr>
+        <!-- the defense type of the proposed defense model -->
+        <td><strong>Defense Type</strong></td>
+        <td>Objective Based</td>
+        <!-- the target task(s) considered in this paper -->
+        <td><strong>Target Task</strong></td>
+        <td>Node Embedding</td>
+    </tr>
+    <tr>
+        <!-- the target model(s) to enhance its robustness in this paper -->
+        <td><strong>Target Model</strong></td>
+        <td>Wasserstein embedding</td>
+        <!-- the baseline model(s) compared in this paper -->
+        <td><strong>Baseline</strong></td>
+        <td>GF, LINE, Node2vec, SDNE ... </td>
+    </tr>
+    <tr>
+        <!-- the metric(s) used to evaluate the defense in this paper -->
+        <td><strong>Metric</strong></td>
+        <td>Presion, Recall, AUC, F1</td>
+        <!-- the dataset(s) used in this paper -->
+        <td><strong>Dataset</strong></td>
+        <td>Wiki-Vote, Epinions, Google, Email,Wiki</td>
+    </tr>
+</table>
+</details>
 
 <!-- ################################## -->
 <details>
@@ -4329,8 +4346,9 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks </font></strong>
-📝NeurIPS'20 
+<strong><font size=4 color=red>Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks </font></strong>
+<a href="https://www.cs.uic.edu/~zhangx/papers/Jinetal20.pdf"> 📝NeurIPS'20 </a>
+<a href="https://github.com/RobustGraph/RoboGraph"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -4420,7 +4438,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>FLAG: Adversarial Data Augmentation for Graph Neural Networks </font></strong>
+<strong><font size=4 color=red>FLAG: Adversarial Data Augmentation for Graph Neural Networks </font></strong>
 <a href="https://arxiv.org/abs/2010.09891"> 📝Arxiv'20 </a>
 <a href="https://github.com/devnkong/FLAG"> :octocat:Code </a>
 </summary>
@@ -4429,7 +4447,7 @@ If you find this repository useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong><font size=4>Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning </font></strong>
+<strong><font size=4 color=red>Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning </font></strong>
 <a href="https://arxiv.org/abs/2004.08833"> 📝Arxiv'20 </a>
 </summary>
 </details>
