@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝153 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝156 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -26,7 +26,7 @@
 - [🔗 Resource](#8)
 - [⚙ Toolbox](#9)
 
-This repository contains 62 Attack-related papers, 66 Defense-related papers, 13 Robustness Certification papers, etc., ranging from 2017 to 2020. Papers that have been updated recently are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains 64 Attack-related papers, 66 Defense-related papers, 13 Robustness Certification papers, etc., ranging from 2017 to 2020. Papers that have been recently updated are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 If you find this repository useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.05730)
@@ -44,14 +44,14 @@ If you find this repository useful, please cite:
 <a class="toc" id ="1"></a>
 
 # ⚔ Attack
-📝62 papers in total
+📝64 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="1-1"></a>
 
 ## 2020
-📝35 papers in total
+📝37 papers in total
 
 <!-- ################################## -->
 <details>
@@ -1193,6 +1193,24 @@ If you find this repository useful, please cite:
 <img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
 <strong><font size=4>Cross Entropy Attack on Deep Graph Infomax </font></strong>
 <a href="https://ieeexplore.ieee.org/document/9180817"> 📝IEEE ISCAS </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Model Extraction Attacks on Graph Neural Networks: Taxonomy and Realization </font></strong>
+<a href="https://arxiv.org/abs/2010.12751"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation </font></strong>
+<a href="https://arxiv.org/abs/2010.12872"> 📝Arxiv </a>
 </summary>
 </details>
 
@@ -4449,7 +4467,7 @@ If you find this repository useful, please cite:
 <a class="toc" id ="5"></a>
 
 # ⚖ Stability
-📝6 papers in total
+📝7 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
@@ -4459,6 +4477,15 @@ If you find this repository useful, please cite:
 <img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
 <strong><font size=4>Graph and Graphon Neural Network Stability </font></strong>
 <a href="https://arxiv.org/abs/2008.01767"> 📝Arxiv'20 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>On the Stability of Graph Convolutional Neural Networks under Edge Rewiring </font></strong>
+<a href="https://arxiv.org/abs/2010.13747"> 📝Arxiv'20 </a>
 </summary>
 </details>
 
@@ -4587,7 +4614,7 @@ If you find this repository useful, please cite:
 + **Awesome Graph Attack and Defense Papers** [:octocat:Link](https://github.com/ChandlerBang/awesome-graph-attack-papers)
 + **Graph Adversarial Learning Literature** [:octocat:Link](https://github.com/safe-graph/graph-adversarial-learning-literature)
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
-+ **Adversarial Attacks and Defenses Frontiers, Advances and Practice**, KDD'20 tutorial, [🌐Link](https://sites.google.com/view/kdd-2020-attack-and-defense)
++ **Adversarial Attacks and Defenses Frontiers, Advances and Practice**, *KDD'20 tutorial*, [🌐Link](https://sites.google.com/view/kdd-2020-attack-and-defense)
 
 <a class="toc" id ="9"></a>
 
