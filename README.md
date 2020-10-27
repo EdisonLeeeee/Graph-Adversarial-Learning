@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝147 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝153 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -20,12 +20,13 @@
   - [2018](#3-3)
   - [2017](#3-4)
 - [🔐 Robustness Certification](#4)
-- [🚀 Others](#5)
-- [📃 Survey](#6)
-- [🔗 Resource](#7)
-- [⚙ Toolbox](#8)
+- [⚖ Stability](#5)
+- [🚀 Others](#6)
+- [📃 Survey](#7)
+- [🔗 Resource](#8)
+- [⚙ Toolbox](#9)
 
-This repository contains 62 Attack-related papers, 66 Defense-related papers, 13 Robustness Certification papers, 2 Other papers, 4 Surveys, ranging from 2017 to 2020. Papers that have been updated (in a week) are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains 62 Attack-related papers, 66 Defense-related papers, 13 Robustness Certification papers, etc., ranging from 2017 to 2020. Papers that have been updated recently are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 If you find this repository useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.05730)
@@ -4447,6 +4448,70 @@ If you find this repository useful, please cite:
 
 <a class="toc" id ="5"></a>
 
+# ⚖ Stability
+📝6 papers in total
+
+[💨 Back to Top](#table-of-contents)
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Graph and Graphon Neural Network Stability </font></strong>
+<a href="https://arxiv.org/abs/2008.01767"> 📝Arxiv'20 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Stability of Graph Neural Networks to Relative Perturbations
+ </font></strong>
+<a href="https://ieeexplore.ieee.org/document/9054341"> 📝ICASSP'20 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Graph Neural Networks: Architectures, Stability and Transferability </font></strong>
+<a href="https://arxiv.org/abs/2008.01767"> 📝Arxiv'20 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Stability Properties of Graph Neural Networks </font></strong>
+<a href="https://arxiv.org/abs/1905.04497"> 📝Arxiv'19 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Stability and Generalization of Graph Convolutional Neural Networks </font></strong>
+<a href="https://arxiv.org/abs/1905.01004"> 📝KDD'19 </a>
+<a href="https://github.com/raspberryice/ala-gcn"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>When Do GNNs Work: Understanding and Improving Neighborhood Aggregation </font></strong>
+<a href="https://www.ijcai.org/Proceedings/2020/181"> 📝IJCAI'19 Workshop </a>
+<a href="https://github.com/raspberryice/ala-gcn"> :octocat:Code </a>
+</summary>
+</details>
+
+<a class="toc" id ="6"></a>
+
 # 🚀 Others
 📝2 papers in total
 
@@ -4471,7 +4536,7 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
-<a class="toc" id ="6"></a>
+<a class="toc" id ="7"></a>
 
 # 📃 Survey
 📝4 papers in total
@@ -4512,7 +4577,7 @@ If you find this repository useful, please cite:
 
 
 
-<a class="toc" id ="7"></a>
+<a class="toc" id ="8"></a>
 
 # 🔗 Resource
 [💨 Back to Top](#table-of-contents)
@@ -4524,7 +4589,7 @@ If you find this repository useful, please cite:
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 + **Adversarial Attacks and Defenses Frontiers, Advances and Practice**, KDD'20 tutorial, [🌐Link](https://sites.google.com/view/kdd-2020-attack-and-defense)
 
-<a class="toc" id ="8"></a>
+<a class="toc" id ="9"></a>
 
 # ⚙ Toolbox
 [💨 Back to Top](#table-of-contents)
