@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝156 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝157 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -26,7 +26,7 @@
 - [🔗 Resource](#8)
 - [⚙ Toolbox](#9)
 
-This repository contains 64 Attack-related papers, 66 Defense-related papers, 13 Robustness Certification papers, etc., ranging from 2017 to 2020. Papers that have been recently updated are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains 64 Attack-related papers, 67 Defense-related papers, 13 Robustness Certification papers, etc., ranging from 2017 to 2020. Papers that have been recently updated are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 If you find this repository useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.05730)
@@ -2262,14 +2262,14 @@ If you find this repository useful, please cite:
 <a class="toc" id ="3"></a>
 
 # 🛡 Defense
-📝66 papers in total
+📝67 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="3-1"></a>
 
 ## 2020 
-📝41 papers in total
+📝42 papers in total
 
 <!-- ################################## -->
 <details>
@@ -3379,8 +3379,9 @@ If you find this repository useful, please cite:
 <details>
 <summary>
 <img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
-<strong><font size=4>Reliable Graph Neural Networks via Robust Location Estimation </font></strong>
-📝NeurIPS
+<strong><font size=4>Reliable Graph Neural Networks via Robust Aggregation </font></strong>
+<a href="https://arxiv.org/abs/2010.15651"> 📝NeurIPS </a>
+
 </summary>
 </details>
 
@@ -3437,6 +3438,15 @@ If you find this repository useful, please cite:
 <strong><font size=4>A Feature-Importance-Aware and Robust Aggregator for GCN </font></strong>
 <a href="https://dl.acm.org/doi/abs/10.1145/3340531.3411983"> 📝CIKM </a>
 <a href="https://github.com/LiZhang-github/LA-GCN"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Anti-perturbation of Online Social Networks by Graph Label Transition </font></strong>
+<a href="https://arxiv.org/abs/2010.14121"> 📝Arxiv </a>
 </summary>
 </details>
 
