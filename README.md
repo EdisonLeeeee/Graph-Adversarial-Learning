@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝157 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝159 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -26,7 +26,7 @@
 - [🔗 Resource](#8)
 - [⚙ Toolbox](#9)
 
-This repository contains 64 Attack-related papers, 67 Defense-related papers, 13 Robustness Certification papers, etc., ranging from 2017 to 2020. Papers that have been recently updated are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains 65 Attack-related papers, 68 Defense-related papers, 13 Robustness Certification papers, etc., ranging from 2017 to 2020. Papers that have been recently updated are marked as ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+). All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
 If you find this repository useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [📝Paper](https://arxiv.org/abs/2003.05730)
@@ -44,14 +44,14 @@ If you find this repository useful, please cite:
 <a class="toc" id ="1"></a>
 
 # ⚔ Attack
-📝64 papers in total
+📝65 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="1-1"></a>
 
 ## 2020
-📝37 papers in total
+📝38 papers in total
 
 <!-- ################################## -->
 <details>
@@ -1214,6 +1214,16 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Towards More Practical Adversarial Attacks on Graph Neural Networks </font></strong>
+<a href="https://arxiv.org/abs/2006.05057"> 📝NeurIPS </a>
+<a href="https://github.com/Mark12Ding/GNN-Practical-Attack"> :octocat:Code </a>
+</summary>
+</details>
+
 
 
 <a class="toc" id ="1-2"></a>
@@ -2262,14 +2272,14 @@ If you find this repository useful, please cite:
 <a class="toc" id ="3"></a>
 
 # 🛡 Defense
-📝67 papers in total
+📝68 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
 <a class="toc" id ="3-1"></a>
 
 ## 2020 
-📝42 papers in total
+📝43 papers in total
 
 <!-- ################################## -->
 <details>
@@ -3447,6 +3457,16 @@ If you find this repository useful, please cite:
 <img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
 <strong><font size=4>Anti-perturbation of Online Social Networks by Graph Label Transition </font></strong>
 <a href="https://arxiv.org/abs/2010.14121"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Graph Information Bottleneck </font></strong>
+<a href="https://arxiv.org/abs/2010.12811"> 📝NeurIPS </a>
+<a href="http://snap.stanford.edu/gib/"> :octocat:Code </a>
 </summary>
 </details>
 
