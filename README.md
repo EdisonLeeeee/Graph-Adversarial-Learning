@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝159 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 📝160 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -1210,7 +1210,8 @@ If you find this repository useful, please cite:
 <summary>
 <img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
 <strong><font size=4>Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation </font></strong>
-<a href="https://arxiv.org/abs/2010.12872"> 📝Arxiv </a>
+<a href="https://arxiv.org/abs/2010.12872"> 📝ICLR OpenReview </a>
+<a href="https://github.com/INK-USC/deceive-KG-models"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -3391,7 +3392,7 @@ If you find this repository useful, please cite:
 <img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
 <strong><font size=4>Reliable Graph Neural Networks via Robust Aggregation </font></strong>
 <a href="https://arxiv.org/abs/2010.15651"> 📝NeurIPS </a>
-
+<a href="https://github.com/sigeisler/reliable_gnn_via_robust_aggregation"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -3469,6 +3470,7 @@ If you find this repository useful, please cite:
 <a href="http://snap.stanford.edu/gib/"> :octocat:Code </a>
 </summary>
 </details>
+
 
 <a class="toc" id ="3-2"></a>
 
@@ -4570,7 +4572,7 @@ If you find this repository useful, please cite:
 <a class="toc" id ="6"></a>
 
 # 🚀 Others
-📝2 papers in total
+📝3 papers in total
 
 [💨 Back to Top](#table-of-contents)
 
@@ -4590,6 +4592,15 @@ If you find this repository useful, please cite:
 <img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
 <strong><font size=4>Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning </font></strong>
 <a href="https://arxiv.org/abs/2004.08833"> 📝Arxiv'20 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<img src="https://via.placeholder.com/15/f03c15/000000?text=+"></img>
+<strong><font size=4>Watermarking Graph Neural Networks by Random Graphs </font></strong>
+<a href="https://arxiv.org/abs/2011.00512"> 📝Arxiv </a>
 </summary>
 </details>
 
