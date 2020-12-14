@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 169 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 170 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -1249,8 +1249,10 @@ If you find this repository useful, please cite:
 <summary>
 <strong>A Targeted Universal Attack on Graph Convolutional Network </strong>
 <a href="https://arxiv.org/abs/2011.14365"> 📝Arxiv </a>
+<a href="https://github.com/Nanyuu/TUA"> :octocat:Code </a>
 </summary>
 </details>
+
 
 
 <a class="toc" id ="1-2"></a>
@@ -2959,7 +2961,8 @@ If you find this repository useful, please cite:
 <details>
 <summary>
 <strong>Provably Robust Node Classification via Low-Pass Message Passing </strong>
- 📝ICDM 
+<a href="https://shenghua-liu.github.io/papers/icdm2020-provablerobust.pdf"> 📝ICDM </a>
+  
 </summary>
 </details>
 
@@ -3526,6 +3529,14 @@ If you find this repository useful, please cite:
 <summary>
 <strong>Unsupervised Adversarially-Robust Representation Learning on Graphs </strong>
 <a href="https://arxiv.org/abs/2012.02486"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>I-GCN: Robust Graph Convolutional Network via Influence Mechanism </strong>
+<a href="https://arxiv.org/abs/2012.06110"> 📝Arxiv </a>
 </summary>
 </details>
 
