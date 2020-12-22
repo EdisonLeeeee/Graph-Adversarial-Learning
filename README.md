@@ -1,32 +1,33 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 171 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 173 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![](https://img.shields.io/github/stars/gitgiter/Graph-Adversarial-Learning)
+<!-- ![](https://img.shields.io/github/stars/gitgiter/Graph-Adversarial-Learning)
 ![](https://img.shields.io/github/forks/gitgiter/Graph-Adversarial-Learning)
-![](https://img.shields.io/github/license/gitgiter/Graph-Adversarial-Learning)
+![](https://img.shields.io/github/license/gitgiter/Graph-Adversarial-Learning) -->
 
-- [⚔ Attack](#1)
-  - [2021](#1-0)
-  - [2020](#1-1)
-  - [2019](#1-2)
-  - [2018](#1-3)
-  - [2017](#1-4)
-- [Taxonomies of Attack](#2)
-- [🛡 Defense](#3)
-  - [2021](#3-0)
-  - [2020](#3-1)
-  - [2019](#3-2)
-  - [2018](#3-3)
-  - [2017](#3-4)
-- [🔐 Robustness Certification](#4)
-- [⚖ Stability](#5)
-- [🚀 Others](#6)
-- [📃 Survey](#7)
-- [🔗 Resource](#8)
-- [⚙ Toolbox](#9)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 173 Papers)](#-awesome-graph-adversarial-learning-updating-173-papers)
+- [⚔ Attack](#-attack)
+  - [2021](#2021)
+  - [2020](#2020)
+  - [2019](#2019)
+  - [2018](#2018)
+  - [2017](#2017)
+- [Taxonomies of Attack](#taxonomies-of-attack)
+- [🛡 Defense](#-defense)
+  - [2021](#2021-1)
+  - [2020](#2020-1)
+  - [2019](#2019-1)
+  - [2018](#2018-1)
+  - [2017](#2017-1)
+- [🔐 Robustness Certification](#-robustness-certification)
+- [⚖ Stability](#-stability)
+- [🚀 Others](#-others)
+- [📃 Survey](#-survey)
+- [🔗 Resource](#-resource)
+- [⚙ Toolbox](#-toolbox)
 
 This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
@@ -3548,6 +3549,14 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Adversary for Social Good: Protecting Familial Privacy through Joint Adversarial Attacks </strong>
+<a href="https://ojs.aaai.org//index.php/AAAI/article/view/6791"> 📝AAAI </a>
+</summary>
+</details>
+
 <a class="toc" id ="3-2"></a>
 
 ## 2019
@@ -4670,6 +4679,14 @@ If you find this repository useful, please cite:
 # 📃 Survey
 
 [💨 Back to Top](#table-of-contents)
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Graph Neural Networks Taxonomy, Advances and Trends </strong>
+<a href="https://arxiv.org/abs/2012.08752"> 📝Arxiv'20 </a>
+</summary>
+</details>
 
 <!-- ################################## -->
 <details>
