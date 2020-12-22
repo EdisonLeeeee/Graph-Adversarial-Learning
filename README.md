@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 173 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 175 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -8,7 +8,7 @@
 ![](https://img.shields.io/github/forks/gitgiter/Graph-Adversarial-Learning)
 ![](https://img.shields.io/github/license/gitgiter/Graph-Adversarial-Learning) -->
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 173 Papers)](#-awesome-graph-adversarial-learning-updating-173-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 175 Papers)](#-awesome-graph-adversarial-learning-updating-175-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -28,6 +28,8 @@
 - [📃 Survey](#-survey)
 - [🔗 Resource](#-resource)
 - [⚙ Toolbox](#-toolbox)
+
+![Attack](imgs/wordcloud.png)
 
 This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
@@ -2319,6 +2321,15 @@ If you find this repository useful, please cite:
 <strong>Learning to Drop: Robust Graph Neural Network via Topological Denoising </strong>
 <a href="https://arxiv.org/abs/2011.07057"> 📝WSDM </a>
 <a href="https://github.com/flyingdoog/PTDNet"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Node Similarity Preserving Graph Convolutional Networks </strong>
+<a href="https://arxiv.org/abs/2011.09643"> 📝WSDM </a>
+<a href="https://github.com/ChandlerBang/SimP-GCN"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -4640,6 +4651,14 @@ If you find this repository useful, please cite:
 <strong>When Do GNNs Work: Understanding and Improving Neighborhood Aggregation </strong>
 <a href="https://www.ijcai.org/Proceedings/2020/181"> 📝IJCAI'19 Workshop </a>
 <a href="https://github.com/raspberryice/ala-gcn"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Should Graph Convolution Trust Neighbors? A Simple Causal Inference Method </strong>
+<a href="https://arxiv.org/abs/2010.11797"> 📝Arxiv'20 </a>
 </summary>
 </details>
 
