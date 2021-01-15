@@ -1,6 +1,6 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 175 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 177 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -8,7 +8,7 @@
 ![](https://img.shields.io/github/forks/gitgiter/Graph-Adversarial-Learning)
 ![](https://img.shields.io/github/license/gitgiter/Graph-Adversarial-Learning) -->
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 175 Papers)](#-awesome-graph-adversarial-learning-updating-175-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 177 Papers)](#-awesome-graph-adversarial-learning-updating-177-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -29,7 +29,7 @@
 - [🔗 Resource](#-resource)
 - [⚙ Toolbox](#-toolbox)
 
-![Attack](imgs/wordcloud.png)
+![wordcloud](imgs/wordcloud.png)
 
 This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
@@ -1227,7 +1227,7 @@ If you find this repository useful, please cite:
 <details>
 <summary>
 <strong>Adversarial Label-Flipping Attack and Defense for Graph Neural Networks </strong>
-📝ICDM 
+<a href="http://shichuan.org/doc/97.pdf"> 📝ICDM </a>
 </summary>
 </details>
 
@@ -3568,6 +3568,14 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Smoothing Adversarial Training for GNN </strong>
+<a href="https://ieeexplore.ieee.org/abstract/document/9305289?casa_token=fTXIL3hT1yIAAAAA:I4fn-GlF0PIwzPRC87SayRi5_pi2ZDDuSancEsY96A4O4bUBEsp0hSYMNJVGVzMgBWxycYN9qu6D"> 📝IEEE TCSS </a>
+</summary>
+</details>
+
 <a class="toc" id ="3-2"></a>
 
 ## 2019
@@ -4377,6 +4385,15 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Bayesian graph convolutional neural networks for semi-supervised classification </strong>
+<a href="https://arxiv.org/abs/1811.11103"> 📝AAAI </a>
+<a href="https://github.com/huawei-noah/BGCN"> :octocat:Code </a>
+</summary>
+</details>
+
 <a class="toc" id ="3-3"></a>
 
 ## 2018
@@ -4759,5 +4776,4 @@ If you find this repository useful, please cite:
 [💨 Back to Top](#table-of-contents)
 
 + **DeepRobust** [Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
-+ **GraphAdv** [Link](https://github.com/EdisonLeeeee/GraphAdv): A TensorFlow-based library for adversarial attacks and defense methods on graph.
 + **GraphGallery** [Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning.
