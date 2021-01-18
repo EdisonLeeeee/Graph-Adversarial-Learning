@@ -1,14 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 177 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 178 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-<!-- ![](https://img.shields.io/github/stars/gitgiter/Graph-Adversarial-Learning)
-![](https://img.shields.io/github/forks/gitgiter/Graph-Adversarial-Learning)
-![](https://img.shields.io/github/license/gitgiter/Graph-Adversarial-Learning) -->
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 177 Papers)](#-awesome-graph-adversarial-learning-updating-177-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 178 Papers)](#-awesome-graph-adversarial-learning-updating-178-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -29,7 +26,7 @@
 - [🔗 Resource](#-resource)
 - [⚙ Toolbox](#-toolbox)
 
-![wordcloud](imgs/wordcloud.png)
+<img width = "500"  height =300 src="imgs/wordcloud.png" ></a>
 
 This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
 
@@ -4753,6 +4750,14 @@ If you find this repository useful, please cite:
 <summary>
 <strong>Adversarial Attack and Defense on Graph Data: A Survey </strong>
 <a href="https://arxiv.org/abs/1812.10528"> 📝Arxiv'18 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Deep Learning on Graphs A Survey </strong>
+<a href="https://arxiv.org/abs/1812.04202"> 📝Arxiv'18 </a>
 </summary>
 </details>
 
