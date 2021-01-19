@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 178 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 180 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 178 Papers)](#-awesome-graph-adversarial-learning-updating-178-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 180 Papers)](#-awesome-graph-adversarial-learning-updating-180-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -94,6 +94,23 @@ If you find this repository useful, please cite:
     </tr>
 </table>
 </details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Membership Inference Attack on Graph Neural Networks</strong>
+<a href="https://arxiv.org/abs/2101.06570"> 📝Arxiv</a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>GraphAttacker: A General Multi-Task GraphAttack Framework</strong>
+<a href="https://arxiv.org/abs/2101.06855"> 📝Arxiv</a>
+</summary>
+</details>
+
 
 <a class="toc" id ="1-1"></a>
 
