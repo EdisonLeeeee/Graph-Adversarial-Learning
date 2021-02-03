@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 180 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 181 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 180 Papers)](#-awesome-graph-adversarial-learning-updating-180-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 181 Papers)](#-awesome-graph-adversarial-learning-updating-181-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -28,9 +28,9 @@
 
 <img width = "500"  height =300 src="imgs/wordcloud.png" ></a>
 
-This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. All papers are available for download from [Latest Release](https://github.com/gitgiter/Graph-Adversarial-Learning/releases/latest).
+This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. 
 
-If you find this repository useful, please cite:
+If you find this repo useful, please cite:
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [Link](https://arxiv.org/abs/2003.05730)
 
 ```bibtex
@@ -111,6 +111,55 @@ If you find this repository useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Graph Backdoor</strong>
+<a href="https://arxiv.org/abs/2006.11890"> 📝USENIX Security </a>
+</summary>
+<table>
+    <tr>
+        <!-- the name of model(s) proposed in this paper -->
+        <td><strong>Model</strong></td>
+        <td>GTA</td>
+        <!-- the core idea(s) of this paper -->
+        <td><strong>Algorithm</strong></td>
+        <td>Gradient</td>
+    </tr>
+    <tr>
+        <!-- the surrogate model(s) used for attack -->
+        <td><strong>Surrogate</strong></td>
+        <td></td>
+        <!-- the target task(s) considered in this paper -->
+        <td><strong>Target Task</strong></td>
+        <td>Node Classification, Graph Classification</td>
+    </tr>
+    <tr>
+        <!-- the target model(s) to attack in this paper -->
+        <td><strong>Target Model</strong></td>
+        <td>GCN, GraphSAGE, GAT</td>
+        <!-- the baseline attack model(s) compared in this paper -->
+        <td><strong>Baseline</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <!-- the metric(s) used to evaluate the attack in this paper -->
+        <td><strong>Metric</strong></td>
+        <td>ASR, AMC, BAD, ADD</td>
+        <!-- the dataset(s) used in this paper -->
+        <td><strong>Dataset</strong></td>
+        <td>Fingerprint, Malware, AIDS, Toxicant, Bitcoin, Facebook</td>
+    </tr>
+</table>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Attacking Graph Neural Networks at Scale</strong>
+<a href="https://www.dropbox.com/s/ddrwoswpz3wwx40/Robust_GNNs_at_Scale__AAAI_Workshop_2020_CameraReady.pdf?dl=0"> 📝AAAI workshop</a>
+</summary>
+</details>
 
 <a class="toc" id ="1-1"></a>
 
@@ -920,47 +969,6 @@ If you find this repository useful, please cite:
 </table>
 </details>
 
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Graph Backdoor</strong>
-<a href="https://arxiv.org/abs/2006.11890"> 📝Arxiv </a>
-</summary>
-<table>
-    <tr>
-        <!-- the name of model(s) proposed in this paper -->
-        <td><strong>Model</strong></td>
-        <td>GTA</td>
-        <!-- the core idea(s) of this paper -->
-        <td><strong>Algorithm</strong></td>
-        <td>Gradient</td>
-    </tr>
-    <tr>
-        <!-- the surrogate model(s) used for attack -->
-        <td><strong>Surrogate</strong></td>
-        <td></td>
-        <!-- the target task(s) considered in this paper -->
-        <td><strong>Target Task</strong></td>
-        <td>Node Classification, Graph Classification</td>
-    </tr>
-    <tr>
-        <!-- the target model(s) to attack in this paper -->
-        <td><strong>Target Model</strong></td>
-        <td>GCN, GraphSAGE, GAT</td>
-        <!-- the baseline attack model(s) compared in this paper -->
-        <td><strong>Baseline</strong></td>
-        <td></td>
-    </tr>
-    <tr>
-        <!-- the metric(s) used to evaluate the attack in this paper -->
-        <td><strong>Metric</strong></td>
-        <td>ASR, AMC, BAD, ADD</td>
-        <!-- the dataset(s) used in this paper -->
-        <td><strong>Dataset</strong></td>
-        <td>Fingerprint, Malware, AIDS, Toxicant, Bitcoin, Facebook</td>
-    </tr>
-</table>
-</details>
 
 <!-- ################################## -->
 <details>
