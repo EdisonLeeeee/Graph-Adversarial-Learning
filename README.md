@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 181 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 184 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 181 Papers)](#-awesome-graph-adversarial-learning-updating-181-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 184 Papers)](#-awesome-graph-adversarial-learning-updating-184-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -973,8 +973,8 @@ If you find this repo useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong>Backdoor Attacks to Graph Neural Networks|Subgraph-based Backdoor Attacks</strong>
-<a href="https://arxiv.org/abs/2006.11165"> 📝Arxiv </a>
+<strong>Backdoor Attacks to Graph Neural Networks</strong>
+<a href="https://arxiv.org/abs/2006.11165"> 📝ICLR OpenReview </a>
 </summary>
 <table>
     <tr>
@@ -2356,6 +2356,76 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>UAG: Uncertainty-Aware Attention Graph Neural Network for Defending Adversarial Attacks </strong>
+<a href="https://arxiv.org/abs/2009.10235"> 📝AAAI </a>
+</summary>
+</details>
+
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Uncertainty-Matching Graph Neural Networks to Defend Against Poisoning Attacks </strong>
+<a href="https://arxiv.org/abs/2009.14455"> 📝AAAI </a>
+</summary>
+</details>
+
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Randomized Generation of Adversary-Aware Fake Knowledge Graphs to Combat Intellectual Property Theft </strong>
+<a href="http://34.94.61.102/paper_AAAI-9475.html"> 📝AAAI </a>
+</summary>
+</details>
+
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Power up! Robust Graph Convolutional Network against Evasion Attacks based on Graph Powering </strong>
+<a href="https://arxiv.org/abs/1905.10029"> 📝AAAI </a>
+<a href="https://www.dropbox.com/sh/p36pzx1ock2iamo/AABEr7FtM5nqwC4i9nICLIsta?dl=0"> :octocat:Code </a>
+</summary>
+<table>
+    <tr>
+        <!-- the name of model(s) proposed in this paper -->
+        <td><strong>Model</strong></td>
+        <td>r-GCN, VPN</td>
+        <!-- the core idea(s) of this paper -->
+        <td><strong>Algorithm</strong></td>
+        <td>Graph Powering</td>
+    </tr>
+    <tr>
+        <!-- the defense type of the proposed defense model -->
+        <td><strong>Defense Type</strong></td>
+        <td>Objective Based</td>
+        <!-- the target task(s) considered in this paper -->
+        <td><strong>Target Task</strong></td>
+        <td>Node Classification</td>
+    </tr>
+    <tr>
+        <!-- the target model(s) to enhance its robustness in this paper -->
+        <td><strong>Target Model</strong></td>
+        <td>GCN</td>
+        <!-- the baseline model(s) compared in this paper -->
+        <td><strong>Baseline</strong></td>
+        <td>ManiReg, SemiEmb, LP, DeepWalk, ICA, Planetoid, GCN </td>
+    </tr>
+    <tr>
+        <!-- the metric(s) used to evaluate the defense in this paper -->
+        <td><strong>Metric</strong></td>
+        <td>Accuracy, Robustness Merit, Attack Deterioration</td>
+        <!-- the dataset(s) used in this paper -->
+        <td><strong>Dataset</strong></td>
+        <td>CiteSeer, Cora, Pubmed</td>
+    </tr>
+</table>
+</details>
+
 <a class="toc" id ="3-1"></a>
 
 ## 2020 
@@ -2399,49 +2469,6 @@ If you find this repo useful, please cite:
         <!-- the dataset(s) used in this paper -->
         <td><strong>Dataset</strong></td>
         <td>Pubmed, Reddit, Yelp</td>
-    </tr>
-</table>
-</details>
-
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Power up! Robust Graph Convolutional Network against Evasion Attacks based on Graph Powering </strong>
-<a href="https://arxiv.org/abs/1905.10029"> 📝ICLR OpenReview </a>
-<a href="https://www.dropbox.com/sh/p36pzx1ock2iamo/AABEr7FtM5nqwC4i9nICLIsta?dl=0"> :octocat:Code </a>
-</summary>
-<table>
-    <tr>
-        <!-- the name of model(s) proposed in this paper -->
-        <td><strong>Model</strong></td>
-        <td>r-GCN, VPN</td>
-        <!-- the core idea(s) of this paper -->
-        <td><strong>Algorithm</strong></td>
-        <td>Graph Powering</td>
-    </tr>
-    <tr>
-        <!-- the defense type of the proposed defense model -->
-        <td><strong>Defense Type</strong></td>
-        <td>Objective Based</td>
-        <!-- the target task(s) considered in this paper -->
-        <td><strong>Target Task</strong></td>
-        <td>Node Classification</td>
-    </tr>
-    <tr>
-        <!-- the target model(s) to enhance its robustness in this paper -->
-        <td><strong>Target Model</strong></td>
-        <td>GCN</td>
-        <!-- the baseline model(s) compared in this paper -->
-        <td><strong>Baseline</strong></td>
-        <td>ManiReg, SemiEmb, LP, DeepWalk, ICA, Planetoid, GCN </td>
-    </tr>
-    <tr>
-        <!-- the metric(s) used to evaluate the defense in this paper -->
-        <td><strong>Metric</strong></td>
-        <td>Accuracy, Robustness Merit, Attack Deterioration</td>
-        <!-- the dataset(s) used in this paper -->
-        <td><strong>Dataset</strong></td>
-        <td>CiteSeer, Cora, Pubmed</td>
     </tr>
 </table>
 </details>
@@ -3402,14 +3429,6 @@ If you find this repo useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong>Uncertainty-Matching Graph Neural Networks to Defend Against Poisoning Attacks </strong>
-<a href="https://arxiv.org/abs/2009.14455"> 📝Arxiv </a>
-</summary>
-</details>
-
-<!-- ################################## -->
-<details>
-<summary>
 <strong>ResGCN: Attention-based Deep Residual Modeling for Anomaly Detection on Attributed Networks </strong>
 <a href="https://arxiv.org/abs/2009.14738"> 📝Arxiv </a>
 </summary>
@@ -3420,14 +3439,6 @@ If you find this repo useful, please cite:
 <summary>
 <strong>A Novel Defending Scheme for Graph-Based Classification Against Graph Structure Manipulating Attack </strong>
 <a href="https://link.springer.com/chapter/10.1007/978-981-15-9031-3_26"> 📝SocialSec </a>
-</summary>
-</details>
-
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Uncertainty-aware Attention Graph Neural Network for Defending Adversarial Attacks </strong>
-<a href="https://arxiv.org/abs/2009.10235"> 📝Arxiv </a>
 </summary>
 </details>
 
@@ -3598,6 +3609,16 @@ If you find this repo useful, please cite:
 <a href="https://ieeexplore.ieee.org/abstract/document/9305289?casa_token=fTXIL3hT1yIAAAAA:I4fn-GlF0PIwzPRC87SayRi5_pi2ZDDuSancEsY96A4O4bUBEsp0hSYMNJVGVzMgBWxycYN9qu6D"> 📝IEEE TCSS </a>
 </summary>
 </details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Graph Structure Reshaping Against Adversarial Attacks on Graph Neural Networks </strong>
+📝NIPS under review </a>
+<a href="https://github.com/GraphReshape/GraphReshape"> :octocat:Code </a>
+</summary>
+</details>
+
 
 <a class="toc" id ="3-2"></a>
 
@@ -4482,6 +4503,14 @@ If you find this repo useful, please cite:
 # 🔐 Robustness Certification
 
 [💨 Back to Top](#table-of-contents)
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Collective Robustness Certificates </strong>
+<a href="https://openreview.net/forum?id=ULQdiUTHe3y"> 📝ICLR21 </a>
+</summary>
+</details>
 
 <!-- ################################## -->
 <details>
