@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 184 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 185 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 184 Papers)](#-awesome-graph-adversarial-learning-updating-184-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 185 Papers)](#-awesome-graph-adversarial-learning-updating-185-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -158,6 +158,14 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Attacking Graph Neural Networks at Scale</strong>
 <a href="https://www.dropbox.com/s/ddrwoswpz3wwx40/Robust_GNNs_at_Scale__AAAI_Workshop_2020_CameraReady.pdf?dl=0"> 📝AAAI workshop</a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Node-Level Membership Inference Attacks Against Graph Neural Networks</strong>
+<a href="https://arxiv.org/abs/2102.05429"> 📝Arxiv</a>
 </summary>
 </details>
 
