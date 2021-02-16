@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 185 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 187 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 185 Papers)](#-awesome-graph-adversarial-learning-updating-185-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 187 Papers)](#-awesome-graph-adversarial-learning-updating-187-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -166,6 +166,23 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Node-Level Membership Inference Attacks Against Graph Neural Networks</strong>
 <a href="https://arxiv.org/abs/2102.05429"> 📝Arxiv</a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Reinforcement Learning For Data Poisoning on Graph Neural Networks</strong>
+<a href="https://arxiv.org/abs/2102.06800"> 📝Arxiv</a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>VIKING: Adversarial Attack on Network Embeddings via Supervised Network Poisoning</strong>
+<a href="https://arxiv.org/abs/2102.07164"> 📝PAKDD</a>
+<a href="https://github.com/virresh/viking"> :octocat:Code</a>
 </summary>
 </details>
 
