@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 187 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 189 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 187 Papers)](#-awesome-graph-adversarial-learning-updating-187-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 189 Papers)](#-awesome-graph-adversarial-learning-updating-189-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -183,6 +183,14 @@ If you find this repo useful, please cite:
 <strong>VIKING: Adversarial Attack on Network Embeddings via Supervised Network Poisoning</strong>
 <a href="https://arxiv.org/abs/2102.07164"> 📝PAKDD</a>
 <a href="https://github.com/virresh/viking"> :octocat:Code</a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>DeHiB: Deep Hidden Backdoor Attack on Semi-Supervised Learning via Adversarial Perturbation</strong>
+<a href=""> 📝AAAI </a>
 </summary>
 </details>
 
@@ -2451,6 +2459,23 @@ If you find this repo useful, please cite:
 </table>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Personalized privacy protection in social networks through adversarial modeling </strong>
+<a href="https://www.cs.uic.edu/~elena/pubs/biradar-ppai21.pdf"> 📝AAAI </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Interpretable Stability Bounds for Spectral Graph Filters </strong>
+<a href="https://arxiv.org/abs/2102.09587"> 📝Arxiv  </a>
+</summary>
+</details>
+
+
 <a class="toc" id ="3-1"></a>
 
 ## 2020 
@@ -4586,14 +4611,6 @@ If you find this repo useful, please cite:
         <td>Wiki-Vote, Epinions, Google, Email,Wiki</td>
     </tr>
 </table>
-</details>
-
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Collective Robustness Certificates	 </strong>
-<a href="https://openreview.net/forum?id=ULQdiUTHe3y"> 📝ICLR'21 OpenReview </a>
-</summary>
 </details>
 
 
