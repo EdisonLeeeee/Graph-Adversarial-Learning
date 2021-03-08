@@ -202,13 +202,7 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Unified Robust Training for Graph NeuralNetworks against Label Noise</strong>
-<a href="https://arxiv.org/abs/2103.03414"> 📝Arxiv </a>
-</summary>
-</details>
+
 
 <a class="toc" id ="1-1"></a>
 
@@ -2496,6 +2490,14 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Towards Robust Graph Contrastive Learning </strong>
 <a href="https://arxiv.org/abs/2102.13085"> 📝Arxiv  </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Unified Robust Training for Graph NeuralNetworks against Label Noise</strong>
+<a href="https://arxiv.org/abs/2103.03414"> 📝Arxiv </a>
 </summary>
 </details>
 
