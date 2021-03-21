@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 193 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 196 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 193 Papers)](#-awesome-graph-adversarial-learning-updating-193-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 196 Papers)](#-awesome-graph-adversarial-learning-updating-196-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -199,6 +199,22 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Graphfool: Targeted Label Adversarial Attack on Graph Embedding</strong>
 <a href="https://arxiv.org/abs/2102.12284"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Towards Revealing Parallel Adversarial Attack on Politician Socialnet of Graph Structure</strong>
+<a href="https://www.hindawi.com/journals/scn/2021/6631247"> 📝Security and Communication Networks </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Network Embedding Attack: An Euclidean Distance Based Method</strong>
+<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-71590-8_8"> 📝MDATA </a>
 </summary>
 </details>
 
@@ -1274,7 +1290,7 @@ If you find this repo useful, please cite:
 <details>
 <summary>
 <strong>Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation </strong>
-<a href="https://arxiv.org/abs/2010.12872"> 📝ICLR OpenReview </a>
+<a href="https://arxiv.org/abs/2010.12872"> 📝ICLR </a>
 <a href="https://github.com/INK-USC/deceive-KG-models"> :octocat:Code </a>
 </summary>
 </details>
@@ -1293,6 +1309,7 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Adversarial Label-Flipping Attack and Defense for Graph Neural Networks </strong>
 <a href="http://shichuan.org/doc/97.pdf"> 📝ICDM </a>
+<a href="https://github.com/MengmeiZ/LafAK"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -1300,7 +1317,7 @@ If you find this repo useful, please cite:
 <details>
 <summary>
 <strong>Exploratory Adversarial Attacks on Graph Neural Networks </strong>
-📝ICDM
+<a href="https://ieeexplore.ieee.org/document/9338329"> 📝ICDM </a>
 <a href="https://github.com/EpoAtk/EpoAtk"> :octocat:Code </a>
 </summary>
 </details>
@@ -2501,6 +2518,7 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+
 <a class="toc" id ="3-1"></a>
 
 ## 2020 
@@ -3108,6 +3126,15 @@ If you find this repo useful, please cite:
 <strong>Provably Robust Node Classification via Low-Pass Message Passing </strong>
 <a href="https://shenghua-liu.github.io/papers/icdm2020-provablerobust.pdf"> 📝ICDM </a>
   
+</summary>
+</details>
+
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>AANE: Anomaly Aware Network Embedding For Anomalous Link Detection</strong>
+<a href="https://ieeexplore.ieee.org/document/9338406"> 📝ICDM </a>
 </summary>
 </details>
 
