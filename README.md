@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 199 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 202 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 199 Papers)](#-awesome-graph-adversarial-learning-updating-199-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 202 Papers)](#-awesome-graph-adversarial-learning-updating-202-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -218,10 +218,12 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+
+
 <!-- ################################## -->
 <details>
 <summary>
-<strong>Spatio-Temporal Sparsification for General Robust Graph Convolution Networks</strong>
+<strong>Preserve, Promote, or Attack? GNN Explanation via Topology Perturbation</strong>
 <a href="https://arxiv.org/abs/2103.12256"> 📝Arxiv </a>
 </summary>
 </details>
@@ -2542,6 +2544,29 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Spatio-Temporal Sparsification for General Robust Graph Convolution Networks</strong>
+<a href="https://arxiv.org/abs/2103.12256"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Robust graph convolutional networks with directional graph adversarial training</strong>
+<a href="https://link.springer.com/article/10.1007/s10489-021-02272-y"> 📝Applied Intelligence </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Detection and Defense of Topological Adversarial Attacks on Graphs</strong>
+<a href="http://proceedings.mlr.press/v130/zhang21i.html"> 📝AISTATS </a>
+</summary>
+</details>
 
 <a class="toc" id ="3-1"></a>
 
