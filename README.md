@@ -219,12 +219,19 @@ If you find this repo useful, please cite:
 </details>
 
 
-
 <!-- ################################## -->
 <details>
 <summary>
 <strong>Preserve, Promote, or Attack? GNN Explanation via Topology Perturbation</strong>
 <a href="https://arxiv.org/abs/2103.12256"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Explainability-based Backdoor Attacks Against Graph Neural Networks</strong>
+<a href="https://arxiv.org/abs/2104.03674"> 📝Arxiv </a>
 </summary>
 </details>
 
