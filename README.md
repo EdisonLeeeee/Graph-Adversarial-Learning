@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 202 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 203 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 202 Papers)](#-awesome-graph-adversarial-learning-updating-202-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 203 Papers)](#-awesome-graph-adversarial-learning-updating-203-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -232,6 +232,15 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Explainability-based Backdoor Attacks Against Graph Neural Networks</strong>
 <a href="https://arxiv.org/abs/2104.03674"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models</strong>
+<a href="https://arxiv.org/abs/2104.09369"> 📝Arxiv </a>
+<a href="https://github.com/LYZ98/Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models"> :octocat:Code </a>
 </summary>
 </details>
 
