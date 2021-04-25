@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 203 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 207 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 203 Papers)](#-awesome-graph-adversarial-learning-updating-203-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 207 Papers)](#-awesome-graph-adversarial-learning-updating-207-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -244,6 +244,21 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>PATHATTACK: Attacking Shortest Paths in Complex Networks </strong>
+<a href="https://arxiv.org/abs/2104.03761"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Universal Spectral Adversarial Attacks for Deformable Shapes </strong>
+<a href="https://arxiv.org/abs/2104.03356"> 📝CVPR </a>
+</summary>
+</details>
 
 
 <a class="toc" id ="1-1"></a>
@@ -2398,6 +2413,7 @@ If you find this repo useful, please cite:
 <a href="https://github.com/uclmr/inferbeddings"> :octocat:Code </a>
 </summary>
 </details>
+
 
 <a class="toc" id ="2"></a>
 
@@ -4814,6 +4830,14 @@ If you find this repo useful, please cite:
 <strong>Certifiable Robustness to Graph Perturbations </strong>
 <a href="http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations"> 📝NeurIPS'19 </a>
 <a href="https://github.com/abojchevski/graph_cert"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Robust Certification for Laplace Learning on Geometric Graphs </strong>
+<a href="https://arxiv.org/abs/2104.10837"> 📝MSML’21 </a>
 </summary>
 </details>
 
