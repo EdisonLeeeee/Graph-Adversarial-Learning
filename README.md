@@ -276,13 +276,7 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Enhancing Robustness and Resilience of Multiplex Networks Against Node-Community Cascading Failures </strong>
-<a href="https://ieeexplore.ieee.org/abstract/document/9415463"> 📝IEEE TSMC </a>
-</summary>
-</details>
+
 
 
 
@@ -2647,6 +2641,14 @@ If you find this repo useful, please cite:
 <strong>Information Obfuscation of Graph Ne</strong>
 <a href="https://arxiv.org/pdf/2009.13504.pdf"> 📝ICML </a>
 <a href="https://github.com/liaopeiyuan/GAL"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Enhancing Robustness and Resilience of Multiplex Networks Against Node-Community Cascading Failures </strong>
+<a href="https://ieeexplore.ieee.org/abstract/document/9415463"> 📝IEEE TSMC </a>
 </summary>
 </details>
 
