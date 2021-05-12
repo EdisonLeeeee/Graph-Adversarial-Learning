@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 211 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 214 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 211 Papers)](#-awesome-graph-adversarial-learning-updating-211-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 214 Papers)](#-awesome-graph-adversarial-learning-updating-214-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -273,6 +273,22 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Black-box Gradient Attack on Graph Neural Networks: Deeper Insights in Graph-based Attack and Defense </strong>
 <a href="https://arxiv.org/abs/2104.15061"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Enhancing Robustness and Resilience of Multiplex Networks Against Node-Community Cascading Failures </strong>
+<a href="https://ieeexplore.ieee.org/abstract/document/9415463"> 📝IEEE TSMC </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>GraphAttacker: A General Multi-Task Graph Attack Framework </strong>
+<a href="https://arxiv.org/abs/2101.06855"> 📝Arxiv </a>
 </summary>
 </details>
 
@@ -2629,6 +2645,15 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Robust Graph Learning Under Wasserstein Uncertainty</strong>
 <a href="https://arxiv.org/abs/2105.04210"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Information Obfuscation of Graph Ne</strong>
+<a href="https://arxiv.org/pdf/2009.13504.pdf"> 📝ICML </a>
+<a href="https://github.com/liaopeiyuan/GAL"> :octocat:Code </a>
 </summary>
 </details>
 
