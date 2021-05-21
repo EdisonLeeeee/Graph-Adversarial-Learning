@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 214 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 215 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 214 Papers)](#-awesome-graph-adversarial-learning-updating-214-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 215 Papers)](#-awesome-graph-adversarial-learning-updating-215-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -276,7 +276,48 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
-
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Adversarial Attack on Large Scale Graph</strong>
+<a href="https://arxiv.org/abs/2009.03488"> 📝TKDE </a>
+<a href="https://github.com/EdisonLeeeee/SGAttack"> :octocat:Code </a>
+</summary>
+<table>
+    <tr>
+        <!-- the name of model(s) proposed in this paper -->
+        <td><strong>Model</strong></td>
+        <td>SGA</td>
+        <!-- the core idea(s) of this paper -->
+        <td><strong>Algorithm</strong></td>
+        <td>Gradient</td>
+    </tr>
+    <tr>
+        <!-- the surrogate model(s) used for attack -->
+        <td><strong>Surrogate</strong></td>
+        <td>SGC</td>
+        <!-- the target task(s) considered in this paper -->
+        <td><strong>Target Task</strong></td>
+        <td>Node Classification</td>
+    </tr>
+    <tr>
+        <!-- the target model(s) to attack in this paper -->
+        <td><strong>Target Model</strong></td>
+        <td>GCN, SGC, GAT, ClusterGCN, GraphSAGE</td>
+        <!-- the baseline attack model(s) compared in this paper -->
+        <td><strong>Baseline</strong></td>
+        <td>GradArgmax, Nettack</td>
+    </tr>
+    <tr>
+        <!-- the metric(s) used to evaluate the attack in this paper -->
+        <td><strong>Metric</strong></td>
+        <td>DAC, Accuracy, Classification Margin</td>
+        <!-- the dataset(s) used in this paper -->
+        <td><strong>Dataset</strong></td>
+        <td>Cora, CiteSeer, Pubmed, Reddit</td>
+    </tr>
+</table>
+</details>
 
 
 
@@ -1131,48 +1172,6 @@ If you find this repo useful, please cite:
 </table>
 </details>
 
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Adversarial Attack on Large Scale Graph</strong>
-<a href="https://arxiv.org/abs/2009.03488"> 📝Arxiv </a>
-<a href="https://github.com/EdisonLeeeee/GraphAdv"> :octocat:Code </a>
-</summary>
-<table>
-    <tr>
-        <!-- the name of model(s) proposed in this paper -->
-        <td><strong>Model</strong></td>
-        <td>SGA</td>
-        <!-- the core idea(s) of this paper -->
-        <td><strong>Algorithm</strong></td>
-        <td>Gradient</td>
-    </tr>
-    <tr>
-        <!-- the surrogate model(s) used for attack -->
-        <td><strong>Surrogate</strong></td>
-        <td>SGC</td>
-        <!-- the target task(s) considered in this paper -->
-        <td><strong>Target Task</strong></td>
-        <td>Node Classification</td>
-    </tr>
-    <tr>
-        <!-- the target model(s) to attack in this paper -->
-        <td><strong>Target Model</strong></td>
-        <td>GCN, SGC, GAT, ClusterGCN, GraphSAGE</td>
-        <!-- the baseline attack model(s) compared in this paper -->
-        <td><strong>Baseline</strong></td>
-        <td>GradArgmax, Nettack</td>
-    </tr>
-    <tr>
-        <!-- the metric(s) used to evaluate the attack in this paper -->
-        <td><strong>Metric</strong></td>
-        <td>DAC, Accuracy, Classification Margin</td>
-        <!-- the dataset(s) used in this paper -->
-        <td><strong>Dataset</strong></td>
-        <td>Cora, CiteSeer, Pubmed, Reddit</td>
-    </tr>
-</table>
-</details>
 
 <!-- ################################## -->
 <details>
@@ -2657,6 +2656,23 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Graph Sanitation with Application to Node Classification </strong>
 <a href="https://arxiv.org/abs/2105.09384"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Graph Sanitation with Application to Node Classification </strong>
+<a href="https://arxiv.org/abs/2105.09384"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Understanding Structural Vulnerability in Graph Convolutional Networks </strong>
+<a href=""> 📝IJCAI </a>
+<a href="https://github.com/EdisonLeeeee/MedianGCN"> :octocat:Code </a>
 </summary>
 </details>
 
