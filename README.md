@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 213 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 214 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 213 Papers)](#-awesome-graph-adversarial-learning-updating-213-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 214 Papers)](#-awesome-graph-adversarial-learning-updating-214-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -2649,6 +2649,14 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Enhancing Robustness and Resilience of Multiplex Networks Against Node-Community Cascading Failures </strong>
 <a href="https://ieeexplore.ieee.org/abstract/document/9415463"> 📝IEEE TSMC </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Graph Sanitation with Application to Node Classification </strong>
+<a href="https://arxiv.org/abs/2105.09384"> 📝Arxiv </a>
 </summary>
 </details>
 
