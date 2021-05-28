@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 216 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 217 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 216 Papers)](#-awesome-graph-adversarial-learning-updating-216-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 217 Papers)](#-awesome-graph-adversarial-learning-updating-217-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -319,6 +319,14 @@ If you find this repo useful, please cite:
 </table>
 </details>
 
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Adversarial Attack Framework on Graph Embedding Models with Limited Knowledge </strong>
+<a href="https://arxiv.org/abs/2105.12419"> 📝Arxiv </a>
+</summary>
+</details>
 
 
 <a class="toc" id ="1-1"></a>
