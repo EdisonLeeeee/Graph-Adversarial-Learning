@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 218 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 222 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 218 Papers)](#-awesome-graph-adversarial-learning-updating-218-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 222 Papers)](#-awesome-graph-adversarial-learning-updating-222-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -2653,7 +2653,7 @@ If you find this repo useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong>Information Obfuscation of Graph Ne</strong>
+<strong>Information Obfuscation of Graph Neural Network</strong>
 <a href="https://arxiv.org/pdf/2009.13504.pdf"> 📝ICML </a>
 <a href="https://github.com/liaopeiyuan/GAL"> :octocat:Code </a>
 </summary>
@@ -2699,6 +2699,30 @@ If you find this repo useful, please cite:
 <strong>A Robust and Generalized Framework for Adversarial Graph Embedding </strong>
 <a href="https://arxiv.org/abs/2105.10651"> 📝Arxiv </a>
 <a href="https://github.com/RingBDStack/AGE"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Integrated Defense for Resilient Graph Matching </strong>
+<a href=""> 📝ICML </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Unveiling Anomalous Nodes Via Random Sampling and Consensus on Graphs </strong>
+<a href="https://ieeexplore.ieee.org/abstract/document/9414953"> 📝ICASSP </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Robust Network Alignment via Attack Signal Scaling and Adversarial Perturbation Elimination </strong>
+<a href="http://eng.auburn.edu/users/yangzhou/papers/RNA.pdf"> 📝WWW </a>
 </summary>
 </details>
 
