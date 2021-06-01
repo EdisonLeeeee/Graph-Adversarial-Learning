@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 222 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 224 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 222 Papers)](#-awesome-graph-adversarial-learning-updating-222-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 224 Papers)](#-awesome-graph-adversarial-learning-updating-224-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -2726,6 +2726,14 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>How effective are Graph Neural Networks in Fraud Detection for Network Data? </strong>
+<a href="https://arxiv.org/abs/2105.14568"> 📝Arxiv </a>
+</summary>
+</details>
+
 <a class="toc" id ="3-1"></a>
 
 ## 2020 
@@ -5068,6 +5076,16 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Watermarking Graph Neural Networks by Random Graphs </strong>
 <a href="https://arxiv.org/abs/2011.00512"> 📝Arxiv'20 </a>
+</summary>
+</details>
+
+<a class="toc" id ="7"></a>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Generating Adversarial Examples with Graph Neural Networks </strong>
+<a href="https://arxiv.org/abs/2105.14644"> 📝UAI'21 </a>
 </summary>
 </details>
 
