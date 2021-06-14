@@ -2678,14 +2678,6 @@ If you find this repo useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong>Graph Sanitation with Application to Node Classification </strong>
-<a href="https://arxiv.org/abs/2105.09384"> 📝Arxiv </a>
-</summary>
-</details>
-
-<!-- ################################## -->
-<details>
-<summary>
 <strong>Understanding Structural Vulnerability in Graph Convolutional Networks </strong>
 <a href=""> 📝IJCAI </a>
 <a href="https://github.com/EdisonLeeeee/MedianGCN"> :octocat:Code </a>
@@ -2731,6 +2723,14 @@ If you find this repo useful, please cite:
 <summary>
 <strong>How effective are Graph Neural Networks in Fraud Detection for Network Data? </strong>
 <a href="https://arxiv.org/abs/2105.14568"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Adversarial Graph Augmentation to Improve Graph Contrastive Learning </strong>
+<a href="https://arxiv.org/abs/2106.05819"> 📝Arxiv </a>
 </summary>
 </details>
 
@@ -3040,49 +3040,6 @@ If you find this repo useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong>Transferring Robustness for Graph Neural Network Against Poisoning Attacks </strong>
-<a href="https://arxiv.org/abs/1908.07558"> 📝WSDM </a>
-<a href="https://github.com/tangxianfeng/PA-GNN"> :octocat:Code </a>
-</summary>
-<table>
-    <tr>
-        <!-- the name of model(s) proposed in this paper -->
-        <td><strong>Model</strong></td>
-        <td>PA-GNN</td>
-        <!-- the core idea(s) of this paper -->
-        <td><strong>Algorithm</strong></td>
-        <td>Penalized Aggregation, Meta Learning</td>
-    </tr>
-    <tr>
-        <!-- the defense type of the proposed defense model -->
-        <td><strong>Defense Type</strong></td>
-        <td>Structure Based</td>
-        <!-- the target task(s) considered in this paper -->
-        <td><strong>Target Task</strong></td>
-        <td>Node Classification</td>
-    </tr>
-    <tr>
-        <!-- the target model(s) to enhance its robustness in this paper -->
-        <td><strong>Target Model</strong></td>
-        <td>GNN</td>
-        <!-- the baseline model(s) compared in this paper -->
-        <td><strong>Baseline</strong></td>
-        <td>GCN, GAT, GCN-Jaccard, RGCN, VPN </td>
-    </tr>
-    <tr>
-        <!-- the metric(s) used to evaluate the defense in this paper -->
-        <td><strong>Metric</strong></td>
-        <td>Accuracy</td>
-        <!-- the dataset(s) used in this paper -->
-        <td><strong>Dataset</strong></td>
-        <td>Pubmed, Reddit, Yelp</td>
-    </tr>
-</table>
-</details>
-
-<!-- ################################## -->
-<details>
-<summary>
 <strong>On the Robustness of Cascade Diffusion under Node Attacks </strong>
 <a href="https://www.cs.au.dk/~karras/robustIC.pdf"> 📝WWW </a>
 <a href="https://github.com/allogn/robustness"> :octocat:Code </a>
@@ -3254,7 +3211,6 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Robust Training of Graph Convolutional Networks via Latent Perturbation </strong>
 <a href="https://www.cs.uic.edu/~zhangx/papers/JinZha20.pdf"> 📝ECML-PKDD </a>
-<a href="https://github.com/tangxianfeng/PA-GNN"> :octocat:Code </a>
 </summary>
 <table>
     <tr>
@@ -4245,6 +4201,7 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Latent Adversarial Training of Graph Convolution Networks </strong>
 <a href="https://graphreason.github.io/papers/35.pdf"> 📝LRGSD@ICML </a>
+<a href="https://github.com/cshjin/LATGCN"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -5086,6 +5043,14 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Generating Adversarial Examples with Graph Neural Networks </strong>
 <a href="https://arxiv.org/abs/2105.14644"> 📝UAI'21 </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Perturbation Sensitivity of GNNs </strong>
+<a href="http://snap.stanford.edu/class/cs224w-2019/project/26424139.pdf"> 📝cs224w-2019 </a>
 </summary>
 </details>
 
