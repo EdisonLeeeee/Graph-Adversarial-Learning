@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 225 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 227 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 225 Papers)](#-awesome-graph-adversarial-learning-updating-225-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 227 Papers)](#-awesome-graph-adversarial-learning-updating-227-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -2054,6 +2054,15 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Structured Adversarial Attack Towards General Implementation and Better Interpretability </strong>
+<a href="https://arxiv.org/abs/1808.01664"> 📝ICLR</a>
+<a href="https://github.com/KaidiXu/StrAttack"> :octocat:Code </a>
+</summary>
+</details>
+
 
 
 
@@ -2739,6 +2748,14 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Adversarial Graph Augmentation to Improve Graph Contrastive Learning </strong>
 <a href="https://arxiv.org/abs/2106.05819"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs </strong>
+<a href="https://arxiv.org/abs/2106.07767"> 📝Arxiv </a>
 </summary>
 </details>
 
