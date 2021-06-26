@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 230 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 231 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 230 Papers)](#-awesome-graph-adversarial-learning-updating-230-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 231 Papers)](#-awesome-graph-adversarial-learning-updating-231-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -2780,6 +2780,15 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Stability of Graph Convolutional Neural Networks to Stochastic Perturbations </strong>
 <a href="https://arxiv.org/abs/2106.10526"> 📝Arxiv </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>NetFense: Adversarial Defenses against Privacy Attacks on Neural Networks for Graph Data </strong>
+<a href="https://arxiv.org/abs/2106.11865"> 📝TKDE </a>
+<a href="https://github.com/ICHproject/NetFense"> :octocat:Code </a>
 </summary>
 </details>
 
