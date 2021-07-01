@@ -5194,5 +5194,6 @@ If you find this repo useful, please cite:
 # ⚙ Toolbox
 [💨 Back to Top](#table-of-contents)
 
-+ **DeepRobust** [Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs.
-+ **GraphGallery** [Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning.
++ **DeepRobust** [Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs. paper: [DeepRobust: A PyTorch Library for Adversarial Attacks and Defenses](https://arxiv.org/abs/2005.06149)
++ **GraphGallery** [Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning. paper: [GraphGallery: A Platform for Fast Benchmarking and Easy Development of Graph Neural Networks Based Intelligent Software](https://arxiv.org/abs/2102.07933)
++ **TIGER** [Link](https://github.com/safreita1/TIGER). A Python toolbox to conduct graph vulnerability and robustness research. paper: [Evaluating Graph Vulnerability and Robustness using TIGER](https://arxiv.org/abs/2006.05648)
