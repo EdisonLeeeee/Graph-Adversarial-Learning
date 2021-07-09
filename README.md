@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 233 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 240 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 233 Papers)](#-awesome-graph-adversarial-learning-updating-233-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 240 Papers)](#-awesome-graph-adversarial-learning-updating-240-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -331,7 +331,7 @@ If you find this repo useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong>TDGIA:Effective Injection Attacks on Graph Neural Networks </strong>
+<strong>TDGIA: Effective Injection Attacks on Graph Neural Networks </strong>
 <a href="https://arxiv.org/abs/2106.06663"> 📝KDD </a>
 </summary>
 </details>
@@ -347,7 +347,7 @@ If you find this repo useful, please cite:
 <!-- ################################## -->
 <details>
 <summary>
-<strong>BinarizedAttack Structural Poisoning Attacks to Graph-based Anomaly Detection </strong>
+<strong>BinarizedAttack: Structural Poisoning Attacks to Graph-based Anomaly Detection </strong>
 <a href="https://arxiv.org/abs/2106.09989"> 📝Arxiv </a>
 </summary>
 </details>
@@ -357,6 +357,15 @@ If you find this repo useful, please cite:
 <summary>
 <strong>SAGE: Intrusion Alert-driven Attack Graph Extractor </strong>
 <a href="https://arxiv.org/abs/2107.02783"> 📝KDD Workshop </a>
+<a href="https://github.com/tudelft-cda-lab/SAGE"> :octocat:Code </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Graph Adversarial Attack via Rewiring </strong>
+<a href="https://arxiv.org/abs/1906.03750"> 📝KDD </a>
 </summary>
 </details>
 
@@ -2783,13 +2792,6 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
-<!-- ################################## -->
-<details>
-<summary>
-<strong>Stability of Graph Convolutional Neural Networks to Stochastic Perturbations </strong>
-<a href="https://arxiv.org/abs/2106.10526"> 📝Arxiv </a>
-</summary>
-</details>
 
 <!-- ################################## -->
 <details>
@@ -2805,6 +2807,23 @@ If you find this repo useful, please cite:
 <summary>
 <strong>On Generalization of Graph Autoencoders with Adversarial Training</strong>
 <a href="https://arxiv.org/abs/2107.02658"> 📝ECML </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>DeepInsight: Interpretability Assisting Detection of Adversarial Samples on Graphs</strong>
+<a href="https://arxiv.org/abs/2106.09501"> 📝ECML </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Elastic Graph Neural Networks</strong>
+<a href="http://proceedings.mlr.press/v139/liu21k/liu21k.pdf"> 📝ICML </a>
+<a href="https://github.com/lxiaorui/ElasticGNN"> :octocat:Code </a>
 </summary>
 </details>
 
@@ -5079,6 +5098,15 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Stability of Graph Convolutional Neural Networks to Stochastic Perturbations </strong>
+<a href="https://arxiv.org/abs/2106.10526"> 📝Arxiv'21 </a>
+</summary>
+</details>
+
 <a class="toc" id ="6"></a>
 
 # 🚀 Others
@@ -5210,6 +5238,7 @@ If you find this repo useful, please cite:
 # ⚙ Toolbox
 [💨 Back to Top](#table-of-contents)
 
-+ **DeepRobust** [Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs. paper: [DeepRobust: A PyTorch Library for Adversarial Attacks and Defenses](https://arxiv.org/abs/2005.06149)
-+ **GraphGallery** [Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning. paper: [GraphGallery: A Platform for Fast Benchmarking and Easy Development of Graph Neural Networks Based Intelligent Software](https://arxiv.org/abs/2102.07933)
-+ **TIGER** [Link](https://github.com/safreita1/TIGER). A Python toolbox to conduct graph vulnerability and robustness research. paper: [Evaluating Graph Vulnerability and Robustness using TIGER](https://arxiv.org/abs/2006.05648)
++ **DeepRobust** [Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs. paper: [DeepRobust: A PyTorch Library for Adversarial Attacks and Defenses](https://arxiv.org/abs/2005.06149), Arxiv 2020.
++ **GraphGallery** [Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning. paper: [GraphGallery: A Platform for Fast Benchmarking and Easy Development of Graph Neural Networks Based Intelligent Software](https://arxiv.org/abs/2102.07933), ICSE Demo 2021.
++ **TIGER** [Link](https://github.com/safreita1/TIGER). A Python toolbox to conduct graph vulnerability and robustness research. paper: [Evaluating Graph Vulnerability and Robustness using TIGER](https://arxiv.org/abs/2006.05648), Arxiv 2021.
++ **Graph Robustness Benchmark (GRB)** [Link](https://github.com/thudm/grb).  A scalable, general, unified, and reproducible benchmark for evaluating adversarial robustness of Graph Neural Networks. paper: [Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks](https://openreview.net/forum?id=pBwQ82pYha), NeurIPS Openreview 2021.
