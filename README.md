@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 240 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 242 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 240 Papers)](#-awesome-graph-adversarial-learning-updating-240-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 242 Papers)](#-awesome-graph-adversarial-learning-updating-242-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -2827,6 +2827,22 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Integrated Defense for Resilient Graph Matching</strong>
+<a href="http://proceedings.mlr.press/v139/ren21c.html"> 📝ICML </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Expressive 1-Lipschitz Neural Networks for Robust Multiple Graph Learning against Adversarial Attacks</strong>
+<a href="http://proceedings.mlr.press/v139/zhao21e.html"> 📝ICML </a>
+</summary>
+</details>
+
 <a class="toc" id ="3-1"></a>
 
 ## 2020 
@@ -5156,6 +5172,14 @@ If you find this repo useful, please cite:
 </summary>
 </details>
 
+<!-- ################################## -->
+<details>
+<summary>
+<strong>SIGL: Securing Software Installations Through Deep Graph Learning</strong>
+<a href="https://www.usenix.org/system/files/sec21summer_han-xueyuan.pdf"> 📝USENIX'21 </a>
+</summary>
+</details>
+
 <a class="toc" id ="7"></a>
 
 # 📃 Survey
@@ -5238,7 +5262,8 @@ If you find this repo useful, please cite:
 # ⚙ Toolbox
 [💨 Back to Top](#table-of-contents)
 
-+ **DeepRobust** [Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs. paper: [DeepRobust: A PyTorch Library for Adversarial Attacks and Defenses](https://arxiv.org/abs/2005.06149), Arxiv 2020.
-+ **GraphGallery** [Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning. paper: [GraphGallery: A Platform for Fast Benchmarking and Easy Development of Graph Neural Networks Based Intelligent Software](https://arxiv.org/abs/2102.07933), ICSE Demo 2021.
++ **DeepRobust** [Link](https://github.com/DSE-MSU/DeepRobust): A PyTorch adversarial library for attack and defense methods on images and graphs. paper: [DeepRobust: a Platform for Adversarial Attacks and Defenses
+](https://ojs.aaai.org/index.php/AAAI/article/view/18017), AAAI 2021.
++ **GraphGallery** [Link](https://github.com/EdisonLeeeee/GraphGallery): A PyTorch and TensorFlow library for geometric graph (adversarial) learning. paper: [GraphGallery: A Platform for Fast Benchmarking and Easy Development of Graph Neural Networks Based Intelligent Software](https://ieeexplore.ieee.org/abstract/document/9402641), ICSE Demo 2021.
 + **TIGER** [Link](https://github.com/safreita1/TIGER). A Python toolbox to conduct graph vulnerability and robustness research. paper: [Evaluating Graph Vulnerability and Robustness using TIGER](https://arxiv.org/abs/2006.05648), Arxiv 2021.
 + **Graph Robustness Benchmark (GRB)** [Link](https://github.com/thudm/grb).  A scalable, general, unified, and reproducible benchmark for evaluating adversarial robustness of Graph Neural Networks. paper: [Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks](https://openreview.net/forum?id=pBwQ82pYha), NeurIPS Openreview 2021.
