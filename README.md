@@ -1,11 +1,11 @@
 <a class="toc" id="table-of-contents"></a>
 
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 241 Papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating: 244 Papers)
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 241 Papers)](#-awesome-graph-adversarial-learning-updating-241-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating: 244 Papers)](#-awesome-graph-adversarial-learning-updating-244-papers)
 - [⚔ Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -190,7 +190,7 @@ If you find this repo useful, please cite:
 <details>
 <summary>
 <strong>DeHiB: Deep Hidden Backdoor Attack on Semi-Supervised Learning via Adversarial Perturbation</strong>
-<a href=""> 📝AAAI </a>
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/17266"> 📝AAAI </a>
 </summary>
 </details>
 
@@ -366,6 +366,22 @@ If you find this repo useful, please cite:
 <summary>
 <strong>Graph Adversarial Attack via Rewiring </strong>
 <a href="https://arxiv.org/abs/1906.03750"> 📝KDD </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>GReady for Emerging Threats to Recommender Systems? A Graph Convolution-based Generative Shilling Attack </strong>
+<a href="https://arxiv.org/abs/2107.10457"> 📝Information Sciences </a>
+</summary>
+</details>
+
+<!-- ################################## -->
+<details>
+<summary>
+<strong>Optimal Edge Weight Perturbations to Attack Shortest Paths </strong>
+<a href="https://arxiv.org/abs/2107.03347"> 📝Arxiv </a>
 </summary>
 </details>
 
@@ -2688,7 +2704,7 @@ If you find this repo useful, please cite:
 <details>
 <summary>
 <strong>Expressive 1-Lipschitz Neural Networks for Robust Multiple Graph Learning against Adversarial Attacks</strong>
-<a href=""> 📝ICML </a>
+<a href="http://proceedings.mlr.press/v139/zhao21e.html"> 📝ICML </a>
 </summary>
 </details>
 
@@ -2748,7 +2764,7 @@ If you find this repo useful, please cite:
 <details>
 <summary>
 <strong>Integrated Defense for Resilient Graph Matching </strong>
-<a href=""> 📝ICML </a>
+<a href="http://proceedings.mlr.press/v139/ren21c/ren21c.pdf"> 📝ICML </a>
 </summary>
 </details>
 
