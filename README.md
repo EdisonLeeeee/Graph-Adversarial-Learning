@@ -5,47 +5,50 @@
 
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+<a class="toc" id="table-of-contents"></a>
 
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 245 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
+- [Sorted](#sorted)
+- [⚔ Attack](#-attack)
+  - [2021](#2021)
+  - [2020](#2020)
+  - [2019](#2019)
+  - [2018](#2018)
+  - [2017](#2017)
+- [🛡 Defense](#-defense)
+  - [2021](#2021-1)
+  - [2020](#2020-1)
+  - [2019](#2019-1)
+  - [2018](#2018-1)
+  - [2017](#2017-1)
+- [🔐Certification](#certification)
+- [⚖Stability](#stability)
+- [🚀Others](#others)
+- [📃Survey](#survey)
+- [⚙Toolbox](#toolbox)
+- [🔗Resource](#resource)
 
 <img width = "500"  height =300 src="imgs/wordcloud.png" ></a>
 
-
-
 This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. 
-
-
-
 If you find this repo useful, please cite:
-
 *A Survey of Adversarial Learning on Graph, Arxiv'20*, [Link](https://arxiv.org/abs/2003.05730)
 
-
-
 ```bibtex
-
 @article{chen2020survey,
-
   title={A Survey of Adversarial Learning on Graph},
-
   author={Chen, Liang and Li, Jintang and Peng, Jiaying and Xie, 
-
         Tao and Cao, Zengxu and Xu, Kun and He, Xiangnan and Zheng, Zibin},
-
   journal={arXiv preprint arXiv:2003.05730},
-
   year={2020}
-
 }
-
 ```
 
 
 
 # Sorted
 
-| [Sort by Alphabet](Sorted/sort_by_alphabet.md) | [Sort by Year](Sorted/sort_by_year) | [Sort by Venue](Sorted/sort_by_venue) |
-
-
+| [Sort by Alphabet](Sorted/sort_by_alphabet.md) | [Sort by Year](Sorted/sort_by_year.md) | [Sort by Venue](Sorted/sort_by_venue.md) |
 
 
 
@@ -54,6 +57,7 @@ If you find this repo useful, please cite:
 
 
 ## 2021
+[💨 Back to Top](#table-of-contents)
 
 + **Stealing Links from Graph Neural Networks**, *[📝USENIX Security](https://www.usenix.org/system/files/sec21summer_he.pdf)*
 
@@ -114,6 +118,7 @@ If you find this repo useful, please cite:
 + **Preserve, Promote, or Attack? GNN Explanation via Topology Perturbation**, *[📝Arxiv](https://arxiv.org/abs/2103.12256)*
 
 ## 2020
+[💨 Back to Top](#table-of-contents)
 
 + **A Graph Matching Attack on Privacy-Preserving Record Linkage**, *[📝CIKM](https://dl.acm.org/doi/abs/10.1145/3340531.3411931)*
 
@@ -198,6 +203,7 @@ If you find this repo useful, please cite:
 + **Adversarial attack on BC classification for scale-free networks**, *[📝AIP Chaos](https://aip.scitation.org/doi/10.1063/5.0003707)*
 
 ## 2019
+[💨 Back to Top](#table-of-contents)
 
 + **Time-aware Gradient Attack on Dynamic Network Link Prediction**, *[📝Arxiv](https://arxiv.org/abs/1911.10561)*
 
@@ -236,6 +242,7 @@ If you find this repo useful, please cite:
 + **Attacking Graph-based Classification via Manipulating the Graph Structure**, *[📝CCS](https://arxiv.org/abs/1903.00553)*
 
 ## 2018
+[💨 Back to Top](#table-of-contents)
 
 + **Fake Node Attacks on Graph Convolutional Networks**, *[📝Arxiv](https://arxiv.org/abs/1810.10751)*
 
@@ -254,6 +261,7 @@ If you find this repo useful, please cite:
 + **Adversarial Attack on Graph Structured Data**, *[📝ICML](https://arxiv.org/abs/1806.02371)*, *[:octocat:Code](https://github.com/Hanjun-Dai/graph_adversarial_attack)*
 
 ## 2017
+[💨 Back to Top](#table-of-contents)
 
 + **Practical Attacks Against Graph-based Clustering**, *[📝CCS](https://arxiv.org/abs/1708.09056)*
 
@@ -264,6 +272,7 @@ If you find this repo useful, please cite:
 # 🛡 Defense
 
 ## 2021
+[💨 Back to Top](#table-of-contents)
 
 + **Learning to Drop: Robust Graph Neural Network via Topological Denoising**, *[📝WSDM](https://arxiv.org/abs/2011.07057)*, *[:octocat:Code](https://github.com/flyingdoog/PTDNet)*
 
@@ -332,6 +341,7 @@ If you find this repo useful, please cite:
 + **Detection and Defense of Topological Adversarial Attacks on Graphs**, *[📝AISTATS](http://proceedings.mlr.press/v130/zhang21i.html)*
 
 ## 2020
+[💨 Back to Top](#table-of-contents)
 
 + **Ricci-GNN: Defending Against Structural Attacks Through a Geometric Approach**, *[📝ICLR OpenReview](https://openreview.net/forum?id=_qoQkWNEhS)*
 
@@ -430,6 +440,7 @@ If you find this repo useful, please cite:
 + **Provably Robust Node Classification via Low-Pass Message Passing**, *[📝ICDM](https://shenghua-liu.github.io/papers/icdm2020-provablerobust.pdf)*
 
 ## 2019
+[💨 Back to Top](#table-of-contents)
 
 + **Graph Adversarial Training: Dynamically Regularizing Based on Graph Structure**, *[📝TKDE](https://arxiv.org/abs/1902.08226)*, *[:octocat:Code](https://github.com/fulifeng/GraphAT)*
 
@@ -480,16 +491,19 @@ If you find this repo useful, please cite:
 + **Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective**, *[📝IJCAI](https://arxiv.org/abs/1906.04214)*, *[:octocat:Code](https://github.com/KaidiXu/GCN_ADV_Train)*
 
 ## 2018
+[💨 Back to Top](#table-of-contents)
 
 + **Adversarial Personalized Ranking for Recommendation**, *[📝SIGIR](https://dl.acm.org/citation.cfm?id=3209981)*, *[:octocat:Code](https://github.com/hexiangnan/adversarial_personalized_ranking)*
 
 ## 2017
+[💨 Back to Top](#table-of-contents)
 
 + **Adversarial Sets for Regularising Neural Link Predictors**, *[📝UAI](https://arxiv.org/abs/1707.07596)*, *[:octocat:Code](https://github.com/uclmr/inferbeddings)*
 
 
 
 # 🔐Certification
+[💨 Back to Top](#table-of-contents)
 
 + **Collective Robustness Certificates**, *[📝ICLR'2021](https://openreview.net/forum?id=ULQdiUTHe3y)*
 
@@ -522,6 +536,7 @@ If you find this repo useful, please cite:
 
 
 # ⚖Stability
+[💨 Back to Top](#table-of-contents)
 
 + **Stability of Graph Convolutional Neural Networks to Stochastic Perturbations**, *[📝Arxiv'2021](https://arxiv.org/abs/2106.10526)*
 
@@ -544,6 +559,7 @@ If you find this repo useful, please cite:
 
 
 # 🚀Others
+[💨 Back to Top](#table-of-contents)
 
 + **Perturbation Sensitivity of GNNs**, *[📝cs224w'2019'](http://snap.stanford.edu/class/cs224w-2019/project/26424139.pdf)*
 
@@ -560,6 +576,7 @@ If you find this repo useful, please cite:
 
 
 # 📃Survey
+[💨 Back to Top](#table-of-contents)
 
 + **Deep Graph Structure Learning for Robust Representations: A Survey**, *[📝IJCAI Survey track'2021](https://arxiv.org/abs/2103.03036)*
 
@@ -580,6 +597,7 @@ If you find this repo useful, please cite:
 
 
 # ⚙Toolbox
+[💨 Back to Top](#table-of-contents)
 
 + **DeepRobust: a Platform for Adversarial Attacks and Defenses**, *[AAAI 2021](https://ojs.aaai.org/index.php/AAAI/article/view/18017)*, [**DeepRobust**](https://github.com/DSE-MSU/DeepRobust)
 
@@ -592,6 +610,7 @@ If you find this repo useful, please cite:
   
 
 # 🔗Resource
+[💨 Back to Top](#table-of-contents)
 
 + **Awesome Adversarial Learning on Recommender System** [Link](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
 
