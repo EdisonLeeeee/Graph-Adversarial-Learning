@@ -1,21 +1,16 @@
 # ⚔🛡 Awesome Graph Adversarial Learning (Updating 245 papers)
-
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 245 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
-- [Sorted](#sorted)
-- [⚔ Attack](#-attack)
+- [⚔🛡 Awesome Graph Adversarial Learning(Updating 245 papers)- [Sorted](#sorted)
+- [⚔Attack](#-attack)
   - [2021](#2021)
   - [2020](#2020)
   - [2019](#2019)
   - [2018](#2018)
   - [2017](#2017)
-- [🛡 Defense](#-defense)
+- [🛡Defense](#-defense)
   - [2021](#2021-1)
   - [2020](#2020-1)
   - [2019](#2019-1)
@@ -52,7 +47,7 @@ If you find this repo useful, please cite:
 
 
 
-# ⚔ Attack
+# ⚔Attack
 
 
 
@@ -217,7 +212,7 @@ If you find this repo useful, please cite:
 
 + **Vertex Nomination, Consistent Estimation, and Adversarial Modification**, *[📝Arxiv](https://arxiv.org/abs/1905.01776)*
 
-+ **PeerNets Exploiting Peer Wisdom Against Adversarial Attacks**, *[📝ICLR (Poster)](https://arxiv.org/abs/1806.00088)*, *[:octocat:Code](https://github.com/tantara/PeerNets-pytorch)*
++ **PeerNets Exploiting Peer Wisdom Against Adversarial Attacks**, *[📝ICLR](https://arxiv.org/abs/1806.00088)*, *[:octocat:Code](https://github.com/tantara/PeerNets-pytorch)*
 
 + **Network Structural Vulnerability A Multi-Objective Attacker Perspective**, *[📝IEEE Trans](https://ieeexplore.ieee.org/document/8275029)*
 
@@ -269,7 +264,7 @@ If you find this repo useful, please cite:
 
 
 
-# 🛡 Defense
+# 🛡Defense
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -511,7 +506,7 @@ If you find this repo useful, please cite:
 
 + **Certifying Robustness of Graph Laplacian Based Semi-Supervised Learning**, *[📝ICLR OpenReview'2021](https://openreview.net/forum?id=cQyybLUoXxc)*
 
-+ **Robust Certification for Laplace Learning on Geometric Graphs**, *[📝MSML’21'2021](https://arxiv.org/abs/2104.10837)*
++ **Robust Certification for Laplace Learning on Geometric Graphs**, *[📝MSML’2021](https://arxiv.org/abs/2104.10837)*
 
 + **Improving the Robustness of Wasserstein Embedding by Adversarial PAC-Bayesian Learning**, *[📝AAAI'2020](http://staff.ustc.edu.cn/~hexn/papers/aaai20-adversarial-embedding.pdf)*
 
@@ -561,7 +556,7 @@ If you find this repo useful, please cite:
 # 🚀Others
 [💨 Back to Top](#table-of-contents)
 
-+ **Perturbation Sensitivity of GNNs**, *[📝cs224w'2019'](http://snap.stanford.edu/class/cs224w-2019/project/26424139.pdf)*
++ **Perturbation Sensitivity of GNNs**, *[📝cs224w'2019](http://snap.stanford.edu/class/cs224w-2019/project/26424139.pdf)*
 
 + **Generating Adversarial Examples with Graph Neural Networks**, *[📝UAI'2021](https://arxiv.org/abs/2105.14644)*
 
@@ -599,24 +594,24 @@ If you find this repo useful, please cite:
 # ⚙Toolbox
 [💨 Back to Top](#table-of-contents)
 
-+ **DeepRobust: a Platform for Adversarial Attacks and Defenses**, *[AAAI 2021](https://ojs.aaai.org/index.php/AAAI/article/view/18017)*, [**DeepRobust**](https://github.com/DSE-MSU/DeepRobust)
++ **DeepRobust: a Platform for Adversarial Attacks and Defenses**, *[📝AAAI’2021](https://ojs.aaai.org/index.php/AAAI/article/view/18017)*, [**:octocat:DeepRobust**](https://github.com/DSE-MSU/DeepRobust)
 
-+ **GraphGallery: A Platform for Fast Benchmarking and Easy Development of Graph Neural Networks Based Intelligent Software**, *[ICSE Demo 2021](https://ieeexplore.ieee.org/abstract/document/9402641)*, [**GraphGallery**](https://github.com/EdisonLeeeee/GraphGallery)
++ **GraphGallery: A Platform for Fast Benchmarking and Easy Development of Graph Neural Networks Based Intelligent Software**, *[📝ICSE Demo‘2021](https://ieeexplore.ieee.org/abstract/document/9402641)*, [**:octocat:GraphGallery**](https://github.com/EdisonLeeeee/GraphGallery)
 
-+ **Evaluating Graph Vulnerability and Robustness using TIGER**, *[Arxiv 2021](https://arxiv.org/abs/2006.05648)*， [**TIGER**](https://github.com/safreita1/TIGER)
++ **Evaluating Graph Vulnerability and Robustness using TIGER**, *[📝Arxiv‘2021](https://arxiv.org/abs/2006.05648)*, [**:octocat:TIGER**](https://github.com/safreita1/TIGER)
 
-+ **Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks**, *[NeurIPS Openreview 2021](https://openreview.net/forum?id=pBwQ82pYha)*， [**Graph Robustness Benchmark (GRB)**](https://github.com/thudm/grb)
++ **Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks**, *[📝NeurIPS Openreview ’2021](https://openreview.net/forum?id=pBwQ82pYha)*, [**:octocat:Graph Robustness Benchmark (GRB)**](https://github.com/thudm/grb)
 
   
 
 # 🔗Resource
 [💨 Back to Top](#table-of-contents)
 
-+ **Awesome Adversarial Learning on Recommender System** [Link](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
++ **Awesome Adversarial Learning on Recommender System** [:octocat:CodeLink](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
 
-+ **Awesome Graph Attack and Defense Papers** [Link](https://github.com/ChandlerBang/awesome-graph-attack-papers)
++ **Awesome Graph Attack and Defense Papers** [:octocat:CodeLink](https://github.com/ChandlerBang/awesome-graph-attack-papers)
 
-+ **Graph Adversarial Learning Literature** [Link](https://github.com/safe-graph/graph-adversarial-learning-literature)
++ **Graph Adversarial Learning Literature** [:octocat:CodeLink](https://github.com/safe-graph/graph-adversarial-learning-literature)
 
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 

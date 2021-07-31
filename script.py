@@ -30,6 +30,9 @@ def parse_paper(line):
     
 
 if __name__ == '__main__':
+
+    print('#'*10, 'Begin', '#'*10)
+
     with open("README.md", "r", encoding='UTF-8') as f:
         content = f.readlines()
         
@@ -96,7 +99,7 @@ if __name__ == '__main__':
         tb_sort.to_markdown(f)
 
     # Sort by Year
-    tb_sort = tb.drop_duplicates(subset=['Title']).sort_values('Title').reset_index(drop=True)
+    tb_sort = tb.drop_duplicates(subset=['Title']).sort_values('Type').reset_index(drop=True)
     tb_sort = tb_sort.sort_values('Year', kind='mergesort', ascending=False).reset_index(drop=True)
 
     with open('Sorted/sort_by_year.md', 'w', encoding='utf-8') as f:
@@ -104,13 +107,16 @@ if __name__ == '__main__':
 
     # Sort by venue
     arr = tb.to_numpy()
-    confs = ['AAAI', 'IJCAI', 'ICLR', 'WWW', 'KDD', 'ICML', 'TKDE', 'CIKM', 'WSDM', 'NeurIPS', 'ICSE', 'USENIX', 'ICDM', 'ECAI', 'Arxiv', 'UAI', 'Others']
+    confs = ['AAAI', 'IJCAI', 'ICLR', 'WWW', 'KDD', 'ICML', 'TKDE', 'CIKM', 'WSDM', 'NeurIPS', 'USENIX', 'ICDM', 'Arxiv', 'UAI', 'ICSE', 'ECAI', 'Others']
     arr_out = []
     for line in arr:
         title, types, venue, code, year = line
         pubs = None
         for c in confs:
-            if c in venue:
+            if c=='KDD' and c in venue and not ('PAKDD' in venue and 'PKDD' in venue):
+                pubs = c
+                break
+            elif c in venue:
                 pubs = c
                 break
         pubs = pubs or 'Others'
@@ -120,7 +126,7 @@ if __name__ == '__main__':
     tb_pubs = tb_pubs.sort_values('Pubs', kind='mergesort').reset_index(drop=True)
 
     for i, c in enumerate(confs):
-        t = tb_pubs[tb_pubs['Pubs']==c]
+        t = tb_pubs[tb_pubs['Pubs']==c].reset_index(drop=True)
         mod = 'w' if i==0 else 'a'
         with open('Sorted/sort_by_venue.md', mod, encoding='utf-8') as f:
             f.writelines('# ' + c + '\n')
@@ -129,8 +135,10 @@ if __name__ == '__main__':
             
 
     # Write README.md
-    content[0] = content[0][:40] + f'(Updating {len(tb)} papers)'
+    for i in range(100):
+        if '(Updating ' in content[i]:
+            content[i] = content[i][:40] + f'(Updating {len(tb)} papers)'
     with open('README.md', 'w', encoding='utf-8') as f:
         for line in content:
             f.writelines(line)
-            f.writelines('\n')
+    print('#'*10, 'End', '#'*10)
