@@ -12,30 +12,30 @@ def parse_paper(line):
         title, venue, code = content
     else:
         title, venue = content
-        
+
     end = venue.find(']')
-    year = re.findall(r"\d+", venue[max(end-5, 0):end])
-    
+    year = re.findall(r"\d+", venue[max(end - 5, 0):end])
+
     if year:
         year = int(year[0])
         if year < 2000:
             year += 2000
-            
+
     instance['Title'] = title
     instance['Venue'] = venue
     instance['Year'] = year
     instance['Code'] = code
-    
+
     return instance
-    
+
 
 if __name__ == '__main__':
 
-    print('#'*10, 'Begin', '#'*10)
+    print('#' * 10, 'Begin', '#' * 10)
 
     with open("README.md", "r", encoding='UTF-8') as f:
         content = f.readlines()
-        
+
     # parsing
     i = 0
     papers = []
@@ -43,30 +43,31 @@ if __name__ == '__main__':
 
     while i < len(content):
         line = content[i]
-        if line.strip() == '# 🔗Resource': break
-        
+        if line.strip() == '# 🔗Resource':
+            break
+
         if line.startswith("# "):
             this_level = 0
             titles = []
-            titles.append(line[this_level+2:].strip())
+            titles.append(line[this_level + 2:].strip())
         elif line.startswith("## "):
-            this_level = 1   
-            while len(titles)>this_level:
+            this_level = 1
+            while len(titles) > this_level:
                 titles.pop()
-            titles.append(line[this_level+2:].strip())
+            titles.append(line[this_level + 2:].strip())
 
         elif line.startswith("### "):
-            this_level = 2   
-            while len(titles)>this_level:
+            this_level = 2
+            while len(titles) > this_level:
                 titles.pop()
-            titles.append(line[this_level+2:].strip())
+            titles.append(line[this_level + 2:].strip())
 
         elif line.startswith("#### "):
             this_level = 3
-            while len(titles)>this_level:
+            while len(titles) > this_level:
                 titles.pop()
-            titles.append(line[this_level+2:].strip())    
-            
+            titles.append(line[this_level + 2:].strip())
+
         is_paper = line.startswith("+ ")
 
         if is_paper:
@@ -89,7 +90,7 @@ if __name__ == '__main__':
                 tmp.append(paper[col].strip('*'))
             else:
                 tmp.append(paper[col])
-                
+
         tb.append(tmp)
     tb = pd.DataFrame(tb, columns=columns)
 
@@ -113,7 +114,7 @@ if __name__ == '__main__':
         title, types, venue, code, year = line
         pubs = None
         for c in confs:
-            if c=='KDD' and c in venue and not ('PAKDD' in venue and 'PKDD' in venue):
+            if c == 'KDD' and c in venue and not ('PAKDD' in venue and 'PKDD' in venue):
                 pubs = c
                 break
             elif c in venue:
@@ -121,24 +122,25 @@ if __name__ == '__main__':
                 break
         pubs = pubs or 'Others'
         arr_out.append(np.array([title, types, venue, code, year, pubs]))
-        
-    tb_pubs = pd.DataFrame(np.array(arr_out), columns=columns+['Pubs'])
+
+    tb_pubs = pd.DataFrame(np.array(arr_out), columns=columns + ['Pubs'])
     tb_pubs = tb_pubs.sort_values('Pubs', kind='mergesort').reset_index(drop=True)
 
     for i, c in enumerate(confs):
-        t = tb_pubs[tb_pubs['Pubs']==c].reset_index(drop=True)
-        mod = 'w' if i==0 else 'a'
+        t = tb_pubs[tb_pubs['Pubs'] == c].reset_index(drop=True)
+        mod = 'w' if i == 0 else 'a'
         with open('Sorted/sort_by_venue.md', mod, encoding='utf-8') as f:
             f.writelines('# ' + c + '\n')
             t.to_markdown(f)
             f.writelines('\n')
-            
 
     # Write README.md
     for i in range(100):
         if '(Updating ' in content[i]:
-            content[i] = content[i][:40] + f'(Updating {len(tb)} papers)'
+            begin = content[i].index('(Updating ')
+            end = content[i].index(')')
+            content[i] = content[i][:begin] + f'(Updating {len(tb)} papers)' + content[i][end+1:]
     with open('README.md', 'w', encoding='utf-8') as f:
         for line in content:
             f.writelines(line)
-    print('#'*10, 'End', '#'*10)
+    print('#' * 10, 'End', '#' * 10)
