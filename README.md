@@ -1,10 +1,10 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 246 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 245 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 246 papers)](#-awesome-graph-adversarial-learning-updating-246-papers)
-- [Sorted](#sorted)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 245 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
+- [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
   - [2020](#2020)
@@ -24,7 +24,7 @@
 - [⚙Toolbox](#toolbox)
 - [🔗Resource](#resource)
 
-<img width = "500"  height =300 src="imgs/wordcloud.png" ></a>
+<img width = "500"  height =300 src="imgs/wordcloud.png" >
 
 This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. 
 If you find this repo useful, please cite:
@@ -40,9 +40,11 @@ If you find this repo useful, please cite:
 }
 ```
 
-# Sorted
+# 👀Quick Look
 
-| [Sort by Alphabet](Sorted/sort_by_alphabet.md) | [Sort by Year](Sorted/sort_by_year.md) | [Sort by Venue](Sorted/sort_by_venue.md) |
+| [By Alphabet](Categorized/alphabet.md) | [By Year](Categorized/year.md) | [By Venue](Categorized/venue.md) | [Papers with Code](Categorized/paper_with_code.md) |
+
+If you want to get a quick look at the recently updated papers in the repository (in 30 days), you can refer to [this](Categorized/recent.md).
 
 
 
@@ -62,7 +64,7 @@ If you find this repo useful, please cite:
 + **Membership Inference Attack on Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2101.06570)*
 + **BinarizedAttack: Structural Poisoning Attacks to Graph-based Anomaly Detection**, *[📝Arxiv](https://arxiv.org/abs/2106.09989)*
 + **Adversarial Attack on Graph Neural Networks as An Influence Maximization Problem**, *[📝Arxiv](https://arxiv.org/abs/2106.10785)*
-+ **TDGIA: Effective Injection Attacks on Graph Neural Networks**, *[📝KDD](https://arxiv.org/abs/2106.06663)*
++ **TDGIA: Effective Injection Attacks on Graph Neural Networks**, *[📝KDD](https://arxiv.org/abs/2106.06663)*, *[:octocat:Code](https://github.com/THUDM/tdgia)*
 + **Adversarial Attack Framework on Graph Embedding Models with Limited Knowledge**, *[📝Arxiv](https://arxiv.org/abs/2105.12419)*
 + **Adversarial Attack on Large Scale Graph**, *[📝TKDE](https://arxiv.org/abs/2009.03488)*, *[:octocat:Code](https://github.com/EdisonLeeeee/SGAttack)*
 + **Black-box Gradient Attack on Graph Neural Networks: Deeper Insights in Graph-based Attack and Defense**, *[📝Arxiv](https://arxiv.org/abs/2104.15061)*
@@ -91,7 +93,7 @@ If you find this repo useful, please cite:
 + **Adaptive Adversarial Attack on Graph Embedding via GAN**, *[📝SocialSec](https://link.springer.com/chapter/10.1007/978-981-15-9031-3_7)*
 + **Scalable Adversarial Attack on Graph Neural Networks with Alternating Direction Method of Multipliers**, *[📝Arxiv](https://arxiv.org/abs/2009.10233)*
 + **One Vertex Attack on Graph Neural Networks-based Spatiotemporal Forecasting**, *[📝ICLR OpenReview](https://openreview.net/forum?id=W0MKrbVOxtd)*
-+ **Single-Node Attack for Fooling Graph Neural Networks**, *[📝ICLR OpenReview](https://openreview.net/forum?id=u4WfreuXxnk)*
++ **Single-Node Attack for Fooling Graph Neural Networks**, *[📝ICLR OpenReview](https://openreview.net/forum?id=u4WfreuXxnk)*, *[:octocat:Code](https://github.com/benfinkelshtein/SINGLE)*
 + **Black-Box Adversarial Attacks on Graph Neural Networks as An Influence Maximization Problem**, *[📝ICLR OpenReview](https://openreview.net/forum?id=sbyjwhxxT8K)*
 + **Adversarial Attacks on Deep Graph Matching**, *[📝NeurIPS](https://papers.nips.cc/paper/2020/file/ef126722e64e98d1c33933783e52eafc-Paper.pdf)*
 + **Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access**, *[📝NeurIPS](https://arxiv.org/abs/2006.05057)*
@@ -254,7 +256,6 @@ If you find this repo useful, please cite:
 + **Robust Training of Graph Convolutional Networks via Latent Perturbation**, *[📝ECML-PKDD](https://www.cs.uic.edu/~zhangx/papers/JinZha20.pdf)*
 + **Robust Collective Classification against Structural Attacks**, *[📝Preprint](http://www.auai.org/uai2020/proceedings/119_main_paper.pdf)*
 + **Enhancing Graph Neural Network-based Fraud Detectors against Camouflaged Fraudsters**, *[📝CIKM](https://arxiv.org/abs/2008.08692)*, *[:octocat:Code](https://github.com/safe-graph/DGFraud)*
-+ **Evaluating Graph Vulnerability and Robustness using TIGER**, *[📝Arxiv](https://arxiv.org/abs/2006.05648)*
 + **Topological Effects on Attacks Against Vertex Classification**, *[📝Arxiv](https://arxiv.org/abs/2003.05822)*
 + **Tensor Graph Convolutional Networks for Multi-relational and Robust Learning**, *[📝Arxiv](https://arxiv.org/abs/2003.07729)*
 + **DefenseVGAE: Defending against Adversarial Attacks on Graph Data via a Variational Graph Autoencoder**, *[📝Arxiv](https://arxiv.org/abs/2006.08900)*, *[:octocat:Code](https://github.com/zhangao520/defense-vgae)*
