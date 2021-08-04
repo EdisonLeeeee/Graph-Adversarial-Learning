@@ -155,7 +155,7 @@ if __name__ == '__main__':
     ################################### Step2: Find papers with code ######################################################################
     tb_with_code = tb.drop_duplicates(subset=["Title"])
     tb_with_code = tb_with_code[pd.notna(tb_with_code["Code"])].reset_index(drop=True)
-    write_md("Categorized/paper_with_code.md", tb_with_code)
+    write_md("Categorized/papers_with_code.md", tb_with_code)
 
     ################################### Step3: Categorize papers by Title ######################################################################
     # Sorted by Title

@@ -1,0 +1,3 @@
+|    | Title                                                                          | Type       | Venue                                                      | Code   |   Year | State   | Date       |
+|---:|:-------------------------------------------------------------------------------|:-----------|:-----------------------------------------------------------|:-------|-------:|:--------|:-----------|
+| 0  | Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data | ⚖Stability | [📝Arxiv'2021](https://www.ijcai.org/Proceedings/2020/181) |        |   2021 | Added   | 2021-08-04 |

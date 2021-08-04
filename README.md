@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 245 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 246 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 245 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 246 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -42,7 +42,7 @@ If you find this repo useful, please cite:
 
 # 👀Quick Look
 
-| [By Alphabet](Categorized/alphabet.md) | [By Year](Categorized/year.md) | [By Venue](Categorized/venue.md) | [Papers with Code](Categorized/paper_with_code.md) |
+| [By Alphabet](Categorized/alphabet.md) | [By Year](Categorized/year.md) | [By Venue](Categorized/venue.md) | [Papers with Code](Categorized/papers_with_code.md) |
 
 If you want to get a quick look at the recently updated papers in the repository (in 30 days), you can refer to [this](Categorized/recent.md).
 
@@ -326,6 +326,7 @@ If you want to get a quick look at the recently updated papers in the repository
 # ⚖Stability
 [💨 Back to Top](#table-of-contents)
 
++ **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝Arxiv'2021](https://www.ijcai.org/Proceedings/2020/181)*
 + **Stability of Graph Convolutional Neural Networks to Stochastic Perturbations**, *[📝Arxiv'2021](https://arxiv.org/abs/2106.10526)*
 + **Graph and Graphon Neural Network Stability**, *[📝Arxiv'2020](https://arxiv.org/abs/2008.01767)*
 + **On the Stability of Graph Convolutional Neural Networks under Edge Rewiring**, *[📝Arxiv'2020](https://arxiv.org/abs/2010.13747)*
