@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 246 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 249 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 246 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 249 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -44,7 +44,7 @@ If you find this repo useful, please cite:
 
 | [By Alphabet](Categorized/alphabet.md) | [By Year](Categorized/year.md) | [By Venue](Categorized/venue.md) | [Papers with Code](Categorized/papers_with_code.md) |
 
-If you want to get a quick look at the recently updated papers in the repository (in 30 days), you can refer to [this](Categorized/recent.md).
+If you want to get a quick look at the recently updated papers in the repository (in 30 days), you can refer to [📍this](Categorized/recent.md).
 
 
 
@@ -74,7 +74,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models**, *[📝Arxiv](https://arxiv.org/abs/2104.09369)*, *[:octocat:Code](https://github.com/LYZ98/Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models)*
 + **VIKING: Adversarial Attack on Network Embeddings via Supervised Network Poisoning**, *[📝PAKDD](https://arxiv.org/abs/2102.07164)*, *[:octocat:Code](https://github.com/virresh/viking)*
 + **Explainability-based Backdoor Attacks Against Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2104.03674)*
-+ **GraphAttacker: A General Multi-Task GraphAttack Framework**, *[📝Arxiv](https://arxiv.org/abs/2101.06855)*
++ **GraphAttacker: A General Multi-Task GraphAttack Framework**, *[📝Arxiv](https://arxiv.org/abs/2101.06855)*, *[:octocat:Code](https://github.com/honoluluuuu/GraphAttacker)*
 + **Attacking Graph Neural Networks at Scale**, *[📝AAAI workshop](https://www.dropbox.com/s/ddrwoswpz3wwx40/Robust_GNNs_at_Scale__AAAI_Workshop_2020_CameraReady.pdf?dl=0)*
 + **Node-Level Membership Inference Attacks Against Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2102.05429)*
 + **Reinforcement Learning For Data Poisoning on Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2102.06800)*
@@ -84,6 +84,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Towards Revealing Parallel Adversarial Attack on Politician Socialnet of Graph Structure**, *[📝Security and Communication Networks](https://www.hindawi.com/journals/scn/2021/6631247)*
 + **Network Embedding Attack: An Euclidean Distance Based Method**, *[📝MDATA](https://link.springer.com/chapter/10.1007%2F978-3-030-71590-8_8)*
 + **Preserve, Promote, or Attack? GNN Explanation via Topology Perturbation**, *[📝Arxiv](https://arxiv.org/abs/2103.12256)*
++ **Jointly Attacking Graph Neural Network and its Explanations**, *[📝Arxiv](https://arxiv.org/abs/2108.03388)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -211,6 +212,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Robust graph convolutional networks with directional graph adversarial training**, *[📝Applied Intelligence](https://link.springer.com/article/10.1007/s10489-021-02272-y)*
 + **Detection and Defense of Topological Adversarial Attacks on Graphs**, *[📝AISTATS](http://proceedings.mlr.press/v130/zhang21i.html)*
 + **Unveiling the potential of Graph Neural Networks for robust Intrusion Detection**, *[📝Arxiv](https://arxiv.org/abs/2107.14747)*, *[:octocat:Code](https://github.com/BNN-UPC/GNN-NIDS)*
++ **Adversarial Robustness of Probabilistic Network Embedding for Link Prediction**, *[📝Arxiv](https://arxiv.org/abs/2107.01936)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -353,6 +355,7 @@ If you want to get a quick look at the recently updated papers in the repository
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
++ **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
 + **Deep Graph Structure Learning for Robust Representations: A Survey**, *[📝IJCAI Survey track'2021](https://arxiv.org/abs/2103.03036)*
 + **Graph Neural Networks Taxonomy, Advances and Trends**, *[📝Arxiv'2020](https://arxiv.org/abs/2012.08752)*
 + **A Survey of Adversarial Learning on Graph**, *[📝Arxiv'2020](https://arxiv.org/abs/2003.05730)*
