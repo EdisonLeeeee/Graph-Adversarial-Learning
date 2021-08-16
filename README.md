@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 249 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 251 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 249 papers)](#-awesome-graph-adversarial-learning-updating-245-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 251 papers)](#-awesome-graph-adversarial-learning-updating-249-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -85,6 +85,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Network Embedding Attack: An Euclidean Distance Based Method**, *[📝MDATA](https://link.springer.com/chapter/10.1007%2F978-3-030-71590-8_8)*
 + **Preserve, Promote, or Attack? GNN Explanation via Topology Perturbation**, *[📝Arxiv](https://arxiv.org/abs/2103.12256)*
 + **Jointly Attacking Graph Neural Network and its Explanations**, *[📝Arxiv](https://arxiv.org/abs/2108.03388)*
++ **Graph Stochastic Neural Networks for Semi-supervised Learning**, *[📝Arxiv](https://papers.nips.cc/paper/2020/file/e586a4f55fb43a540c2e9dab45e00f53-Paper.pdf)*, *[:octocat:Code](https://github.com/GSNN/GSNN)*
++ **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings**, *[📝Arxiv](https://arxiv.org/abs/2006.13009)*, *[:octocat:Code](https://github.com/hugochan/IDGL)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -181,7 +183,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Learning to Drop: Robust Graph Neural Network via Topological Denoising**, *[📝WSDM](https://arxiv.org/abs/2011.07057)*, *[:octocat:Code](https://github.com/flyingdoog/PTDNet)*
 + **How effective are Graph Neural Networks in Fraud Detection for Network Data?**, *[📝Arxiv](https://arxiv.org/abs/2105.14568)*
 + **Graph Sanitation with Application to Node Classification**, *[📝Arxiv](https://arxiv.org/abs/2105.09384)*
-+ **Understanding Structural Vulnerability in Graph Convolutional Networks**, *[📝IJCAI]()*, *[:octocat:Code](https://github.com/EdisonLeeeee/MedianGCN)*
++ **Understanding Structural Vulnerability in Graph Convolutional Networks**, *[📝IJCAI](https://arxiv.org/abs/2108.06280)*, *[:octocat:Code](https://github.com/EdisonLeeeee/MedianGCN)*
 + **A Robust and Generalized Framework for Adversarial Graph Embedding**, *[📝Arxiv](https://arxiv.org/abs/2105.10651)*, *[:octocat:Code](https://github.com/RingBDStack/AGE)*
 + **Integrated Defense for Resilient Graph Matching**, *[📝ICML](http://proceedings.mlr.press/v139/ren21c/ren21c.pdf)*
 + **Unveiling Anomalous Nodes Via Random Sampling and Consensus on Graphs**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9414953)*
