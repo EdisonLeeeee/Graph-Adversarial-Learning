@@ -3,7 +3,7 @@
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 251 papers)](#-awesome-graph-adversarial-learning-updating-249-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 251 papers)](#-awesome-graph-adversarial-learning-updating-251-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -60,11 +60,11 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Structack: Structure-based Adversarial Attacks on Graph Neural Networks**, *[📝ACM Hypertext](https://arxiv.org/abs/2107.11327)*, *[:octocat:Code](https://github.com/sqrhussain/structack)*
 + **Optimal Edge Weight Perturbations to Attack Shortest Paths**, *[📝Arxiv](https://arxiv.org/abs/2107.03347)*
 + **GReady for Emerging Threats to Recommender Systems? A Graph Convolution-based Generative Shilling Attack**, *[📝Information Sciences](https://arxiv.org/abs/2107.10457)*
-+ **Graph Adversarial Attack via Rewiring**, *[📝KDD](https://arxiv.org/abs/1906.03750)*
++ **Graph Adversarial Attack via Rewiring**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3447548.3467416)*, *[:octocat:Code](https://github.com/alge24/ReWatt)*
 + **Membership Inference Attack on Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2101.06570)*
 + **BinarizedAttack: Structural Poisoning Attacks to Graph-based Anomaly Detection**, *[📝Arxiv](https://arxiv.org/abs/2106.09989)*
 + **Adversarial Attack on Graph Neural Networks as An Influence Maximization Problem**, *[📝Arxiv](https://arxiv.org/abs/2106.10785)*
-+ **TDGIA: Effective Injection Attacks on Graph Neural Networks**, *[📝KDD](https://arxiv.org/abs/2106.06663)*, *[:octocat:Code](https://github.com/THUDM/tdgia)*
++ **TDGIA: Effective Injection Attacks on Graph Neural Networks**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3447548.3467314)*, *[:octocat:Code](https://github.com/THUDM/tdgia)*
 + **Adversarial Attack Framework on Graph Embedding Models with Limited Knowledge**, *[📝Arxiv](https://arxiv.org/abs/2105.12419)*
 + **Adversarial Attack on Large Scale Graph**, *[📝TKDE](https://arxiv.org/abs/2009.03488)*, *[:octocat:Code](https://github.com/EdisonLeeeee/SGAttack)*
 + **Black-box Gradient Attack on Graph Neural Networks: Deeper Insights in Graph-based Attack and Defense**, *[📝Arxiv](https://arxiv.org/abs/2104.15061)*
@@ -310,6 +310,7 @@ If you want to get a quick look at the recently updated papers in the repository
 # 🔐Certification
 [💨 Back to Top](#table-of-contents)
 
++ **Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation**, *[KDD'2021](https://dl.acm.org/doi/abs/10.1145/3447548.3467295)*, *[:octocat:Code](https://github.com/binghuiwang/CertifyGNN)*
 + **Collective Robustness Certificates**, *[📝ICLR'2021](https://openreview.net/forum?id=ULQdiUTHe3y)*
 + **Adversarial Immunization for Improving Certifiable Robustness on Graphs**, *[📝WSDM'2021](https://arxiv.org/abs/2007.09647)*
 + **Certifying Robustness of Graph Laplacian Based Semi-Supervised Learning**, *[📝ICLR OpenReview'2021](https://openreview.net/forum?id=cQyybLUoXxc)*
@@ -321,7 +322,6 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Abstract Interpretation based Robustness Certification for Graph Convolutional Networks**, *[📝ECAI'2020](http://ecai2020.eu/papers/31_paper.pdf)*
 + **Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation**, *[📝KDD'2020](https://dl.acm.org/doi/10.1145/3394486.3403217)*, *[:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)*
 + **Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing**, *[📝NeurIPS'2020](https://arxiv.org/abs/2009.05872)*
-+ **Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation**, *[📝Arxiv'2020](https://arxiv.org/abs/2008.10715)*
 + **Certifiable Robustness and Robust Training for Graph Convolutional Networks**, *[📝KDD'2019](https://arxiv.org/abs/1906.12269)*, *[:octocat:Code](https://www.kdd.in.tum.de/research/robust-gcn/)*
 + **Certifiable Robustness to Graph Perturbations**, *[📝NeurIPS'2019](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations)*, *[:octocat:Code](https://github.com/abojchevski/graph_cert)*
 
