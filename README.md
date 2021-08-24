@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 251 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 254 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 251 papers)](#-awesome-graph-adversarial-learning-updating-251-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 254 papers)](#-awesome-graph-adversarial-learning-updating-254-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -42,15 +42,14 @@ If you find this repo useful, please cite:
 
 # 👀Quick Look
 
+The papers in this repo are categorized:
+
 | [By Alphabet](Categorized/alphabet.md) | [By Year](Categorized/year.md) | [By Venue](Categorized/venue.md) | [Papers with Code](Categorized/papers_with_code.md) |
 
 If you want to get a quick look at the recently updated papers in the repository (in 30 days), you can refer to [📍this](Categorized/recent.md).
 
 
-
 # ⚔Attack
-
-
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -87,6 +86,11 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Jointly Attacking Graph Neural Network and its Explanations**, *[📝Arxiv](https://arxiv.org/abs/2108.03388)*
 + **Graph Stochastic Neural Networks for Semi-supervised Learning**, *[📝Arxiv](https://papers.nips.cc/paper/2020/file/e586a4f55fb43a540c2e9dab45e00f53-Paper.pdf)*, *[:octocat:Code](https://github.com/GSNN/GSNN)*
 + **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings**, *[📝Arxiv](https://arxiv.org/abs/2006.13009)*, *[:octocat:Code](https://github.com/hugochan/IDGL)*
++ **Single-Node Attack for Fooling Graph Neural Networks**, *[📝KDD Workshop](https://drive.google.com/file/d/12arm9w6UmvSIzGmaoocdH70czx7RVzGr/view)*, *[:octocat:Code](https://github.com/gnnattack/SINGLE)*
++ **The Robustness of Graph k-shell Structure under Adversarial Attacks**, *[📝Arxiv](https://arxiv.org/abs/2107.13962)*
++ **Poisoning Knowledge Graph Embeddings via Relation Inference Patterns**, *[📝ACL](https://aclanthology.org/2021.acl-long.147)*, *[:octocat:Code](https://github.com/PeruBhardwaj/InferenceAttack)*
++ **A Hard Label Black-box Adversarial Attack Against Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2108.09513)*
+
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -96,7 +100,6 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adaptive Adversarial Attack on Graph Embedding via GAN**, *[📝SocialSec](https://link.springer.com/chapter/10.1007/978-981-15-9031-3_7)*
 + **Scalable Adversarial Attack on Graph Neural Networks with Alternating Direction Method of Multipliers**, *[📝Arxiv](https://arxiv.org/abs/2009.10233)*
 + **One Vertex Attack on Graph Neural Networks-based Spatiotemporal Forecasting**, *[📝ICLR OpenReview](https://openreview.net/forum?id=W0MKrbVOxtd)*
-+ **Single-Node Attack for Fooling Graph Neural Networks**, *[📝ICLR OpenReview](https://openreview.net/forum?id=u4WfreuXxnk)*, *[:octocat:Code](https://github.com/benfinkelshtein/SINGLE)*
 + **Black-Box Adversarial Attacks on Graph Neural Networks as An Influence Maximization Problem**, *[📝ICLR OpenReview](https://openreview.net/forum?id=sbyjwhxxT8K)*
 + **Adversarial Attacks on Deep Graph Matching**, *[📝NeurIPS](https://papers.nips.cc/paper/2020/file/ef126722e64e98d1c33933783e52eafc-Paper.pdf)*
 + **Black-Box Adversarial Attacks on Graph Neural Networks with Limited Node Access**, *[📝NeurIPS](https://arxiv.org/abs/2006.05057)*
@@ -183,7 +186,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Learning to Drop: Robust Graph Neural Network via Topological Denoising**, *[📝WSDM](https://arxiv.org/abs/2011.07057)*, *[:octocat:Code](https://github.com/flyingdoog/PTDNet)*
 + **How effective are Graph Neural Networks in Fraud Detection for Network Data?**, *[📝Arxiv](https://arxiv.org/abs/2105.14568)*
 + **Graph Sanitation with Application to Node Classification**, *[📝Arxiv](https://arxiv.org/abs/2105.09384)*
-+ **Understanding Structural Vulnerability in Graph Convolutional Networks**, *[📝IJCAI](https://arxiv.org/abs/2108.06280)*, *[:octocat:Code](https://github.com/EdisonLeeeee/MedianGCN)*
++ **Understanding Structural Vulnerability in Graph Convolutional Networks**, *[📝IJCAI](https://www.ijcai.org/proceedings/2021/310)*, *[:octocat:Code](https://github.com/EdisonLeeeee/MedianGCN)*
 + **A Robust and Generalized Framework for Adversarial Graph Embedding**, *[📝Arxiv](https://arxiv.org/abs/2105.10651)*, *[:octocat:Code](https://github.com/RingBDStack/AGE)*
 + **Integrated Defense for Resilient Graph Matching**, *[📝ICML](http://proceedings.mlr.press/v139/ren21c/ren21c.pdf)*
 + **Unveiling Anomalous Nodes Via Random Sampling and Consensus on Graphs**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9414953)*
@@ -310,7 +313,7 @@ If you want to get a quick look at the recently updated papers in the repository
 # 🔐Certification
 [💨 Back to Top](#table-of-contents)
 
-+ **Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation**, *[KDD'2021](https://dl.acm.org/doi/abs/10.1145/3447548.3467295)*, *[:octocat:Code](https://github.com/binghuiwang/CertifyGNN)*
++ **Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation**, *[📝KDD'2021](https://dl.acm.org/doi/abs/10.1145/3447548.3467295)*, *[:octocat:Code](https://github.com/binghuiwang/CertifyGNN)*
 + **Collective Robustness Certificates**, *[📝ICLR'2021](https://openreview.net/forum?id=ULQdiUTHe3y)*
 + **Adversarial Immunization for Improving Certifiable Robustness on Graphs**, *[📝WSDM'2021](https://arxiv.org/abs/2007.09647)*
 + **Certifying Robustness of Graph Laplacian Based Semi-Supervised Learning**, *[📝ICLR OpenReview'2021](https://openreview.net/forum?id=cQyybLUoXxc)*
