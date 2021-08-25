@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 254 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 258 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 254 papers)](#-awesome-graph-adversarial-learning-updating-254-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 258 papers)](#-awesome-graph-adversarial-learning-updating-254-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -42,7 +42,7 @@ If you find this repo useful, please cite:
 
 # 👀Quick Look
 
-The papers in this repo are categorized:
+The papers in this repo are categorized or sorted:
 
 | [By Alphabet](Categorized/alphabet.md) | [By Year](Categorized/year.md) | [By Venue](Categorized/venue.md) | [Papers with Code](Categorized/papers_with_code.md) |
 
@@ -90,6 +90,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **The Robustness of Graph k-shell Structure under Adversarial Attacks**, *[📝Arxiv](https://arxiv.org/abs/2107.13962)*
 + **Poisoning Knowledge Graph Embeddings via Relation Inference Patterns**, *[📝ACL](https://aclanthology.org/2021.acl-long.147)*, *[:octocat:Code](https://github.com/PeruBhardwaj/InferenceAttack)*
 + **A Hard Label Black-box Adversarial Attack Against Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2108.09513)*
++ **GNNUnlock: Graph Neural Networks-based Oracle-less Unlocking Scheme for Provably Secure Logic Locking**, *[📝DATE Conference](https://arxiv.org/abs/2104.13012)*
 
 
 ## 2020
@@ -218,6 +219,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Detection and Defense of Topological Adversarial Attacks on Graphs**, *[📝AISTATS](http://proceedings.mlr.press/v130/zhang21i.html)*
 + **Unveiling the potential of Graph Neural Networks for robust Intrusion Detection**, *[📝Arxiv](https://arxiv.org/abs/2107.14747)*, *[:octocat:Code](https://github.com/BNN-UPC/GNN-NIDS)*
 + **Adversarial Robustness of Probabilistic Network Embedding for Link Prediction**, *[📝Arxiv](https://arxiv.org/abs/2107.01936)*
++ **EGC2: Enhanced Graph Classification with Easy Graph Compression**, *[📝Arxiv](https://arxiv.org/abs/2107.07737)*
++ **LinkTeller: Recovering Private Edges from Graph Neural Networks via Influence Analysis**, *[📝Arxiv](https://arxiv.org/abs/2108.06504)*
++ **Structure-Aware Hierarchical Graph Pooling using Information Bottleneck**, *[📝IJCNN ](https://arxiv.org/abs/2104.13012)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -360,11 +364,12 @@ If you want to get a quick look at the recently updated papers in the repository
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
+
++ **Graph Neural Networks Methods, Applications, and Opportunities**, *[📝Arxiv'2021](https://arxiv.org/abs/2108.10733)*
 + **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
 + **Deep Graph Structure Learning for Robust Representations: A Survey**, *[📝IJCAI Survey track'2021](https://arxiv.org/abs/2103.03036)*
 + **Graph Neural Networks Taxonomy, Advances and Trends**, *[📝Arxiv'2020](https://arxiv.org/abs/2012.08752)*
 + **A Survey of Adversarial Learning on Graph**, *[📝Arxiv'2020](https://arxiv.org/abs/2003.05730)*
-+ **Adversarial Attacks and Defenses on Graphs: A Review and Empirical Study**, *[📝Arxiv'2020](https://arxiv.org/abs/2003.00653)*
 + **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *[📝Arxiv'2019](https://arxiv.org/abs/1909.08072)*
 + **Adversarial Attack and Defense on Graph Data: A Survey**, *[📝Arxiv'2018](https://arxiv.org/abs/1812.10528)*
 + **Deep Learning on Graphs A Survey**, *[📝Arxiv'2018](https://arxiv.org/abs/1812.04202)*
@@ -386,9 +391,9 @@ If you want to get a quick look at the recently updated papers in the repository
 # 🔗Resource
 [💨 Back to Top](#table-of-contents)
 
-+ **Awesome Adversarial Learning on Recommender System** [:octocat:CodeLink](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
-+ **Awesome Graph Attack and Defense Papers** [:octocat:CodeLink](https://github.com/ChandlerBang/awesome-graph-attack-papers)
-+ **Graph Adversarial Learning Literature** [:octocat:CodeLink](https://github.com/safe-graph/graph-adversarial-learning-literature)
++ **Awesome Adversarial Learning on Recommender System** [:octocat:Link](https://github.com/EdisonLeeeee/RS-Adversarial-Learning)
++ **Awesome Graph Attack and Defense Papers** [:octocat:Link](https://github.com/ChandlerBang/awesome-graph-attack-papers)
++ **Graph Adversarial Learning Literature** [:octocat:Link](https://github.com/safe-graph/graph-adversarial-learning-literature)
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 + **Adversarial Attacks and Defenses Frontiers, Advances and Practice**, *KDD'20 tutorial*, [🌐Link](https://sites.google.com/view/kdd-2020-attack-and-defense)
 
