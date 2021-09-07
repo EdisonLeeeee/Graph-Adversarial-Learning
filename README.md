@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 258 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 263 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 258 papers)](#-awesome-graph-adversarial-learning-updating-254-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 263 papers)](#-awesome-graph-adversarial-learning-updating-263-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -91,6 +91,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Poisoning Knowledge Graph Embeddings via Relation Inference Patterns**, *[📝ACL](https://aclanthology.org/2021.acl-long.147)*, *[:octocat:Code](https://github.com/PeruBhardwaj/InferenceAttack)*
 + **A Hard Label Black-box Adversarial Attack Against Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2108.09513)*
 + **GNNUnlock: Graph Neural Networks-based Oracle-less Unlocking Scheme for Provably Secure Logic Locking**, *[📝DATE Conference](https://arxiv.org/abs/2104.13012)*
++ **Single Node Injection Attack against Graph Neural Networks**, *[📝CIKM](https://arxiv.org/abs/2108.13049)*, *[:octocat:Code](https://github.com/TaoShuchang/G-NIA)*
++ **Node Feature Kernels Increase Graph Convolutional Network Robustness**, *[📝Arxiv](https://arxiv.org/abs/2109.01785)*, *[:octocat:Code](https://github.com/ChangminWu/RobustGCN)*
 
 
 ## 2020
@@ -222,6 +224,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **EGC2: Enhanced Graph Classification with Easy Graph Compression**, *[📝Arxiv](https://arxiv.org/abs/2107.07737)*
 + **LinkTeller: Recovering Private Edges from Graph Neural Networks via Influence Analysis**, *[📝Arxiv](https://arxiv.org/abs/2108.06504)*
 + **Structure-Aware Hierarchical Graph Pooling using Information Bottleneck**, *[📝IJCNN ](https://arxiv.org/abs/2104.13012)*
++ **Mal2GCN: A Robust Malware Detection Approach Using Deep Graph Convolutional Networks With Non-Negative Weights**, *[📝Arxiv](https://arxiv.org/abs/2108.12473)*
+
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -347,7 +351,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Stability Properties of Graph Neural Networks**, *[📝Arxiv'2019](https://arxiv.org/abs/1905.04497)*
 + **Stability and Generalization of Graph Convolutional Neural Networks**, *[📝KDD'2019](https://arxiv.org/abs/1905.01004)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)*
 + **When Do GNNs Work: Understanding and Improving Neighborhood Aggregation**, *[📝IJCAI Workshop'2019](https://www.ijcai.org/Proceedings/2020/181)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)*
-
++ **Towards a Unified Framework for Fair and Stable Graph Representation Learning**, *[📝UAI'2021](https://arxiv.org/abs/2102.13186)*, *[:octocat:Code](https://github.com/chirag126/nifty)*
 
 
 # 🚀Others
@@ -359,7 +363,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **FLAG: Adversarial Data Augmentation for Graph Neural Networks**, *[📝Arxiv'2020](https://arxiv.org/abs/2010.09891)*, *[:octocat:Code](https://github.com/devnkong/FLAG)*
 + **Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning**, *[📝Arxiv'2020](https://arxiv.org/abs/2004.08833)*
 + **Watermarking Graph Neural Networks by Random Graphs**, *[📝Arxiv'2020](https://arxiv.org/abs/2011.00512)*
-
++ **Training Robust Graph Neural Network by Applying Lipschitz Constant Constraint**, *[📝CentraleSupélec'2020](https://github.com/SJTUzhou/Lipschitz_gnn/blob/main/GNN_Robust_report.pdf)*, *[:octocat:Code](https://github.com/SJTUzhou/Lipschitz_gnn)*
 
 
 # 📃Survey
