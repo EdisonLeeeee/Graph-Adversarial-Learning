@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 263 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 265 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 263 papers)](#-awesome-graph-adversarial-learning-updating-263-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 265 papers)](#-awesome-graph-adversarial-learning-updating-263-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -93,6 +93,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **GNNUnlock: Graph Neural Networks-based Oracle-less Unlocking Scheme for Provably Secure Logic Locking**, *[📝DATE Conference](https://arxiv.org/abs/2104.13012)*
 + **Single Node Injection Attack against Graph Neural Networks**, *[📝CIKM](https://arxiv.org/abs/2108.13049)*, *[:octocat:Code](https://github.com/TaoShuchang/G-NIA)*
 + **Node Feature Kernels Increase Graph Convolutional Network Robustness**, *[📝Arxiv](https://arxiv.org/abs/2109.01785)*, *[:octocat:Code](https://github.com/ChangminWu/RobustGCN)*
++ **Spatially Focused Attack against Spatiotemporal Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2109.04608)*
 
 
 ## 2020
@@ -225,6 +226,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **LinkTeller: Recovering Private Edges from Graph Neural Networks via Influence Analysis**, *[📝Arxiv](https://arxiv.org/abs/2108.06504)*
 + **Structure-Aware Hierarchical Graph Pooling using Information Bottleneck**, *[📝IJCNN ](https://arxiv.org/abs/2104.13012)*
 + **Mal2GCN: A Robust Malware Detection Approach Using Deep Graph Convolutional Networks With Non-Negative Weights**, *[📝Arxiv](https://arxiv.org/abs/2108.12473)*
++ **CoG: a Two-View Co-training Framework for Defending Adversarial Attacks on Graph**, *[📝Arxiv](https://arxiv.org/abs/2109.05558)*
 
 
 ## 2020
