@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 270 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 271 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 270 papers)](#-awesome-graph-adversarial-learning-updating-265-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 271 papers)](#-awesome-graph-adversarial-learning-updating-270-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -95,6 +95,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Spatially Focused Attack against Spatiotemporal Graph Neural Networks**, *[📝Arxiv](https://arxiv.org/abs/2109.04608)*
 + **Derivative-free optimization adversarial attacks for graph convolutional networks**, *[📝PeerJ](https://peerj.com/articles/cs-693)*
 + **Projective Ranking: A Transferable Evasion Attack Method on Graph Neural Networks**, *[📝CIKM](https://shiruipan.github.io/publication/cikm-21-zhang/cikm-21-zhang.pdf)*
++ **Query-based Adversarial Attacks on Graph with Fake Nodes**, *[📝Arxiv](https://arxiv.org/abs/2109.13069)*
++ **Time-aware Gradient Attack on Dynamic Network Link Prediction**, *[📝TKDE](https://ieeexplore.ieee.org/abstract/document/9531428)*
 
 
 ## 2020
@@ -144,7 +146,6 @@ If you want to get a quick look at the recently updated papers in the repository
 ## 2019
 [💨 Back to Top](#table-of-contents)
 
-+ **Time-aware Gradient Attack on Dynamic Network Link Prediction**, *[📝Arxiv](https://arxiv.org/abs/1911.10561)*
 + **Attacking Graph Convolutional Networks via Rewiring**, *[📝Arxiv](https://arxiv.org/abs/1906.03750)*
 + **Unsupervised Euclidean Distance Attack on Network Embedding**, *[📝Arxiv](https://arxiv.org/abs/1905.11015)*
 + **Structured Adversarial Attack Towards General Implementation and Better Interpretability**, *[📝ICLR](https://arxiv.org/abs/1808.01664)*, *[:octocat:Code](https://github.com/KaidiXu/StrAttack)*
