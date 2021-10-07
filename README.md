@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 271 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 272 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 271 papers)](#-awesome-graph-adversarial-learning-updating-270-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 272 papers)](#-awesome-graph-adversarial-learning-updating-270-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -97,6 +97,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Projective Ranking: A Transferable Evasion Attack Method on Graph Neural Networks**, *[📝CIKM](https://shiruipan.github.io/publication/cikm-21-zhang/cikm-21-zhang.pdf)*
 + **Query-based Adversarial Attacks on Graph with Fake Nodes**, *[📝Arxiv](https://arxiv.org/abs/2109.13069)*
 + **Time-aware Gradient Attack on Dynamic Network Link Prediction**, *[📝TKDE](https://ieeexplore.ieee.org/abstract/document/9531428)*
++ **Inference Attacks Against Graph Neural Networks**, *[📝USENIX Security](https://arxiv.org/abs/2110.02631)*, *[:octocat:Code](https://github.com/Zhangzhk0819/GNN-Embedding-Leaks)*
 
 
 ## 2020
