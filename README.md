@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 274 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 279 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 274 papers)](#-awesome-graph-adversarial-learning-updating-272-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 279 papers)](#-awesome-graph-adversarial-learning-updating-274-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -99,6 +99,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Time-aware Gradient Attack on Dynamic Network Link Prediction**, *[📝TKDE](https://ieeexplore.ieee.org/abstract/document/9531428)*
 + **Inference Attacks Against Graph Neural Networks**, *[📝USENIX Security](https://arxiv.org/abs/2110.02631)*, *[:octocat:Code](https://github.com/Zhangzhk0819/GNN-Embedding-Leaks)*
 + **Graph-Fraudster: Adversarial Attacks on Graph Neural Network Based Vertical Federated Learning**, *[📝arXiv](https://arxiv.org/abs/2110.06468)*
++ **Adapting Membership Inference Attacks to GNN for Graph Classification:  Approaches and Implications**, *[📝arXiv](https://arxiv.org/abs/2110.08760)*
++ **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.10482)*
++ **Watermarking Graph Neural Networks based on Backdoor Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.11024)*
 
 
 ## 2020
@@ -234,7 +237,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Speedup Robust Graph Structure Learning with Low-Rank Information**, *[📝CIKM](http://xiangliyao.cn/papers/cikm21-hui.pdf)*
 + **A Lightweight Metric Defence Strategy for Graph Neural Networks Against Poisoning Attacks**, *[📝ICICS](https://link.springer.com/chapter/10.1007/978-3-030-88052-1_4)*, *[:octocat:Code](https://github.com/lizi-learner/MD-GNN)*
 + **Node Feature Kernels Increase Graph Convolutional Network Robustness**, *[📝arXiv](https://arxiv.org/abs/2109.01785)*, *[:octocat:Code](https://github.com/ChangminWu/RobustGCN)*
-+ **Robust Graph Data Learning via Latent Graph Convolutional Representation**, *[📝arXiv](https://arxiv.org/abs/1904.11883)*
++ **On the Relationship between Heterophily and Robustness of Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2106.07767)*
++ **Distributionally Robust Semi-Supervised Learning Over Graphs**, *[📝ICLR](https://arxiv.org/abs/2110.10582)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -314,6 +318,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Robust Graph Convolutional Networks Against Adversarial Attacks**, *[📝KDD](http://pengcui.thumedialab.com/papers/RGCN.pdf)*, *[:octocat:Code](https://github.com/thumanlab/nrlweb/blob/master/static/assets/download/RGCN.zip)*
 + **Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications**, *[📝NAACL](https://arxiv.org/abs/1905.00563)*, *[:octocat:Code](https://github.com/pouyapez/criage)*
 + **Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective**, *[📝IJCAI](https://arxiv.org/abs/1906.04214)*, *[:octocat:Code](https://github.com/KaidiXu/GCN_ADV_Train)*
++ **Robust Graph Data Learning via Latent Graph Convolutional Representation**, *[📝arXiv](https://arxiv.org/abs/1904.11883)*
 
 ## 2018
 [💨 Back to Top](#table-of-contents)
