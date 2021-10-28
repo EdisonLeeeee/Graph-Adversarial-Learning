@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 279 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 282 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 279 papers)](#-awesome-graph-adversarial-learning-updating-274-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 282 papers)](#-awesome-graph-adversarial-learning-updating-279-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -102,6 +102,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adapting Membership Inference Attacks to GNN for Graph Classification:  Approaches and Implications**, *[📝arXiv](https://arxiv.org/abs/2110.08760)*
 + **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.10482)*
 + **Watermarking Graph Neural Networks based on Backdoor Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.11024)*
++ **Robustness of Graph Neural Networks at Scale**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14038.pdf)*, *[:octocat:Code](https://github.com/sigeisler/robustness_of_gnns_at_scale)*
++ **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness**, *[📝arXiv](https://arxiv.org/abs/2110.10942)*
 
 
 ## 2020
@@ -239,6 +241,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Node Feature Kernels Increase Graph Convolutional Network Robustness**, *[📝arXiv](https://arxiv.org/abs/2109.01785)*, *[:octocat:Code](https://github.com/ChangminWu/RobustGCN)*
 + **On the Relationship between Heterophily and Robustness of Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2106.07767)*
 + **Distributionally Robust Semi-Supervised Learning Over Graphs**, *[📝ICLR](https://arxiv.org/abs/2110.10582)*
++ **Robustness of Graph Neural Networks at Scale**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14038.pdf)*, *[:octocat:Code](https://github.com/sigeisler/robustness_of_gnns_at_scale)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
