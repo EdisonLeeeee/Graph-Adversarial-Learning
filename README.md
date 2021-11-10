@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 282 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 286 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 282 papers)](#-awesome-graph-adversarial-learning-updating-279-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 286 papers)](#-awesome-graph-adversarial-learning-updating-282-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2021](#2021)
@@ -104,6 +104,10 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Watermarking Graph Neural Networks based on Backdoor Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.11024)*
 + **Robustness of Graph Neural Networks at Scale**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14038.pdf)*, *[:octocat:Code](https://github.com/sigeisler/robustness_of_gnns_at_scale)*
 + **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness**, *[📝arXiv](https://arxiv.org/abs/2110.10942)*
++ **Graph Structural Attack by Spectral Distance**, *[📝arXiv](https://arxiv.org/abs/2111.00684)*
++ **Graph Universal Adversarial Attacks: A Few Bad Actors Ruin Graph Learning Models**, *[📝IJCAI](https://www.ijcai.org/proceedings/2021/458)*, *[:octocat:Code](https://github.com/chisam0217/Graph-Universal-Attack)*
++ **Adversarial Attacks on Graph Classification via Bayesian Optimisation**, *[📝NeurIPS](https://arxiv.org/abs/2111.02842)*, *[:octocat:Code](https://github.com/xingchenwan/grabnel)*
++ **Adversarial Attacks on Knowledge Graph Embeddings via Instance  Attribution Methods**, *[📝EMNLP](https://arxiv.org/abs/2111.03120)*, *[:octocat:Code](https://github.com/PeruBhardwaj/AttributionAttack)*
 
 
 ## 2020
@@ -144,7 +148,6 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Attackability Characterization of Adversarial Evasion Attack on Discrete Data**, *[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403194)*
 + **MGA: Momentum Gradient Attack on Network**, *[📝arXiv](https://arxiv.org/abs/2002.11320)*
 + **Adversarial Attacks to Scale-Free Networks: Testing the Robustness of Physical Criteria**, *[📝arXiv](https://arxiv.org/abs/2002.01249)*
-+ **Graph Universal Adversarial Attacks: A Few Bad Actors Ruin Graph Learning Models**, *[📝arXiv](https://arxiv.org/abs/2002.04784)*, *[:octocat:Code](https://github.com/chisam0217/Graph-Universal-Attack)*
 + **Adversarial Perturbations of Opinion Dynamics in Networks**, *[📝arXiv](https://arxiv.org/abs/2003.07010)*
 + **Network disruption: maximizing disagreement and polarization in social networks**, *[📝arXiv](https://arxiv.org/abs/2003.08377)*, *[:octocat:Code](https://github.com/mayee107/network-disruption)*
 + **Adversarial attack on BC classification for scale-free networks**, *[📝AIP Chaos](https://aip.scitation.org/doi/10.1063/5.0003707)*
@@ -382,7 +385,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning**, *[📝arXiv'2020](https://arxiv.org/abs/2004.08833)*
 + **Watermarking Graph Neural Networks by Random Graphs**, *[📝arXiv'2020](https://arxiv.org/abs/2011.00512)*
 + **Training Robust Graph Neural Network by Applying Lipschitz Constant Constraint**, *[📝CentraleSupélec'2020](https://github.com/SJTUzhou/Lipschitz_gnn/blob/main/GNN_Robust_report.pdf)*, *[:octocat:Code](https://github.com/SJTUzhou/Lipschitz_gnn)*
-
++ **CAP: Co-Adversarial Perturbation on Weights and Features for Improving Generalization of Graph Neural Networks**, *[📝arXiv'2021](https://arxiv.org/abs/2110.14855)*
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
