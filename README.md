@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 287 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 290 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 287 papers)](#-awesome-graph-adversarial-learning-updating-286-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 290 papers)](#-awesome-graph-adversarial-learning-updating-290-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -107,7 +107,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Query-based Adversarial Attacks on Graph with Fake Nodes**, *[📝arXiv](https://arxiv.org/abs/2109.13069)*
 + **Time-aware Gradient Attack on Dynamic Network Link Prediction**, *[📝TKDE](https://ieeexplore.ieee.org/abstract/document/9531428)*
 + **Graph-Fraudster: Adversarial Attacks on Graph Neural Network Based Vertical Federated Learning**, *[📝arXiv](https://arxiv.org/abs/2110.06468)*
-+ **Adapting Membership Inference Attacks to GNN for Graph Classification:  Approaches and Implications**, *[📝arXiv](https://arxiv.org/abs/2110.08760)*
++ **Adapting Membership Inference Attacks to GNN for Graph Classification: Approaches and Implications**, *[📝arXiv](https://arxiv.org/abs/2110.08760)*
 + **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.10482)*
 + **Watermarking Graph Neural Networks based on Backdoor Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.11024)*
 + **Robustness of Graph Neural Networks at Scale**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14038.pdf)*, *[:octocat:Code](https://github.com/sigeisler/robustness_of_gnns_at_scale)*
@@ -115,7 +115,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Graph Structural Attack by Spectral Distance**, *[📝arXiv](https://arxiv.org/abs/2111.00684)*
 + **Graph Universal Adversarial Attacks: A Few Bad Actors Ruin Graph Learning Models**, *[📝IJCAI](https://www.ijcai.org/proceedings/2021/458)*, *[:octocat:Code](https://github.com/chisam0217/Graph-Universal-Attack)*
 + **Adversarial Attacks on Graph Classification via Bayesian Optimisation**, *[📝NeurIPS](https://arxiv.org/abs/2111.02842)*, *[:octocat:Code](https://github.com/xingchenwan/grabnel)*
-+ **Adversarial Attacks on Knowledge Graph Embeddings via Instance  Attribution Methods**, *[📝EMNLP](https://arxiv.org/abs/2111.03120)*, *[:octocat:Code](https://github.com/PeruBhardwaj/AttributionAttack)*
++ **Adversarial Attacks on Knowledge Graph Embeddings via Instance Attribution Methods**, *[📝EMNLP](https://arxiv.org/abs/2111.03120)*, *[:octocat:Code](https://github.com/PeruBhardwaj/AttributionAttack)*
++ **COREATTACK: Breaking Up the Core Structure of Graphs**, *[📝arXiv](https://arxiv.org/abs/2111.15276)*
++ **UNTANGLE: Unlocking Routing and Logic Obfuscation Using Graph Neural Networks-based Link Prediction**, *[📝ICCAD](https://arxiv.org/abs/2111.07062)*, *[:octocat:Code](https://github.com/lilasrahis/untangle)*
 
 
 ## 2020
@@ -257,6 +259,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Robustness of Graph Neural Networks at Scale**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14038.pdf)*, *[:octocat:Code](https://github.com/sigeisler/robustness_of_gnns_at_scale)*
 + **Graph Transplant: Node Saliency-Guided Graph Mixup with Local Structure Preservation**, *[📝arXiv](https://arxiv.org/abs/2111.05639)*
 + **Not All Low-Pass Filters are Robust in Graph Convolutional Networks**, *[📝NeurIPS](https://openreview.net/forum?id=bDdfxLQITtu)*, *[:octocat:Code](https://github.com/SwiftieH/LFR)*
++ **Towards Robust Reasoning over Knowledge Graphs**, *[📝arXiv](https://arxiv.org/abs/2110.14693)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
