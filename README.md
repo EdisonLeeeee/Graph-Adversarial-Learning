@@ -367,7 +367,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Efficient Robustness Certificates for Discrete Data: Sparsity - Aware Randomized Smoothing for Graphs, Images and More**, *[📝ICML'2020](https://proceedings.icml.cc/book/2020/file/4f7b884f2445ef08da9bbc77b028722c-Paper.pdf)*, *[:octocat:Code](https://github.com/abojchevski/sparse_smoothing)*
 + **Abstract Interpretation based Robustness Certification for Graph Convolutional Networks**, *[📝ECAI'2020](http://ecai2020.eu/papers/31_paper.pdf)*
 + **Certifiable Robustness of Graph Convolutional Networks under Structure Perturbation**, *[📝KDD'2020](https://dl.acm.org/doi/10.1145/3394486.3403217)*, *[:octocat:Code](https://github.com/danielzuegner/robust-gcn-structure)*
-+ **Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing**, *[📝NeurIPS'2020](https://arxiv.org/abs/2009.05872)*
++ **Certified Robustness of Graph Classification against Topology Attack with Randomized Smoothing**, *[📝GLOBECOM'2020](https://arxiv.org/abs/2009.05872)*
 + **Certifiable Robustness and Robust Training for Graph Convolutional Networks**, *[📝KDD'2019](https://arxiv.org/abs/1906.12269)*, *[:octocat:Code](https://www.kdd.in.tum.de/research/robust-gcn/)*
 + **Certifiable Robustness to Graph Perturbations**, *[📝NeurIPS'2019](http://papers.nips.cc/paper/9041-certifiable-robustness-to-graph-perturbations)*, *[:octocat:Code](https://github.com/abojchevski/graph_cert)*
 
