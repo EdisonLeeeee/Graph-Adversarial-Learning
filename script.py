@@ -258,16 +258,16 @@ if __name__ == '__main__':
             t.to_markdown(f)
             f.writelines("\n")
 
-    ################################### Step7: Write README.md ######################################################################
-    for i in range(100):
-        if "(Updating " in content[i]:
-            begin = content[i].index("(Updating ")
-            end = content[i].index(")")
-            content[i] = (
-                content[i][:begin] + f"(Updating {len(tb)} papers)" + content[i][end + 1:]
-            )
-    with open("README.md", "w", encoding="utf-8") as f:
-        for line in content:
-            f.writelines(line)
-
+    # ################################### Step7: Write README.md ######################################################################
+    # for i in range(100):
+    #     if "(Updating " in content[i]:
+    #         begin = content[i].index("(Updating ")
+    #         end = content[i].index(")")
+    #         content[i] = (
+    #             content[i][:begin] + f"(Updating {len(tb)} papers)" + content[i][end + 1:]
+    #         )
+    # with open("README.md", "w", encoding="utf-8") as f:
+    #     for line in content:
+    #         f.writelines(line)
+    print(f"{len(tb)} papers in total.")
     print("#" * 10, "End", "#" * 10)

@@ -1,9 +1,9 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 299 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 300 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
 
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 299 papers)](#-awesome-graph-adversarial-learning-updating-290-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 300 papers)](#-awesome-graph-adversarial-learning-updating-300-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -123,6 +123,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Structural A!ack against Graph Based Android Malware Detection**, *[📝CCS](https://dl.acm.org/doi/abs/10.1145/3460120.3485387)*
 + **Adversarial Attack against Cross-lingual Knowledge Graph Alignment**, *[📝EMNLP](https://aclanthology.org/2021.emnlp-main.432)*
 + **FHA: Fast Heuristic Attack Against Graph Convolutional Networks**, *[📝ICDS](https://link.springer.com/chapter/10.1007/978-3-030-88942-5_12)*
++ **Task and Model Agnostic Adversarial Attack on Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2112.13267)*
 
 
 ## 2020
@@ -211,6 +212,7 @@ If you want to get a quick look at the recently updated papers in the repository
 
 ## 2022
 [💨 Back to Top](#table-of-contents)
++ **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.02486)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -223,7 +225,6 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Integrated Defense for Resilient Graph Matching**, *[📝ICML](http://proceedings.mlr.press/v139/ren21c/ren21c.pdf)*
 + **Unveiling Anomalous Nodes Via Random Sampling and Consensus on Graphs**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9414953)*
 + **Robust Network Alignment via Attack Signal Scaling and Adversarial Perturbation Elimination**, *[📝WWW](http://eng.auburn.edu/users/yangzhou/papers/RNA.pdf)*
-+ **Adversarial Graph Augmentation to Improve Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2106.05819)*
 + **Information Obfuscation of Graph Neural Network**, *[📝ICML](https://arxiv.org/pdf/2009.13504.pdf)*, *[:octocat:Code](https://github.com/liaopeiyuan/GAL)*
 + **Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs**, *[📝arXiv](https://arxiv.org/abs/2106.07767)*
 + **On Generalization of Graph Autoencoders with Adversarial Training**, *[📝ECML](https://arxiv.org/abs/2107.02658)*
@@ -283,7 +284,6 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings**, *[📝NeurIPS](https://arxiv.org/abs/2006.13009)*, *[:octocat:Code](https://github.com/hugochan/IDGL)*
 + **Node Copying for Protection Against Graph Neural Network Topology Attacks**, *[📝arXiv](https://arxiv.org/abs/2007.06704)*
 + **Community detection in sparse time-evolving graphs with a dynamical Bethe-Hessian**, *[📝NeurIPS](https://arxiv.org/abs/2006.04510)*
-+ **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝arXiv](https://arxiv.org/abs/2012.02486)*
 + **A Feature-Importance-Aware and Robust Aggregator for GCN**, *[📝CIKM](https://dl.acm.org/doi/abs/10.1145/3340531.3411983)*, *[:octocat:Code](https://github.com/LiZhang-github/LA-GCN)*
 + **Anti-perturbation of Online Social Networks by Graph Label Transition**, *[📝arXiv](https://arxiv.org/abs/2010.14121)*
 + **Graph Information Bottleneck**, *[📝NeurIPS](https://arxiv.org/abs/2010.12811)*, *[:octocat:Code](http://snap.stanford.edu/gib/)*
@@ -319,6 +319,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning**, *[📝arXiv](https://arxiv.org/abs/2004.08833)*
 + **AANE: Anomaly Aware Network Embedding For Anomalous Link Detection**, *[📝ICDM](https://ieeexplore.ieee.org/document/9338406)*
 + **Provably Robust Node Classification via Low-Pass Message Passing**, *[📝ICDM](https://shenghua-liu.github.io/papers/icdm2020-provablerobust.pdf)*
++ **Graph-Revised Convolutional Network**, *[📝ECML-PKDD](https://arxiv.org/abs/1911.07123)*, *[:octocat:Code](https://github.com/PlusRoss/GRCN)*
 
 ## 2019
 [💨 Back to Top](#table-of-contents)
