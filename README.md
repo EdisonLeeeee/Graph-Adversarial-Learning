@@ -1,9 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 300 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 301 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 300 papers)](#-awesome-graph-adversarial-learning-updating-300-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 301 papers)](#-awesome-graph-adversarial-learning-updating-301-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -120,7 +119,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **COREATTACK: Breaking Up the Core Structure of Graphs**, *[📝arXiv](https://arxiv.org/abs/2111.15276)*
 + **UNTANGLE: Unlocking Routing and Logic Obfuscation Using Graph Neural Networks-based Link Prediction**, *[📝ICCAD](https://arxiv.org/abs/2111.07062)*, *[:octocat:Code](https://github.com/lilasrahis/untangle)*
 + **GraphMI: Extracting Private Graph Data from Graph Neural Networks**, *[📝IJCAI](https://www.ijcai.org/proceedings/2021/516)*, *[:octocat:Code](https://github.com/zaixizhang/GraphMI)*
-+ **Structural A!ack against Graph Based Android Malware Detection**, *[📝CCS](https://dl.acm.org/doi/abs/10.1145/3460120.3485387)*
++ **Structural Attack against Graph Based Android Malware Detection**, *[📝CCS](https://dl.acm.org/doi/abs/10.1145/3460120.3485387)*
 + **Adversarial Attack against Cross-lingual Knowledge Graph Alignment**, *[📝EMNLP](https://aclanthology.org/2021.emnlp-main.432)*
 + **FHA: Fast Heuristic Attack Against Graph Convolutional Networks**, *[📝ICDS](https://link.springer.com/chapter/10.1007/978-3-030-88942-5_12)*
 + **Task and Model Agnostic Adversarial Attack on Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2112.13267)*
@@ -213,6 +212,7 @@ If you want to get a quick look at the recently updated papers in the repository
 ## 2022
 [💨 Back to Top](#table-of-contents)
 + **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.02486)*
++ **Towards Robust Graph Neural Networks for Noisy Graphs with Sparse Labels**, *[📝arXiv](https://arxiv.org/abs/2201.00232)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -414,7 +414,7 @@ If you want to get a quick look at the recently updated papers in the repository
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
 
-+ **A Comparative Study on Robust Graph Neural Networks to Structural Noises**, *[AAAI DLG'2022](https://arxiv.org/abs/2112.06070)*
++ **A Comparative Study on Robust Graph Neural Networks to Structural Noises**, *[📝AAAI DLG'2022](https://arxiv.org/abs/2112.06070)*
 + **Graph Neural Networks Methods, Applications, and Opportunities**, *[📝arXiv'2021](https://arxiv.org/abs/2108.10733)*
 + **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
 + **Deep Graph Structure Learning for Robust Representations: A Survey**, *[📝IJCAI Survey track'2021](https://arxiv.org/abs/2103.03036)*
