@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 301 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 305 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 301 papers)](#-awesome-graph-adversarial-learning-updating-301-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 305 papers)](#-awesome-graph-adversarial-learning-updating-305-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -59,6 +59,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Attack on Graph Neural Networks as An Influence Maximization Problem**, *[📝WSDM](https://arxiv.org/abs/2106.10785)*, *[:octocat:Code](https://github.com/TheaperDeng/GNN-Attack-InfMax)*
 + **Inference Attacks Against Graph Neural Networks**, *[📝USENIX Security](https://arxiv.org/abs/2110.02631)*, *[:octocat:Code](https://github.com/Zhangzhk0819/GNN-Embedding-Leaks)*
 + **Model Stealing Attacks Against Inductive Graph Neural Networks**, *[📝IEEE Symposium on Security and Privacy](https://arxiv.org/abs/2112.08331)*, *[:octocat:Code](https://github.com/xinleihe/GNNStealing)*
++ **Unsupervised Graph Poisoning Attack via Contrastive Loss Back-propagation**, *[📝WWW](https://arxiv.org/abs/2201.07986)*, *[:octocat:Code](https://github.com/RinneSz/CLGA)*
++ **Neighboring Backdoor Attacks on Graph Convolutional Network**, *[📝arXiv](https://arxiv.org/abs/2201.06202)*, *[:octocat:Code](https://github.com/EdisonLeeeee/GraphWar)*
 
 
 ## 2021
@@ -123,6 +125,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Attack against Cross-lingual Knowledge Graph Alignment**, *[📝EMNLP](https://aclanthology.org/2021.emnlp-main.432)*
 + **FHA: Fast Heuristic Attack Against Graph Convolutional Networks**, *[📝ICDS](https://link.springer.com/chapter/10.1007/978-3-030-88942-5_12)*
 + **Task and Model Agnostic Adversarial Attack on Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2112.13267)*
++ **How Members of Covert Networks Conceal the Identities of Their Leaders**, *[📝ACM TIST](https://dl.acm.org/doi/full/10.1145/3490462)*
 
 
 ## 2020
@@ -213,6 +216,7 @@ If you want to get a quick look at the recently updated papers in the repository
 [💨 Back to Top](#table-of-contents)
 + **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.02486)*
 + **Towards Robust Graph Neural Networks for Noisy Graphs with Sparse Labels**, *[📝arXiv](https://arxiv.org/abs/2201.00232)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
++ **Mind Your Solver! On Adversarial Attack and Defense for Combinatorial Optimization**, *[📝arXiv](https://arxiv.org/abs/2201.004022)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
