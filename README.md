@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 305 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 306 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 305 papers)](#-awesome-graph-adversarial-learning-updating-305-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 306 papers)](#-awesome-graph-adversarial-learning-updating-306-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -61,6 +61,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Model Stealing Attacks Against Inductive Graph Neural Networks**, *[📝IEEE Symposium on Security and Privacy](https://arxiv.org/abs/2112.08331)*, *[:octocat:Code](https://github.com/xinleihe/GNNStealing)*
 + **Unsupervised Graph Poisoning Attack via Contrastive Loss Back-propagation**, *[📝WWW](https://arxiv.org/abs/2201.07986)*, *[:octocat:Code](https://github.com/RinneSz/CLGA)*
 + **Neighboring Backdoor Attacks on Graph Convolutional Network**, *[📝arXiv](https://arxiv.org/abs/2201.06202)*, *[:octocat:Code](https://github.com/EdisonLeeeee/GraphWar)*
++ **Understanding and Improving Graph Injection Attack by Promoting Unnoticeability**, *[📝ICLR](https://openreview.net/forum?id=wkMG8cdvh7-)*, *[:octocat:Code](https://openreview.net/attachment?id=wkMG8cdvh7-&name=supplementary_material)*
 
 
 ## 2021
@@ -84,7 +85,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **SAGE: Intrusion Alert-driven Attack Graph Extractor**, *[📝KDD Workshop](https://arxiv.org/abs/2107.02783)*, *[:octocat:Code](https://github.com/tudelft-cda-lab/SAGE)*
 + **Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models**, *[📝arXiv](https://arxiv.org/abs/2104.09369)*, *[:octocat:Code](https://github.com/LYZ98/Adversarial-Diffusion-Attacks-on-Graph-based-Traffic-Prediction-Models)*
 + **VIKING: Adversarial Attack on Network Embeddings via Supervised Network Poisoning**, *[📝PAKDD](https://arxiv.org/abs/2102.07164)*, *[:octocat:Code](https://github.com/virresh/viking)*
-+ **Explainability-based Backdoor Attacks Against Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2104.03674)*
++ **Explainability-based Backdoor Attacks Against Graph Neural Networks**, *[📝WiseML@WiSec](https://arxiv.org/abs/2104.03674)*
 + **GraphAttacker: A General Multi-Task GraphAttack Framework**, *[📝arXiv](https://arxiv.org/abs/2101.06855)*, *[:octocat:Code](https://github.com/honoluluuuu/GraphAttacker)*
 + **Attacking Graph Neural Networks at Scale**, *[📝AAAI workshop](https://www.dropbox.com/s/ddrwoswpz3wwx40/Robust_GNNs_at_Scale__AAAI_Workshop_2020_CameraReady.pdf?dl=0)*
 + **Node-Level Membership Inference Attacks Against Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2102.05429)*
@@ -156,12 +157,12 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Manipulating Node Similarity Measures in Networks**, *[📝AAMAS](https://arxiv.org/abs/1910.11529)*
 + **A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models**, *[📝AAAI](https://arxiv.org/abs/1908.01297)*, *[:octocat:Code](https://github.com/SwiftieH/GFAttack)*
 + **Indirect Adversarial Attacks via Poisoning Neighbors for Graph Convolutional Networks**, *[📝BigData](https://arxiv.org/abs/2002.08012)*
-+ **Non-target-specific Node Injection Attacks on Graph Neural Networks: A Hierarchical Reinforcement Learning Approach**, *[📝WWW](http://faculty.ist.psu.edu/vhonavar/Papers/www20.pdf)*
++ **Adversarial Attacks on Graph Neural Networks via Node Injections: A Hierarchical Reinforcement Learning Approach**, *[📝WWW](https://dl.acm.org/doi/10.1145/3366423.3380149)*
 + **An Efficient Adversarial Attack on Graph Structured Data**, *[📝IJCAI Workshop](https://www.aisafetyw.org/programme)*
 + **Practical Adversarial Attacks on Graph Neural Networks**, *[📝ICML Workshop](https://grlplus.github.io/papers/8.pdf)*
 + **Adversarial Attacks on Graph Neural Networks: Perturbations and their Patterns**, *[📝TKDD](https://dl.acm.org/doi/10.1145/3394520)*
 + **Adversarial Attacks on Link Prediction Algorithms Based on Graph Neural Networks**, *[📝Asia CCS](https://iqua.ece.toronto.edu/papers/wlin-asiaccs20.pdf)*
-+ **Scalable Attack on Graph Data by Injecting Vicious Nodes**, *[📝ECML-PKDD](https://arxiv.org/abs/2004.13825)*
++ **Scalable Attack on Graph Data by Injecting Vicious Nodes**, *[📝ECML-PKDD](https://arxiv.org/abs/2004.13825)*, *[:octocat:Code](https://github.com/wangjh-github/AFGSM)*
 + **Attackability Characterization of Adversarial Evasion Attack on Discrete Data**, *[📝KDD](https://dl.acm.org/doi/10.1145/3394486.3403194)*
 + **MGA: Momentum Gradient Attack on Network**, *[📝arXiv](https://arxiv.org/abs/2002.11320)*
 + **Adversarial Attacks to Scale-Free Networks: Testing the Robustness of Physical Criteria**, *[📝arXiv](https://arxiv.org/abs/2002.01249)*
