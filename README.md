@@ -62,7 +62,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Unsupervised Graph Poisoning Attack via Contrastive Loss Back-propagation**, *[📝WWW](https://arxiv.org/abs/2201.07986)*, *[:octocat:Code](https://github.com/RinneSz/CLGA)*
 + **Neighboring Backdoor Attacks on Graph Convolutional Network**, *[📝arXiv](https://arxiv.org/abs/2201.06202)*, *[:octocat:Code](https://github.com/EdisonLeeeee/GraphWar)*
 + **Understanding and Improving Graph Injection Attack by Promoting Unnoticeability**, *[📝ICLR](https://openreview.net/forum?id=wkMG8cdvh7-)*, *[:octocat:Code](https://openreview.net/attachment?id=wkMG8cdvh7-&name=supplementary_material)*
-
++ **Blindfolded Attackers Still Threatening: Strict Black-Box Adversarial Attacks on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.06757)*, *[:octocat:Code](https://github.com/galina0217/stack)*
++ **More is Better (Mostly): On the Backdoor Attacks in Federated Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2202.03195)*
++ **Black-box Node Injection Attack for Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2202.09389)*, *[:octocat:Code](https://github.com/jumxglhf/GA2C)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -215,9 +217,12 @@ If you want to get a quick look at the recently updated papers in the repository
 
 ## 2022
 [💨 Back to Top](#table-of-contents)
-+ **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.02486)*
++ **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.02486)*, *[:octocat:Code](https://github.com/galina0217/robustgraph)*
 + **Towards Robust Graph Neural Networks for Noisy Graphs with Sparse Labels**, *[📝arXiv](https://arxiv.org/abs/2201.00232)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
 + **Mind Your Solver! On Adversarial Attack and Defense for Combinatorial Optimization**, *[📝arXiv](https://arxiv.org/abs/2201.004022)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
++ **Learning Robust Representation through Graph Adversarial Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2201.13025)*
++ **GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2201.12741)*
++ **Graph Neural Network for Local Corruption Recovery**, *[📝arXiv](https://arxiv.org/abs/2202.04936)*, *[:octocat:Code](https://github.com/bzho3923/MAGnet)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -390,45 +395,47 @@ If you want to get a quick look at the recently updated papers in the repository
 # ⚖Stability
 [💨 Back to Top](#table-of-contents)
 
-+ **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝arXiv'2021](https://www.ijcai.org/Proceedings/2020/181)*
-+ **Stability of Graph Convolutional Neural Networks to Stochastic Perturbations**, *[📝arXiv'2021](https://arxiv.org/abs/2106.10526)*
++ **When Do GNNs Work: Understanding and Improving Neighborhood Aggregation**, *[📝IJCAI Workshop'2019](https://www.ijcai.org/Proceedings/2020/181)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)
++ **Stability Properties of Graph Neural Networks**, *[📝arXiv'2019](https://arxiv.org/abs/1905.04497)*
++ **Stability and Generalization of Graph Convolutional Neural Networks**, *[📝KDD'2019](https://arxiv.org/abs/1905.01004)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)*
+/github.com/raspberryice/ala-gcn)*
 + **Graph and Graphon Neural Network Stability**, *[📝arXiv'2020](https://arxiv.org/abs/2008.01767)*
 + **On the Stability of Graph Convolutional Neural Networks under Edge Rewiring**, *[📝arXiv'2020](https://arxiv.org/abs/2010.13747)*
 + **Stability of Graph Neural Networks to Relative Perturbations**, *[📝ICASSP'2020](https://ieeexplore.ieee.org/document/9054341)*
 + **Graph Neural Networks: Architectures, Stability and Transferability**, *[📝arXiv'2020](https://arxiv.org/abs/2008.01767)*
 + **Should Graph Convolution Trust Neighbors? A Simple Causal Inference Method**, *[📝arXiv'2020](https://arxiv.org/abs/2010.11797)*
-+ **Stability Properties of Graph Neural Networks**, *[📝arXiv'2019](https://arxiv.org/abs/1905.04497)*
-+ **Stability and Generalization of Graph Convolutional Neural Networks**, *[📝KDD'2019](https://arxiv.org/abs/1905.01004)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)*
-+ **When Do GNNs Work: Understanding and Improving Neighborhood Aggregation**, *[📝IJCAI Workshop'2019](https://www.ijcai.org/Proceedings/2020/181)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)*
 + **Towards a Unified Framework for Fair and Stable Graph Representation Learning**, *[📝UAI'2021](https://arxiv.org/abs/2102.13186)*, *[:octocat:Code](https://github.com/chirag126/nifty)*
 + **Training Stable Graph Neural Networks Through Constrained Learning**, *[📝arXiv'2021](https://arxiv.org/abs/2110.03576)*
++ + **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝arXiv'2021](https://www.ijcai.org/Proceedings/2020/181)*
++ **Stability of Graph Convolutional Neural Networks to Stochastic Perturbations**, *[📝arXiv'2021](https://arxiv.org/abs/2106.10526)*
+**Stability and Generalization Capabilities of Message Passing Graph Neural Networks**, *[📝arXiv'2022](https://arxiv.org/abs/2202.00645)*
 
 
 # 🚀Others
 [💨 Back to Top](#table-of-contents)
 
 + **Perturbation Sensitivity of GNNs**, *[📝cs224w'2019](http://snap.stanford.edu/class/cs224w-2019/project/26424139.pdf)*
-+ **Generating Adversarial Examples with Graph Neural Networks**, *[📝UAI'2021](https://arxiv.org/abs/2105.14644)*
-+ **SIGL: Securing Software Installations Through Deep Graph Learning**, *[📝USENIX'2021](https://www.usenix.org/system/files/sec21summer_han-xueyuan.pdf)*
 + **FLAG: Adversarial Data Augmentation for Graph Neural Networks**, *[📝arXiv'2020](https://arxiv.org/abs/2010.09891)*, *[:octocat:Code](https://github.com/devnkong/FLAG)*
 + **Dynamic Knowledge Graph-based Dialogue Generation with Improved Adversarial Meta-Learning**, *[📝arXiv'2020](https://arxiv.org/abs/2004.08833)*
 + **Watermarking Graph Neural Networks by Random Graphs**, *[📝arXiv'2020](https://arxiv.org/abs/2011.00512)*
 + **Training Robust Graph Neural Network by Applying Lipschitz Constant Constraint**, *[📝CentraleSupélec'2020](https://github.com/SJTUzhou/Lipschitz_gnn/blob/main/GNN_Robust_report.pdf)*, *[:octocat:Code](https://github.com/SJTUzhou/Lipschitz_gnn)*
-+ **CAP: Co-Adversarial Perturbation on Weights and Features for Improving Generalization of Graph Neural Networks**, *[📝arXiv'2021](https://arxiv.org/abs/2110.14855)*
++ **CAP: Co-Adver+ **Generating Adversarial Examples with Graph Neural Networks**, *[📝UAI'2021](https://arxiv.org/abs/2105.14644)*
++ **SIGL: Securing Software Installations Through Deep Graph Learning**, *[📝USENIX'2021](https://www.usenix.org/system/files/sec21summer_han-xueyuan.pdf)*
+sarial Perturbation on Weights and Features for Improving Generalization of Graph Neural Networks**, *[📝arXiv'2021](https://arxiv.org/abs/2110.14855)*
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
 
-+ **A Comparative Study on Robust Graph Neural Networks to Structural Noises**, *[📝AAAI DLG'2022](https://arxiv.org/abs/2112.06070)*
-+ **Graph Neural Networks Methods, Applications, and Opportunities**, *[📝arXiv'2021](https://arxiv.org/abs/2108.10733)*
-+ **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
-+ **Deep Graph Structure Learning for Robust Representations: A Survey**, *[📝IJCAI Survey track'2021](https://arxiv.org/abs/2103.03036)*
-+ **Graph Neural Networks Taxonomy, Advances and Trends**, *[📝arXiv'2020](https://arxiv.org/abs/2012.08752)*
-+ **A Survey of Adversarial Learning on Graph**, *[📝arXiv'2020](https://arxiv.org/abs/2003.05730)*
++ **Deep Graph Structure Learning for Robust Representations: A Survey**, *[📝arXiv'2021](https://arxiv.org/abs/2103.03036)*
 + **Adversarial Attacks and Defenses in Images, Graphs and Text: A Review**, *[📝arXiv'2019](https://arxiv.org/abs/1909.08072)*
++ **Deep Learning on Graphs: A Survey**, *[📝arXiv'2018](https://arxiv.org/abs/1812.04202)*
 + **Adversarial Attack and Defense on Graph Data: A Survey**, *[📝arXiv'2018](https://arxiv.org/abs/1812.10528)*
-+ **Deep Learning on Graphs A Survey**, *[📝arXiv'2018](https://arxiv.org/abs/1812.04202)*
-
++ **A Survey of Adversarial Learning on Graph**, *[📝arXiv'2020](https://arxiv.org/abs/2003.05730)*
++ **Graph Neural Networks Taxonomy, Advances and Trends**, *[📝arXiv'2020](https://arxiv.org/abs/2012.08752)*
++ **Robustness of deep learning models on graphs: A survey**, *[📝AI Open'2021](https://arxiv.org/abs/1812.04202)*
++ **Graph Neural Networks Methods, Applications, and Opportunities**, *[📝arXiv'2021](https://arxiv.org/abs/2108.10733)*
++ **A Comparative Study on Robust Graph Neural Networks to Structural Noises**, *[📝AAAI DLG'2022](https://arxiv.org/abs/2112.06070)*
++ **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
 
 
 
@@ -439,7 +446,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **DeepRobust: a Platform for Adversarial Attacks and Defenses**, *[📝AAAI’2021](https://ojs.aaai.org/index.php/AAAI/article/view/18017)*, [**:octocat:DeepRobust**](https://github.com/DSE-MSU/DeepRobust)
 + **GraphWar: A graph adversarial learning toolbox based on PyTorch and DGL**, *[📝arXiv’2022]()*, [**:octocat:GraphWar**](https://github.com/EdisonLeeeee/GraphWar)
 + **Evaluating Graph Vulnerability and Robustness using TIGER**, *[📝arXiv‘2021](https://arxiv.org/abs/2006.05648)*, [**:octocat:TIGER**](https://github.com/safreita1/TIGER)
-+ **Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks**, *[📝NeurIPS Openreview ’2021](https://openreview.net/forum?id=pBwQ82pYha)*, [**:octocat:Graph Robustness Benchmark (GRB)**](https://github.com/thudm/grb)
++ **Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks**, *[📝NeurIPS Openreview’2021](https://openreview.net/forum?id=pBwQ82pYha)*, [**:octocat:Graph Robustness Benchmark (GRB)**](https://github.com/thudm/grb)
 
   
 
