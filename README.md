@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 306 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 312 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 306 papers)](#-awesome-graph-adversarial-learning-updating-306-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 312 papers)](#-awesome-graph-adversarial-learning-updating-312-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -406,7 +406,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Should Graph Convolution Trust Neighbors? A Simple Causal Inference Method**, *[📝arXiv'2020](https://arxiv.org/abs/2010.11797)*
 + **Towards a Unified Framework for Fair and Stable Graph Representation Learning**, *[📝UAI'2021](https://arxiv.org/abs/2102.13186)*, *[:octocat:Code](https://github.com/chirag126/nifty)*
 + **Training Stable Graph Neural Networks Through Constrained Learning**, *[📝arXiv'2021](https://arxiv.org/abs/2110.03576)*
-+ + **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝arXiv'2021](https://www.ijcai.org/Proceedings/2020/181)*
++ **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝arXiv'2021](https://www.ijcai.org/Proceedings/2020/181)*
 + **Stability of Graph Convolutional Neural Networks to Stochastic Perturbations**, *[📝arXiv'2021](https://arxiv.org/abs/2106.10526)*
 **Stability and Generalization Capabilities of Message Passing Graph Neural Networks**, *[📝arXiv'2022](https://arxiv.org/abs/2202.00645)*
 
