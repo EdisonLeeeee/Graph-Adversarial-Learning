@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 312 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 319 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 312 papers)](#-awesome-graph-adversarial-learning-updating-312-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 319 papers)](#-awesome-graph-adversarial-learning-updating-319-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -65,6 +65,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Blindfolded Attackers Still Threatening: Strict Black-Box Adversarial Attacks on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.06757)*, *[:octocat:Code](https://github.com/galina0217/stack)*
 + **More is Better (Mostly): On the Backdoor Attacks in Federated Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2202.03195)*
 + **Black-box Node Injection Attack for Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2202.09389)*, *[:octocat:Code](https://github.com/jumxglhf/GA2C)*
++ **Interpretable and Effective Reinforcement Learning for Attacking against Graph-based Rumor Detection**, *[📝arXiv](https://arxiv.org/abs/2201.05819)*
++ **Projective Ranking-based GNN Evasion Attacks**, *[📝arXiv](https://arxiv.org/abs/2202.12993)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -223,6 +225,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Learning Robust Representation through Graph Adversarial Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2201.13025)*
 + **GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2201.12741)*
 + **Graph Neural Network for Local Corruption Recovery**, *[📝arXiv](https://arxiv.org/abs/2202.04936)*, *[:octocat:Code](https://github.com/bzho3923/MAGnet)*
++ **Robust Heterogeneous Graph Neural Networks against Adversarial Attacks**, *[📝AAAI](http://shichuan.org/doc/132.pdf)*, *[:octocat:Code](https://github.com/bzho3923/MAGnet)*
++ **How Does Bayesian Noisy Self-Supervision Defend Graph Convolutional Networks?**, *[📝Neural Processing Letters](https://link.springer.com/article/10.1007/s11063-022-10750-8)*
+
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -279,6 +284,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Robust Graph Neural Networks via Probabilistic Lipschitz Constraints**, *[📝arXiv](https://arxiv.org/abs/2112.07575)*
 + **Graph Neural Networks with Adaptive Residual**, *[NeurIPS](https://openreview.net/forum?id=hfkER_KJiNw)*, *[:octocat:Code](https://github.com/lxiaorui/AirGNN)*
 + **Graph-based Adversarial Online Kernel Learning with Adaptive Embedding**, *[📝ICDM]()*
++ **Graph Posterior Network: Bayesian Predictive Uncertainty for Node Classification**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14012.pdf)*, *[:octocat:Code](https://github.com/stadlmax/Graph-Posterior-Network)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
@@ -436,7 +442,8 @@ sarial Perturbation on Weights and Features for Improving Generalization of Grap
 + **Graph Neural Networks Methods, Applications, and Opportunities**, *[📝arXiv'2021](https://arxiv.org/abs/2108.10733)*
 + **A Comparative Study on Robust Graph Neural Networks to Structural Noises**, *[📝AAAI DLG'2022](https://arxiv.org/abs/2112.06070)*
 + **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
-
++ **Recent Advances in Reliable Deep Graph Learning: Inherent Noise, Distribution Shift, and Adversarial Attack**, *[📝arXiv'2022](https://arxiv.org/abs/2202.07114)*
++ **A Survey on Graph Structure Learning: Progress and Opportunities**, *[📝arXiv'2022](https://sxkdz.github.io/files/publications/IJCAI/GSL.pdf)*
 
 
 
