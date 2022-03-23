@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 321 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 323 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 321 papers)](#-awesome-graph-adversarial-learning-updating-321-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 323 papers)](#-awesome-graph-adversarial-learning-updating-323-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -230,6 +230,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **How Does Bayesian Noisy Self-Supervision Defend Graph Convolutional Networks?**, *[📝Neural Processing Letters](https://link.springer.com/article/10.1007/s11063-022-10750-8)*
 + **Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision**, *[📝AAAI](https://arxiv.org/abs/2203.03762)*, *[:octocat:Code](https://github.com/junzhuang-code/GraphSS)*
 + **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation**, *[📝WWW](https://arxiv.org/abs/2202.03104)*, *[:octocat:Code](https://github.com/junxia97/SimGRACE)*
++ **Exploring High-Order Structure for Robust Graph Structure Learning**, *[📝arXiv](https://arxiv.org/abs/2203.11492)*
 
 
 ## 2021
@@ -288,6 +289,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Graph Neural Networks with Adaptive Residual**, *[NeurIPS](https://openreview.net/forum?id=hfkER_KJiNw)*, *[:octocat:Code](https://github.com/lxiaorui/AirGNN)*
 + **Graph-based Adversarial Online Kernel Learning with Adaptive Embedding**, *[📝ICDM]()*
 + **Graph Posterior Network: Bayesian Predictive Uncertainty for Node Classification**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14012.pdf)*, *[:octocat:Code](https://github.com/stadlmax/Graph-Posterior-Network)*
++ **Graph Neural Networks with Feature and Structure Aware Random Walk**, *[📝arXiv](https://arxiv.org/abs/2111.10102)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
