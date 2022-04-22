@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 325 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 329 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 325 papers)](#-awesome-graph-adversarial-learning-updating-325-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 329 papers)](#-awesome-graph-adversarial-learning-updating-329-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -61,7 +61,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Model Stealing Attacks Against Inductive Graph Neural Networks**, *[📝IEEE Symposium on Security and Privacy](https://arxiv.org/abs/2112.08331)*, *[:octocat:Code](https://github.com/xinleihe/GNNStealing)*
 + **Unsupervised Graph Poisoning Attack via Contrastive Loss Back-propagation**, *[📝WWW](https://arxiv.org/abs/2201.07986)*, *[:octocat:Code](https://github.com/RinneSz/CLGA)*
 + **Neighboring Backdoor Attacks on Graph Convolutional Network**, *[📝arXiv](https://arxiv.org/abs/2201.06202)*, *[:octocat:Code](https://github.com/EdisonLeeeee/GraphWar)*
-+ **Understanding and Improving Graph Injection Attack by Promoting Unnoticeability**, *[📝ICLR](https://openreview.net/forum?id=wkMG8cdvh7-)*, *[:octocat:Code](https://openreview.net/attachment?id=wkMG8cdvh7-&name=supplementary_material)*
++ **Understanding and Improving Graph Injection Attack by Promoting Unnoticeability**, *[📝ICLR](https://openreview.net/forum?id=wkMG8cdvh7-)*, *[:octocat:Code](https://github.com/LFhase/GIA-HAO)*
 + **Blindfolded Attackers Still Threatening: Strict Black-Box Adversarial Attacks on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.06757)*, *[:octocat:Code](https://github.com/galina0217/stack)*
 + **More is Better (Mostly): On the Backdoor Attacks in Federated Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2202.03195)*
 + **Black-box Node Injection Attack for Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2202.09389)*, *[:octocat:Code](https://github.com/jumxglhf/GA2C)*
@@ -231,6 +231,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision**, *[📝AAAI](https://arxiv.org/abs/2203.03762)*, *[:octocat:Code](https://github.com/junzhuang-code/GraphSS)*
 + **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation**, *[📝WWW](https://arxiv.org/abs/2202.03104)*, *[:octocat:Code](https://github.com/junxia97/SimGRACE)*
 + **Exploring High-Order Structure for Robust Graph Structure Learning**, *[📝arXiv](https://arxiv.org/abs/2203.11492)*
++ **GUARD: Graph Universal Adversarial Defense**, *[📝arXiv](https://arxiv.org/abs/2204.09803)*, *[:octocat:Code](https://github.com/EdisonLeeeee/GUARD)*
++ **Detecting Topology Attacks against Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2204.10072)*
 
 
 ## 2021
@@ -432,6 +434,7 @@ If you want to get a quick look at the recently updated papers in the repository
 **Generating Adversarial Examples with Graph Neural Networks**, *[📝UAI'2021](https://arxiv.org/abs/2105.14644)*
 + **SIGL: Securing Software Installations Through Deep Graph Learning**, *[📝USENIX'2021](https://www.usenix.org/system/files/sec21summer_han-xueyuan.pdf)*
 + **CAP: Co-Adversarial Perturbation on Weights and Features for Improving Generalization of Graph Neural Networks**, *[📝arXiv'2021](https://arxiv.org/abs/2110.14855)*
++ **When Does Self-Supervision Help Graph Convolutional Networks?**, *[📝ICML'2020](https://arxiv.org/abs/2006.09136)*
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
@@ -448,6 +451,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
 + **Recent Advances in Reliable Deep Graph Learning: Inherent Noise, Distribution Shift, and Adversarial Attack**, *[📝arXiv'2022](https://arxiv.org/abs/2202.07114)*
 + **Graph Vulnerability and Robustness: A Survey**, *[📝TKDE'2022](https://arxiv.org/abs/2105.00419)*
++ **A Comprehensive Survey on Trustworthy Graph Neural Networks: Privacy, Robustness, Fairness, and Explainability**, *[arXiv'2022](https://arxiv.org/abs/2204.08570)*
 
 
 
