@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 329 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 332 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 329 papers)](#-awesome-graph-adversarial-learning-updating-329-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 332 papers)](#-awesome-graph-adversarial-learning-updating-332-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -69,6 +69,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Projective Ranking-based GNN Evasion Attacks**, *[📝arXiv](https://arxiv.org/abs/2202.12993)*
 + **GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation**, *[📝arXiv](https://arxiv.org/abs/2203.00949)*
 + **Model Extraction Attacks on Graph Neural Networks: Taxonomy and Realization**, *[📝Asia CCS](https://arxiv.org/abs/2010.12751)*, *[:octocat:Code](https://github.com/TrustworthyGNN/MEA-GNN)*
++ **Bandits for Structure Perturbation-based Black-box Attacks to Graph Neural Networks with Theoretical Guarantees**, *[📝CVPR](https://arxiv.org/abs/2205.03546)*, *[:octocat:Code](https://github.com/Metaoblivion/Bandit_GNN_Attack)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -233,6 +234,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Exploring High-Order Structure for Robust Graph Structure Learning**, *[📝arXiv](https://arxiv.org/abs/2203.11492)*
 + **GUARD: Graph Universal Adversarial Defense**, *[📝arXiv](https://arxiv.org/abs/2204.09803)*, *[:octocat:Code](https://github.com/EdisonLeeeee/GUARD)*
 + **Detecting Topology Attacks against Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2204.10072)*
++ **LPGNet: Link Private Graph Networks for Node Classification**, *[📝arXiv](https://arxiv.org/abs/2205.03105)*
 
 
 ## 2021
@@ -292,6 +294,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Graph-based Adversarial Online Kernel Learning with Adaptive Embedding**, *[📝ICDM]()*
 + **Graph Posterior Network: Bayesian Predictive Uncertainty for Node Classification**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14012.pdf)*, *[:octocat:Code](https://github.com/stadlmax/Graph-Posterior-Network)*
 + **Graph Neural Networks with Feature and Structure Aware Random Walk**, *[📝arXiv](https://arxiv.org/abs/2111.10102)*
++ **Topological Relational Learning on Graphs**, *[📝NeurIPS](https://arxiv.org/abs/2110.15529)*, *[:octocat:Code](https://github.com/tri-gnn/tri-gnn)*
 
 ## 2020
 [💨 Back to Top](#table-of-contents)
