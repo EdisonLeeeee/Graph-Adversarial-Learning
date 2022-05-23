@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 332 papers)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 335 papers)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 332 papers)](#-awesome-graph-adversarial-learning-updating-332-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 335 papers)](#-awesome-graph-adversarial-learning-updating-335-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -424,6 +424,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝arXiv'2021](https://www.ijcai.org/Proceedings/2020/181)*
 + **Stability of Graph Convolutional Neural Networks to Stochastic Perturbations**, *[📝arXiv'2021](https://arxiv.org/abs/2106.10526)*
 + **Stability and Generalization Capabilities of Message Passing Graph Neural Networks**, *[📝arXiv'2022](https://arxiv.org/abs/2202.00645)*
++ **On the Prediction Instability of Graph Neural Networks**, *[📝arXiv'2022](https://arxiv.org/abs/2205.10070)*
 
 
 # 🚀Others
@@ -455,6 +456,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Recent Advances in Reliable Deep Graph Learning: Inherent Noise, Distribution Shift, and Adversarial Attack**, *[📝arXiv'2022](https://arxiv.org/abs/2202.07114)*
 + **Graph Vulnerability and Robustness: A Survey**, *[📝TKDE'2022](https://arxiv.org/abs/2105.00419)*
 + **A Comprehensive Survey on Trustworthy Graph Neural Networks: Privacy, Robustness, Fairness, and Explainability**, *[arXiv'2022](https://arxiv.org/abs/2204.08570)*
++ **Trustworthy Graph Neural Networks: Aspects, Methods and Trends**, *[arXiv'2022](https://arxiv.org/abs/2205.07424)*
++ **A Survey of Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection**, *[arXiv'2022](hhttps://arxiv.org/abs/2205.10014)*
 
 
 
