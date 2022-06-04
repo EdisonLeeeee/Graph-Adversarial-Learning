@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 335 papers)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# ⚔🛡 Awesome Graph Adversarial Learning (Updating 337 papers)
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-337-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 335 papers)](#-awesome-graph-adversarial-learning-updating-335-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning (Updating 337 papers)](#-awesome-graph-adversarial-learning-updating-337-papers)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -29,7 +29,7 @@
 
 This repository contains Attack-related papers, Defense-related papers, Robustness Certification papers, etc., ranging from 2017 to 2021. 
 If you find this repo useful, please cite:
-*A Survey of Adversarial Learning on Graph, Arxiv'20*, [Link](https://arxiv.org/abs/2003.05730)
+*A Survey of Adversarial Learning on Graph, arXiv'20*, [Link](https://arxiv.org/abs/2003.05730)
 
 ```bibtex
 @article{chen2020survey,
@@ -235,6 +235,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **GUARD: Graph Universal Adversarial Defense**, *[📝arXiv](https://arxiv.org/abs/2204.09803)*, *[:octocat:Code](https://github.com/EdisonLeeeee/GUARD)*
 + **Detecting Topology Attacks against Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2204.10072)*
 + **LPGNet: Link Private Graph Networks for Node Classification**, *[📝arXiv](https://arxiv.org/abs/2205.03105)*
++ **EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2205.13892)*
++ **Bayesian Robust Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2205.14109)*, *[:octocat:Code](https://github.com/BRGCL-code/BRGCL-code)*
 
 
 ## 2021
