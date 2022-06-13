@@ -1,8 +1,8 @@
-# ⚔🛡 Awesome Graph Adversarial Learning (Updating 337 papers)
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-337-FF6F00" alt="PaperNum"/>
+# ⚔🛡 Awesome Graph Adversarial Learning
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-338-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
-- [⚔🛡 Awesome Graph Adversarial Learning (Updating 337 papers)](#-awesome-graph-adversarial-learning-updating-337-papers)
+- [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
   - [2022](#2022)
@@ -441,6 +441,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **SIGL: Securing Software Installations Through Deep Graph Learning**, *[📝USENIX'2021](https://www.usenix.org/system/files/sec21summer_han-xueyuan.pdf)*
 + **CAP: Co-Adversarial Perturbation on Weights and Features for Improving Generalization of Graph Neural Networks**, *[📝arXiv'2021](https://arxiv.org/abs/2110.14855)*
 + **When Does Self-Supervision Help Graph Convolutional Networks?**, *[📝ICML'2020](https://arxiv.org/abs/2006.09136)*
++ **We Cannot Guarantee Safety: The Undecidability of Graph Neural Network Verification**, *[arXiv'2022](https://arxiv.org/abs/2206.05070)*
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
@@ -467,9 +468,9 @@ If you want to get a quick look at the recently updated papers in the repository
 [💨 Back to Top](#table-of-contents)
 
 + **DeepRobust: a Platform for Adversarial Attacks and Defenses**, *[📝AAAI’2021](https://ojs.aaai.org/index.php/AAAI/article/view/18017)*, [**:octocat:DeepRobust**](https://github.com/DSE-MSU/DeepRobust)
-+ **GraphWar: A graph adversarial learning toolbox based on PyTorch and DGL**, *[📝arXiv’2022]()*, [**:octocat:GraphWar**](https://github.com/EdisonLeeeee/GraphWar)
++ **GraphWar: A graph adversarial learning toolbox based on PyTorch and PyTorch Geometric**, *[📝arXiv’2022]()*, [**:octocat:GraphWar**](https://github.com/EdisonLeeeee/GraphWar)
 + **Evaluating Graph Vulnerability and Robustness using TIGER**, *[📝arXiv‘2021](https://arxiv.org/abs/2006.05648)*, [**:octocat:TIGER**](https://github.com/safreita1/TIGER)
-+ **Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks**, *[📝NeurIPS Openreview’2021](https://openreview.net/forum?id=pBwQ82pYha)*, [**:octocat:Graph Robustness Benchmark (GRB)**](https://github.com/thudm/grb)
++ **Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks**, *[📝NeurIPS'2021](https://openreview.net/forum?id=pBwQ82pYha)*, [**:octocat:Graph Robustness Benchmark (GRB)**](https://github.com/thudm/grb)
 
   
 
