@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-338-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-339-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -237,6 +237,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **LPGNet: Link Private Graph Networks for Node Classification**, *[📝arXiv](https://arxiv.org/abs/2205.03105)*
 + **EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2205.13892)*
 + **Bayesian Robust Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2205.14109)*, *[:octocat:Code](https://github.com/BRGCL-code/BRGCL-code)*
++ **Reliable Representations Make A Stronger Defender: Unsupervised Structure Refinement for Robust GNN**, *[📝KDD](https://ponderly.github.io/pub/STABLE_KDD2022.pdf)*
 
 
 ## 2021
@@ -482,6 +483,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Graph Adversarial Learning Literature** [:octocat:Link](https://github.com/safe-graph/graph-adversarial-learning-literature)
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 + **Adversarial Attacks and Defenses Frontiers, Advances and Practice**, *KDD'20 tutorial*, [🌐Link](https://sites.google.com/view/kdd-2020-attack-and-defense)
++ **Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection**, *KDD'22 tutorial*, [🌐Link](https://ai.tencent.com/ailab/ml/twgl/)
 
 
 
