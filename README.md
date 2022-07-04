@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-339-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-348-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -35,7 +35,8 @@ If you find this repo useful, please cite:
 @article{chen2020survey,
   title={A Survey of Adversarial Learning on Graph},
   author={Chen, Liang and Li, Jintang and Peng, Jiaying and Xie, 
-        Tao and Cao, Zengxu and Xu, Kun and He, Xiangnan and Zheng, Zibin},
+        Tao and Cao, Zengxu and Xu, Kun and He, 
+        Xiangnan and Zheng, Zibin and Wu, Bingzhe},
   journal={arXiv preprint arXiv:2003.05730},
   year={2020}
 }
@@ -70,6 +71,10 @@ If you want to get a quick look at the recently updated papers in the repository
 + **GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation**, *[📝arXiv](https://arxiv.org/abs/2203.00949)*
 + **Model Extraction Attacks on Graph Neural Networks: Taxonomy and Realization**, *[📝Asia CCS](https://arxiv.org/abs/2010.12751)*, *[:octocat:Code](https://github.com/TrustworthyGNN/MEA-GNN)*
 + **Bandits for Structure Perturbation-based Black-box Attacks to Graph Neural Networks with Theoretical Guarantees**, *[📝CVPR](https://arxiv.org/abs/2205.03546)*, *[:octocat:Code](https://github.com/Metaoblivion/Bandit_GNN_Attack)*
++ **Transferable Graph Backdoor Attack**, *[📝ISRAID](https://arxiv.org/abs/2207.00425)*, *[:octocat:Code](https://github.com/Metaoblivion/Bandit_GNN_Attack)*
++ **Adversarial Robustness of Graph-based Anomaly Detection**, *[📝arXiv](https://arxiv.org/abs/2206.08260)*
++ **Label specificity attack: Change your label as I want**, *[📝IJIS](https://onlinelibrary.wiley.com/doi/full/10.1002/int.22902)*
++ **AdverSparse: An Adversarial Attack Framework for Deep Spatial-Temporal Graph Neural Networks**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9747850)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -237,7 +242,12 @@ If you want to get a quick look at the recently updated papers in the repository
 + **LPGNet: Link Private Graph Networks for Node Classification**, *[📝arXiv](https://arxiv.org/abs/2205.03105)*
 + **EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2205.13892)*
 + **Bayesian Robust Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2205.14109)*, *[:octocat:Code](https://github.com/BRGCL-code/BRGCL-code)*
-+ **Reliable Representations Make A Stronger Defender: Unsupervised Structure Refinement for Robust GNN**, *[📝KDD](https://ponderly.github.io/pub/STABLE_KDD2022.pdf)*
++ **Reliable Representations Make A Stronger Defender: Unsupervised Structure Refinement for Robust GNN**, *[📝KDD](https://arxiv.org/abs/2207.00012)*
++ **Robust Graph Representation Learning for Local Corruption Recovery**, *[📝ICML workshop](https://yuguangwang.github.io/papers/L_p_graph_regularizer_ICML%20TAG%202022.pdf)*
++ **Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond**, *[📝CVPR](https://openaccess.thecvf.com/content/CVPR2022/html/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.html)*, *[:octocat:Code](https://github.com/Thinklab-SJTU/RobustMatch)*
++ **Large-Scale Privacy-Preserving Network Embedding against Private Link Inference Attacks**, *[📝arXiv](https://arxiv.org/abs/2205.14440)*
++ **Robust Graph Neural Networks via Ensemble Learning**, *[📝Mathematics](https://www.mdpi.com/2227-7390/10/8/1300/html)*
++ **AN-GCN: An Anonymous Graph Convolutional Network Against Edge-Perturbing Attacks**, *[📝IEEE TNNLS](https://ieeexplore.ieee.org/abstract/document/9775013)*
 
 
 ## 2021
