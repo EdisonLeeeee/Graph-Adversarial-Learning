@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-348-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-349-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -75,6 +75,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Robustness of Graph-based Anomaly Detection**, *[📝arXiv](https://arxiv.org/abs/2206.08260)*
 + **Label specificity attack: Change your label as I want**, *[📝IJIS](https://onlinelibrary.wiley.com/doi/full/10.1002/int.22902)*
 + **AdverSparse: An Adversarial Attack Framework for Deep Spatial-Temporal Graph Neural Networks**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9747850)*
++ **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝WSDM](https://dl.acm.org/doi/10.1145/3488560.3498481)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -479,11 +480,10 @@ If you want to get a quick look at the recently updated papers in the repository
 [💨 Back to Top](#table-of-contents)
 
 + **DeepRobust: a Platform for Adversarial Attacks and Defenses**, *[📝AAAI’2021](https://ojs.aaai.org/index.php/AAAI/article/view/18017)*, [**:octocat:DeepRobust**](https://github.com/DSE-MSU/DeepRobust)
-+ **GraphWar: A graph adversarial learning toolbox based on PyTorch and PyTorch Geometric**, *[📝arXiv’2022]()*, [**:octocat:GraphWar**](https://github.com/EdisonLeeeee/GraphWar)
++ **GreatX: A graph reliability toolbox based on PyTorch and PyTorch Geometric**, *[📝arXiv’2022]()*, [**:octocat:GreatX**](https://github.com/EdisonLeeeee/GreatX)
 + **Evaluating Graph Vulnerability and Robustness using TIGER**, *[📝arXiv‘2021](https://arxiv.org/abs/2006.05648)*, [**:octocat:TIGER**](https://github.com/safreita1/TIGER)
 + **Graph Robustness Benchmark: Rethinking and Benchmarking Adversarial Robustness of Graph Neural Networks**, *[📝NeurIPS'2021](https://openreview.net/forum?id=pBwQ82pYha)*, [**:octocat:Graph Robustness Benchmark (GRB)**](https://github.com/thudm/grb)
 
-  
 
 # 🔗Resource
 [💨 Back to Top](#table-of-contents)
