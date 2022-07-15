@@ -71,11 +71,12 @@ If you want to get a quick look at the recently updated papers in the repository
 + **GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation**, *[📝arXiv](https://arxiv.org/abs/2203.00949)*
 + **Model Extraction Attacks on Graph Neural Networks: Taxonomy and Realization**, *[📝Asia CCS](https://arxiv.org/abs/2010.12751)*, *[:octocat:Code](https://github.com/TrustworthyGNN/MEA-GNN)*
 + **Bandits for Structure Perturbation-based Black-box Attacks to Graph Neural Networks with Theoretical Guarantees**, *[📝CVPR](https://arxiv.org/abs/2205.03546)*, *[:octocat:Code](https://github.com/Metaoblivion/Bandit_GNN_Attack)*
-+ **Transferable Graph Backdoor Attack**, *[📝ISRAID](https://arxiv.org/abs/2207.00425)*, *[:octocat:Code](https://github.com/Metaoblivion/Bandit_GNN_Attack)*
++ **Transferable Graph Backdoor Attack**, *[📝RAID](https://arxiv.org/abs/2207.00425)*, *[:octocat:Code](https://github.com/Metaoblivion/Bandit_GNN_Attack)*
 + **Adversarial Robustness of Graph-based Anomaly Detection**, *[📝arXiv](https://arxiv.org/abs/2206.08260)*
 + **Label specificity attack: Change your label as I want**, *[📝IJIS](https://onlinelibrary.wiley.com/doi/full/10.1002/int.22902)*
 + **AdverSparse: An Adversarial Attack Framework for Deep Spatial-Temporal Graph Neural Networks**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9747850)*
 + **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝WSDM](https://dl.acm.org/doi/10.1145/3488560.3498481)*
++ **Cluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝IJCAI](https://arxiv.org/abs/2109.13069)*, *[📝:octocat:Code](https://github.com/thuwzy/Cluster-Attack)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -120,11 +121,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Spatially Focused Attack against Spatiotemporal Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2109.04608)*
 + **Derivative-free optimization adversarial attacks for graph convolutional networks**, *[📝PeerJ](https://peerj.com/articles/cs-693)*
 + **Projective Ranking: A Transferable Evasion Attack Method on Graph Neural Networks**, *[📝CIKM](https://shiruipan.github.io/publication/cikm-21-zhang/cikm-21-zhang.pdf)*
-+ **Query-based Adversarial Attacks on Graph with Fake Nodes**, *[📝arXiv](https://arxiv.org/abs/2109.13069)*
 + **Time-aware Gradient Attack on Dynamic Network Link Prediction**, *[📝TKDE](https://ieeexplore.ieee.org/abstract/document/9531428)*
 + **Graph-Fraudster: Adversarial Attacks on Graph Neural Network Based Vertical Federated Learning**, *[📝arXiv](https://arxiv.org/abs/2110.06468)*
 + **Adapting Membership Inference Attacks to GNN for Graph Classification: Approaches and Implications**, *[📝ICDM](https://arxiv.org/abs/2110.08760)*, *[:octocat:Code](https://github.com/TrustworthyGNN/MIA-GNN)*
-+ **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.10482)*
 + **Watermarking Graph Neural Networks based on Backdoor Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.11024)*
 + **Robustness of Graph Neural Networks at Scale**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14038.pdf)*, *[:octocat:Code](https://github.com/sigeisler/robustness_of_gnns_at_scale)*
 + **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness**, *[📝NeurIPS](https://arxiv.org/abs/2110.10942)*
@@ -233,7 +232,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Learning Robust Representation through Graph Adversarial Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2201.13025)*
 + **GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2201.12741)*
 + **Graph Neural Network for Local Corruption Recovery**, *[📝arXiv](https://arxiv.org/abs/2202.04936)*, *[:octocat:Code](https://github.com/bzho3923/MAGnet)*
-+ **Robust Heterogeneous Graph Neural Networks against Adversarial Attacks**, *[📝AAAI](http://shichuan.org/doc/132.pdf)
++ **Robust Heterogeneous Graph Neural Networks against Adversarial Attacks**, *[📝AAAI](http://shichuan.org/doc/132.pdf)*
 + **How Does Bayesian Noisy Self-Supervision Defend Graph Convolutional Networks?**, *[📝Neural Processing Letters](https://link.springer.com/article/10.1007/s11063-022-10750-8)*
 + **Defending Graph Convolutional Networks against Dynamic Graph Perturbations via Bayesian Self-supervision**, *[📝AAAI](https://arxiv.org/abs/2203.03762)*, *[:octocat:Code](https://github.com/junzhuang-code/GraphSS)*
 + **SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation**, *[📝WWW](https://arxiv.org/abs/2202.03104)*, *[:octocat:Code](https://github.com/junxia97/SimGRACE)*
@@ -249,6 +248,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Large-Scale Privacy-Preserving Network Embedding against Private Link Inference Attacks**, *[📝arXiv](https://arxiv.org/abs/2205.14440)*
 + **Robust Graph Neural Networks via Ensemble Learning**, *[📝Mathematics](https://www.mdpi.com/2227-7390/10/8/1300/html)*
 + **AN-GCN: An Anonymous Graph Convolutional Network Against Edge-Perturbing Attacks**, *[📝IEEE TNNLS](https://ieeexplore.ieee.org/abstract/document/9775013)*
++ **How does Heterophily Impact Robustness of Graph Neural Networks? Theoretical Connections and Practical Implications**, *[📝KDD](https://arxiv.org/abs/2106.07767)*, *[:octocat:Code](https://github.com/GemsLab/HeteRobust)*
 
 
 ## 2021
@@ -425,7 +425,7 @@ If you want to get a quick look at the recently updated papers in the repository
 # ⚖Stability
 [💨 Back to Top](#table-of-contents)
 
-+ **When Do GNNs Work: Understanding and Improving Neighborhood Aggregation**, *[📝IJCAI Workshop'2019](https://www.ijcai.org/Proceedings/2020/181)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)
++ **When Do GNNs Work: Understanding and Improving Neighborhood Aggregation**, *[📝IJCAI Workshop'2019](https://www.ijcai.org/Proceedings/2020/181)*, *[:octocat:Code](https://github.com/raspberryice/ala-gcn)*
 + **Stability Properties of Graph Neural Networks**, *[📝arXiv'2019](https://arxiv.org/abs/1905.04497)*
 + **Stability and Generalization of Graph Convolutional Neural Networks**, *[📝KDD'2019](https://arxiv.org/abs/1905.01004)*
 + **Graph and Graphon Neural Network Stability**, *[📝arXiv'2020](https://arxiv.org/abs/2008.01767)*
