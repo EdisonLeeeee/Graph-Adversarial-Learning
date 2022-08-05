@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-349-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-352-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -77,6 +77,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **AdverSparse: An Adversarial Attack Framework for Deep Spatial-Temporal Graph Neural Networks**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9747850)*
 + **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝WSDM](https://dl.acm.org/doi/10.1145/3488560.3498481)*
 + **Cluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝IJCAI](https://arxiv.org/abs/2109.13069)*, *[📝:octocat:Code](https://github.com/thuwzy/Cluster-Attack)*
++ **Label-Only Membership Inference Attack against Node-Level Graph Neural NetworksCluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝arXiv](https://arxiv.org/abs/2207.13766)*
++ **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -249,6 +251,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Robust Graph Neural Networks via Ensemble Learning**, *[📝Mathematics](https://www.mdpi.com/2227-7390/10/8/1300/html)*
 + **AN-GCN: An Anonymous Graph Convolutional Network Against Edge-Perturbing Attacks**, *[📝IEEE TNNLS](https://ieeexplore.ieee.org/abstract/document/9775013)*
 + **How does Heterophily Impact Robustness of Graph Neural Networks? Theoretical Connections and Practical Implications**, *[📝KDD](https://arxiv.org/abs/2106.07767)*, *[:octocat:Code](https://github.com/GemsLab/HeteRobust)*
++ **Robust Graph Neural Networks using Weighted Graph Laplacian**, *[📝SPCOM](https://arxiv.org/abs/2208.01853)*, *[:octocat:Code](https://github.com/Bharat-Runwal/RWL-GNN)*
 
 
 ## 2021
