@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-352-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-354-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -79,7 +79,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Cluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝IJCAI](https://arxiv.org/abs/2109.13069)*, *[📝:octocat:Code](https://github.com/thuwzy/Cluster-Attack)*
 + **Label-Only Membership Inference Attack against Node-Level Graph Neural NetworksCluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝arXiv](https://arxiv.org/abs/2207.13766)*
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
-
++ **Are Gradients on Graph Structure Reliable in Gray-box Attacks?**, *[📝CIKM](https://arxiv.org/abs/2208.05514)*, *[📝:octocat:Code](https://github.com/Zihan-Liu-00/AtkSE)*
++ **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
 ## 2021
 [💨 Back to Top](#table-of-contents)
 
