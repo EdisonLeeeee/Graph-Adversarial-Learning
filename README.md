@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-354-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-356-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -142,6 +142,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **FHA: Fast Heuristic Attack Against Graph Convolutional Networks**, *[📝ICDS](https://link.springer.com/chapter/10.1007/978-3-030-88942-5_12)*
 + **Task and Model Agnostic Adversarial Attack on Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2112.13267)*
 + **How Members of Covert Networks Conceal the Identities of Their Leaders**, *[📝ACM TIST](https://dl.acm.org/doi/full/10.1145/3490462)*
++ **Revisiting Adversarial Attacks on Graph Neural Networks for Graph Classification**, *[📝arXiv](https://arxiv.org/abs/2208.06651)*
 
 
 ## 2020
@@ -253,6 +254,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **AN-GCN: An Anonymous Graph Convolutional Network Against Edge-Perturbing Attacks**, *[📝IEEE TNNLS](https://ieeexplore.ieee.org/abstract/document/9775013)*
 + **How does Heterophily Impact Robustness of Graph Neural Networks? Theoretical Connections and Practical Implications**, *[📝KDD](https://arxiv.org/abs/2106.07767)*, *[:octocat:Code](https://github.com/GemsLab/HeteRobust)*
 + **Robust Graph Neural Networks using Weighted Graph Laplacian**, *[📝SPCOM](https://arxiv.org/abs/2208.01853)*, *[:octocat:Code](https://github.com/Bharat-Runwal/RWL-GNN)*
++ **ARIEL: Adversarial Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2208.06956)*·
 
 
 ## 2021
