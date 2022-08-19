@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-356-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-357-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -81,6 +81,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
 + **Are Gradients on Graph Structure Reliable in Gray-box Attacks?**, *[📝CIKM](https://arxiv.org/abs/2208.05514)*, *[📝:octocat:Code](https://github.com/Zihan-Liu-00/AtkSE)*
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
++ **Graph Structural Attack by Perturbing Spectral Distance**, *[📝aKDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539435)*
+
+
 ## 2021
 [💨 Back to Top](#table-of-contents)
 
@@ -130,7 +133,6 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Watermarking Graph Neural Networks based on Backdoor Attacks**, *[📝arXiv](https://arxiv.org/abs/2110.11024)*
 + **Robustness of Graph Neural Networks at Scale**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14038.pdf)*, *[:octocat:Code](https://github.com/sigeisler/robustness_of_gnns_at_scale)*
 + **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness**, *[📝NeurIPS](https://arxiv.org/abs/2110.10942)*
-+ **Graph Structural Attack by Spectral Distance**, *[📝arXiv](https://arxiv.org/abs/2111.00684)*
 + **Graph Universal Adversarial Attacks: A Few Bad Actors Ruin Graph Learning Models**, *[📝IJCAI](https://www.ijcai.org/proceedings/2021/458)*, *[:octocat:Code](https://github.com/chisam0217/Graph-Universal-Attack)*
 + **Adversarial Attacks on Graph Classification via Bayesian Optimisation**, *[📝NeurIPS](https://arxiv.org/abs/2111.02842)*, *[:octocat:Code](https://github.com/xingchenwan/grabnel)*
 + **Adversarial Attacks on Knowledge Graph Embeddings via Instance Attribution Methods**, *[📝EMNLP](https://arxiv.org/abs/2111.03120)*, *[:octocat:Code](https://github.com/PeruBhardwaj/AttributionAttack)*
@@ -255,6 +257,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **How does Heterophily Impact Robustness of Graph Neural Networks? Theoretical Connections and Practical Implications**, *[📝KDD](https://arxiv.org/abs/2106.07767)*, *[:octocat:Code](https://github.com/GemsLab/HeteRobust)*
 + **Robust Graph Neural Networks using Weighted Graph Laplacian**, *[📝SPCOM](https://arxiv.org/abs/2208.01853)*, *[:octocat:Code](https://github.com/Bharat-Runwal/RWL-GNN)*
 + **ARIEL: Adversarial Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2208.06956)*·
++ **Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539436)*·
 
 
 ## 2021
