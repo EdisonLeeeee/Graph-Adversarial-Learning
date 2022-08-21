@@ -257,7 +257,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **How does Heterophily Impact Robustness of Graph Neural Networks? Theoretical Connections and Practical Implications**, *[📝KDD](https://arxiv.org/abs/2106.07767)*, *[:octocat:Code](https://github.com/GemsLab/HeteRobust)*
 + **Robust Graph Neural Networks using Weighted Graph Laplacian**, *[📝SPCOM](https://arxiv.org/abs/2208.01853)*, *[:octocat:Code](https://github.com/Bharat-Runwal/RWL-GNN)*
 + **ARIEL: Adversarial Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2208.06956)*·
-+ **Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539436)*·
++ **Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539436)*, *[:octocat:Code](https://github.com/GTML-LAB/RT-GCN)*
 
 
 ## 2021
