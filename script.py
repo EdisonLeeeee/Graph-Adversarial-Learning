@@ -44,7 +44,8 @@ def read_md(fname):
 
     # read markdown files
     try:
-        df = pd.read_table(fname, sep="|", header=0, index_col=1, skipinitialspace=True)
+        df = pd.read_table(fname, sep="|", header=0,
+                           index_col=1, skipinitialspace=True)
     except (pd.errors.EmptyDataError, FileNotFoundError):
         print("No data.")
         return None
@@ -154,19 +155,22 @@ if __name__ == '__main__':
 
     ################################### Step2: Find papers with code ######################################################################
     tb_with_code = tb.drop_duplicates(subset=["Title"])
-    tb_with_code = tb_with_code[pd.notna(tb_with_code["Code"])].reset_index(drop=True)
+    tb_with_code = tb_with_code[pd.notna(
+        tb_with_code["Code"])].reset_index(drop=True)
     write_md("Categorized/papers_with_code.md", tb_with_code)
 
     ################################### Step3: Categorize papers by Title ######################################################################
     # Sorted by Title
     tb_by_title = (
-        tb.drop_duplicates(subset=["Title"]).sort_values("Title").reset_index(drop=True)
+        tb.drop_duplicates(subset=["Title"]).sort_values(
+            "Title").reset_index(drop=True)
     )
     write_md("Categorized/alphabet.md", tb_by_title)
 
     ################################### Step4: Categorize papers by Year ######################################################################
     tb_by_year = (
-        tb.drop_duplicates(subset=["Title"]).sort_values("Type").reset_index(drop=True)
+        tb.drop_duplicates(subset=["Title"]).sort_values(
+            "Type").reset_index(drop=True)
     )
     tb_by_year = tb_by_year.sort_values(
         "Year", kind="mergesort", ascending=False
@@ -195,8 +199,10 @@ if __name__ == '__main__':
         arr_out = []
         for line in arr:
             title, types, venue, code, year, state = line
-            arr_out.append(np.array([title, types, venue, code, year, state, now]))
-        df_new = pd.DataFrame(np.array(arr_out), columns=diff.columns.to_list() + ["Date"])
+            arr_out.append(
+                np.array([title, types, venue, code, year, state, now]))
+        df_new = pd.DataFrame(
+            np.array(arr_out), columns=diff.columns.to_list() + ["Date"])
         if recent_tb is not None and len(recent_tb):
             recent_tb = df_new.append(recent_tb)
         else:
@@ -247,7 +253,8 @@ if __name__ == '__main__':
         arr_out.append(np.array([title, types, venue, code, year, pubs]))
 
     tb_by_venue = pd.DataFrame(np.array(arr_out), columns=columns + ["Pubs"])
-    tb_by_venue = tb_by_venue.sort_values("Pubs", kind="mergesort").reset_index(drop=True)
+    tb_by_venue = tb_by_venue.sort_values(
+        "Pubs", kind="mergesort").reset_index(drop=True)
 
     for i, c in enumerate(confs):
         t = tb_by_venue[tb_by_venue["Pubs"] == c].reset_index(drop=True)

@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-359-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-360-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -81,7 +81,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
 + **Are Gradients on Graph Structure Reliable in Gray-box Attacks?**, *[📝CIKM](https://arxiv.org/abs/2208.05514)*, *[📝:octocat:Code](https://github.com/Zihan-Liu-00/AtkSE)*
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
-+ **Graph Structural Attack by Perturbing Spectral Distance**, *[📝aKDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539435)*
++ **Graph Structural Attack by Perturbing Spectral Distance**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539435)*
++ **What Does the Gradient Tell When Attacking the Graph Structure**, *[📝arXiv](https://arxiv.org/abs/2208.12815)*
 
 
 ## 2021
