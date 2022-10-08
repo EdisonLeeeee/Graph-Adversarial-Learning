@@ -1,10 +1,11 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-360-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-365-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
 - [👀Quick Look](#quick-look)
 - [⚔Attack](#attack)
+  - [2023](#2023)
   - [2022](#2022)
   - [2021](#2021)
   - [2020](#2020)
@@ -12,6 +13,7 @@
   - [2018](#2018)
   - [2017](#2017)
 - [🛡Defense](#defense)
+  - [2023](#2023-1)
   - [2022](#2022-1)
   - [2021](#2021-1)
   - [2020](#2020-1)
@@ -53,6 +55,9 @@ If you want to get a quick look at the recently updated papers in the repository
 
 # ⚔Attack
 
+## 2023
+[💨 Back to Top](#table-of-contents)
++ **Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective**, *[📝ICLR OpenReview](https://openreview.net/forum?id=dSYoPjM5J_W)*
 
 ## 2022
 [💨 Back to Top](#table-of-contents)
@@ -83,7 +88,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
 + **Graph Structural Attack by Perturbing Spectral Distance**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539435)*
 + **What Does the Gradient Tell When Attacking the Graph Structure**, *[📝arXiv](https://arxiv.org/abs/2208.12815)*
-
++ **BinarizedAttack: Structural Poisoning Attacks to Graph-based Anomaly Detection**, *[📝ICDM](https://arxiv.org/abs/2106.09989)*, *[:octocat:Code](https://github.com/zhuyulin-tony/BinarizedAttack)*
++ **Model Inversion Attacks against Graph Neural Networks**, *[📝TKDE](https://arxiv.org/abs/2209.07807)*
++ **Sparse Vicious Attacks on Graph Neural Networks**, *[📝TKDE](https://arxiv.org/abs/2209.09688)*, *[📝:octocat:Code](https://github.com/GiovanniTRA/SAVAGE)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -95,7 +102,6 @@ If you want to get a quick look at the recently updated papers in the repository
 + **GReady for Emerging Threats to Recommender Systems? A Graph Convolution-based Generative Shilling Attack**, *[📝Information Sciences](https://arxiv.org/abs/2107.10457)*
 + **Graph Adversarial Attack via Rewiring**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3447548.3467416)*, *[:octocat:Code](https://github.com/alge24/ReWatt)*
 + **Membership Inference Attack on Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2101.06570)*
-+ **BinarizedAttack: Structural Poisoning Attacks to Graph-based Anomaly Detection**, *[📝arXiv](https://arxiv.org/abs/2106.09989)*
 + **Graph Backdoor**, *[📝USENIX Security](https://arxiv.org/abs/2006.11890)*
 + **TDGIA: Effective Injection Attacks on Graph Neural Networks**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3447548.3467314)*, *[:octocat:Code](https://github.com/THUDM/tdgia)*
 + **Adversarial Attack Framework on Graph Embedding Models with Limited Knowledge**, *[📝arXiv](https://arxiv.org/abs/2105.12419)*
@@ -231,6 +237,11 @@ If you want to get a quick look at the recently updated papers in the repository
 
 # 🛡Defense
 
+## 2023
+[💨 Back to Top](#table-of-contents)
++ **ASGNN: Graph Neural Networks with Adaptive Structure**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.01002)*
+
+
 ## 2022
 [💨 Back to Top](#table-of-contents)
 + **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.02486)*, *[:octocat:Code](https://github.com/galina0217/robustgraph)*
@@ -261,6 +272,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539436)*, *[:octocat:Code](https://github.com/GTML-LAB/RT-GCN)*
 + **NOSMOG: Learning Noise-robust and Structure-aware MLPs on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.10010)*
 + **Robust Node Classification on Graphs: Jointly from Bayesian Label Transition and Topology-based Label Propagation**, *[📝CIKM](https://arxiv.org/abs/2208.09779)*, *[:octocat:Code](https://github.com/junzhuang-code/LInDT)*
++ **On the Robustness of Graph Neural Diffusion to Topology Perturbations**, *[📝NeurIPS](https://arxiv.org/abs/2209.07754)*, *[:octocat:Code](https://github.com/zknus/Robustness-of-Graph-Neural-Diffusion)*
 
 
 ## 2021
@@ -506,6 +518,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **A Complete List of All (arXiv) Adversarial Example Papers** [🌐Link](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 + **Adversarial Attacks and Defenses Frontiers, Advances and Practice**, *KDD'20 tutorial*, [🌐Link](https://sites.google.com/view/kdd-2020-attack-and-defense)
 + **Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection**, *KDD'22 tutorial*, [🌐Link](https://ai.tencent.com/ailab/ml/twgl/)
++ **Adversarial Robustness of Representation Learning for Knowledge Graphs**, *PhD Thesis at Trinity College Dublin*, [📝Link](https://arxiv.org/abs/2210.00122)
 
 
 
