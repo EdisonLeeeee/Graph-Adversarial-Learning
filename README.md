@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-365-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-382-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -81,16 +81,28 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Label specificity attack: Change your label as I want**, *[📝IJIS](https://onlinelibrary.wiley.com/doi/full/10.1002/int.22902)*
 + **AdverSparse: An Adversarial Attack Framework for Deep Spatial-Temporal Graph Neural Networks**, *[📝ICASSP](https://ieeexplore.ieee.org/abstract/document/9747850)*
 + **Surrogate Representation Learning with Isometric Mapping for Gray-box Graph Adversarial Attacks**, *[📝WSDM](https://dl.acm.org/doi/10.1145/3488560.3498481)*
-+ **Cluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝IJCAI](https://arxiv.org/abs/2109.13069)*, *[📝:octocat:Code](https://github.com/thuwzy/Cluster-Attack)*
++ **Cluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝IJCAI](https://arxiv.org/abs/2109.13069)*, *[:octocat:Code](https://github.com/thuwzy/Cluster-Attack)*
 + **Label-Only Membership Inference Attack against Node-Level Graph Neural NetworksCluster Attack: Query-based Adversarial Attacks on Graphs with Graph-Dependent Priors**, *[📝arXiv](https://arxiv.org/abs/2207.13766)*
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
-+ **Are Gradients on Graph Structure Reliable in Gray-box Attacks?**, *[📝CIKM](https://arxiv.org/abs/2208.05514)*, *[📝:octocat:Code](https://github.com/Zihan-Liu-00/AtkSE)*
++ **Are Gradients on Graph Structure Reliable in Gray-box Attacks?**, *[📝CIKM](https://arxiv.org/abs/2208.05514)*, *[:octocat:Code](https://github.com/Zihan-Liu-00/AtkSE)*
 + **Adversarial Camouflage for Node Injection Attack on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.01819)*
 + **Graph Structural Attack by Perturbing Spectral Distance**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539435)*
 + **What Does the Gradient Tell When Attacking the Graph Structure**, *[📝arXiv](https://arxiv.org/abs/2208.12815)*
 + **BinarizedAttack: Structural Poisoning Attacks to Graph-based Anomaly Detection**, *[📝ICDM](https://arxiv.org/abs/2106.09989)*, *[:octocat:Code](https://github.com/zhuyulin-tony/BinarizedAttack)*
 + **Model Inversion Attacks against Graph Neural Networks**, *[📝TKDE](https://arxiv.org/abs/2209.07807)*
-+ **Sparse Vicious Attacks on Graph Neural Networks**, *[📝TKDE](https://arxiv.org/abs/2209.09688)*, *[📝:octocat:Code](https://github.com/GiovanniTRA/SAVAGE)*
++ **Sparse Vicious Attacks on Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2209.09688)*, *[:octocat:Code](https://github.com/GiovanniTRA/SAVAGE)*
++ **Poisoning GNN-based Recommender Systems with Generative Surrogate-based Attacks**, *[📝ACM TIS](https://dl.acm.org/doi/abs/10.1145/3567420)*
++ **Dealing with the unevenness: deeper insights in graph-based attack and defense**, *[📝Machine Learning](https://link.springer.com/article/10.1007/s10994-022-06234-4)*
++ **Membership Inference Attacks Against Robust Graph Neural Network**, *[📝CSS](https://link.springer.com/chapter/10.1007/978-3-031-18067-5_19)*
++ **Adversarial Inter-Group Link Injection Degrades the Fairness of Graph Neural Networks**, *[📝ICDM](https://arxiv.org/abs/2209.05957)*, *[:octocat:Code](https://github.com/mengcao327/attack-gnn-fairness)*
++ **Revisiting Item Promotion in GNN-based Collaborative Filtering: A Masked Targeted Topological Attack Perspective**, *[📝arXiv](https://arxiv.org/abs/2208.09979)*
++ **Link-Backdoor: Backdoor Attack on Link Prediction via Node Injection**, *[📝arXiv](https://arxiv.org/abs/2208.06776)*, *[:octocat:Code](https://github.com/Seaocn/Link-Backdoor)*
++ **Private Graph Extraction via Feature Explanations**, *[📝arXiv](https://arxiv.org/abs/2206.14724)*
++ **Towards Secrecy-Aware Attacks Against Trust Prediction in Signed Graphs**, *[📝arXiv](https://arxiv.org/abs/2206.13104)*
++ **Camouflaged Poisoning Attack on Graph Neural Networks**, *[📝ICDM](https://dl.acm.org/doi/abs/10.1145/3512527.3531373)*
++ **LOKI: A Practical Data Poisoning Attack Framework against Next Item Recommendations**, *[📝TKDE](https://ieeexplore.ieee.org/abstract/document/9806383)*
++ **Adversarial for Social Privacy: A Poisoning Strategy to Degrade User Identity Linkage**, *[📝arXiv](https://arxiv.org/abs/2209.00269)*
++ **Exploratory Adversarial Attacks on Graph Neural Networks for Semi-Supervised Node Classification**, *[📝Pattern Recognition](https://www.sciencedirect.com/science/article/pii/S0031320322005222)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -240,6 +252,7 @@ If you want to get a quick look at the recently updated papers in the repository
 ## 2023
 [💨 Back to Top](#table-of-contents)
 + **ASGNN: Graph Neural Networks with Adaptive Structure**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.01002)*
++ **Empowering Graph Representation Learning with Test-Time Graph Transformation**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.03561)*
 
 
 ## 2022
@@ -273,6 +286,10 @@ If you want to get a quick look at the recently updated papers in the repository
 + **NOSMOG: Learning Noise-robust and Structure-aware MLPs on Graphs**, *[📝arXiv](https://arxiv.org/abs/2208.10010)*
 + **Robust Node Classification on Graphs: Jointly from Bayesian Label Transition and Topology-based Label Propagation**, *[📝CIKM](https://arxiv.org/abs/2208.09779)*, *[:octocat:Code](https://github.com/junzhuang-code/LInDT)*
 + **On the Robustness of Graph Neural Diffusion to Topology Perturbations**, *[📝NeurIPS](https://arxiv.org/abs/2209.07754)*, *[:octocat:Code](https://github.com/zknus/Robustness-of-Graph-Neural-Diffusion)*
++ **IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense**, *[📝IEEE IOT](https://ieeexplore.ieee.org/abstract/document/9814995)*
++ **Robust cross-network node classification via constrained graph mutual information**, *[📝KBS](https://www.sciencedirect.com/science/article/pii/S0950705122009455)*
++ **Defending Against Backdoor Attack on Graph Nerual Network by Explainability**, *[📝arXiv](https://arxiv.org/abs/2209.02902)*
++ **Towards an Optimal Asymmetric Graph Structure for Robust Semi-supervised Node Classification**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539332)*
 
 
 ## 2021
