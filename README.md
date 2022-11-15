@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-382-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-390-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -103,6 +103,10 @@ If you want to get a quick look at the recently updated papers in the repository
 + **LOKI: A Practical Data Poisoning Attack Framework against Next Item Recommendations**, *[📝TKDE](https://ieeexplore.ieee.org/abstract/document/9806383)*
 + **Adversarial for Social Privacy: A Poisoning Strategy to Degrade User Identity Linkage**, *[📝arXiv](https://arxiv.org/abs/2209.00269)*
 + **Exploratory Adversarial Attacks on Graph Neural Networks for Semi-Supervised Node Classification**, *[📝Pattern Recognition](https://www.sciencedirect.com/science/article/pii/S0031320322005222)*
++ **GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections**, *[📝arXiv](https://arxiv.org/abs/2210.12598)*, *[:octocat:Code](https://github.com/alexfanjn/GANI)*
++ **Motif-Backdoor: Rethinking the Backdoor Attack on Graph Neural Networks via Motifs**, *[📝arXiv](https://arxiv.org/abs/2210.13710)*
++ **Are Defenses for Graph Neural Networks Robust?**, *[📝NeurIPS](https://publications.cispa.saarland/3812/1/are_defenses_for_graph_neural_networks_robust.pdf)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/are-gnn-defenses-robust/)*
++ **Adversarial Label Poisoning Attack on Graph Neural Networks via Label Propagation**, *[📝ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650223.pdf)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -253,6 +257,8 @@ If you want to get a quick look at the recently updated papers in the repository
 [💨 Back to Top](#table-of-contents)
 + **ASGNN: Graph Neural Networks with Adaptive Structure**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.01002)*
 + **Empowering Graph Representation Learning with Test-Time Graph Transformation**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.03561)*
++ **Robust Training of Graph Neural Networks via Noise Governance**, *[📝WSDM](https://arxiv.org/abs/2211.06614)*, *[:octocat:Code](https://github.com/GhostQ99/RobustTrainingGNN)*
++ **Self-Supervised Graph Structure Refinement for Graph Neural Networks**, *[📝WSDM](https://arxiv.org/abs/2211.06545)*, *[:octocat:Code](https://github.com/AndyJZhao/WSDM23-GSR)*
 
 
 ## 2022
@@ -290,6 +296,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Robust cross-network node classification via constrained graph mutual information**, *[📝KBS](https://www.sciencedirect.com/science/article/pii/S0950705122009455)*
 + **Defending Against Backdoor Attack on Graph Nerual Network by Explainability**, *[📝arXiv](https://arxiv.org/abs/2209.02902)*
 + **Towards an Optimal Asymmetric Graph Structure for Robust Semi-supervised Node Classification**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539332)*
++ **FocusedCleaner: Sanitizing Poisoned Graphs for Robust GNN-based Node Classification**, *[📝arXiv](https://arxiv.org/abs/2210.13815)*
++ **EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks**, *[📝NeurIPS](https://arxiv.org/abs/2205.13892)*, *[:octocat:Code](https://github.com/Leirunlin/EvenNet)*
 
 
 ## 2021
