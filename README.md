@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-390-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-392-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -298,6 +298,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Towards an Optimal Asymmetric Graph Structure for Robust Semi-supervised Node Classification**, *[📝KDD](https://dl.acm.org/doi/abs/10.1145/3534678.3539332)*
 + **FocusedCleaner: Sanitizing Poisoned Graphs for Robust GNN-based Node Classification**, *[📝arXiv](https://arxiv.org/abs/2210.13815)*
 + **EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks**, *[📝NeurIPS](https://arxiv.org/abs/2205.13892)*, *[:octocat:Code](https://github.com/Leirunlin/EvenNet)*
++ **Resisting Graph Adversarial Attack via Cooperative Homophilous Augmentation**, *[📝ECML-PKDD](https://arxiv.org/abs/2211.08068)*
++ **Spectral Adversarial Training for Robust Graph Neural Network**, *[📝TKDE](https://arxiv.org/abs/2211.10896)*, *[:octocat:Code](https://github.com/EdisonLeeeee/SAT)*
 
 
 ## 2021
