@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-392-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-398-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -58,6 +58,7 @@ If you want to get a quick look at the recently updated papers in the repository
 ## 2023
 [💨 Back to Top](#table-of-contents)
 + **Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective**, *[📝ICLR OpenReview](https://openreview.net/forum?id=dSYoPjM5J_W)*
++ **Let Graph be the Go Board: Gradient-free Node Injection Attack for Graph Neural Networks via Reinforcement Learning**, *[📝AAAI](https://arxiv.org/abs/2211.10782)*, *[:octocat:Code](https://github.com/jumxglhf/G2A2C)*
 
 ## 2022
 [💨 Back to Top](#table-of-contents)
@@ -259,6 +260,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Empowering Graph Representation Learning with Test-Time Graph Transformation**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.03561)*
 + **Robust Training of Graph Neural Networks via Noise Governance**, *[📝WSDM](https://arxiv.org/abs/2211.06614)*, *[:octocat:Code](https://github.com/GhostQ99/RobustTrainingGNN)*
 + **Self-Supervised Graph Structure Refinement for Graph Neural Networks**, *[📝WSDM](https://arxiv.org/abs/2211.06545)*, *[:octocat:Code](https://github.com/AndyJZhao/WSDM23-GSR)*
++ **Revisiting Robustness in Graph Machine Learning**, *[📝ICLR OpenReview](https://openreview.net/forum?id=h1o7Ry9Zctm)*
 
 
 ## 2022
@@ -279,7 +281,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **LPGNet: Link Private Graph Networks for Node Classification**, *[📝arXiv](https://arxiv.org/abs/2205.03105)*
 + **EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2205.13892)*
 + **Bayesian Robust Graph Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2205.14109)*, *[:octocat:Code](https://github.com/BRGCL-code/BRGCL-code)*
-+ **Reliable Representations Make A Stronger Defender: Unsupervised Structure Refinement for Robust GNN**, *[📝KDD](https://arxiv.org/abs/2207.00012)*
++ **Reliable Representations Make A Stronger Defender: Unsupervised Structure Refinement for Robust GNN**, *[📝KDD](https://arxiv.org/abs/2207.00012)*, *[:octocat:Code](https://github.com/likuanppd/STABLE)*
 + **Robust Graph Representation Learning for Local Corruption Recovery**, *[📝ICML workshop](https://yuguangwang.github.io/papers/L_p_graph_regularizer_ICML%20TAG%202022.pdf)*
 + **Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond**, *[📝CVPR](https://openaccess.thecvf.com/content/CVPR2022/html/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.html)*, *[:octocat:Code](https://github.com/Thinklab-SJTU/RobustMatch)*
 + **Large-Scale Privacy-Preserving Network Embedding against Private Link Inference Attacks**, *[📝arXiv](https://arxiv.org/abs/2205.14440)*
@@ -300,7 +302,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks**, *[📝NeurIPS](https://arxiv.org/abs/2205.13892)*, *[:octocat:Code](https://github.com/Leirunlin/EvenNet)*
 + **Resisting Graph Adversarial Attack via Cooperative Homophilous Augmentation**, *[📝ECML-PKDD](https://arxiv.org/abs/2211.08068)*
 + **Spectral Adversarial Training for Robust Graph Neural Network**, *[📝TKDE](https://arxiv.org/abs/2211.10896)*, *[:octocat:Code](https://github.com/EdisonLeeeee/SAT)*
-
++ **On the Vulnerability of Graph Learning based Collaborative Filtering**, *[📝TIS](https://dl.acm.org/doi/abs/10.1145/3572834)*
++ **GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks**, *[📝LoG](https://openreview.net/forum?id=kvwWjYQtmw)*, *[:octocat:Code](https://github.com/cornell-zhang/GARNET)*
++ **You Can Have Better Graph Neural Networks by Not Training Weights at All: Finding Untrained GNNs Tickets**, *[📝LoG](https://openreview.net/forum?id=dF6aEW3_62O)*, *[:octocat:Code](https://github.com/TienjinHuang/UGTs-LoG)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -505,6 +509,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **CAP: Co-Adversarial Perturbation on Weights and Features for Improving Generalization of Graph Neural Networks**, *[📝arXiv'2021](https://arxiv.org/abs/2110.14855)*
 + **When Does Self-Supervision Help Graph Convolutional Networks?**, *[📝ICML'2020](https://arxiv.org/abs/2006.09136)*
 + **We Cannot Guarantee Safety: The Undecidability of Graph Neural Network Verification**, *[arXiv'2022](https://arxiv.org/abs/2206.05070)*
++ **A Systematic Evaluation of Node Embedding Robustness**, *[📝LoG‘22](https://openreview.net/forum?id=oxjVVBNrG-)*, *[:octocat:Code](https://github.com/aida-ugent/EvalNE-robustness)*
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
