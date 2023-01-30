@@ -269,7 +269,7 @@ If you want to get a quick look at the recently updated papers in the repository
 ## 2022
 [💨 Back to Top](#table-of-contents)
 + **Unsupervised Adversarially-Robust Representation Learning on Graphs**, *[📝AAAI](https://arxiv.org/abs/2012.02486)*, *[:octocat:Code](https://github.com/galina0217/robustgraph)*
-+ **Towards Robust Graph Neural Networks for Noisy Graphs with Sparse Labels**, *[📝arXiv](https://arxiv.org/abs/2201.00232)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
++ **Towards Robust Graph Neural Networks for Noisy Graphs with Sparse Labels**, *[📝WSDM](https://arxiv.org/abs/2201.00232)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
 + **Mind Your Solver! On Adversarial Attack and Defense for Combinatorial Optimization**, *[📝arXiv](https://arxiv.org/abs/2201.004022)*, *[:octocat:Code](https://github.com/EnyanDai/RSGNN)*
 + **Learning Robust Representation through Graph Adversarial Contrastive Learning**, *[📝arXiv](https://arxiv.org/abs/2201.13025)*
 + **GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks**, *[📝arXiv](https://arxiv.org/abs/2201.12741)*
@@ -533,7 +533,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Graph Vulnerability and Robustness: A Survey**, *[📝TKDE'2022](https://arxiv.org/abs/2105.00419)*
 + **A Comprehensive Survey on Trustworthy Graph Neural Networks: Privacy, Robustness, Fairness, and Explainability**, *[📝arXiv'2022](https://arxiv.org/abs/2204.08570)*
 + **Trustworthy Graph Neural Networks: Aspects, Methods and Trends**, *[📝arXiv'2022](https://arxiv.org/abs/2205.07424)*
-+ **A Survey of Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection**, *[📝arXiv'2022](hhttps://arxiv.org/abs/2205.10014)*
++ **A Survey of Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection**, *[📝arXiv'2022](https://arxiv.org/abs/2205.10014)*
 
 
 
