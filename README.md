@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-398-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-403-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -59,6 +59,7 @@ If you want to get a quick look at the recently updated papers in the repository
 [💨 Back to Top](#table-of-contents)
 + **Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective**, *[📝ICLR OpenReview](https://openreview.net/forum?id=dSYoPjM5J_W)*
 + **Let Graph be the Go Board: Gradient-free Node Injection Attack for Graph Neural Networks via Reinforcement Learning**, *[📝AAAI](https://arxiv.org/abs/2211.10782)*, *[:octocat:Code](https://github.com/jumxglhf/G2A2C)*
++ **GUAP: Graph Universal Attack Through Adversarial Patching**, *[📝arXiv](https://arxiv.org/abs/2301.01731)*
 
 ## 2022
 [💨 Back to Top](#table-of-contents)
@@ -108,6 +109,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Motif-Backdoor: Rethinking the Backdoor Attack on Graph Neural Networks via Motifs**, *[📝arXiv](https://arxiv.org/abs/2210.13710)*
 + **Are Defenses for Graph Neural Networks Robust?**, *[📝NeurIPS](https://publications.cispa.saarland/3812/1/are_defenses_for_graph_neural_networks_robust.pdf)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/are-gnn-defenses-robust/)*
 + **Adversarial Label Poisoning Attack on Graph Neural Networks via Label Propagation**, *[📝ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650223.pdf)*
++ **Imperceptible Adversarial Attacks on Discrete-Time Dynamic Graph Models**, *[📝NeurIPS](https://openreview.net/forum?id=YMrdoXP3x_A)*
++ **Towards Reasonable Budget Allocation in Untargeted Graph Structure Attacks via Gradient Debias**, *[📝NeurIPS](https://openreview.net/forum?id=vkGk2HI8oOP)*, *[:octocat:Code](https://github.com/Zihan-Liu-00/GraD--NeurIPS22)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -305,6 +308,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **On the Vulnerability of Graph Learning based Collaborative Filtering**, *[📝TIS](https://dl.acm.org/doi/abs/10.1145/3572834)*
 + **GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks**, *[📝LoG](https://openreview.net/forum?id=kvwWjYQtmw)*, *[:octocat:Code](https://github.com/cornell-zhang/GARNET)*
 + **You Can Have Better Graph Neural Networks by Not Training Weights at All: Finding Untrained GNNs Tickets**, *[📝LoG](https://openreview.net/forum?id=dF6aEW3_62O)*, *[:octocat:Code](https://github.com/TienjinHuang/UGTs-LoG)*
++ **Robust Graph Representation Learning via Predictive Coding**, *[📝arXiv](https://arxiv.org/abs/2212.04656)*
++ **FocusedCleaner: Sanitizing Poisoned Graphs for Robust GNN-based Node Classification**, *[📝arXiv](https://arxiv.org/abs/2210.13815)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -359,7 +364,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Not All Low-Pass Filters are Robust in Graph Convolutional Networks**, *[📝NeurIPS](https://openreview.net/forum?id=bDdfxLQITtu)*, *[:octocat:Code](https://github.com/SwiftieH/LFR)*
 + **Towards Robust Reasoning over Knowledge Graphs**, *[📝arXiv](https://arxiv.org/abs/2110.14693)*
 + **Robust Graph Neural Networks via Probabilistic Lipschitz Constraints**, *[📝arXiv](https://arxiv.org/abs/2112.07575)*
-+ **Graph Neural Networks with Adaptive Residual**, *[NeurIPS](https://openreview.net/forum?id=hfkER_KJiNw)*, *[:octocat:Code](https://github.com/lxiaorui/AirGNN)*
++ **Graph Neural Networks with Adaptive Residual**, *[📝NeurIPS](https://openreview.net/forum?id=hfkER_KJiNw)*, *[:octocat:Code](https://github.com/lxiaorui/AirGNN)*
 + **Graph-based Adversarial Online Kernel Learning with Adaptive Embedding**, *[📝ICDM]()*
 + **Graph Posterior Network: Bayesian Predictive Uncertainty for Node Classification**, *[📝NeurIPS](https://arxiv.org/pdf/2110.14012.pdf)*, *[:octocat:Code](https://github.com/stadlmax/Graph-Posterior-Network)*
 + **Graph Neural Networks with Feature and Structure Aware Random Walk**, *[📝arXiv](https://arxiv.org/abs/2111.10102)*
@@ -508,7 +513,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **SIGL: Securing Software Installations Through Deep Graph Learning**, *[📝USENIX'2021](https://www.usenix.org/system/files/sec21summer_han-xueyuan.pdf)*
 + **CAP: Co-Adversarial Perturbation on Weights and Features for Improving Generalization of Graph Neural Networks**, *[📝arXiv'2021](https://arxiv.org/abs/2110.14855)*
 + **When Does Self-Supervision Help Graph Convolutional Networks?**, *[📝ICML'2020](https://arxiv.org/abs/2006.09136)*
-+ **We Cannot Guarantee Safety: The Undecidability of Graph Neural Network Verification**, *[arXiv'2022](https://arxiv.org/abs/2206.05070)*
++ **We Cannot Guarantee Safety: The Undecidability of Graph Neural Network Verification**, *[📝arXiv'2022](https://arxiv.org/abs/2206.05070)*
 + **A Systematic Evaluation of Node Embedding Robustness**, *[📝LoG‘22](https://openreview.net/forum?id=oxjVVBNrG-)*, *[:octocat:Code](https://github.com/aida-ugent/EvalNE-robustness)*
 
 # 📃Survey
@@ -526,9 +531,9 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies**, *[📝SIGKDD Explorations'2021](https://arxiv.org/abs/2003.00653)*
 + **Recent Advances in Reliable Deep Graph Learning: Inherent Noise, Distribution Shift, and Adversarial Attack**, *[📝arXiv'2022](https://arxiv.org/abs/2202.07114)*
 + **Graph Vulnerability and Robustness: A Survey**, *[📝TKDE'2022](https://arxiv.org/abs/2105.00419)*
-+ **A Comprehensive Survey on Trustworthy Graph Neural Networks: Privacy, Robustness, Fairness, and Explainability**, *[arXiv'2022](https://arxiv.org/abs/2204.08570)*
-+ **Trustworthy Graph Neural Networks: Aspects, Methods and Trends**, *[arXiv'2022](https://arxiv.org/abs/2205.07424)*
-+ **A Survey of Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection**, *[arXiv'2022](hhttps://arxiv.org/abs/2205.10014)*
++ **A Comprehensive Survey on Trustworthy Graph Neural Networks: Privacy, Robustness, Fairness, and Explainability**, *[📝arXiv'2022](https://arxiv.org/abs/2204.08570)*
++ **Trustworthy Graph Neural Networks: Aspects, Methods and Trends**, *[📝arXiv'2022](https://arxiv.org/abs/2205.07424)*
++ **A Survey of Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection**, *[📝arXiv'2022](hhttps://arxiv.org/abs/2205.10014)*
 
 
 
