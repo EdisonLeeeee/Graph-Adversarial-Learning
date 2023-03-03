@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-403-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-408-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -57,9 +57,10 @@ If you want to get a quick look at the recently updated papers in the repository
 
 ## 2023
 [💨 Back to Top](#table-of-contents)
-+ **Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective**, *[📝ICLR OpenReview](https://openreview.net/forum?id=dSYoPjM5J_W)*
++ **Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective**, *[📝ICLR](https://openreview.net/forum?id=dSYoPjM5J_W)*, *[:octocat:Code](https://github.com/likuanppd/STRG)*
 + **Let Graph be the Go Board: Gradient-free Node Injection Attack for Graph Neural Networks via Reinforcement Learning**, *[📝AAAI](https://arxiv.org/abs/2211.10782)*, *[:octocat:Code](https://github.com/jumxglhf/G2A2C)*
-+ **GUAP: Graph Universal Attack Through Adversarial Patching**, *[📝arXiv](https://arxiv.org/abs/2301.01731)*
++ **GUAP: Graph Universal Attack Through Adversarial Patching**, *[📝arXiv](https://arxiv.org/abs/2301.01731)*, *[:octocat:Code](https://anonymous.4open.science/r/ffd4fad9-367f-4a2a-bc65-1a7fe23d9d7f/)*
++ **Node Injection for Class-specific Network Poisoning**, *[📝arXiv](https://arxiv.org/abs/2301.12277)*, *[:octocat:Code](https://github.com/rahulk207/nicki)*
 
 ## 2022
 [💨 Back to Top](#table-of-contents)
@@ -111,6 +112,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Adversarial Label Poisoning Attack on Graph Neural Networks via Label Propagation**, *[📝ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650223.pdf)*
 + **Imperceptible Adversarial Attacks on Discrete-Time Dynamic Graph Models**, *[📝NeurIPS](https://openreview.net/forum?id=YMrdoXP3x_A)*
 + **Towards Reasonable Budget Allocation in Untargeted Graph Structure Attacks via Gradient Debias**, *[📝NeurIPS](https://openreview.net/forum?id=vkGk2HI8oOP)*, *[:octocat:Code](https://github.com/Zihan-Liu-00/GraD--NeurIPS22)*
++ **Adversary for Social Good: Leveraging Attribute-Obfuscating Attack to Protect User Privacy on Social Networks**, *[📝SecureComm](https://link.springer.com/chapter/10.1007/978-3-031-25538-0_37)*
 
 ## 2021
 [💨 Back to Top](#table-of-contents)
@@ -260,10 +262,11 @@ If you want to get a quick look at the recently updated papers in the repository
 ## 2023
 [💨 Back to Top](#table-of-contents)
 + **ASGNN: Graph Neural Networks with Adaptive Structure**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.01002)*
-+ **Empowering Graph Representation Learning with Test-Time Graph Transformation**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.03561)*
++ **Empowering Graph Representation Learning with Test-Time Graph Transformation**, *[📝ICLR](https://arxiv.org/abs/2210.03561)*, *[:octocat:Code](https://github.com/ChandlerBang/GTrans)*
 + **Robust Training of Graph Neural Networks via Noise Governance**, *[📝WSDM](https://arxiv.org/abs/2211.06614)*, *[:octocat:Code](https://github.com/GhostQ99/RobustTrainingGNN)*
 + **Self-Supervised Graph Structure Refinement for Graph Neural Networks**, *[📝WSDM](https://arxiv.org/abs/2211.06545)*, *[:octocat:Code](https://github.com/AndyJZhao/WSDM23-GSR)*
 + **Revisiting Robustness in Graph Machine Learning**, *[📝ICLR OpenReview](https://openreview.net/forum?id=h1o7Ry9Zctm)*
++ **Robust Mid-Pass Filtering Graph Convolutional Networks**, *[📝WWW](https://arxiv.org/abs/2302.08048)*
 
 
 ## 2022
@@ -465,6 +468,7 @@ If you want to get a quick look at the recently updated papers in the repository
 # 🔐Certification
 [💨 Back to Top](#table-of-contents)
 
++ **Graph Adversarial Immunization for Certifiable Robustness**, *[📝arXiv'2023](https://arxiv.org/abs/2302.08051)*
 + **Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation**, *[📝KDD'2021](https://dl.acm.org/doi/abs/10.1145/3447548.3467295)*, *[:octocat:Code](https://github.com/binghuiwang/CertifyGNN)*
 + **Collective Robustness Certificates: Exploiting Interdependence in Graph Neural Networks**, *[📝ICLR'2021](https://openreview.net/forum?id=ULQdiUTHe3y)*, *[:octocat:Code](https://github.com/jan-schuchardt/collective_robustness)*
 + **Adversarial Immunization for Improving Certifiable Robustness on Graphs**, *[📝WSDM'2021](https://arxiv.org/abs/2007.09647)*
@@ -515,6 +519,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **When Does Self-Supervision Help Graph Convolutional Networks?**, *[📝ICML'2020](https://arxiv.org/abs/2006.09136)*
 + **We Cannot Guarantee Safety: The Undecidability of Graph Neural Network Verification**, *[📝arXiv'2022](https://arxiv.org/abs/2206.05070)*
 + **A Systematic Evaluation of Node Embedding Robustness**, *[📝LoG‘22](https://openreview.net/forum?id=oxjVVBNrG-)*, *[:octocat:Code](https://github.com/aida-ugent/EvalNE-robustness)*
++ **Evaluating Robustness and Uncertainty of Graph Models Under Structural Distributional Shifts**, *[📝arXiv‘23](https://arxiv.org/abs/2302.13875)*, *[:octocat:Code](https://github.com/yandex-research/structural-graph-shifts)*
 
 # 📃Survey
 [💨 Back to Top](#table-of-contents)
