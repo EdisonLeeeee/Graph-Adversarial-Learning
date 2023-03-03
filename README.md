@@ -265,7 +265,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Empowering Graph Representation Learning with Test-Time Graph Transformation**, *[📝ICLR](https://arxiv.org/abs/2210.03561)*, *[:octocat:Code](https://github.com/ChandlerBang/GTrans)*
 + **Robust Training of Graph Neural Networks via Noise Governance**, *[📝WSDM](https://arxiv.org/abs/2211.06614)*, *[:octocat:Code](https://github.com/GhostQ99/RobustTrainingGNN)*
 + **Self-Supervised Graph Structure Refinement for Graph Neural Networks**, *[📝WSDM](https://arxiv.org/abs/2211.06545)*, *[:octocat:Code](https://github.com/AndyJZhao/WSDM23-GSR)*
-+ **Revisiting Robustness in Graph Machine Learning**, *[📝ICLR OpenReview](https://openreview.net/forum?id=h1o7Ry9Zctm)*
++ **Revisiting Robustness in Graph Machine Learning**, *[📝ICLR](https://openreview.net/forum?id=h1o7Ry9Zctm)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/revisiting-robustness/)*
 + **Robust Mid-Pass Filtering Graph Convolutional Networks**, *[📝WWW](https://arxiv.org/abs/2302.08048)*
 
 
