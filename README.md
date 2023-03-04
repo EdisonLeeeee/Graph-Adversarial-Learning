@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-408-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-411-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -61,6 +61,8 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Let Graph be the Go Board: Gradient-free Node Injection Attack for Graph Neural Networks via Reinforcement Learning**, *[📝AAAI](https://arxiv.org/abs/2211.10782)*, *[:octocat:Code](https://github.com/jumxglhf/G2A2C)*
 + **GUAP: Graph Universal Attack Through Adversarial Patching**, *[📝arXiv](https://arxiv.org/abs/2301.01731)*, *[:octocat:Code](https://anonymous.4open.science/r/ffd4fad9-367f-4a2a-bc65-1a7fe23d9d7f/)*
 + **Node Injection for Class-specific Network Poisoning**, *[📝arXiv](https://arxiv.org/abs/2301.12277)*, *[:octocat:Code](https://github.com/rahulk207/nicki)*
++ **Unnoticeable Backdoor Attacks on Graph Neural Networks**, *[📝WWW](https://arxiv.org/abs/2303.01263)*, *[:octocat:Code](https://github.com/ventr1c/UGBA)*
++ **A semantic backdoor attack against Graph Convolutional Networks**, *[📝arXiv](https://arxiv.org/abs/2302.14353)*
 
 ## 2022
 [💨 Back to Top](#table-of-contents)
@@ -267,6 +269,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Self-Supervised Graph Structure Refinement for Graph Neural Networks**, *[📝WSDM](https://arxiv.org/abs/2211.06545)*, *[:octocat:Code](https://github.com/AndyJZhao/WSDM23-GSR)*
 + **Revisiting Robustness in Graph Machine Learning**, *[📝ICLR](https://openreview.net/forum?id=h1o7Ry9Zctm)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/revisiting-robustness/)*
 + **Robust Mid-Pass Filtering Graph Convolutional Networks**, *[📝WWW](https://arxiv.org/abs/2302.08048)*
++ **Towards Robust Graph Neural Networks via Adversarial Contrastive Learning**, *[📝BigData](https://ieeexplore.ieee.org/abstract/document/10021051)*
 
 
 ## 2022
