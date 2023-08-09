@@ -498,7 +498,7 @@ If you want to get a quick look at the recently updated papers in the repository
 + **Stability and Generalization Capabilities of Message Passing Graph Neural Networks**, *[📝arXiv'2022](https://arxiv.org/abs/2202.00645)*
 + **Towards a Unified Framework for Fair and Stable Graph Representation Learning**, *[📝UAI'2021](https://arxiv.org/abs/2102.13186)*, *[:octocat:Code](https://github.com/chirag126/nifty)*
 + **Training Stable Graph Neural Networks Through Constrained Learning**, *[📝arXiv'2021](https://arxiv.org/abs/2110.03576)*
-+ **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝arXiv'2021](https://www.ijcai.org/Proceedings/2020/181)*
++ **Shift-Robust GNNs: Overcoming the Limitations of Localized Graph Training data**, *[📝NeurIPS'2021](https://arxiv.org/abs/2108.01099)*, *[:octocat:Code](https://github.com/GentleZhu/Shift-Robust-GNNs)*
 + **Stability of Graph Convolutional Neural Networks to Stochastic Perturbations**, *[📝arXiv'2021](https://arxiv.org/abs/2106.10526)*
 + **Graph and Graphon Neural Network Stability**, *[📝arXiv'2020](https://arxiv.org/abs/2008.01767)*
 + **On the Stability of Graph Convolutional Neural Networks under Edge Rewiring**, *[📝arXiv'2020](https://arxiv.org/abs/2010.13747)*
