@@ -1,5 +1,5 @@
 # ⚔🛡 Awesome Graph Adversarial Learning
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-413-FF6F00" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-416-FF6F00" alt="PaperNum"/>
 
 <a class="toc" id="table-of-contents"></a>
 - [⚔🛡 Awesome Graph Adversarial Learning](#-awesome-graph-adversarial-learning)
@@ -263,6 +263,8 @@ If you want to get a quick look at the recently updated papers in the repository
 
 ## 2023
 [💨 Back to Top](#table-of-contents)
+
++ **Adversarial Training for Graph Neural Networks: Pitfalls, Solutions, and New Directions**, *[📝NeurIPS](https://openreview.net/forum?id=GPtroppvUM)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/adversarial-training/)*
 + **ASGNN: Graph Neural Networks with Adaptive Structure**, *[📝ICLR OpenReview](https://arxiv.org/abs/2210.01002)*
 + **Empowering Graph Representation Learning with Test-Time Graph Transformation**, *[📝ICLR](https://arxiv.org/abs/2210.03561)*, *[:octocat:Code](https://github.com/ChandlerBang/GTrans)*
 + **Robust Training of Graph Neural Networks via Noise Governance**, *[📝WSDM](https://arxiv.org/abs/2211.06614)*, *[:octocat:Code](https://github.com/GhostQ99/RobustTrainingGNN)*
@@ -471,6 +473,8 @@ If you want to get a quick look at the recently updated papers in the repository
 # 🔐Certification
 [💨 Back to Top](#table-of-contents)
 
++ **Hierarchical Randomized Smoothing**, *[📝NeurIPS'2023](https://openreview.net/forum?id=6IhNHKyuJO)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/hierarchical-smoothing)*
++ **(Provable) Adversarial Robustness for Group Equivariant Tasks: Graphs, Point Clouds, Molecules, and More**, *[📝NeurIPS'2023](https://openreview.net/forum?id=mLe63bAYc7)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/equivariance-robustness/)*
 + **Localized Randomized Smoothing for Collective Robustness Certification**, *[📝ICLR'2023](https://openreview.net/forum?id=-k7Lvk0GpBl)*
 + **Graph Adversarial Immunization for Certifiable Robustness**, *[📝arXiv'2023](https://arxiv.org/abs/2302.08051)*
 + **Randomized Message-Interception Smoothing: Gray-box Certificates for Graph Neural Networks**, *[📝NeurIPS'2022](https://openreview.net/forum?id=t0VbBTw-o8)*, *[:octocat:Code](https://www.cs.cit.tum.de/daml/interception-smoothing)*
